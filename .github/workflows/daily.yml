@@ -2,8 +2,10 @@ name: Daily Instagram posts
 
 on:
   schedule:
-    # 14:00 UTC every day (~9am Central). Change to your preferred time.
-    - cron: "0 14 * * *"
+    # 3 posts/day at Instagram peak windows (UTC). Adjust to your audience.
+    - cron: "0 15 * * *"   # ~11am ET / 10am CT / 9am MT  (morning)
+    - cron: "0 18 * * *"   # ~2pm  ET / 1pm  CT / noon MT  (midday)
+    - cron: "0 0 * * *"    # ~8pm  ET / 7pm  CT / 6pm MT   (evening)
   workflow_dispatch: {}   # run manually from the Actions tab
 
 permissions:
@@ -29,11 +31,14 @@ jobs:
           sudo apt-get install -y fonts-liberation ffmpeg
           pip install pillow
 
-      - name: Research + generate + render 3 posts
+      - name: Research + generate + render the post
         id: gen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MODEL: ${{ vars.MODEL || 'claude-sonnet-5' }}
+          POSTS_PER_RUN: "1"
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python run_daily.py generate
 
       - name: Commit media (makes it publicly fetchable)
@@ -44,7 +49,7 @@ jobs:
           git commit -m "posts: ${{ steps.gen.outputs.date }}" || echo "nothing to commit"
           git push
 
-      - name: Publish 3 posts to Instagram
+      - name: Publish to Instagram
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
