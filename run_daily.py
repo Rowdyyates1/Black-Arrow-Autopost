@@ -41,6 +41,13 @@ def render_spec(spec, outdir, date):
         video = f"published/{date}/{base}/reel.mp4"
         _jpg(brand.reel_cover(spec["spec"]), "cover.jpg")
         cover = f"published/{date}/{base}/cover.jpg"
+    elif fmt == "slideshow":
+        import render_reel
+        vpath = os.path.join(outdir, "reel.mp4")
+        render_reel.render_slideshow(spec, vpath)
+        video = f"published/{date}/{base}/reel.mp4"
+        _jpg(brand.render_carousel(spec["slides"], video=True)[0], "cover.jpg")
+        cover = f"published/{date}/{base}/cover.jpg"
     elif fmt == "carousel":
         imgs = brand.render_carousel(spec["slides"])
         for j, im in enumerate(imgs):

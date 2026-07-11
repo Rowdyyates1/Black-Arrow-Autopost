@@ -150,7 +150,11 @@ def render_reel(spec, out_path):
         _ctext(d, cx, H-96, "BLACKARROW.LTD", brand.font(26), DIM, 1.0, trk=5)
         img.save(f"{frames_dir}/f{i:04d}.png", compress_level=1)
 
-    plan = _audio_plan(total_t, spec.get("audio"))
+    return _encode(frames_dir, total_t, out_path, spec.get("audio"))
+
+def _encode(frames_dir, total_t, out_path, mood):
+    """Encode a folder of f%04d.png frames to MP4 with on-brand audio."""
+    plan = _audio_plan(total_t, mood)
     base = ["ffmpeg", "-y", "-framerate", str(FPS), "-i", f"{frames_dir}/f%04d.png"]
     vopts = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p"]
     aopts = ["-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out_path]
@@ -161,3 +165,29 @@ def render_reel(spec, out_path):
                "-map", "0:v", "-map", plan["amap"]] + vopts + aopts)
     subprocess.run(cmd, check=True, capture_output=True)
     return out_path
+
+def render_slideshow(spec, out_path, hold=2.8, xfade=0.4):
+    """Render carousel-style slides as a music-backed vertical video (posted as a
+    reel). spec = {slides:[...], audio: mood}. Each slide holds, then crossfades."""
+    imgs = brand.render_carousel(spec["slides"], video=True)   # 1080x1350, no swipe/index
+    canvases = []
+    for im in imgs:
+        s = im.resize((W, int(W * im.height / im.width)))     # fit width
+        cv = Image.new("RGB", (W, H), BG)
+        cv.paste(s, (0, (H - s.height) // 2))                 # center vertically
+        canvases.append(cv)
+    if not canvases:
+        raise ValueError("slideshow needs slides")
+    frames_dir = tempfile.mkdtemp(prefix="slide_")
+    idx = 0
+    def _save(img):
+        nonlocal idx
+        img.save(f"{frames_dir}/f{idx:04d}.png", compress_level=1); idx += 1
+    hold_n, xf_n = int(hold * FPS), int(xfade * FPS)
+    for i, cv in enumerate(canvases):
+        for _ in range(hold_n):
+            _save(cv)
+        if i < len(canvases) - 1:
+            for k in range(xf_n):
+                _save(Image.blend(cv, canvases[i + 1], (k + 1) / xf_n))
+    return _encode(frames_dir, idx / FPS, out_path, spec.get("audio"))

@@ -171,6 +171,14 @@ CAROUSEL (5-8 slides, hook first, real value in the middle, DM CTA last):
 The cta slide has ONE call to action only: the button. Do not repeat "DM me"
 elsewhere on that slide. Pick a single memorable keyword for the DM.
 
+SLIDESHOW (the same slides as a carousel, but rendered as a vertical VIDEO with
+on-brand music and posted as a reel). Choose this over a carousel when the topic
+benefits from music, motion, and reach; choose a plain carousel when depth and
+saves matter more (it stays swipeable and silent):
+{"format":"slideshow","slides":[ ...same slide kinds as a carousel... ],
+ "audio":"dark | minimal premium | cinematic tension | driving bold",
+ "caption":"...","rationale":"..."}
+
 REEL (animated text; hook lands in ~1s; open a loop, close it):
 {"format":"reel","spec":{
   "kicker":"SHORT LABEL",

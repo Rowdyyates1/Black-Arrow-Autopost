@@ -60,20 +60,37 @@ def wait_for_url(url, tries=10, delay=6):
         time.sleep(delay)
     return False
 
+def _wait_ready(container_id, tries=30, delay=6):
+    """Poll a container until Instagram has processed it. Missing status = ready."""
+    for _ in range(tries):
+        st = _get(container_id, {"fields": "status_code"})
+        code = st.get("status_code")
+        if code in (None, "FINISHED"):
+            return
+        if code == "ERROR":
+            raise RuntimeError(f"container processing error: {st}")
+        time.sleep(delay)
+    raise RuntimeError(f"container {container_id} not ready after waiting")
+
+def _publish(uid, container_id):
+    _wait_ready(container_id)
+    return _post(f"{uid}/media_publish", {"creation_id": container_id})
+
 def publish_single(image_url, caption):
     uid = _env()[0]
     c = _post(f"{uid}/media", {"image_url": image_url, "caption": caption})
-    return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
+    return _publish(uid, c["id"])
 
 def publish_carousel(image_urls, caption):
     uid = _env()[0]
     children = []
     for u in image_urls:
         ch = _post(f"{uid}/media", {"image_url": u, "is_carousel_item": "true"})
+        _wait_ready(ch["id"])
         children.append(ch["id"])
     c = _post(f"{uid}/media", {
         "media_type": "CAROUSEL", "children": ",".join(children), "caption": caption})
-    return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
+    return _publish(uid, c["id"])
 
 def publish_reel(video_url, caption, cover_url=None):
     uid = _env()[0]
@@ -81,29 +98,13 @@ def publish_reel(video_url, caption, cover_url=None):
     if cover_url:
         params["cover_url"] = cover_url
     c = _post(f"{uid}/media", params)
-    # reels must finish processing before publish
-    for _ in range(30):
-        st = _get(c["id"], {"fields": "status_code"})
-        if st.get("status_code") == "FINISHED":
-            break
-        if st.get("status_code") == "ERROR":
-            raise RuntimeError(f"reel processing error: {st}")
-        time.sleep(15)
-    return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
+    return _publish(uid, c["id"])
 
 def publish_story(media_url, is_video=False):
     uid = _env()[0]
     params = {"media_type": "STORIES", ("video_url" if is_video else "image_url"): media_url}
     c = _post(f"{uid}/media", params)
-    if is_video:
-        for _ in range(30):
-            st = _get(c["id"], {"fields": "status_code"})
-            if st.get("status_code") == "FINISHED":
-                break
-            if st.get("status_code") == "ERROR":
-                raise RuntimeError(f"story processing error: {st}")
-            time.sleep(15)
-    return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
+    return _publish(uid, c["id"])   # waits until Instagram finishes processing
 
 def _also_story(media_url, is_video):
     """Best effort: mirror the post to the Story. Never fails the feed post."""

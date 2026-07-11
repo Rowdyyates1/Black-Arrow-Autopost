@@ -151,6 +151,8 @@ def render(post):
     raise ValueError(f"unknown template {t}")
 
 # ---- Carousel slides -------------------------------------------------------
+_SLIDESHOW = False   # True while rendering slides for a video (drops swipe/index)
+
 def _swipe(d, y):
     triangle(d, 108, y + 22, 40, WHITE)
     tracked(d, (150, y), "SWIPE", font(28), MUTED, 6)
@@ -162,7 +164,8 @@ def slide_cover(p, idx, total):
     for ln in p["lines"]:
         block(d, ln, font(84), WHITE if ln == p["lines"][0] else MUTED, 80, y, 940, 100)
         y += 104 * (len(wrap(d, ln, font(84), 940)))
-    _swipe(d, y + 20)
+    if not _SLIDESHOW:
+        _swipe(d, y + 20)
     _footer_idx(d, idx, total)
     return img
 
@@ -218,6 +221,8 @@ def block_center(d, text, f, fill, y, max_w):
 
 def _footer_idx(d, idx, total):
     tracked(d, (80, H - 70), "BLACKARROW.LTD", font(24, bold=False), DIM, 4)
+    if _SLIDESHOW:
+        return  # no page counter on a video
     lab = f"{idx:02d} / {total:02d}"
     w = _tw(d, lab, font(24, bold=False), 4)
     tracked(d, (W - 80 - w, H - 70), lab, font(24, bold=False), DIM, 4)
@@ -248,11 +253,17 @@ def reel_cover(spec):
     _wordmark(d, cx, 1770, scale=1.0)
     return img
 
-def render_carousel(slides):
-    """slides: list of {kind, params}. Returns list of PIL images."""
-    total = len(slides)
-    out = []
-    for i, s in enumerate(slides, start=1):
-        fn = _SLIDE.get(s["kind"], slide_point)
-        out.append(fn(s.get("params", s.get("params", {})), i, total))
-    return out
+def render_carousel(slides, video=False):
+    """slides: list of {kind, params}. Returns list of PIL images.
+    video=True drops the swipe hint and page counter (for slideshow videos)."""
+    global _SLIDESHOW
+    _SLIDESHOW = video
+    try:
+        total = len(slides)
+        out = []
+        for i, s in enumerate(slides, start=1):
+            fn = _SLIDE.get(s["kind"], slide_point)
+            out.append(fn(s.get("params", {}), i, total))
+        return out
+    finally:
+        _SLIDESHOW = False
