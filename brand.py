@@ -90,53 +90,117 @@ def _wordmark(d, cx, y, scale=0.9):
     triangle(d, x + ts/2, y + int(15*scale), ts, WHITE); x += ts + gap
     tracked(d, (x, y), "ARROW", f, WHITE, trk)
 
+# ---- Layout engine (overflow-safe) -----------------------------------------
+def _fitw(d, text, start, max_w, lo=28, bold=True):
+    """Largest font <= start whose LONGEST word fits max_w (so wrapping never clips)."""
+    fs = start
+    longest = max(text.split(), key=len) if text.split() else text
+    while fs > lo and _tw(d, longest, font(fs, bold)) > max_w:
+        fs -= 2
+    return fs
+
+def _measure(d, items, max_w, scale):
+    laid, total = [], 0
+    for it in items:
+        bold = it.get("bold", True)
+        fs = max(22, int(it["size"] * scale))
+        fs = _fitw(d, it["text"], fs, max_w, lo=max(20, int(it.get("lo", 28) * scale)), bold=bold)
+        lines = wrap(d, it["text"], font(fs, bold), max_w) or [""]
+        lh = int(fs * it.get("lead", 1.16))
+        ga = it.get("gap_after", 32)
+        laid.append((lines, fs, bold, it["color"], lh, ga))
+        total += lh * len(lines) + ga
+    if laid:
+        total -= laid[-1][5]
+    return laid, total
+
+def _compose(d, items, area, x=80, max_w=920, center_x=None, valign="center", top=None):
+    """Lay text items top-down, wrapping to width and auto-shrinking to fit the
+    vertical area. Overlap is impossible by construction. Returns ending y."""
+    a0, a1 = area
+    scale = 1.0
+    while True:
+        laid, total = _measure(d, items, max_w, scale)
+        if total <= (a1 - a0) or scale <= 0.45:
+            break
+        scale -= 0.06
+    y = top if top is not None else (a0 + max(0, (a1 - a0) - total) // 2 if valign == "center" else a0)
+    for lines, fs, bold, color, lh, ga in laid:
+        for ln in lines:
+            if center_x is not None:
+                tracked(d, (0, y), ln, font(fs, bold), color, 0, center_x=center_x)
+            else:
+                d.text((x, y), ln, font=font(fs, bold), fill=color)
+            y += lh
+        y += ga
+    return y
+
 # ---- Templates -------------------------------------------------------------
 def stat_card(kicker, big, sub):
     img, d = _new()
     _kicker(d, kicker)
-    tracked(d, (80, 470), big, font(220 if len(big) <= 4 else 150), WHITE)
-    block(d, sub, font(46, bold=False), MUTED, 80, 820, 920, 62)
+    _compose(d, [
+        {"text": big, "size": 210, "lo": 80, "color": WHITE, "lead": 1.02, "gap_after": 44},
+        {"text": sub, "size": 46, "bold": False, "color": MUTED},
+    ], area=(300, 1170), max_w=920)
     _footer(d); return img
 
 def quote_card(line_white, line_muted=None):
     img, d = _new()
     d.line([(80, 300), (80, 1050)], fill=LINE, width=3)
-    tracked(d, (130, 300), "“", font(200), DIM)
-    y = block(d, line_white, font(88), WHITE, 130, 500, 900, 104)
+    tracked(d, (130, 300), "“", font(160), DIM)
+    items = [{"text": line_white, "size": 84, "color": WHITE, "gap_after": 24}]
     if line_muted:
-        block(d, line_muted, font(56, bold=False), MUTED, 130, y + 20, 900, 74)
+        items.append({"text": line_muted, "size": 52, "bold": False, "color": MUTED})
+    _compose(d, items, area=(470, 1050), x=130, max_w=860, valign="top", top=470)
     _wordmark(d, W/2, 1180); return img
 
 def list_card(kicker, title, items):
     img, d = _new()
     _kicker(d, kicker)
-    block(d, title, font(72), WHITE, 80, 300, 920, 88)
-    y = 560
+    ty = _compose(d, [{"text": title, "size": 70, "color": WHITE}],
+                  area=(300, 620), max_w=920, valign="top", top=300)
+    y0 = ty + 40
+    avail = 1160 - y0
+    fs = 44
+    while fs > 26:
+        h = sum(int(fs * 1.16) * len(wrap(d, it, font(fs, False), 820)) + 26 for it in items)
+        if h <= avail:
+            break
+        fs -= 2
+    y = y0
     for it in items:
-        triangle(d, 100, y + 22, 22, DIM)
-        block(d, it, font(42, bold=False), WHITE, 140, y, 840, 56)
-        y += 130
+        f = font(fs, False)
+        triangle(d, 100, y + fs * 0.5, 20, DIM)
+        for ln in wrap(d, it, f, 820):
+            d.text((140, y), ln, font=f, fill=WHITE); y += int(fs * 1.16)
+        y += 26
     _footer(d); return img
 
 def myth_truth(myth, truth):
     img, d = _new()
     _kicker(d, "Myth")
-    block(d, myth, font(64), MUTED, 80, 300, 920, 82)
-    d.line([(80, 690), (W - 80, 690)], fill=LINE, width=2)
-    tracked(d, (80, 740), "TRUTH", font(24), WHITE, 6)
-    d.line([(80, 788), (140, 788)], fill=WHITE, width=3)
-    block(d, truth, font(64), WHITE, 80, 840, 920, 82)
+    my = _compose(d, [{"text": myth, "size": 62, "bold": False, "color": MUTED}],
+                  area=(280, 640), max_w=920, valign="top", top=280)
+    dy = my + 46
+    d.line([(80, dy), (W - 80, dy)], fill=LINE, width=2)
+    tracked(d, (80, dy + 40), "TRUTH", font(24), WHITE, 6)
+    d.line([(80, dy + 88), (140, dy + 88)], fill=WHITE, width=3)
+    _compose(d, [{"text": truth, "size": 62, "color": WHITE}],
+             area=(dy + 120, 1170), max_w=920, valign="top", top=dy + 120)
     _footer(d); return img
 
 def promo_card(title_white, title_muted, cta='DM ME ▲'):
     img, d = _new()
     _kicker(d, "Free · DM to start")
-    block(d, title_white, font(84), WHITE, 80, 320, 920, 100)
-    block(d, title_muted, font(84), MUTED, 80, 520, 920, 100)
-    block(d, "Get scored across Acquisition, Conversion, Operations and Retention.",
-          font(42, bold=False), MUTED, 80, 780, 920, 58)
+    _compose(d, [
+        {"text": title_white, "size": 80, "color": WHITE, "gap_after": 10},
+        {"text": title_muted, "size": 80, "color": MUTED, "gap_after": 40},
+        {"text": "Get scored across Acquisition, Conversion, Operations and Retention.",
+         "size": 42, "bold": False, "color": MUTED},
+    ], area=(300, 1060), max_w=920)
     d.rounded_rectangle([80, 1120, W - 80, 1240], radius=18, fill=WHITE)
-    tracked(d, (0, 1152), cta, font(46), BG, 2, center_x=W/2)
+    tracked(d, (0, 1152), cta, font(_fitw(d, cta, 46, W - 240)), BG, 2, center_x=W/2)
     _footer(d); return img
 
 def render(post):
@@ -160,21 +224,22 @@ def _swipe(d, y):
 def slide_cover(p, idx, total):
     img, d = _new()
     _kicker(d, p.get("kicker", ""))
-    y = 360
-    for ln in p["lines"]:
-        block(d, ln, font(84), WHITE if ln == p["lines"][0] else MUTED, 80, y, 940, 100)
-        y += 104 * (len(wrap(d, ln, font(84), 940)))
+    lines = p.get("lines", []) or ["Black Arrow"]
+    items = [{"text": ln, "size": 82, "color": WHITE if i == 0 else MUTED, "gap_after": 8}
+             for i, ln in enumerate(lines)]
+    endy = _compose(d, items, area=(320, 1000), max_w=940, valign="top", top=360)
     if not _SLIDESHOW:
-        _swipe(d, y + 20)
+        _swipe(d, min(endy + 24, 1120))
     _footer_idx(d, idx, total)
     return img
 
 def slide_stat(p, idx, total):
     img, d = _new()
     _kicker(d, p.get("kicker", "The data"))
-    big = p["big"]
-    tracked(d, (80, 460), big, font(210 if len(big) <= 4 else 140), WHITE)
-    block(d, p["sub"], font(46, bold=False), MUTED, 80, 820, 920, 62)
+    _compose(d, [
+        {"text": p["big"], "size": 210, "lo": 80, "color": WHITE, "lead": 1.02, "gap_after": 44},
+        {"text": p["sub"], "size": 46, "bold": False, "color": MUTED},
+    ], area=(320, 1170), max_w=920)
     _footer_idx(d, idx, total)
     return img
 
@@ -182,17 +247,20 @@ def slide_point(p, idx, total):
     img, d = _new()
     tracked(d, (80, 150), p.get("n", ""), font(120), LINE)
     _kicker(d, p.get("kicker", ""), y=300)
-    block(d, p["title"], font(78), WHITE, 80, 400, 900, 92)
-    block(d, p.get("sub", ""), font(44, bold=False), MUTED, 80, 580, 900, 62)
+    _compose(d, [
+        {"text": p["title"], "size": 76, "color": WHITE, "gap_after": 30},
+        {"text": p.get("sub", ""), "size": 44, "bold": False, "color": MUTED},
+    ], area=(400, 1170), max_w=900, valign="top", top=400)
     _footer_idx(d, idx, total)
     return img
 
 def slide_quote(p, idx, total):
     img, d = _new()
-    tracked(d, (80, 320), "“", font(180), DIM)
-    y = block(d, p["white"], font(80), WHITE, 80, 520, 940, 96)
+    tracked(d, (80, 320), "“", font(160), DIM)
+    items = [{"text": p["white"], "size": 80, "color": WHITE, "gap_after": 22}]
     if p.get("muted"):
-        block(d, p["muted"], font(52, bold=False), MUTED, 80, y + 20, 940, 70)
+        items.append({"text": p["muted"], "size": 52, "bold": False, "color": MUTED})
+    _compose(d, items, area=(500, 1120), max_w=940, valign="top", top=500)
     _footer_idx(d, idx, total)
     return img
 
@@ -201,13 +269,11 @@ def slide_cta(p, idx, total):
     img = Image.new("RGB", (W, H), PANEL); d = ImageDraw.Draw(img)
     _wordmark(d, W/2, 160)
     head = p.get("white") or p.get("headline") or "Want this built for your business?"
-    f = font(56)
-    lines = wrap(d, head, f, 860)
-    y = 450 - (len(lines) - 1) * 34
-    for ln in lines:
-        tracked(d, (0, y), ln, f, WHITE, 0, center_x=W/2); y += 74
+    _compose(d, [{"text": head, "size": 56, "color": WHITE}],
+             area=(320, 660), max_w=860, center_x=W/2)
     d.rounded_rectangle([150, 720, W-150, 846], radius=18, outline=WHITE, width=3)
-    tracked(d, (0, 760), p.get("button", 'DM "START"'), font(48), WHITE, 0, center_x=W/2)
+    tracked(d, (0, 760), p.get("button", 'DM "START"'),
+            font(_fitw(d, p.get("button", 'DM "START"'), 48, W - 360)), WHITE, 0, center_x=W/2)
     block_center(d, p.get("foot", "DM us and we'll map it for your business."),
                  font(34, bold=False), MUTED, 910, 900)
     _footer_idx(d, idx, total)
@@ -230,15 +296,30 @@ def _footer_idx(d, idx, total):
 _SLIDE = {"cover": slide_cover, "stat": slide_stat, "point": slide_point,
           "quote": slide_quote, "cta": slide_cta}
 
-def story_canvas(im):
-    """Fit a feed image (e.g. 1080x1350) onto a 1080x1920 story frame, centered on
-    the dark background with correct proportions (no zoom/crop)."""
+def hook_card(kicker, lines):
+    """Clean 1080x1350 card (kicker + hook) used as the Story source for reels."""
+    img, d = _new()
+    _kicker(d, kicker or "")
+    items = [{"text": ln, "size": 82, "color": WHITE if i == 0 else MUTED, "gap_after": 8}
+             for i, ln in enumerate(lines or ["Black Arrow"])]
+    _compose(d, items, area=(340, 1060), max_w=940)
+    _footer(d)
+    return img
+
+def story_canvas(im, prompt="SEE FULL POST ON PROFILE"):
+    """Fit a feed image onto a 1080x1920 Story frame, centered on the dark
+    background (no zoom/crop), with a 'see full post' prompt near the bottom."""
     SW, SH = 1080, 1920
-    c = Image.new("RGB", (SW, SH), BG)
+    c = Image.new("RGB", (SW, SH), BG); d = ImageDraw.Draw(c)
     w, h = SW, int(im.height * SW / im.width)
     if h > SH:
         h, w = SH, int(im.width * SH / im.height)
     c.paste(im.resize((w, h)), ((SW - w) // 2, (SH - h) // 2))
+    if prompt:
+        f = font(30); tw = _tw(d, prompt.upper(), f, 4)
+        x0, x1, y0, y1 = (SW - tw) // 2 - 44, (SW + tw) // 2 + 44, 1740, 1828
+        d.rounded_rectangle([x0, y0, x1, y1], radius=44, outline=WHITE, width=3)
+        tracked(d, (0, y0 + 27), prompt.upper(), f, WHITE, 4, center_x=SW / 2)
     return c
 
 def reel_cover(spec):

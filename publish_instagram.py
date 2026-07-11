@@ -114,8 +114,14 @@ def _also_story(media_url, is_video):
     except Exception as e:
         print(f"  story skipped: {e}")
 
+def _post_story(post, public_base, fallback_url):
+    """Story is always the branded 9:16 image (with 'see full post' prompt)."""
+    story_url = f"{public_base}/{post['story']}" if post.get("story") else fallback_url
+    if not post.get("story") or wait_for_url(story_url):
+        _also_story(story_url, is_video=False)
+
 def publish_post(post, public_base):
-    """post = {caption, images:[rel...]} or {caption, video: rel}. Also posts to Story."""
+    """post = {caption, images:[...]} or {caption, video: rel}. Also posts to Story."""
     caption = post["caption"]
     if post.get("video"):
         url = f"{public_base}/{post['video']}"
@@ -127,17 +133,14 @@ def publish_post(post, public_base):
             if not wait_for_url(cover_url):
                 cover_url = None
         res = publish_reel(url, caption, cover_url)
-        _also_story(url, is_video=True)
+        _post_story(post, public_base, cover_url or url)
         return res
     urls = [f"{public_base}/{rel}" for rel in post["images"]]
     for u in urls:
         if not wait_for_url(u):
             raise RuntimeError(f"media not reachable: {u}")
     res = publish_carousel(urls, caption) if len(urls) > 1 else publish_single(urls[0], caption)
-    # Story uses the 9:16-sized image if present, else the first feed image
-    story_url = f"{public_base}/{post['story']}" if post.get("story") else urls[0]
-    if not post.get("story") or wait_for_url(story_url):
-        _also_story(story_url, is_video=False)
+    _post_story(post, public_base, urls[0])
     return res
 
 def main():

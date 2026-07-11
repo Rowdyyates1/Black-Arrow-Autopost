@@ -26,7 +26,7 @@ def render_spec(spec, outdir, date):
     os.makedirs(outdir, exist_ok=True)
     fmt = spec.get("format", "image")
     base = os.path.basename(outdir)
-    images, video, cover, story, first_img = [], None, None, None, None
+    images, video, cover, story_src = [], None, None, None
 
     # media lives under published/<date>/<base>/ ; the public URL is repo-root
     # based, so the recorded path must include the published/ prefix.
@@ -41,28 +41,32 @@ def render_spec(spec, outdir, date):
         video = f"published/{date}/{base}/reel.mp4"
         _jpg(brand.reel_cover(spec["spec"]), "cover.jpg")
         cover = f"published/{date}/{base}/cover.jpg"
+        story_src = brand.hook_card(spec["spec"].get("kicker"), spec["spec"].get("hook"))
     elif fmt == "slideshow":
         import render_reel
         vpath = os.path.join(outdir, "reel.mp4")
         render_reel.render_slideshow(spec, vpath)
         video = f"published/{date}/{base}/reel.mp4"
-        _jpg(brand.render_carousel(spec["slides"], video=True)[0], "cover.jpg")
+        clean0 = brand.render_carousel(spec["slides"], video=True)[0]
+        _jpg(clean0, "cover.jpg")
         cover = f"published/{date}/{base}/cover.jpg"
+        story_src = clean0
     elif fmt == "carousel":
         imgs = brand.render_carousel(spec["slides"])            # feed (swipe + index)
         for j, im in enumerate(imgs):
             _jpg(im, f"image_{j}.jpg")
             images.append(f"published/{date}/{base}/image_{j}.jpg")
-        first_img = brand.render_carousel(spec["slides"], video=True)[0]  # clean for Story
+        story_src = brand.render_carousel(spec["slides"], video=True)[0]  # clean for Story
     else:  # image
         im = brand.render({"template": spec["template"], "params": spec["params"]})
-        first_img = im
+        story_src = im
         _jpg(im, "image_0.jpg")
         images.append(f"published/{date}/{base}/image_0.jpg")
 
-    # image/carousel posts get a properly 9:16-sized Story image (no zoom/crop)
-    if first_img is not None:
-        _jpg(brand.story_canvas(first_img), "story.jpg")
+    # every post gets a branded 9:16 Story image with a "see full post" prompt
+    story = None
+    if story_src is not None:
+        _jpg(brand.story_canvas(story_src), "story.jpg")
         story = f"published/{date}/{base}/story.jpg"
 
     post = {"caption": spec["caption"], "format": fmt,
@@ -72,7 +76,8 @@ def render_spec(spec, outdir, date):
         if cover: post["cover"] = cover
     else:
         post["images"] = images
-        if story: post["story"] = story
+    if story:
+        post["story"] = story
     with open(os.path.join(outdir, "post.json"), "w") as f:
         json.dump(post, f, indent=2)
     return post
