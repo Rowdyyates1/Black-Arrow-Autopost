@@ -57,18 +57,30 @@ def generate(mood, path=None, seconds=8.0):
     prog, beat = _MOODS[_mood_key(mood)]
     N = int(seconds * SR)
     buf = [0.0] * N
-    chord_dur = seconds / len(prog)
+    fade = 0.35                              # crossfade between chords
+    chord_dur = (seconds - fade) / len(prog)
 
-    # swelling pad
-    for i in range(N):
-        t = i / SR
-        chord = _CHORDS[prog[int(t / chord_dur) % len(prog)]]
-        ct = (t % chord_dur) / chord_dur
-        env = 0.5 * (1 - math.cos(2*math.pi*min(ct, 0.5)))   # swell in each bar
-        val = 0.0
-        for f in chord:
-            val += math.sin(2*math.pi*f*t)
-        buf[i] += 0.05 * env * val
+    # smooth, crossfaded pad — each chord fades in/out and overlaps the next,
+    # and starts at phase 0, so there are no clicks or gaps between chords.
+    for ci in range(len(prog)):
+        chord = _CHORDS[prog[ci]]
+        start = int(ci * chord_dur * SR)
+        seg_n = int((chord_dur + fade) * SR)
+        for i in range(seg_n):
+            idx = start + i
+            if idx >= N:
+                break
+            t = i / SR
+            if t < fade:
+                a = 0.5 * (1 - math.cos(math.pi * t / fade))                   # fade in
+            elif t > chord_dur:
+                a = 0.5 * (1 - math.cos(math.pi * (chord_dur + fade - t) / fade))  # fade out
+            else:
+                a = 1.0
+            val = 0.0
+            for f in chord:
+                val += math.sin(2 * math.pi * f * t)     # phase from segment start
+            buf[idx] += 0.05 * a * val
 
     # arpeggio (eighth notes, up an octave)
     step = beat / 2; t = 0.0; ai = 0
