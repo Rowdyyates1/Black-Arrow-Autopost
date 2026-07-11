@@ -8,5 +8,16 @@
       "Follow-up channel escalation ladder (text, call, email order) (too close to prior cadence/script posts already shipped)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Voicemail greeting redirect: rewrite the voicemail message to send missed callers to text instead of leaving them silent, zero-cost fix, tested via a friend's call",
+    "score": 87,
+    "rejected": [
+      "Text-back vs. AI answering: teaching the difference between reactive and proactive missed-call systems (score 70, more informational than actionable this week)",
+      "Call-forwarding carrier settings to route missed calls to a second line (score 65, carrier-specific accuracy risk)",
+      "CRM lead-source tagging to see which channel actually converts (score 62, overlaps with CRM/operations pillar already covered recently)",
+      "Instagram 2026 'Views' metric shift as a news angle (score 40, low relevance to service-business audience, meta-only topic)"
+    ],
+    "category": "education_informative"
   }
 ]
