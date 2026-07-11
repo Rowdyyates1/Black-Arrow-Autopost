@@ -9,6 +9,11 @@
       "date": "2026-07-11",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-11",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
   "site_hash": "1a162d0cd42dbc69",

@@ -78,5 +78,45 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Reels remain the reach engine for cold audiences in 2026, and this fills a gap the account hasn't covered: the voicemail greeting itself as the redirect mechanism, a zero-cost fix distinct from the text-back script and missed-call-math angles already shipped."
+  },
+  {
+    "timestamp": "2026-07-11T21:46:22.931075Z",
+    "category": "demonstrations_walkthroughs",
+    "category_label": "Demonstrations / System Walkthroughs",
+    "guidance": "Show, in a clearly-labeled illustrative way, how a Black Arrow system works (e.g. an automated lead follow-up sequence, missed-call text-back, review request flow).",
+    "format_bias": "slideshow",
+    "evidence_note": "Label as an example/demonstration. NEVER imply it is a specific client's live account or claim a performance result.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Demonstrations / System Walkthroughs' was the most under-served eligible category (target 15%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.5,
+      "education_informative": 0.5,
+      "demonstrations_walkthroughs": 0.0,
+      "news_industry": 0.0,
+      "third_party_research": 0.0,
+      "contrarian_pov": 0.0,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Fills the under-served Demonstrations/System Walkthroughs category with a clearly-labeled example CRM pipeline flow, using the carousel format research shows wins saves and depth for B2B/educational content."
   }
 ]

@@ -40,5 +40,32 @@
         "status": "demonstration"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 not a client account",
+    "claims": [
+      {
+        "text": "CRM automatically creates a contact record on form submission",
+        "status": "verified"
+      },
+      {
+        "text": "Automated text response fires in under 5 minutes",
+        "status": "verified"
+      },
+      {
+        "text": "Pipeline stage changes trigger the next automated action",
+        "status": "verified"
+      },
+      {
+        "text": "Example lead 'Mike' and roofing scenario with sample text message",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

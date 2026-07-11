@@ -19,5 +19,15 @@
       "Instagram 2026 'Views' metric shift as a news angle (score 40, low relevance to service-business audience, meta-only topic)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Illustrative CRM pipeline walkthrough showing a lead's automatic journey from form submission to booked job (Operations system demonstration)",
+    "score": 84,
+    "rejected": [
+      "Full missed-call text-back workflow demo (redundant with prior script/math/voicemail posts on this angle)",
+      "Automated review-request flow demo (redundant with prior full script/timing carousel)",
+      "Database reactivation system demo (redundant with prior full reactivation tactic post)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
