@@ -45,19 +45,11 @@ def _audio_plan(dur, mood=None):
         t = random.choice(tagged or tracks)
         return {"mode": "track", "input": ["-stream_loop", "-1", "-i", t],
                 "af": f"volume=0.6,afade=t=out:st={fo:.2f}:d=1.3"}
-    # generated dark chord pad
-    freqs = _CHORDS[key]
-    inputs = []
-    for f in freqs:
-        inputs += ["-f", "lavfi", "-i", f"sine=frequency={f}:sample_rate=44100"]
-    trem = "1.6:d=0.6" if key == "driving" else "0.35:d=0.5"
-    # input 0 is the video frames; the sine inputs are 1..N
-    mixin = "".join(f"[{i+1}]" for i in range(len(freqs)))
-    fc = (f"{mixin}amix=inputs={len(freqs)}:normalize=1[m];"
-          f"[m]tremolo=f={trem},lowpass=f=360,volume=0.17,"
-          f"aecho=0.8:0.7:55:0.3,afade=t=in:st=0:d=2,"
-          f"afade=t=out:st={fo:.2f}:d=1.3[a]")
-    return {"mode": "synth", "input": inputs, "filter_complex": fc, "amap": "[a]"}
+    # no real tracks: compose an original dark loop (pad + arp + kick) and use it
+    import music_gen
+    wav = music_gen.generate(mood, seconds=8.0)
+    return {"mode": "track", "input": ["-stream_loop", "-1", "-i", wav],
+            "af": f"volume=0.5,afade=t=in:st=0:d=1,afade=t=out:st={fo:.2f}:d=1.3"}
 
 W, H, FPS = 720, 1280, 24
 BG, WHITE, MUTED, DIM = brand.BG, brand.WHITE, brand.MUTED, brand.DIM
@@ -88,17 +80,27 @@ def _fit(d, text, start, lo=38, max_w=W - 120):
         fs -= 4
     return fs
 
-def _draw_scene(d, cx, lines, a, dy, top=580, big=74, small=46):
-    y = top + dy
+def _layout(d, lines, big, small):
+    """Resolve each line to (font_size, [wrapped sub-lines], color, line_height).
+    Fits to width, then wraps anything still too long — never runs off-screen."""
+    out = []
     for ln, style in lines:
-        if style == "big":
-            fs = _fit(d, ln, big)
-            _ctext(d, cx, y, ln, brand.font(fs), WHITE, a); y += int(fs*1.18)
-        elif style == "huge":
-            _ctext(d, cx, y, ln, brand.font(200), WHITE, a); y += 250
-        else:
-            fs = _fit(d, ln, small)
-            _ctext(d, cx, y, ln, brand.font(fs), MUTED, a); y += int(fs*1.3)
+        if style == "huge":
+            out.append((200, [ln], WHITE, 250)); continue
+        base = big if style == "big" else small
+        fs = _fit(d, ln, base)
+        subs = brand.wrap(d, ln, brand.font(fs), W - 100) or [ln]
+        col = WHITE if style == "big" else MUTED
+        out.append((fs, subs, col, int(fs * 1.18)))
+    return out
+
+def _draw_scene(d, cx, lines, a, dy, center=650, big=74, small=46):
+    laid = _layout(d, lines, big, small)
+    total = sum(lh * len(subs) for _, subs, _, lh in laid)
+    y = center - total / 2 + dy          # vertically center the block
+    for fs, subs, col, lh in laid:
+        for s in subs:
+            _ctext(d, cx, y, s, brand.font(fs), col, a); y += lh
 
 def _scenes_from_spec(spec):
     """Build a list of (duration, kicker, [(text,style)], emphmark) scenes."""
@@ -141,7 +143,7 @@ def render_reel(spec, out_path):
                     d.line([(cx-4,796+dy),(cx+38,752+dy)], fill=col, width=9)
                 if mark == "triangle":
                     brand.triangle(d, cx, 640+dy, 90, _blend(WHITE, a))
-                    _ctext(d, cx, 760+dy, cta, brand.font(44), WHITE, a)
+                    _ctext(d, cx, 760+dy, cta, brand.font(_fit(d, cta, 44)), WHITE, a)
                     d.rounded_rectangle([cx-260, 900+dy, cx+260, 1010+dy], radius=16, outline=_blend(WHITE,a), width=3)
                     _ctext(d, cx, 935+dy, "DM the keyword to start", brand.font(30), MUTED, a)
                 else:

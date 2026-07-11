@@ -147,8 +147,11 @@ Vary formats over time. Reels win reach; carousels win saves/depth; single
 images are quick value. Pick the format that best fits today's angle and what
 the research says is working.
 
-Every caption: teach something genuinely useful, then ONE keyword DM CTA, then
-EXACTLY 5 relevant hashtags (no more, no less). Shapes:
+Every caption is formatted to be scannable, never a wall of text. Use real line
+breaks (\n): a punchy first line, then 2-4 short chunks separated by a blank line
+(\n\n), each chunk one or two short sentences. Then the ONE keyword DM CTA on its
+own line. Then EXACTLY 5 relevant hashtags on the final line. Numbered steps get
+their own lines. Keep it teaching something genuinely useful. Shapes:
 
 IMAGE:
 {"format":"image","template":"stat|quote|myth|list|promo","params":{...},
@@ -242,6 +245,9 @@ Then return the FINAL posts as a JSON array in the exact same schema. Rules:
 - Keep it unmistakably Black Arrow: confident, premium, a little dark, useful.
 - Never name a person. Only "Black Arrow" or "the Black Arrow team".
 - Exactly one keyword DM call to action, and exactly 5 relevant hashtags.
+- Caption must be scannable: short chunks separated by blank lines (\n\n), not a
+  wall of text. CTA on its own line, hashtags on the final line.
+- Keep every on-screen video line short (a few words) so nothing runs off-frame.
 Return ONLY the final JSON array, nothing else."""
 
 def review(specs):
