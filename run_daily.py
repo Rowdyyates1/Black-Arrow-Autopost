@@ -26,7 +26,7 @@ def render_spec(spec, outdir, date):
     os.makedirs(outdir, exist_ok=True)
     fmt = spec.get("format", "image")
     base = os.path.basename(outdir)
-    images, video, cover = [], None, None
+    images, video, cover, story, first_img = [], None, None, None, None
 
     # media lives under published/<date>/<base>/ ; the public URL is repo-root
     # based, so the recorded path must include the published/ prefix.
@@ -49,14 +49,21 @@ def render_spec(spec, outdir, date):
         _jpg(brand.render_carousel(spec["slides"], video=True)[0], "cover.jpg")
         cover = f"published/{date}/{base}/cover.jpg"
     elif fmt == "carousel":
-        imgs = brand.render_carousel(spec["slides"])
+        imgs = brand.render_carousel(spec["slides"])            # feed (swipe + index)
         for j, im in enumerate(imgs):
             _jpg(im, f"image_{j}.jpg")
             images.append(f"published/{date}/{base}/image_{j}.jpg")
+        first_img = brand.render_carousel(spec["slides"], video=True)[0]  # clean for Story
     else:  # image
         im = brand.render({"template": spec["template"], "params": spec["params"]})
+        first_img = im
         _jpg(im, "image_0.jpg")
         images.append(f"published/{date}/{base}/image_0.jpg")
+
+    # image/carousel posts get a properly 9:16-sized Story image (no zoom/crop)
+    if first_img is not None:
+        _jpg(brand.story_canvas(first_img), "story.jpg")
+        story = f"published/{date}/{base}/story.jpg"
 
     post = {"caption": spec["caption"], "format": fmt,
             "rationale": spec.get("rationale", "")}
@@ -65,6 +72,7 @@ def render_spec(spec, outdir, date):
         if cover: post["cover"] = cover
     else:
         post["images"] = images
+        if story: post["story"] = story
     with open(os.path.join(outdir, "post.json"), "w") as f:
         json.dump(post, f, indent=2)
     return post

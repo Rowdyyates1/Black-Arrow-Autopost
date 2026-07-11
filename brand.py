@@ -230,6 +230,17 @@ def _footer_idx(d, idx, total):
 _SLIDE = {"cover": slide_cover, "stat": slide_stat, "point": slide_point,
           "quote": slide_quote, "cta": slide_cta}
 
+def story_canvas(im):
+    """Fit a feed image (e.g. 1080x1350) onto a 1080x1920 story frame, centered on
+    the dark background with correct proportions (no zoom/crop)."""
+    SW, SH = 1080, 1920
+    c = Image.new("RGB", (SW, SH), BG)
+    w, h = SW, int(im.height * SW / im.width)
+    if h > SH:
+        h, w = SH, int(im.width * SH / im.height)
+    c.paste(im.resize((w, h)), ((SW - w) // 2, (SH - h) // 2))
+    return c
+
 def reel_cover(spec):
     """Branded 1080x1920 cover for a reel. Content is centered so the grid's
     center-crop still reads. spec = the reel 'spec' dict (kicker, hook)."""

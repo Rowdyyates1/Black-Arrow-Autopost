@@ -134,7 +134,10 @@ def publish_post(post, public_base):
         if not wait_for_url(u):
             raise RuntimeError(f"media not reachable: {u}")
     res = publish_carousel(urls, caption) if len(urls) > 1 else publish_single(urls[0], caption)
-    _also_story(urls[0], is_video=False)   # Story gets the first frame/image
+    # Story uses the 9:16-sized image if present, else the first feed image
+    story_url = f"{public_base}/{post['story']}" if post.get("story") else urls[0]
+    if not post.get("story") or wait_for_url(story_url):
+        _also_story(story_url, is_video=False)
     return res
 
 def main():
