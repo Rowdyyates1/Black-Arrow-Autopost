@@ -181,7 +181,8 @@ than dropping it. Demonstrations/mockups must carry a short disclosure such as
 "Example workflow" or "Illustrative — not a client account"."""
 
 SCHEMA = r"""
-OUTPUT: only a JSON array of exactly {N} object(s). No prose outside the JSON.
+OUTPUT: only the raw JSON array of exactly {N} object(s) — no markdown code
+fences, nothing before or after it. Keep each "rationale" to one short sentence.
 Vary formats over time. Reels win reach; carousels win saves/depth; single
 images are quick value. Pick the format that best fits today's angle and what
 the research says is working.
@@ -257,18 +258,39 @@ def _text(resp):
     return "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
 
 def _extract_json(text):
-    depth, start, best = 0, None, None
-    for i, ch in enumerate(text):
-        if ch == "[":
-            if depth == 0: start = i
-            depth += 1
-        elif ch == "]":
-            depth -= 1
-            if depth == 0 and start is not None:
-                best = text[start:i+1]
-    if not best:
+    """Find the JSON array. Tolerates markdown code fences and a truncated tail
+    (salvages the completed objects rather than crashing)."""
+    start = text.find("[")
+    if start == -1:
         raise ValueError("no JSON array in model output:\n" + text[:2000])
-    return json.loads(best)
+    depth = 0
+    for i in range(start, len(text)):
+        c = text[i]
+        if c == "[":
+            depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                return json.loads(text[start:i + 1])
+    # truncated before the array closed — salvage complete objects
+    frag = text[start + 1:]
+    objs, d, s = [], 0, None
+    for i, c in enumerate(frag):
+        if c == "{":
+            if d == 0:
+                s = i
+            d += 1
+        elif c == "}":
+            d -= 1
+            if d == 0 and s is not None:
+                try:
+                    objs.append(json.loads(frag[s:i + 1]))
+                except Exception:
+                    pass
+    if objs:
+        sys.stderr.write(f"warning: output was truncated; salvaged {len(objs)} post(s)\n")
+        return objs
+    raise ValueError("no complete JSON array (output truncated):\n" + text[-2000:])
 
 EDITOR = """You are the ruthless brand editor for Black Arrow. Elite operators
 read this account. Your job is to make sure nothing tacky, gimmicky, incoherent,
@@ -306,7 +328,7 @@ def review(specs):
     try:
         msg = ("Draft post spec(s) to edit to the elite standard:\n\n"
                + json.dumps(specs, indent=2))
-        resp = _call([{"role": "user", "content": msg}], max_tokens=6000,
+        resp = _call([{"role": "user", "content": msg}], max_tokens=12000,
                      system_override=EDITOR)
         return _extract_json(_text(resp))
     except Exception as e:
@@ -371,7 +393,7 @@ def main():
         + "\n\n" + SCHEMA.replace("{N}", str(N))
     )
     tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}]
-    resp = _call([{"role": "user", "content": user}], tools=tools)
+    resp = _call([{"role": "user", "content": user}], tools=tools, max_tokens=12000)
     specs = _extract_json(_text(resp))
     if not isinstance(specs, list) or not specs:
         raise ValueError("expected a non-empty list of specs")
