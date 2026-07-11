@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "The 'most owners score high on acquisition, low on conversion' line reflects a general pattern the Black Arrow team observes across client engagements, not a formal study or universal statistic.",
+    "claims": [
+      {
+        "text": "Black Arrow's method is built on four systems: Acquisition, Conversion, Operations, Retention",
+        "status": "verified"
+      },
+      {
+        "text": "Most owners score high on acquisition and low on conversion",
+        "status": "qualified"
+      },
+      {
+        "text": "The lowest-scoring system determines where revenue leaks first",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow runs a free assessment across the four systems in under a minute",
+        "status": "verified"
+      }
+    ]
+  }
+]

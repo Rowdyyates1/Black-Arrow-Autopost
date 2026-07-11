@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-07-11T21:09:49.463597Z",
+    "category": "authority_frameworks",
+    "category_label": "Authority / Frameworks",
+    "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+    "format_bias": "carousel",
+    "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Authority / Frameworks' was the most under-served eligible category (target 25%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.0,
+      "education_informative": 0.0,
+      "demonstrations_walkthroughs": 0.0,
+      "news_industry": 0.0,
+      "third_party_research": 0.0,
+      "contrarian_pov": 0.0,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels are the current save/share leader for educational, numbered-step content, and Authority/Frameworks was the most under-served category this cycle; this turns Black Arrow's four-system method into a self-scoring mental model the owner can run this week, not just a restated stat."
+  }
+]
