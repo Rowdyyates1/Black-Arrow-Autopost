@@ -1,0 +1,53 @@
+name: Daily Instagram posts
+
+on:
+  schedule:
+    # 14:00 UTC every day (~9am Central). Change to your preferred time.
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}   # run manually from the Actions tab
+
+permissions:
+  contents: write         # commit the media so it has a public URL
+
+concurrency:
+  group: daily-posts
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install fonts, ffmpeg, deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-liberation ffmpeg
+          pip install pillow
+
+      - name: Research + generate + render 3 posts
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL: ${{ vars.MODEL || 'claude-sonnet-5' }}
+        run: python run_daily.py generate
+
+      - name: Commit media (makes it publicly fetchable)
+        run: |
+          git config user.name "blackarrow-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add published history.json
+          git commit -m "posts: ${{ steps.gen.outputs.date }}" || echo "nothing to commit"
+          git push
+
+      - name: Publish 3 posts to Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}
+          POST_DATE: ${{ steps.gen.outputs.date }}
+        run: python run_daily.py publish
