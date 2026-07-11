@@ -7,9 +7,13 @@ the repo first, so it is reachable at raw.githubusercontent.com. This script
 turns the staged image(s) into that public URL, creates a media container, and
 publishes it.
 
+Uses the Instagram API with Instagram Login (graph.instagram.com). The token is
+an Instagram user access token (starts with "IGAA...") and IG_USER_ID is the
+Instagram-scoped account id shown when the token was generated.
+
 Env vars:
-    IG_USER_ID        Instagram Business/Creator account id (numeric)
-    IG_ACCESS_TOKEN   long-lived user token or (better) System User token
+    IG_USER_ID        Instagram account id (numeric, e.g. 178414...)
+    IG_ACCESS_TOKEN   Instagram user access token (IGAA...)
     PUBLIC_BASE       e.g. https://raw.githubusercontent.com/<owner>/<repo>/main
     POST_JSON         path to the staged post.json (default from arg)
 Optional:

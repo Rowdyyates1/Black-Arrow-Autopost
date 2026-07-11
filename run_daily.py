@@ -69,9 +69,10 @@ def cmd_generate():
         specs = json.loads(txt[txt.find("["): txt.rfind("]") + 1])
 
     # 2) render each
+    n = int(os.environ.get("POSTS_PER_RUN", "1"))
     manifest = {"date": date, "posts": []}
     hooks = []
-    for i, spec in enumerate(specs[:3]):
+    for i, spec in enumerate(specs[:n]):
         outdir = os.path.join(day_dir, _slug(spec, i))
         post = render_spec(spec, outdir, date)
         manifest["posts"].append(f"published/{date}/{_slug(spec, i)}/post.json")

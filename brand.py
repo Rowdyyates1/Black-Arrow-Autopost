@@ -128,9 +128,9 @@ def myth_truth(myth, truth):
     block(d, truth, font(64), WHITE, 80, 840, 920, 82)
     _footer(d); return img
 
-def promo_card(title_white, title_muted, cta='COMMENT "SCORE" ▲'):
+def promo_card(title_white, title_muted, cta='DM ME ▲'):
     img, d = _new()
-    _kicker(d, "Free · 60 seconds")
+    _kicker(d, "Free · DM to start")
     block(d, title_white, font(84), WHITE, 80, 320, 920, 100)
     block(d, title_muted, font(84), MUTED, 80, 520, 920, 100)
     block(d, "Get scored across Acquisition, Conversion, Operations and Retention.",
@@ -147,7 +147,7 @@ def render(post):
     if t == "quote": return quote_card(p["white"], p.get("muted"))
     if t == "list":  return list_card(p["kicker"], p["title"], p["items"])
     if t == "myth":  return myth_truth(p["myth"], p["truth"])
-    if t == "promo": return promo_card(p["white"], p["muted"], p.get("cta", 'COMMENT "SCORE" ▲'))
+    if t == "promo": return promo_card(p["white"], p["muted"], p.get("cta", 'DM ME ▲'))
     raise ValueError(f"unknown template {t}")
 
 # ---- Carousel slides -------------------------------------------------------
@@ -194,15 +194,19 @@ def slide_quote(p, idx, total):
     return img
 
 def slide_cta(p, idx, total):
+    """One CTA only: a headline question + a single DM button."""
     img = Image.new("RGB", (W, H), PANEL); d = ImageDraw.Draw(img)
-    _wordmark(d, W/2, 150)
-    y = 430
-    tracked(d, (0, y), p.get("white", "SCORE YOUR SYSTEM").upper(), font(30), MUTED, 6, center_x=W/2)
-    tracked(d, (0, y + 66), p.get("muted", "in 60 seconds."), font(60), WHITE, 0, center_x=W/2)
-    d.rounded_rectangle([140, 720, W-140, 850], radius=18, outline=WHITE, width=3)
-    tracked(d, (0, 765), 'Comment "SCORE"', font(46), WHITE, 0, center_x=W/2)
-    block_center(d, p.get("foot", "and we'll send your free Revenue Infrastructure Score to your DMs."),
-                 font(36, bold=False), MUTED, 920, 920)
+    _wordmark(d, W/2, 160)
+    head = p.get("white") or p.get("headline") or "Want this built for your business?"
+    f = font(56)
+    lines = wrap(d, head, f, 860)
+    y = 450 - (len(lines) - 1) * 34
+    for ln in lines:
+        tracked(d, (0, y), ln, f, WHITE, 0, center_x=W/2); y += 74
+    d.rounded_rectangle([150, 720, W-150, 846], radius=18, outline=WHITE, width=3)
+    tracked(d, (0, 760), p.get("button", 'DM "START"'), font(48), WHITE, 0, center_x=W/2)
+    block_center(d, p.get("foot", "Send Rowdy a DM and we'll map it for your business."),
+                 font(34, bold=False), MUTED, 910, 900)
     _footer_idx(d, idx, total)
     return img
 

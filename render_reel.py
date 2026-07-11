@@ -13,9 +13,44 @@ spec = {
 }
 Needs ffmpeg on PATH. Returns the output mp4 path.
 """
-import os, subprocess, tempfile
+import os, subprocess, tempfile, glob, random
 from PIL import Image, ImageDraw
 import brand  # reuse fonts + colors + triangle
+
+MUSIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "music")
+
+def _audio_args(dur, mood=None):
+    """The brain passes an audio `mood` that fits Black Arrow's branding. We match
+    it to the music library (music/ — drop on-brand licensed tracks named by mood,
+    e.g. dark-01.mp3, cinematic-02.mp3). If the library has a match we bake that
+    real track under the reel; if it's empty we synthesize a bed tuned to the mood
+    so reels are never silent. NOTE: Instagram's own trending sounds cannot be
+    attached via the publishing API — this is baked-in audio."""
+    mood = (mood or "dark minimal premium").lower()
+    key = mood.split()[0]
+    tracks = []
+    for ext in ("*.mp3", "*.m4a", "*.wav", "*.aac"):
+        tracks += glob.glob(os.path.join(MUSIC_DIR, ext))
+    tagged = [t for t in tracks if key in os.path.basename(t).lower()]
+    chosen = tagged or tracks
+    fo = max(0.0, dur - 1.2)
+    if chosen:
+        t = random.choice(chosen)
+        return (["-stream_loop", "-1", "-i", t],
+                f"volume=0.55,afade=t=out:st={fo:.2f}:d=1.2")
+    # No library yet: synth an on-brand bed in the requested mood.
+    seed = random.randint(1, 99999)
+    fades = f",afade=t=in:st=0:d=1.5,afade=t=out:st={max(0.0, dur - 1.5):.2f}:d=1.5"
+    if any(w in mood for w in ("driv", "energ", "punch", "bold")):
+        src = "sine=frequency=55:sample_rate=44100"
+        filt = "tremolo=f=1.8:d=0.85,lowpass=f=210,volume=0.11" + fades
+    elif any(w in mood for w in ("tens", "susp", "cinema", "build", "epic")):
+        src = "sine=frequency=98:sample_rate=44100"
+        filt = "tremolo=f=0.5:d=0.6,lowpass=f=185,volume=0.09" + fades
+    else:  # dark / minimal / premium
+        src = f"anoisesrc=color=brown:seed={seed}:amplitude=0.6"
+        filt = "lowpass=f=170,volume=0.10" + fades
+    return (["-f", "lavfi", "-i", src], filt)
 
 W, H, FPS = 720, 1280, 24
 BG, WHITE, MUTED, DIM = brand.BG, brand.WHITE, brand.MUTED, brand.DIM
@@ -40,15 +75,23 @@ def _kicker(d, cx, y, text, a):
     _ctext(d, cx, y, text.upper(), brand.font(30), MUTED, a, trk=6)
     d.line([(cx-35, y+52), (cx+35, y+52)], fill=_blend(WHITE, a), width=3)
 
-def _draw_scene(d, cx, lines, a, dy, top=560, big=90, small=52):
+def _fit(d, text, start, lo=38, max_w=W - 120):
+    fs = start
+    while fs > lo and sum(d.textlength(ch, font=brand.font(fs)) for ch in text) > max_w:
+        fs -= 4
+    return fs
+
+def _draw_scene(d, cx, lines, a, dy, top=580, big=74, small=46):
     y = top + dy
     for ln, style in lines:
         if style == "big":
-            _ctext(d, cx, y, ln, brand.font(big), WHITE, a); y += int(big*1.18)
+            fs = _fit(d, ln, big)
+            _ctext(d, cx, y, ln, brand.font(fs), WHITE, a); y += int(fs*1.18)
         elif style == "huge":
             _ctext(d, cx, y, ln, brand.font(200), WHITE, a); y += 250
         else:
-            _ctext(d, cx, y, ln, brand.font(small), MUTED, a); y += int(small*1.3)
+            fs = _fit(d, ln, small)
+            _ctext(d, cx, y, ln, brand.font(fs), MUTED, a); y += int(fs*1.3)
 
 def _scenes_from_spec(spec):
     """Build a list of (duration, kicker, [(text,style)], emphmark) scenes."""
@@ -93,15 +136,18 @@ def render_reel(spec, out_path):
                     brand.triangle(d, cx, 640+dy, 90, _blend(WHITE, a))
                     _ctext(d, cx, 760+dy, cta, brand.font(44), WHITE, a)
                     d.rounded_rectangle([cx-260, 900+dy, cx+260, 1010+dy], radius=16, outline=_blend(WHITE,a), width=3)
-                    _ctext(d, cx, 935+dy, "blackarrow.ltd/#assessment", brand.font(30), MUTED, a)
+                    _ctext(d, cx, 935+dy, "Send Rowdy a DM to start", brand.font(30), MUTED, a)
                 else:
                     _draw_scene(d, cx, lines, a, dy)
                 break
         _ctext(d, cx, H-96, "BLACKARROW.LTD", brand.font(26), DIM, 1.0, trk=5)
         img.save(f"{frames_dir}/f{i:04d}.png", compress_level=1)
 
-    subprocess.run(["ffmpeg", "-y", "-framerate", str(FPS), "-i", f"{frames_dir}/f%04d.png",
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "23",
-                    "-pix_fmt", "yuv420p", "-movflags", "+faststart", out_path],
-                   check=True, capture_output=True)
+    audio_in, afilter = _audio_args(total_t, spec.get("audio"))
+    cmd = (["ffmpeg", "-y", "-framerate", str(FPS), "-i", f"{frames_dir}/f%04d.png"]
+           + audio_in +
+           ["-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "128k", "-af", afilter, "-shortest",
+            "-movflags", "+faststart", out_path])
+    subprocess.run(cmd, check=True, capture_output=True)
     return out_path

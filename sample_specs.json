@@ -1,15 +1,12 @@
 [
- {"format":"image","template":"stat","params":{"kicker":"Speed to lead","big":"5 MIN","sub":"Respond in under five minutes and you close at nearly double the rate."},"caption":"cap 1","rationale":"stat post test"},
  {"format":"carousel","slides":[
-   {"kind":"cover","params":{"kicker":"Unpopular opinion","lines":["You don't have","a lead problem."]}},
-   {"kind":"stat","params":{"kicker":"The data","big":"17%","sub":"of service businesses reply within an hour."}},
-   {"kind":"point","params":{"n":"01","kicker":"Fix","title":"Answer in 5 minutes","sub":"Automate the first text so it fires instantly."}},
-   {"kind":"quote","params":{"white":"Advertising creates opportunities.","muted":"Systems create revenue."}},
-   {"kind":"cta","params":{"white":"Score your system","muted":"in 60 seconds.","foot":"Free Revenue Infrastructure Score, straight to your DMs."}}
- ],"caption":"cap 2","rationale":"carousel test"},
- {"format":"reel","spec":{"kicker":"Speed to lead","hook":["Your competitor","already texted","your lead back."],
-   "beats":[{"kicker":"9:14 PM","lines":["A homeowner fills","out two forms."]},
-            {"kicker":"Business A","lines":["Texts back in","90 seconds."],"mark":"check"},
-            {"kicker":"Business B","lines":["Sees it at","8:00 AM."]}],
-   "end":{"lines":["Same lead.","Different system."],"cta":"Comment \"SCORE\""}},"caption":"cap 3","rationale":"reel test"}
+   {"kind":"cover","params":{"kicker":"Do this today","lines":["Your quote follow-up","is costing you jobs."]}},
+   {"kind":"point","params":{"n":"01","kicker":"Step 1","title":"Text within 5 min","sub":"Send a quick text the moment a lead comes in. Beat every competitor."}},
+   {"kind":"point","params":{"n":"02","kicker":"Step 2","title":"Send the quote as a video","sub":"A 60-second Loom walking through the quote closes far more than a PDF."}},
+   {"kind":"stat","params":{"kicker":"Why it works","big":"2X","sub":"Answering in under 5 minutes roughly doubles your close rate."}},
+   {"kind":"cta","params":{"white":"Want this built for you?","muted":"DM me.","button":"DM \"SYSTEM\"","foot":"Send Rowdy a DM and we'll map your follow-up."}}
+ ],"caption":"cap","rationale":"value + what BA does"},
+ {"format":"reel","spec":{"kicker":"Speed to lead","hook":["A lead is worth","the most right now."],
+   "beats":[{"kicker":"Minute 1","lines":["Text them back.","Not tomorrow."]},{"kicker":"Minute 5","lines":["Call while","you're top of mind."],"mark":"check"}],
+   "end":{"lines":["First to respond","wins the job."],"cta":"DM \"SPEED\""},"audio":"cinematic tension"},"caption":"cap2","rationale":"reel"}
 ]
