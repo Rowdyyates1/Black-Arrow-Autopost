@@ -19,7 +19,7 @@ Env vars:
 Optional:
     GRAPH_VERSION     default v21.0
 """
-import os, sys, json, time, urllib.parse, urllib.request
+import os, sys, json, time, urllib.parse, urllib.request, urllib.error
 
 GRAPH = os.environ.get("GRAPH_VERSION", "v21.0")
 BASE = f"https://graph.instagram.com/{GRAPH}"
@@ -28,18 +28,24 @@ def _env():
     return (os.environ["IG_USER_ID"], os.environ["IG_ACCESS_TOKEN"],
             os.environ["PUBLIC_BASE"].rstrip("/"))
 
+def _open(req_or_url):
+    """Open a request and surface Meta's real error body on failure."""
+    try:
+        with urllib.request.urlopen(req_or_url) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", "ignore")
+        raise RuntimeError(f"Graph API {e.code}: {body}") from None
+
 def _post(path, params):
     _, token, _ = _env()
     data = urllib.parse.urlencode({**params, "access_token": token}).encode()
-    req = urllib.request.Request(f"{BASE}/{path}", data=data, method="POST")
-    with urllib.request.urlopen(req) as r:
-        return json.load(r)
+    return _open(urllib.request.Request(f"{BASE}/{path}", data=data, method="POST"))
 
 def _get(path, params):
     _, token, _ = _env()
     q = urllib.parse.urlencode({**params, "access_token": token})
-    with urllib.request.urlopen(f"{BASE}/{path}?{q}") as r:
-        return json.load(r)
+    return _open(f"{BASE}/{path}?{q}")
 
 def wait_for_url(url, tries=10, delay=6):
     """raw.githubusercontent can lag a few seconds after a push."""

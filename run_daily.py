@@ -30,22 +30,26 @@ def render_spec(spec, outdir, date):
 
     # media lives under published/<date>/<base>/ ; the public URL is repo-root
     # based, so the recorded path must include the published/ prefix.
+    # Instagram's publishing API requires JPEG images.
+    def _jpg(im, name):
+        im.convert("RGB").save(os.path.join(outdir, name), "JPEG", quality=90)
+
     if fmt == "reel":
         import render_reel
         vpath = os.path.join(outdir, "reel.mp4")
         render_reel.render_reel(spec["spec"], vpath)
         video = f"published/{date}/{base}/reel.mp4"
-        brand.reel_cover(spec["spec"]).save(os.path.join(outdir, "cover.png"), "PNG")
-        cover = f"published/{date}/{base}/cover.png"
+        _jpg(brand.reel_cover(spec["spec"]), "cover.jpg")
+        cover = f"published/{date}/{base}/cover.jpg"
     elif fmt == "carousel":
         imgs = brand.render_carousel(spec["slides"])
         for j, im in enumerate(imgs):
-            im.save(os.path.join(outdir, f"image_{j}.png"), "PNG")
-            images.append(f"published/{date}/{base}/image_{j}.png")
+            _jpg(im, f"image_{j}.jpg")
+            images.append(f"published/{date}/{base}/image_{j}.jpg")
     else:  # image
         im = brand.render({"template": spec["template"], "params": spec["params"]})
-        im.save(os.path.join(outdir, "image_0.png"), "PNG")
-        images.append(f"published/{date}/{base}/image_0.png")
+        _jpg(im, "image_0.jpg")
+        images.append(f"published/{date}/{base}/image_0.jpg")
 
     post = {"caption": spec["caption"], "format": fmt,
             "rationale": spec.get("rationale", "")}
