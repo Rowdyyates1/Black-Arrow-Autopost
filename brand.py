@@ -91,6 +91,18 @@ def _wordmark(d, cx, y, scale=0.9):
     tracked(d, (x, y), "ARROW", f, WHITE, trk)
 
 # ---- Layout engine (overflow-safe) -----------------------------------------
+def wrap_balanced(d, text, f, max_w):
+    """Wrap to width, but avoid ending on a single stranded word (a 'widow')."""
+    lines = wrap(d, text, f, max_w)
+    if len(lines) >= 2 and len(lines[-1].split()) == 1:
+        prev = lines[-2].split()
+        if len(prev) >= 3:
+            candidate = prev[-1] + " " + lines[-1]
+            if d.textlength(candidate, font=f) <= max_w:
+                lines[-1] = candidate
+                lines[-2] = " ".join(prev[:-1])
+    return lines
+
 def _fitw(d, text, start, max_w, lo=28, bold=True):
     """Largest font <= start whose LONGEST word fits max_w (so wrapping never clips)."""
     fs = start
@@ -105,7 +117,7 @@ def _measure(d, items, max_w, scale):
         bold = it.get("bold", True)
         fs = max(22, int(it["size"] * scale))
         fs = _fitw(d, it["text"], fs, max_w, lo=max(20, int(it.get("lo", 28) * scale)), bold=bold)
-        lines = wrap(d, it["text"], font(fs, bold), max_w) or [""]
+        lines = wrap_balanced(d, it["text"], font(fs, bold), max_w) or [""]
         lh = int(fs * it.get("lead", 1.16))
         ga = it.get("gap_after", 32)
         laid.append((lines, fs, bold, it["color"], lh, ga))
@@ -172,7 +184,7 @@ def list_card(kicker, title, items):
     for it in items:
         f = font(fs, False)
         triangle(d, 100, y + fs * 0.5, 20, DIM)
-        for ln in wrap(d, it, f, 820):
+        for ln in wrap_balanced(d, it, f, 820):
             d.text((140, y), ln, font=f, fill=WHITE); y += int(fs * 1.16)
         y += 26
     _footer(d); return img

@@ -89,7 +89,7 @@ def _layout(d, lines, big, small):
             out.append((200, [ln], WHITE, 250)); continue
         base = big if style == "big" else small
         fs = _fit(d, ln, base)
-        subs = brand.wrap(d, ln, brand.font(fs), W - 100) or [ln]
+        subs = brand.wrap_balanced(d, ln, brand.font(fs), W - 100) or [ln]
         col = WHITE if style == "big" else MUTED
         out.append((fs, subs, col, int(fs * 1.18)))
     return out
@@ -168,10 +168,20 @@ def _encode(frames_dir, total_t, out_path, mood):
     subprocess.run(cmd, check=True, capture_output=True)
     return out_path
 
-def render_slideshow(spec, out_path, hold=2.8, xfade=0.4):
+def _slide_words(slide):
+    n = 0
+    for v in (slide.get("params", {}) or {}).values():
+        if isinstance(v, str):
+            n += len(v.split())
+        elif isinstance(v, list):
+            n += sum(len(x.split()) for x in v if isinstance(x, str))
+    return n
+
+def render_slideshow(spec, out_path, xfade=0.45):
     """Render carousel-style slides as a music-backed vertical video (posted as a
-    reel). spec = {slides:[...], audio: mood}. Each slide holds, then crossfades."""
-    imgs = brand.render_carousel(spec["slides"], video=True)   # 1080x1350, no swipe/index
+    reel). Each slide stays on screen long enough to read (paced to its text)."""
+    slides = spec["slides"]
+    imgs = brand.render_carousel(slides, video=True)   # 1080x1350, no swipe/index
     canvases = []
     for im in imgs:
         s = im.resize((W, int(W * im.height / im.width)))     # fit width
@@ -185,9 +195,11 @@ def render_slideshow(spec, out_path, hold=2.8, xfade=0.4):
     def _save(img):
         nonlocal idx
         img.save(f"{frames_dir}/f{idx:04d}.png", compress_level=1); idx += 1
-    hold_n, xf_n = int(hold * FPS), int(xfade * FPS)
+    xf_n = int(xfade * FPS)
     for i, cv in enumerate(canvases):
-        for _ in range(hold_n):
+        words = _slide_words(slides[i]) if i < len(slides) else 8
+        hold = max(3.0, min(7.0, 2.0 + words * 0.34))   # ~reading time, comfortable floor
+        for _ in range(int(hold * FPS)):
             _save(cv)
         if i < len(canvases) - 1:
             for k in range(xf_n):

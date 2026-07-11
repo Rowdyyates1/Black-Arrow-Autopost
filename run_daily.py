@@ -14,6 +14,10 @@ without spending API tokens).
 """
 import os, sys, json, datetime, subprocess
 import brand
+try:
+    import brain
+except Exception:
+    brain = None
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 def rel(*p): return os.path.join(ROOT, *p)
@@ -70,7 +74,9 @@ def render_spec(spec, outdir, date):
         story = f"published/{date}/{base}/story.jpg"
 
     post = {"caption": spec["caption"], "format": fmt,
-            "rationale": spec.get("rationale", "")}
+            "rationale": spec.get("rationale", ""),
+            "category": spec.get("_category"),
+            "experiment": spec.get("_experiment")}
     if video:
         post["video"] = video
         if cover: post["cover"] = cover
@@ -137,6 +143,13 @@ def cmd_publish():
         try:
             res = pub.publish_post(post, public_base)
             print(f"published {pj} -> {res.get('id')}")
+            if brain:              # link live media id to category / experiment / angle
+                try:
+                    angle = post.get("rationale") or (post.get("caption", "").split("\n")[0][:120])
+                    brain.record_published(res.get("id"), post.get("category"),
+                                           post.get("format"), post.get("experiment"), angle)
+                except Exception as e:
+                    print(f"  attribution log skipped: {e}")
         except Exception as e:
             failures += 1
             print(f"FAILED {pj}: {e}")

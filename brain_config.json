@@ -1,0 +1,173 @@
+{
+  "_comment": "Black Arrow strategy config. Edit freely — no code changes needed. Ratios are strategic starting points, not quotas; the Brain balances toward them among ELIGIBLE categories and redistributes away from unavailable ones.",
+  "primary_objective": "balanced",
+  "objective_weights": {
+    "reach": 1.0,
+    "profile_visits": 1.5,
+    "follows": 1.5,
+    "saves": 1.2,
+    "shares": 1.3,
+    "comments": 1.2,
+    "dm": 2.0,
+    "booked_call": 3.0
+  },
+  "guardrails": ["brand_quality", "negative_feedback_rate", "factual_confidence", "duplication"],
+  "exploration_budget": 0.08,
+  "objective_metric_weights": { "like": 1.0, "comments": 3.0 },
+  "optimization": {
+    "_comment": "Blend base ratios toward measured per-category performance. weight caps how far the mix can drift per cycle; min_samples avoids acting on noise.",
+    "enabled": true,
+    "weight": 0.3,
+    "min_samples": 5,
+    "window": 40
+  },
+  "experiments": {
+    "_comment": "One experiment runs at a time. The Brain assigns a variant per post, tags it, and concludes when each option has min_samples posts. Small samples -> treated as a lean, not proof. Experiments auto-pause during cold start (no audience) and auto-resume once min_history posts and min_total_engagement are reached.",
+    "enabled": true,
+    "min_history": 12,
+    "min_total_engagement": 30,
+    "min_samples": 6,
+    "variables": [
+      {
+        "name": "hook_style",
+        "hypothesis": "Question-led hooks earn more comments than statement-led hooks.",
+        "options": ["question", "statement"],
+        "instructions": {
+          "question": "Open with a sharp question the owner is already asking themselves.",
+          "statement": "Open with a bold, specific statement of fact or outcome."
+        }
+      },
+      {
+        "name": "cta_style",
+        "hypothesis": "A specific keyword DM CTA drives more DMs than a soft 'DM us'.",
+        "options": ["keyword", "soft"],
+        "instructions": {
+          "keyword": "End with a specific one-word DM keyword tied to the topic.",
+          "soft": "End with a softer, conversational invitation to DM."
+        }
+      },
+      {
+        "name": "opening_frame",
+        "hypothesis": "Problem-first framing earns more saves than outcome-first.",
+        "options": ["problem_first", "outcome_first"],
+        "instructions": {
+          "problem_first": "Lead with the painful problem the owner feels right now.",
+          "outcome_first": "Lead with the desirable outcome they want."
+        }
+      }
+    ]
+  },
+  "repurposing": {
+    "_comment": "Occasionally rebuild a proven past angle into a fresh derivative in a new format. Auto-paused until there's audience data.",
+    "enabled": true,
+    "budget": 0.12,
+    "min_engagement": 50
+  },
+  "funnel_stages": {
+    "_comment": "Maps categories to audience-journey stages, for nurture balance and reporting.",
+    "authority_frameworks": "solution_aware",
+    "education_informative": "problem_aware",
+    "demonstrations_walkthroughs": "product_aware",
+    "news_industry": "unaware",
+    "third_party_research": "problem_aware",
+    "contrarian_pov": "solution_aware",
+    "offers_lead_magnets": "high_intent",
+    "objection_nurture": "product_aware",
+    "verified_proof": "high_intent",
+    "personal_founder": "solution_aware"
+  },
+  "research": {
+    "_comment": "Sources the news/research pass should prioritize, and the niche keywords that define relevance. Editable.",
+    "monitor_sources": [
+      "Meta / Instagram newsroom", "Google Search Central", "GoHighLevel",
+      "HubSpot", "OpenAI / Anthropic announcements", "reputable marketing publications"
+    ],
+    "niche_keywords": [
+      "speed to lead", "lead follow-up automation", "missed call text back",
+      "CRM for contractors", "local service marketing", "review generation",
+      "database reactivation", "appointment reminders"
+    ]
+  },
+  "categories": {
+    "authority_frameworks": {
+      "label": "Authority / Frameworks",
+      "target_ratio": 0.25,
+      "eligibility": "fully_eligible",
+      "format_bias": "carousel",
+      "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+      "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats."
+    },
+    "education_informative": {
+      "label": "Education / Informative",
+      "target_ratio": 0.20,
+      "eligibility": "fully_eligible",
+      "format_bias": "reel",
+      "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings — worth paying for.",
+      "evidence_note": "Tactics must be logically airtight and actually executable as described."
+    },
+    "demonstrations_walkthroughs": {
+      "label": "Demonstrations / System Walkthroughs",
+      "target_ratio": 0.15,
+      "eligibility": "fully_eligible",
+      "format_bias": "slideshow",
+      "guidance": "Show, in a clearly-labeled illustrative way, how a Black Arrow system works (e.g. an automated lead follow-up sequence, missed-call text-back, review request flow).",
+      "evidence_note": "Label as an example/demonstration. NEVER imply it is a specific client's live account or claim a performance result."
+    },
+    "news_industry": {
+      "label": "News / Industry Intelligence",
+      "target_ratio": 0.15,
+      "eligibility": "fully_eligible",
+      "format_bias": "reel",
+      "guidance": "Interpret a genuinely recent, relevant marketing/software development for service-business owners: what it means and what they should do. Be the interpreter, not a reposter.",
+      "evidence_note": "Only if current and verifiable from your research. Cite the source. Distinguish fact from interpretation."
+    },
+    "third_party_research": {
+      "label": "Third-Party Research / Market Evidence",
+      "target_ratio": 0.10,
+      "eligibility": "fully_eligible",
+      "format_bias": "carousel",
+      "guidance": "Use a credible external study to explain why a capability matters. Qualified language: 'Research suggests...', 'The study found...'.",
+      "evidence_note": "Attribute the source. NEVER imply Black Arrow produced the result or achieves the same without evidence."
+    },
+    "contrarian_pov": {
+      "label": "Contrarian / Brand Point of View",
+      "target_ratio": 0.05,
+      "eligibility": "fully_eligible",
+      "format_bias": "reel",
+      "guidance": "State a sharp, defensible point of view or contrarian take on how service businesses actually grow. Confident, specific, never gimmicky engagement-bait.",
+      "evidence_note": "Framed clearly as Black Arrow's view; no fabricated proof."
+    },
+    "offers_lead_magnets": {
+      "label": "Offers / Lead Magnets",
+      "target_ratio": 0.05,
+      "eligibility": "fully_eligible",
+      "format_bias": "image",
+      "guidance": "Point to the free value / Revenue Score and invite a DM with a topic keyword. Lead with the value, never a hard sell.",
+      "evidence_note": "Only describe offers Black Arrow actually provides."
+    },
+    "objection_nurture": {
+      "label": "Objection Handling / Audience Nurture",
+      "target_ratio": 0.05,
+      "eligibility": "fully_eligible",
+      "format_bias": "carousel",
+      "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust.",
+      "evidence_note": "Transparent and honest; no unsupported guarantees."
+    },
+    "verified_proof": {
+      "label": "Verified Proof / Case Studies",
+      "target_ratio": 0.0,
+      "eligibility": "temporarily_unavailable",
+      "unavailable_reason": "No approved case-study or client-result records exist yet. Enable when verified first-party evidence is added.",
+      "guidance": "Do not create. No fabricated results, metrics, testimonials, or client names.",
+      "evidence_note": "Requires verified_client_result evidence."
+    },
+    "personal_founder": {
+      "label": "Personal / Founder",
+      "target_ratio": 0.0,
+      "eligibility": "temporarily_unavailable",
+      "unavailable_reason": "No approved founder information exists yet. Enable when a Founder Knowledge Profile is added.",
+      "guidance": "Do not create. No invented founder stories, quotes, or first-person claims.",
+      "evidence_note": "Requires verified_founder_information evidence."
+    }
+  }
+}

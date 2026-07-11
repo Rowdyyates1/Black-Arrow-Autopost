@@ -91,19 +91,36 @@ def _publish(uid, container_id):
             raise
     raise last
 
+_FETCH_ERRS = ("2207052", "2207003", "9004", "could not be fetched",
+               "media download has failed", "not be fetched")
+
+def _create(uid, params):
+    """Create a media container, retrying when Instagram transiently fails to
+    fetch the media from the raw URL (CDN hiccups clear on retry)."""
+    last = None
+    for _ in range(6):
+        try:
+            return _post(f"{uid}/media", params)
+        except RuntimeError as e:
+            last = e; s = str(e)
+            if any(k in s for k in _FETCH_ERRS):
+                time.sleep(10); continue
+            raise
+    raise last
+
 def publish_single(image_url, caption):
     uid = _env()[0]
-    c = _post(f"{uid}/media", {"image_url": image_url, "caption": caption})
+    c = _create(uid, {"image_url": image_url, "caption": caption})
     return _publish(uid, c["id"])
 
 def publish_carousel(image_urls, caption):
     uid = _env()[0]
     children = []
     for u in image_urls:
-        ch = _post(f"{uid}/media", {"image_url": u, "is_carousel_item": "true"})
+        ch = _create(uid, {"image_url": u, "is_carousel_item": "true"})
         _wait_ready(ch["id"])
         children.append(ch["id"])
-    c = _post(f"{uid}/media", {
+    c = _create(uid, {
         "media_type": "CAROUSEL", "children": ",".join(children), "caption": caption})
     return _publish(uid, c["id"])
 
@@ -112,13 +129,13 @@ def publish_reel(video_url, caption, cover_url=None):
     params = {"media_type": "REELS", "video_url": video_url, "caption": caption}
     if cover_url:
         params["cover_url"] = cover_url
-    c = _post(f"{uid}/media", params)
+    c = _create(uid, params)
     return _publish(uid, c["id"])
 
 def publish_story(media_url, is_video=False):
     uid = _env()[0]
     params = {"media_type": "STORIES", ("video_url" if is_video else "image_url"): media_url}
-    c = _post(f"{uid}/media", params)
+    c = _create(uid, params)
     return _publish(uid, c["id"])   # waits until Instagram finishes processing
 
 def _also_story(media_url, is_video):

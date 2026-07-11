@@ -19,6 +19,11 @@ Prints a JSON array of post specs to stdout.
 """
 import os, json, re, sys, html, urllib.parse, urllib.request
 
+try:
+    import brain                      # strategic decision layer (optional/feature-flagged)
+except Exception:
+    brain = None
+
 API_KEY = os.environ["ANTHROPIC_API_KEY"]
 MODEL = os.environ.get("MODEL", "claude-sonnet-5")
 N = int(os.environ.get("POSTS_PER_RUN", "1"))
@@ -38,6 +43,22 @@ def fetch_site(url="https://blackarrow.ltd"):
         return text[:4000]
     except Exception as e:
         return f"(could not fetch site: {e})"
+
+def fetch_media_struct():
+    """Structured recent-post metrics for the Brain's attribution (Phase C)."""
+    uid = os.environ.get("IG_USER_ID"); tok = os.environ.get("IG_ACCESS_TOKEN")
+    if not (uid and tok):
+        return []
+    try:
+        q = urllib.parse.urlencode({"fields": "like_count,comments_count",
+                                    "limit": "50", "access_token": tok})
+        url = f"https://graph.instagram.com/v21.0/{uid}/media?{q}"
+        with urllib.request.urlopen(url, timeout=30) as r:
+            data = json.load(r).get("data", [])
+        return [{"id": m.get("id"), "like": m.get("like_count") or 0,
+                 "comments": m.get("comments_count") or 0} for m in data]
+    except Exception:
+        return []
 
 def fetch_performance():
     """Best-effort: what's getting engagement lately. Needs insights permission."""
@@ -139,7 +160,25 @@ your own; match the keyword to the post's topic):
 - "Want fast lead-nurture automations running in your business? DM 'SPEED'."
 - "Want this exact follow-up system built for your shop? DM 'SYSTEM'."
 - "Want us to find where your leads are leaking? DM 'LEAKS'."
-Never use "link in bio". Exactly one CTA per post."""
+Never use "link in bio". Exactly one CTA per post.
+
+EVIDENCE GOVERNANCE — every claim must be grounded in one of these classes:
+- verified_company_fact / verified_company_capability (only from the Black Arrow
+  website/context provided; things the business genuinely does),
+- first_party_demonstration (a clearly-labeled EXAMPLE of a system Black Arrow can
+  build: a follow-up sequence, missed-call text-back, CRM pipeline, etc.),
+- third_party_research (a credible external study, attributed, in qualified language),
+- informed_interpretation ("this could...", "owners should consider..."),
+- general_pattern (honest "most shops..." framing, never a fabricated percentage).
+PROHIBITED under any framing: invented revenue / lead / conversion / booked-call
+numbers, invented client names or testimonials, screenshots implied to be a real
+client account, invented case studies or campaign results, invented founder stories
+or quotes, claims that Black Arrow produced a third-party study's result, unsupported
+guarantees, or any specific outcome Black Arrow "achieved" without verified evidence.
+If a useful angle would need a prohibited claim, REWRITE it into a supportable form
+(a labeled demonstration, a qualified citation, or an honest general pattern) rather
+than dropping it. Demonstrations/mockups must carry a short disclosure such as
+"Example workflow" or "Illustrative — not a client account"."""
 
 SCHEMA = r"""
 OUTPUT: only a JSON array of exactly {N} object(s). No prose outside the JSON.
@@ -151,7 +190,13 @@ Every caption is formatted to be scannable, never a wall of text. Use real line
 breaks (\n): a punchy first line, then 2-4 short chunks separated by a blank line
 (\n\n), each chunk one or two short sentences. Then the ONE keyword DM CTA on its
 own line. Then EXACTLY 5 relevant hashtags on the final line. Numbered steps get
-their own lines. Keep it teaching something genuinely useful. Shapes:
+their own lines. Keep it teaching something genuinely useful.
+
+Every post ALSO includes an "evidence" object recording how its claims are grounded:
+"evidence": {"class": "<evidence class>", "disclosure": "<short label or empty>",
+ "claims": [{"text": "the material claim", "status": "verified|qualified|illustrative|third_party|rewritten"}]}
+and a "topic" object: {"chosen": "the angle", "score": 0-100, "rejected": ["alt angle", "alt angle"]}.
+If it's a demonstration/mockup, also put the disclosure text into the caption. Shapes:
 
 IMAGE:
 {"format":"image","template":"stat|quote|myth|list|promo","params":{...},
@@ -241,6 +286,12 @@ Then return the FINAL posts as a JSON array in the exact same schema. Rules:
 - LOGIC CHECK: every tactic or test must actually work as described. If a "test"
   requires the owner to do something impossible or nonsensical (e.g. call
   themselves to test response time), fix the logic or replace it. Airtight only.
+- CLAIM VALIDATION: extract every material claim in the post. Each must map to an
+  allowed evidence class. Auto-REWRITE any unsupported or prohibited claim (invented
+  metrics, fake client results/testimonials, unearned outcomes) into a supportable
+  form: a clearly-labeled demonstration, a qualified third-party citation, or an
+  honest general pattern. Never delete the post, never fabricate. Fill each post's
+  "evidence" object honestly and mark any rewritten claim status "rewritten".
 - The post must be worth paying for — real steps/numbers/scripts, not vague tips.
 - Keep it unmistakably Black Arrow: confident, premium, a little dark, useful.
 - Never name a person. Only "Black Arrow" or "the Black Arrow team".
@@ -272,11 +323,38 @@ def main():
     site = fetch_site()
     perf = fetch_performance()
 
+    # THE BRAIN — decide category + experiment + repurpose before generating
+    decision, state, experiment, repurpose = None, None, None, None
+    if brain and brain.enabled():
+        try:
+            cfg = brain.load_config(); state = brain.load_state()
+            media_struct = fetch_media_struct()
+            brain.monitor_site(site, state)                 # Phase E: eligibility auto-updates
+            brain.score_experiments(cfg, media_struct)      # conclude any ready experiment
+            brain.update_memory(cfg, media_struct, state)   # Phase F: distil what works
+            decision = brain.decide(cfg, state, media_struct)
+            experiment = brain.pick_experiment(cfg, state, media_struct)
+            repurpose = brain.pick_repurpose(cfg, state, media_struct)
+            if repurpose and decision and repurpose.get("category"):
+                decision["category"] = repurpose["category"]   # keep the derivative coherent
+                decision["category_label"] = cfg.get("categories", {}).get(
+                    repurpose["category"], {}).get("label", repurpose["category"])
+        except Exception as e:
+            sys.stderr.write(f"brain decision skipped: {e}\n")
+            decision, state, experiment, repurpose = None, None, None, None
+
     user = (
-        "STEP 1 — Research with web search (3-6 searches): what reel/carousel "
-        "formats, hooks, and content angles are getting the most engagement on "
-        "Instagram RIGHT NOW, especially for local service-business / B2B owners. "
-        "Note what's driving comments, shares and saves this week.\n\n"
+        "STEP 1 — Research with web search (3-6 searches): (a) what reel/carousel "
+        "formats, hooks, and angles are getting the most engagement on Instagram "
+        "RIGHT NOW for local service-business / B2B owners, and (b) any genuinely "
+        "recent, relevant marketing or software developments (platform/algorithm "
+        "changes, new tools) worth interpreting for these owners. Then brainstorm "
+        "3-5 candidate angles for today and score each 0-100 on importance, novelty, "
+        "audience + brand relevance, actionability, evidence availability, and risk. "
+        "Pick the highest-scoring angle that fits today's category. Record it in the "
+        "post's 'topic' field with the score and the rejected alternatives. For any "
+        "news angle: verify it is current, cite the source, and be the interpreter "
+        "('what this means for your shop'), never a generic reposter.\n\n"
         "STEP 2 — Read this current context:\n\n"
         f"BLACK ARROW WEBSITE (source of truth for what the business does today):\n{site}\n\n"
         f"RECENT POST PERFORMANCE (do more of what worked, drop what didn't):\n{perf}\n\n"
@@ -284,8 +362,13 @@ def main():
         f"STEP 3 — Write {N} post(s) for today. Each must deliver a real, usable "
         "tactic an owner can act on this week to make more money, be built on a "
         "currently-working format, hold to every voice rule, open and close an "
-        "attention loop, and end on a DM CTA.\n\n"
-        + SCHEMA.replace("{N}", str(N))
+        "attention loop, and end on a DM CTA."
+        + (brain.prompt_directive(decision) if decision else "")
+        + (brain.experiment_prompt(experiment) if experiment else "")
+        + (brain.repurpose_prompt(repurpose) if repurpose else "")
+        + (brain.memory_directive(state) if (brain and decision) else "")
+        + (brain.research_directive(cfg) if (brain and decision) else "")
+        + "\n\n" + SCHEMA.replace("{N}", str(N))
     )
     tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}]
     resp = _call([{"role": "user", "content": user}], tools=tools)
@@ -295,6 +378,33 @@ def main():
     specs = review(specs)          # elite-standard editor pass before anything ships
     if not isinstance(specs, list) or not specs:
         raise ValueError("editor returned no specs")
+
+    # stamp category + experiment onto each spec so publishing can attribute them
+    if decision:
+        for s in specs:
+            s.setdefault("_category", decision["category"])
+    if experiment:
+        for s in specs:
+            s["_experiment"] = {"experiment_id": experiment["experiment_id"],
+                                "variant": experiment["variant"]}
+
+    if brain and decision:         # log the strategic decision + update state + report
+        try:
+            brain.record(decision, specs, state)
+        except Exception as e:
+            sys.stderr.write(f"brain record skipped: {e}\n")
+    if brain and brain.enabled():  # Phase B/D: log evidence + scored topics
+        try:
+            brain.log_evidence(specs)
+            brain.log_topics(specs)
+        except Exception as e:
+            sys.stderr.write(f"brain evidence/topic log skipped: {e}\n")
+    if brain and experiment:       # Phase C: advance experiment variant assignment
+        try:
+            brain.note_experiment_assignment(experiment)
+        except Exception as e:
+            sys.stderr.write(f"brain experiment note skipped: {e}\n")
+
     print(json.dumps(specs, indent=2))
 
 if __name__ == "__main__":
