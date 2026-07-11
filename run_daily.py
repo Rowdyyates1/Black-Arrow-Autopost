@@ -28,20 +28,22 @@ def render_spec(spec, outdir, date):
     base = os.path.basename(outdir)
     images, video = [], None
 
+    # media lives under published/<date>/<base>/ ; the public URL is repo-root
+    # based, so the recorded path must include the published/ prefix.
     if fmt == "reel":
         import render_reel
         vpath = os.path.join(outdir, "reel.mp4")
         render_reel.render_reel(spec["spec"], vpath)
-        video = f"{date}/{base}/reel.mp4"
+        video = f"published/{date}/{base}/reel.mp4"
     elif fmt == "carousel":
         imgs = brand.render_carousel(spec["slides"])
         for j, im in enumerate(imgs):
             im.save(os.path.join(outdir, f"image_{j}.png"), "PNG")
-            images.append(f"{date}/{base}/image_{j}.png")
+            images.append(f"published/{date}/{base}/image_{j}.png")
     else:  # image
         im = brand.render({"template": spec["template"], "params": spec["params"]})
         im.save(os.path.join(outdir, "image_0.png"), "PNG")
-        images.append(f"{date}/{base}/image_0.png")
+        images.append(f"published/{date}/{base}/image_0.png")
 
     post = {"caption": spec["caption"], "format": fmt,
             "rationale": spec.get("rationale", "")}
@@ -100,13 +102,17 @@ def cmd_publish():
     date = os.environ.get("POST_DATE") or datetime.date.today().isoformat()
     manifest = json.load(open(rel("published", date, "manifest.json")))
     public_base = os.environ["PUBLIC_BASE"].rstrip("/")
+    failures = 0
     for pj in manifest["posts"]:
         post = json.load(open(rel(pj)))
         try:
             res = pub.publish_post(post, public_base)
             print(f"published {pj} -> {res.get('id')}")
         except Exception as e:
+            failures += 1
             print(f"FAILED {pj}: {e}")
+    if failures:
+        sys.exit(f"{failures} post(s) failed to publish")
 
 if __name__ == "__main__":
     mode = sys.argv[1] if len(sys.argv) > 1 else "generate"
