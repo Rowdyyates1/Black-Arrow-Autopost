@@ -26,7 +26,7 @@ def render_spec(spec, outdir, date):
     os.makedirs(outdir, exist_ok=True)
     fmt = spec.get("format", "image")
     base = os.path.basename(outdir)
-    images, video = [], None
+    images, video, cover = [], None, None
 
     # media lives under published/<date>/<base>/ ; the public URL is repo-root
     # based, so the recorded path must include the published/ prefix.
@@ -35,6 +35,8 @@ def render_spec(spec, outdir, date):
         vpath = os.path.join(outdir, "reel.mp4")
         render_reel.render_reel(spec["spec"], vpath)
         video = f"published/{date}/{base}/reel.mp4"
+        brand.reel_cover(spec["spec"]).save(os.path.join(outdir, "cover.png"), "PNG")
+        cover = f"published/{date}/{base}/cover.png"
     elif fmt == "carousel":
         imgs = brand.render_carousel(spec["slides"])
         for j, im in enumerate(imgs):
@@ -47,8 +49,11 @@ def render_spec(spec, outdir, date):
 
     post = {"caption": spec["caption"], "format": fmt,
             "rationale": spec.get("rationale", "")}
-    if video: post["video"] = video
-    else:     post["images"] = images
+    if video:
+        post["video"] = video
+        if cover: post["cover"] = cover
+    else:
+        post["images"] = images
     with open(os.path.join(outdir, "post.json"), "w") as f:
         json.dump(post, f, indent=2)
     return post

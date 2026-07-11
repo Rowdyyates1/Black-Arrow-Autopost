@@ -69,10 +69,12 @@ def publish_carousel(image_urls, caption):
         "media_type": "CAROUSEL", "children": ",".join(children), "caption": caption})
     return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
 
-def publish_reel(video_url, caption):
+def publish_reel(video_url, caption, cover_url=None):
     uid = _env()[0]
-    c = _post(f"{uid}/media", {
-        "media_type": "REELS", "video_url": video_url, "caption": caption})
+    params = {"media_type": "REELS", "video_url": video_url, "caption": caption}
+    if cover_url:
+        params["cover_url"] = cover_url
+    c = _post(f"{uid}/media", params)
     # reels must finish processing before publish
     for _ in range(30):
         st = _get(c["id"], {"fields": "status_code"})
@@ -83,19 +85,50 @@ def publish_reel(video_url, caption):
         time.sleep(15)
     return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
 
+def publish_story(media_url, is_video=False):
+    uid = _env()[0]
+    params = {"media_type": "STORIES", ("video_url" if is_video else "image_url"): media_url}
+    c = _post(f"{uid}/media", params)
+    if is_video:
+        for _ in range(30):
+            st = _get(c["id"], {"fields": "status_code"})
+            if st.get("status_code") == "FINISHED":
+                break
+            if st.get("status_code") == "ERROR":
+                raise RuntimeError(f"story processing error: {st}")
+            time.sleep(15)
+    return _post(f"{uid}/media_publish", {"creation_id": c["id"]})
+
+def _also_story(media_url, is_video):
+    """Best effort: mirror the post to the Story. Never fails the feed post."""
+    try:
+        r = publish_story(media_url, is_video)
+        print(f"  story posted -> {r.get('id')}")
+    except Exception as e:
+        print(f"  story skipped: {e}")
+
 def publish_post(post, public_base):
-    """post = {caption, images:[rel...]} or {caption, video: rel}."""
+    """post = {caption, images:[rel...]} or {caption, video: rel}. Also posts to Story."""
     caption = post["caption"]
     if post.get("video"):
         url = f"{public_base}/{post['video']}"
         if not wait_for_url(url):
             raise RuntimeError(f"media not reachable: {url}")
-        return publish_reel(url, caption)
+        cover_url = None
+        if post.get("cover"):
+            cover_url = f"{public_base}/{post['cover']}"
+            if not wait_for_url(cover_url):
+                cover_url = None
+        res = publish_reel(url, caption, cover_url)
+        _also_story(url, is_video=True)
+        return res
     urls = [f"{public_base}/{rel}" for rel in post["images"]]
     for u in urls:
         if not wait_for_url(u):
             raise RuntimeError(f"media not reachable: {u}")
-    return publish_carousel(urls, caption) if len(urls) > 1 else publish_single(urls[0], caption)
+    res = publish_carousel(urls, caption) if len(urls) > 1 else publish_single(urls[0], caption)
+    _also_story(urls[0], is_video=False)   # Story gets the first frame/image
+    return res
 
 def main():
     post_json = os.environ.get("POST_JSON") or (sys.argv[1] if len(sys.argv) > 1 else None)

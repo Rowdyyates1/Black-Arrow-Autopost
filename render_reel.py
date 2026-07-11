@@ -19,38 +19,45 @@ import brand  # reuse fonts + colors + triangle
 
 MUSIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "music")
 
-def _audio_args(dur, mood=None):
-    """The brain passes an audio `mood` that fits Black Arrow's branding. We match
-    it to the music library (music/ — drop on-brand licensed tracks named by mood,
-    e.g. dark-01.mp3, cinematic-02.mp3). If the library has a match we bake that
-    real track under the reel; if it's empty we synthesize a bed tuned to the mood
-    so reels are never silent. NOTE: Instagram's own trending sounds cannot be
-    attached via the publishing API — this is baked-in audio."""
-    mood = (mood or "dark minimal premium").lower()
-    key = mood.split()[0]
+_CHORDS = {  # low, dark, on-brand chord voicings (Hz)
+    "dark":      [55.00, 110.00, 130.81, 164.81],   # Am
+    "cinematic": [49.00, 98.00, 146.83, 196.00],    # G open fifth, epic
+    "driving":   [55.00, 110.00, 164.81, 220.00],   # A power
+}
+
+def _mood_key(mood):
+    if any(w in mood for w in ("cinema", "tens", "susp", "build", "epic")): return "cinematic"
+    if any(w in mood for w in ("driv", "energ", "bold", "punch")):          return "driving"
+    return "dark"
+
+def _audio_plan(dur, mood=None):
+    """Returns a dict describing the audio to bake under the reel.
+    Priority: a real licensed track from music/ (named by mood) -> else an
+    original generated chord pad (royalty-free, on-brand). Never a hum."""
+    mood = (mood or "dark").lower()
+    key = _mood_key(mood)
     tracks = []
     for ext in ("*.mp3", "*.m4a", "*.wav", "*.aac"):
         tracks += glob.glob(os.path.join(MUSIC_DIR, ext))
-    tagged = [t for t in tracks if key in os.path.basename(t).lower()]
-    chosen = tagged or tracks
-    fo = max(0.0, dur - 1.2)
-    if chosen:
-        t = random.choice(chosen)
-        return (["-stream_loop", "-1", "-i", t],
-                f"volume=0.55,afade=t=out:st={fo:.2f}:d=1.2")
-    # No library yet: synth an on-brand bed in the requested mood.
-    seed = random.randint(1, 99999)
-    fades = f",afade=t=in:st=0:d=1.5,afade=t=out:st={max(0.0, dur - 1.5):.2f}:d=1.5"
-    if any(w in mood for w in ("driv", "energ", "punch", "bold")):
-        src = "sine=frequency=55:sample_rate=44100"
-        filt = "tremolo=f=1.8:d=0.85,lowpass=f=210,volume=0.11" + fades
-    elif any(w in mood for w in ("tens", "susp", "cinema", "build", "epic")):
-        src = "sine=frequency=98:sample_rate=44100"
-        filt = "tremolo=f=0.5:d=0.6,lowpass=f=185,volume=0.09" + fades
-    else:  # dark / minimal / premium
-        src = f"anoisesrc=color=brown:seed={seed}:amplitude=0.6"
-        filt = "lowpass=f=170,volume=0.10" + fades
-    return (["-f", "lavfi", "-i", src], filt)
+    fo = max(0.0, dur - 1.3)
+    if tracks:
+        tagged = [t for t in tracks if key.split()[0] in os.path.basename(t).lower()]
+        t = random.choice(tagged or tracks)
+        return {"mode": "track", "input": ["-stream_loop", "-1", "-i", t],
+                "af": f"volume=0.6,afade=t=out:st={fo:.2f}:d=1.3"}
+    # generated dark chord pad
+    freqs = _CHORDS[key]
+    inputs = []
+    for f in freqs:
+        inputs += ["-f", "lavfi", "-i", f"sine=frequency={f}:sample_rate=44100"]
+    trem = "1.6:d=0.6" if key == "driving" else "0.35:d=0.5"
+    # input 0 is the video frames; the sine inputs are 1..N
+    mixin = "".join(f"[{i+1}]" for i in range(len(freqs)))
+    fc = (f"{mixin}amix=inputs={len(freqs)}:normalize=1[m];"
+          f"[m]tremolo=f={trem},lowpass=f=360,volume=0.17,"
+          f"aecho=0.8:0.7:55:0.3,afade=t=in:st=0:d=2,"
+          f"afade=t=out:st={fo:.2f}:d=1.3[a]")
+    return {"mode": "synth", "input": inputs, "filter_complex": fc, "amap": "[a]"}
 
 W, H, FPS = 720, 1280, 24
 BG, WHITE, MUTED, DIM = brand.BG, brand.WHITE, brand.MUTED, brand.DIM
@@ -136,18 +143,21 @@ def render_reel(spec, out_path):
                     brand.triangle(d, cx, 640+dy, 90, _blend(WHITE, a))
                     _ctext(d, cx, 760+dy, cta, brand.font(44), WHITE, a)
                     d.rounded_rectangle([cx-260, 900+dy, cx+260, 1010+dy], radius=16, outline=_blend(WHITE,a), width=3)
-                    _ctext(d, cx, 935+dy, "Send Rowdy a DM to start", brand.font(30), MUTED, a)
+                    _ctext(d, cx, 935+dy, "DM the keyword to start", brand.font(30), MUTED, a)
                 else:
                     _draw_scene(d, cx, lines, a, dy)
                 break
         _ctext(d, cx, H-96, "BLACKARROW.LTD", brand.font(26), DIM, 1.0, trk=5)
         img.save(f"{frames_dir}/f{i:04d}.png", compress_level=1)
 
-    audio_in, afilter = _audio_args(total_t, spec.get("audio"))
-    cmd = (["ffmpeg", "-y", "-framerate", str(FPS), "-i", f"{frames_dir}/f%04d.png"]
-           + audio_in +
-           ["-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
-            "-c:a", "aac", "-b:a", "128k", "-af", afilter, "-shortest",
-            "-movflags", "+faststart", out_path])
+    plan = _audio_plan(total_t, spec.get("audio"))
+    base = ["ffmpeg", "-y", "-framerate", str(FPS), "-i", f"{frames_dir}/f%04d.png"]
+    vopts = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p"]
+    aopts = ["-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", out_path]
+    if plan["mode"] == "track":
+        cmd = base + plan["input"] + vopts + ["-af", plan["af"]] + aopts
+    else:  # synth chord pad via filter_complex
+        cmd = (base + plan["input"] + ["-filter_complex", plan["filter_complex"],
+               "-map", "0:v", "-map", plan["amap"]] + vopts + aopts)
     subprocess.run(cmd, check=True, capture_output=True)
     return out_path

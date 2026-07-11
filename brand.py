@@ -205,7 +205,7 @@ def slide_cta(p, idx, total):
         tracked(d, (0, y), ln, f, WHITE, 0, center_x=W/2); y += 74
     d.rounded_rectangle([150, 720, W-150, 846], radius=18, outline=WHITE, width=3)
     tracked(d, (0, 760), p.get("button", 'DM "START"'), font(48), WHITE, 0, center_x=W/2)
-    block_center(d, p.get("foot", "Send Rowdy a DM and we'll map it for your business."),
+    block_center(d, p.get("foot", "DM us and we'll map it for your business."),
                  font(34, bold=False), MUTED, 910, 900)
     _footer_idx(d, idx, total)
     return img
@@ -224,6 +224,29 @@ def _footer_idx(d, idx, total):
 
 _SLIDE = {"cover": slide_cover, "stat": slide_stat, "point": slide_point,
           "quote": slide_quote, "cta": slide_cta}
+
+def reel_cover(spec):
+    """Branded 1080x1920 cover for a reel. Content is centered so the grid's
+    center-crop still reads. spec = the reel 'spec' dict (kicker, hook)."""
+    CW, CH = 1080, 1920
+    img = Image.new("RGB", (CW, CH), BG); d = ImageDraw.Draw(img)
+    cx = CW / 2
+    kick = spec.get("kicker", "")
+    if kick:
+        tracked(d, (0, 760), kick.upper(), font(30), MUTED, 6, center_x=cx)
+        d.line([(cx-35, 812), (cx+35, 812)], fill=WHITE, width=3)
+    hook = spec.get("hook", []) or ["Black Arrow"]
+    # auto-fit each hook line to width
+    y = 900
+    for ln in hook[:3]:
+        fs = 84
+        while fs > 44 and _tw(d, ln, font(fs)) > CW - 120:
+            fs -= 4
+        tracked(d, (0, y), ln, font(fs), WHITE, 0, center_x=cx)
+        y += int(fs * 1.2)
+    triangle(d, cx, y + 70, 60, WHITE)
+    _wordmark(d, cx, 1770, scale=1.0)
+    return img
 
 def render_carousel(slides):
     """slides: list of {kind, params}. Returns list of PIL images."""
