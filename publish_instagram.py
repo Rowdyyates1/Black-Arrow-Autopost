@@ -61,20 +61,35 @@ def wait_for_url(url, tries=10, delay=6):
     return False
 
 def _wait_ready(container_id, tries=30, delay=6):
-    """Poll a container until Instagram has processed it. Missing status = ready."""
+    """Poll a container until Instagram has processed it. Missing status = keep waiting."""
+    seen_status = False
     for _ in range(tries):
         st = _get(container_id, {"fields": "status_code"})
         code = st.get("status_code")
-        if code in (None, "FINISHED"):
+        if code == "FINISHED":
             return
         if code == "ERROR":
             raise RuntimeError(f"container processing error: {st}")
+        if code is None and seen_status:
+            return                      # field stopped being reported -> treat as done
+        seen_status = seen_status or code is not None
         time.sleep(delay)
-    raise RuntimeError(f"container {container_id} not ready after waiting")
+    # fall through: let the publish-retry handle final readiness
 
 def _publish(uid, container_id):
+    """Publish, retrying when Instagram says the media isn't ready yet (2207027)."""
     _wait_ready(container_id)
-    return _post(f"{uid}/media_publish", {"creation_id": container_id})
+    last = None
+    for _ in range(12):
+        try:
+            return _post(f"{uid}/media_publish", {"creation_id": container_id})
+        except RuntimeError as e:
+            last = e
+            s = str(e)
+            if "2207027" in s or "not ready" in s.lower() or '"code":9007' in s:
+                time.sleep(8); continue
+            raise
+    raise last
 
 def publish_single(image_url, caption):
     uid = _env()[0]
