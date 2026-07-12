@@ -8,5 +8,15 @@
       "Google's July 6, 2026 Local Services Ads policy rename to 'requirements' (mostly administrative wording change, thin actionable value, LSA news already covered twice)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "HubSpot research on consumer 'immediate response' expectations (82% / 10-minute definition) applied to service-business speed-to-lead",
+    "score": 85,
+    "rejected": [
+      "Salesforce 64% real-time-response expectation stat (redundant with HubSpot angle, less specific)",
+      "Buffer/Socialinsider DM-shares algorithm weighting (platform news, not market research)",
+      "Multi-channel response combo lifting conversion 45% (weaker single-source attribution)"
+    ],
+    "category": "third_party_research"
   }
 ]

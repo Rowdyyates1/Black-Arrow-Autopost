@@ -19,6 +19,11 @@
       "date": "2026-07-12",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-12",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "1a162d0cd42dbc69",

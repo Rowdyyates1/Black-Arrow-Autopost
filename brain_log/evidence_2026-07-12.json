@@ -13,5 +13,28 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Response-rate benchmarks (17% within an hour, 2x conversion under 5 minutes) reflect widely cited industry lead-response studies, not the HubSpot dataset, and are presented as general benchmarks rather than attributed to a single named source.",
+    "claims": [
+      {
+        "text": "82% of consumers rate an immediate response to a sales or marketing question as important or very important",
+        "status": "qualified"
+      },
+      {
+        "text": "Today's consumer defines 'immediate' as 10 minutes or less",
+        "status": "qualified"
+      },
+      {
+        "text": "Only 17% of service businesses answer a new lead within an hour",
+        "status": "qualified"
+      },
+      {
+        "text": "Businesses that respond within 5 minutes convert at close to double the rate of slower responders",
+        "status": "qualified"
+      }
+    ]
   }
 ]

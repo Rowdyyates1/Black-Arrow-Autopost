@@ -38,5 +38,45 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "GoHighLevel's own July 2026 changelog confirms a fix for a real, common follow-up failure, and this account hasn't covered CRM platform news before, filling the under-served News/Industry Intelligence slot with something owners can act on immediately."
+  },
+  {
+    "timestamp": "2026-07-12T15:36:45.521512Z",
+    "category": "third_party_research",
+    "category_label": "Third-Party Research / Market Evidence",
+    "guidance": "Use a credible external study to explain why a capability matters. Qualified language: 'Research suggests...', 'The study found...'.",
+    "format_bias": "carousel",
+    "evidence_note": "Attribute the source. NEVER imply Black Arrow produced the result or achieves the same without evidence.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Third-Party Research / Market Evidence' was the most under-served eligible category (target 10%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.25,
+      "demonstrations_walkthroughs": 0.25,
+      "news_industry": 0.25,
+      "third_party_research": 0.0,
+      "contrarian_pov": 0.0,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Fills the under-served Third-Party Research category with a fresh HubSpot data point (the 10-minute definition of 'immediate') the account hasn't used, in the carousel format research shows wins saves for educational content."
   }
 ]
