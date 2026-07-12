@@ -52,5 +52,28 @@
         "note": "Reframed from an unqualified claim into a hedged reference to widely cited industry lead-response research, without inventing a specific source or number."
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time figures (17% response-within-an-hour rate, 5-minute response roughly doubling close rate) are drawn from widely cited lead response studies (e.g., Lead Response Management research covered by Harvard Business Review), not Black Arrow's proprietary data.",
+    "claims": [
+      {
+        "text": "Black Arrow builds four systems: acquisition, conversion (instant follow-up), operations (CRM), and retention",
+        "status": "verified"
+      },
+      {
+        "text": "Only about 17% of service businesses respond to a new lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within 5 minutes can roughly double the close rate compared to slower response",
+        "status": "rewritten"
+      },
+      {
+        "text": "The 4-checkpoint autopsy framework as a diagnostic an owner can apply to individual lost leads",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

@@ -118,5 +118,45 @@
     ],
     "chosen_format": "slideshow",
     "post_rationale": "Fills the under-served Demonstrations/System Walkthroughs category with the ad-to-first-response handoff, a stage this account hasn't shown yet (distinct from the missed-call text-back, review, reactivation, and CRM pipeline demos already shipped), using the slideshow format the brief recommends for this category."
+  },
+  {
+    "timestamp": "2026-07-12T18:52:29.970921Z",
+    "category": "authority_frameworks",
+    "category_label": "Authority / Frameworks",
+    "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+    "format_bias": "carousel",
+    "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Authority / Frameworks' was the most under-served eligible category (target 25%, recent 17%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.167,
+      "demonstrations_walkthroughs": 0.333,
+      "news_industry": 0.167,
+      "third_party_research": 0.167,
+      "contrarian_pov": 0.0,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Authority/Frameworks is the most under-served category this cycle, and this turns Black Arrow's four systems into a forensic diagnostic an owner runs on real lost leads, distinct from the self-scoring mental model already shipped."
   }
 ]

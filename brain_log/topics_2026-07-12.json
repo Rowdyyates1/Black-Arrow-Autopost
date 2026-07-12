@@ -30,5 +30,16 @@
       "CRM pipeline demonstration (already shipped as a labeled example flow)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "The Lead Autopsy: a 4-checkpoint framework to diagnose exactly where a specific lost lead died (ad, response speed, follow-up persistence, or retention)",
+    "score": 89,
+    "rejected": [
+      "Re-running the four-systems self-scoring mental model (already shipped, would repeat the angle)",
+      "A response-time ladder mental model (too much overlap with prior speed-to-lead posts)",
+      "A lead value decay curve explainer (less actionable, no concrete step the owner performs this week)",
+      "Repurposing the LSA or call-only ad news again (already covered twice, diminishing novelty)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
