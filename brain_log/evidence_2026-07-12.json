@@ -1,0 +1,17 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: GoHighLevel official changelog, July 8, 2026",
+    "claims": [
+      {
+        "text": "GoHighLevel added a 'User Replied' trigger/goal event on July 8, 2026 that lets workflows stop or skip ahead once a team member replies to a contact",
+        "status": "verified"
+      },
+      {
+        "text": "Without this kind of trigger, automated follow-up sequences can keep messaging a lead after a rep has already responded manually, creating duplicate or confusing messages",
+        "status": "qualified"
+      }
+    ]
+  }
+]
