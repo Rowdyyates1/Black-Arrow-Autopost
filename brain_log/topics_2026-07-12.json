@@ -18,5 +18,17 @@
       "Multi-channel response combo lifting conversion 45% (weaker single-source attribution)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Illustrative walkthrough of the automated sequence that fires in the first 5 minutes after a lead submits an ad form (the acquisition-to-conversion handoff)",
+    "score": 89,
+    "rejected": [
+      "Missed-call text-back demonstration (already covered twice: weak carousel + text-back script post)",
+      "Review-request flow demonstration (already covered with full script/timing/filter)",
+      "Appointment reminder cadence demonstration (already covered)",
+      "Dormant customer reactivation demonstration (already covered)",
+      "CRM pipeline demonstration (already shipped as a labeled example flow)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

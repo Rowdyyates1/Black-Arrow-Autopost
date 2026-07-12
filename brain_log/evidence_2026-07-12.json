@@ -36,5 +36,21 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Illustrative, not a specific client account.",
+    "claims": [
+      {
+        "text": "Step-by-step sequence of messages and internal tasks firing after a form submission",
+        "status": "illustrative"
+      },
+      {
+        "text": "Responding within 5 minutes can roughly double lead-to-booking conversion versus slower follow-up",
+        "status": "rewritten",
+        "note": "Reframed from an unqualified claim into a hedged reference to widely cited industry lead-response research, without inventing a specific source or number."
+      }
+    ]
   }
 ]
