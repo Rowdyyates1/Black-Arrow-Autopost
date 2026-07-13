@@ -40,5 +40,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Response-time statistics (17% answer within an hour; under 5 minutes roughly doubles close rate) are drawn from general lead-response-time research and presented as an industry pattern, not a Black Arrow-specific measurement.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit takes four inputs (monthly leads, average job value, response speed, response method) and returns a response score, an estimate of leads lost, and revenue at risk",
+        "status": "verified"
+      },
+      {
+        "text": "Only 17% of service businesses respond to a new lead within an hour, per lead-response research",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within 5 minutes roughly doubles the close rate, per lead-response research",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow's system sends an SMS to every new lead in under 60 seconds",
+        "status": "verified"
+      }
+    ]
   }
 ]

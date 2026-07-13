@@ -78,5 +78,45 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Reels still carry the reach edge for cold audiences, and this stakes out a sharp, unclaimed brand POV (scaling ads before fixing follow-up burns money faster) that no past post has argued directly."
+  },
+  {
+    "timestamp": "2026-07-13T17:11:37.227318Z",
+    "category": "offers_lead_magnets",
+    "category_label": "Offers / Lead Magnets",
+    "guidance": "Feature a specific free tool or lead magnet actually published on the site (blackarrow.ltd/tools) or the Revenue Score, and invite a DM with a topic keyword. Lead with the value, never a hard sell.",
+    "format_bias": "image",
+    "evidence_note": "Only describe tools/offers actually published on the Black Arrow site.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Offers / Lead Magnets' was the most under-served eligible category (target 5%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.222,
+      "education_informative": 0.222,
+      "demonstrations_walkthroughs": 0.222,
+      "news_industry": 0.111,
+      "third_party_research": 0.111,
+      "contrarian_pov": 0.111,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels currently win saves and depth for B2B/educational content per 2026 benchmarks, and this fills the under-served Offers/Lead Magnets slot by featuring an actual published free tool tied to the core speed-to-lead fact."
   }
 ]

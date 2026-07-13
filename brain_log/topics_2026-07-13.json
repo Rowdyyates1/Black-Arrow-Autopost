@@ -19,5 +19,15 @@
       "CRM software alone isn't a growth strategy (less sharp, weaker hook, harder to make concrete)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Feature the free Lead Response Audit tool as a lead magnet, carousel format, tied to the core 17%/5-minute speed-to-lead fact",
+    "score": 90,
+    "rejected": [
+      "Feature the Missed Revenue Calculator (too close to the already-shipped missed-call revenue-leak angle)",
+      "Feature the AI Follow-Up System Builder (site's '12 spots left' framing risks fake urgency)",
+      "General roundup of all five free tools (too broad, loses specific actionable depth)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
