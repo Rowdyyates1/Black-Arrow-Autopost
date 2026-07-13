@@ -39,9 +39,14 @@
       "date": "2026-07-13",
       "category": "education_informative",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-13",
+      "category": "contrarian_pov",
+      "format": "reel"
     }
   ],
-  "site_hash": "d257fbf0c5c1e755",
+  "site_hash": "94ff171d1ddf5fd8",
   "eligibility_overrides": {},
   "memory": {}
 }

@@ -38,5 +38,45 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Reframed from an unverifiable 'April 2026 update' and a fabricated removal statistic to Google's actual, longstanding review-gating and solicitation policy. Keeps the carousel format for the compliance checklist and still delivers a concrete 3-step fix owners can act on today."
+  },
+  {
+    "timestamp": "2026-07-13T03:28:32.866877Z",
+    "category": "contrarian_pov",
+    "category_label": "Contrarian / Brand Point of View",
+    "guidance": "State a sharp, defensible point of view or contrarian take on how service businesses actually grow. Confident, specific, never gimmicky engagement-bait.",
+    "format_bias": "reel",
+    "evidence_note": "Framed clearly as Black Arrow's view; no fabricated proof.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Contrarian / Brand Point of View' was the most under-served eligible category (target 5%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.25,
+      "demonstrations_walkthroughs": 0.25,
+      "news_industry": 0.125,
+      "third_party_research": 0.125,
+      "contrarian_pov": 0.0,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Reels still carry the reach edge for cold audiences, and this stakes out a sharp, unclaimed brand POV (scaling ads before fixing follow-up burns money faster) that no past post has argued directly."
   }
 ]

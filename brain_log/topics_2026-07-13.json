@@ -9,5 +9,15 @@
       "Another missed-call-text-back stat refresh (50) - redundant with multiple prior posts on this exact angle"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Contrarian brand POV: more ad spend does not fix a broken business, it funds the follow-up leak faster, so audit response time before scaling budget",
+    "score": 90,
+    "rejected": [
+      "You don't have a lead problem, you have a follow-up problem (already covered in a past top-performing carousel)",
+      "Reviews don't build trust, response time does (overlaps prior review-generation posts)",
+      "CRM software alone isn't a growth strategy (less sharp, weaker hook, harder to make concrete)"
+    ],
+    "category": "contrarian_pov"
   }
 ]

@@ -21,5 +21,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_citation",
+    "disclosure": "Response time statistics reflect widely cited lead-response research (e.g., Lead Response Management studies), not Black Arrow proprietary data.",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses respond to new leads within an hour",
+        "status": "cited"
+      },
+      {
+        "text": "Responding in under 5 minutes converts at nearly double the rate",
+        "status": "cited"
+      },
+      {
+        "text": "Doubling ad budget without fixing response time roughly doubles the number of leads going cold",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
