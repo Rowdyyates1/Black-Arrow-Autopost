@@ -29,5 +29,15 @@
       "General roundup of all five free tools (too broad, loses specific actionable depth)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Objection handling: reframe 'automation feels impersonal' into 3 concrete fixes (reference the job, trigger off behavior, write in brand voice)",
+    "score": 90,
+    "rejected": [
+      "Cost objection ('we can't afford it') reframed via missed-revenue math",
+      "Owner belief 'I already answer fast enough myself' vs automation",
+      "Fear that automation replaces staff/personal relationships"
+    ],
+    "category": "objection_nurture"
   }
 ]

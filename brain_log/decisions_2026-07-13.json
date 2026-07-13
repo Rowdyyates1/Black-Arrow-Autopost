@@ -118,5 +118,45 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Carousels currently win saves and depth for B2B/educational content per 2026 benchmarks, and this fills the under-served Offers/Lead Magnets slot by featuring an actual published free tool tied to the core speed-to-lead fact."
+  },
+  {
+    "timestamp": "2026-07-13T19:13:06.833958Z",
+    "category": "objection_nurture",
+    "category_label": "Objection Handling / Audience Nurture",
+    "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust.",
+    "format_bias": "carousel",
+    "evidence_note": "Transparent and honest; no unsupported guarantees.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Objection Handling / Audience Nurture' was the most under-served eligible category (target 5%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.2,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.2,
+      "news_industry": 0.1,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.1,
+      "offers_lead_magnets": 0.1,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Fills the under-served Objection Handling category by honestly reframing the top automation fear with 3 concrete, actionable fixes instead of dismissing the concern, using the carousel format that performs well for saves and depth on B2B educational content."
   }
 ]

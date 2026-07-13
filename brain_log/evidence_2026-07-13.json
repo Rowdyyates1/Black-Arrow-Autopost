@@ -63,5 +63,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Example message: illustrative, not a client account",
+    "claims": [
+      {
+        "text": "Automation feels impersonal is a common, fair objection owners raise",
+        "status": "qualified"
+      },
+      {
+        "text": "Swapping in a name isn't enough to make an automated message feel personal",
+        "status": "rewritten"
+      },
+      {
+        "text": "Referencing the actual job in the opening line of a message",
+        "status": "illustrative"
+      },
+      {
+        "text": "A message triggered off real behavior reads as more attentive than one sent on a fixed schedule",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Black Arrow builds follow-up systems in the business's own tone, from formal to high energy",
+        "status": "verified"
+      }
+    ]
   }
 ]
