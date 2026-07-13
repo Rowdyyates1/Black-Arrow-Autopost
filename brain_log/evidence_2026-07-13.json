@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Original draft cited an unverifiable 'April 2026 policy update' and a fabricated '292M reviews removed' statistic attributed to a nonexistent Google report. Both were replaced with Google's documented, longstanding review-gating and solicitation policy and an honest general pattern about automated enforcement.",
+    "claims": [
+      {
+        "text": "Google's review policy prohibits review gating (screening customers by sentiment before sending the review link) and instructing customers on what to include in a review",
+        "status": "qualified"
+      },
+      {
+        "text": "Scripting specific details for customers to mention, such as naming an employee, carries risk under Google's solicitation guidelines",
+        "status": "rewritten"
+      },
+      {
+        "text": "Google's enforcement against policy-violating reviews is automated and removes reviews without prior warning to the business",
+        "status": "qualified"
+      },
+      {
+        "text": "Sending an open-ended review request by text or email after service, to every customer equally, remains compliant",
+        "status": "qualified"
+      }
+    ]
+  }
+]

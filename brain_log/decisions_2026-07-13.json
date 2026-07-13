@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-07-13T02:39:18.129363Z",
+    "category": "education_informative",
+    "category_label": "Education / Informative",
+    "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings \u2014 worth paying for.",
+    "format_bias": "reel",
+    "evidence_note": "Tactics must be logically airtight and actually executable as described.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Education / Informative' was the most under-served eligible category (target 20%, recent 14%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.286,
+      "education_informative": 0.143,
+      "demonstrations_walkthroughs": 0.286,
+      "news_industry": 0.143,
+      "third_party_research": 0.143,
+      "contrarian_pov": 0.0,
+      "offers_lead_magnets": 0.0,
+      "objection_nurture": 0.0
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Reframed from an unverifiable 'April 2026 update' and a fabricated removal statistic to Google's actual, longstanding review-gating and solicitation policy. Keeps the carousel format for the compliance checklist and still delivers a concrete 3-step fix owners can act on today."
+  }
+]

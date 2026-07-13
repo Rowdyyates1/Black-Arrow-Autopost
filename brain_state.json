@@ -34,9 +34,14 @@
       "date": "2026-07-12",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-13",
+      "category": "education_informative",
+      "format": "carousel"
     }
   ],
-  "site_hash": "1a162d0cd42dbc69",
+  "site_hash": "d257fbf0c5c1e755",
   "eligibility_overrides": {},
   "memory": {}
 }
