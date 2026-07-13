@@ -32,7 +32,19 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # --------------------------------------------------------------------------- #
 # Live context: the website + recent post performance
 # --------------------------------------------------------------------------- #
-def fetch_site(url="https://blackarrow.ltd"):
+def _company_pages():
+    """Which pages the Brain reads as the source of truth. Editable via
+    brain_config.json -> "company_pages". Defaults include /tools so new lead
+    magnets are picked up automatically."""
+    try:
+        cfg = json.load(open(os.path.join(HERE, "brain_config.json")))
+        if cfg.get("company_pages"):
+            return cfg["company_pages"]
+    except Exception:
+        pass
+    return ["https://blackarrow.ltd", "https://blackarrow.ltd/tools"]
+
+def _fetch_one(url, cap=3000):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=30) as r:
@@ -40,9 +52,14 @@ def fetch_site(url="https://blackarrow.ltd"):
         text = re.sub(r"(?is)<(script|style).*?</\1>", " ", raw)
         text = re.sub(r"(?s)<[^>]+>", " ", text)
         text = html.unescape(re.sub(r"\s+", " ", text)).strip()
-        return text[:4000]
+        return text[:cap]
     except Exception as e:
-        return f"(could not fetch site: {e})"
+        return f"(could not fetch: {e})"
+
+def fetch_site():
+    """Read every configured company page (homepage + /tools by default) so the
+    Brain sees current offers, tools, and lead magnets — and notices new ones."""
+    return "\n\n".join(f"[{u}]\n{_fetch_one(u)}" for u in _company_pages())[:8000]
 
 def fetch_media_struct():
     """Structured recent-post metrics for the Brain's attribution (Phase C)."""

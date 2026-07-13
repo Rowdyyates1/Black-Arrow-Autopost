@@ -1,5 +1,10 @@
 {
   "_comment": "Black Arrow strategy config. Edit freely — no code changes needed. Ratios are strategic starting points, not quotas; the Brain balances toward them among ELIGIBLE categories and redistributes away from unavailable ones.",
+  "company_pages": [
+    "https://blackarrow.ltd",
+    "https://blackarrow.ltd/tools"
+  ],
+  "_company_pages_note": "Pages the Brain reads as source-of-truth each run. Add any page with offers/tools/lead magnets so they get featured and monitored automatically.",
   "primary_objective": "balanced",
   "objective_weights": {
     "reach": 1.0,
@@ -142,8 +147,8 @@
       "target_ratio": 0.05,
       "eligibility": "fully_eligible",
       "format_bias": "image",
-      "guidance": "Point to the free value / Revenue Score and invite a DM with a topic keyword. Lead with the value, never a hard sell.",
-      "evidence_note": "Only describe offers Black Arrow actually provides."
+      "guidance": "Feature a specific free tool or lead magnet actually published on the site (blackarrow.ltd/tools) or the Revenue Score, and invite a DM with a topic keyword. Lead with the value, never a hard sell.",
+      "evidence_note": "Only describe tools/offers actually published on the Black Arrow site."
     },
     "objection_nurture": {
       "label": "Objection Handling / Audience Nurture",
