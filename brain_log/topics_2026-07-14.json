@@ -8,5 +8,16 @@
       "News recap of a CRM platform update (no new verifiable story found this cycle to responsibly interpret)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "GoHighLevel's 2026 AI Employee bundle (Voice AI + Conversation AI + AI Receptionist) collapses instant call/chat answering into a default feature, what shops must set up before switching it on",
+    "score": 88,
+    "rejected": [
+      "Google Business Profile messaging auto-disable + public response-time badge (score 82, already shipped in a prior post)",
+      "Meta's new 'Business Agent' AI closing sales via WhatsApp/IG/Messenger (score 75, weaker fit for home-service speed-to-lead niche)",
+      "Instagram DM-shares-are-the-top-ranking-signal (score 60, about content strategy, not the owner's business)",
+      "Google Business Profile Q&A discontinuation in favor of Gemini 'Ask Maps' (score 58, weaker tie to revenue conversion)"
+    ],
+    "category": "news_industry"
   }
 ]

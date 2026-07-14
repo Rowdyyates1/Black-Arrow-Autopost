@@ -21,5 +21,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Interpreting a third-party platform update (GoHighLevel's 2026 AI Employee bundle) and citing widely referenced lead-response-time research, not a Black Arrow build or proprietary data",
+    "claims": [
+      {
+        "text": "GoHighLevel bundled Voice AI, Conversation AI, and an AI Appointment Setter into one AI Employee plan, adding AI Receptionist and AI Social Media Manager roles, in 2026",
+        "status": "third_party"
+      },
+      {
+        "text": "Most shops still send after-hours calls to voicemail and let weekend leads sit until the next business day",
+        "status": "qualified"
+      },
+      {
+        "text": "An automated answering tool without defined qualifying questions, a handoff point, and CRM sync will still lose the lead even if it answers fast",
+        "status": "rewritten"
+      },
+      {
+        "text": "Answering a lead in under 5 minutes is tied to close rates roughly double those of slower follow-up, per lead response research",
+        "status": "qualified"
+      }
+    ]
   }
 ]

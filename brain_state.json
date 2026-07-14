@@ -59,6 +59,11 @@
       "date": "2026-07-14",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-14",
+      "category": "news_industry",
+      "format": "reel"
     }
   ],
   "site_hash": "94ff171d1ddf5fd8",
