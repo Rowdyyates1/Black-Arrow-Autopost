@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Responding within 5 minutes keeps a lead warm versus a slower response",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Confirming appointments 24 hours out and the morning of reduces no-shows",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Skipping review requests and reactivation reminders leaves paid-for leads cold",
+        "status": "general_pattern"
+      },
+      {
+        "text": "The five-link chain maps to Black Arrow's four systems (acquisition, conversion, operations, retention)",
+        "status": "verified"
+      }
+    ]
+  }
+]
