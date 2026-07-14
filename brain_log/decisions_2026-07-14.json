@@ -78,5 +78,45 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Reels still lead reach for cold audiences, and this interprets a genuinely new, uncovered CRM/AI platform shift through the account's core speed-to-lead lens with a concrete pre-launch checklist instead of a generic feature recap."
+  },
+  {
+    "timestamp": "2026-07-14T19:03:32.656335Z",
+    "category": "education_informative",
+    "category_label": "Education / Informative",
+    "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings \u2014 worth paying for.",
+    "format_bias": "reel",
+    "evidence_note": "Tactics must be logically airtight and actually executable as described.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Education / Informative' was the most under-served eligible category (target 20%, recent 15%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.231,
+      "education_informative": 0.154,
+      "demonstrations_walkthroughs": 0.154,
+      "news_industry": 0.154,
+      "third_party_research": 0.077,
+      "contrarian_pov": 0.077,
+      "offers_lead_magnets": 0.077,
+      "objection_nurture": 0.077
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Reels still lead reach for cold audiences in 2026, and this tests an unclaimed channel (the website contact form, not calls or texts) with a friend-run, logically sound audit and a concrete fix an owner can ship this week."
   }
 ]

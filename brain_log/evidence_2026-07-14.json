@@ -44,5 +44,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Industry-standard observation about lead response behavior, not a proprietary or independently verified statistic. The 60-second confirmation is a recommended fix, not a guaranteed outcome.",
+    "claims": [
+      {
+        "text": "Most contact forms trigger only an internal notification to the business, with no customer-facing confirmation sent back",
+        "status": "qualified"
+      },
+      {
+        "text": "Faster response speed is widely associated with higher lead conversion in service businesses",
+        "status": "rewritten"
+      },
+      {
+        "text": "An automatic email and text sent within 60 seconds of a form submission closes the customer-facing confirmation gap",
+        "status": "demonstration"
+      }
+    ]
   }
 ]

@@ -19,5 +19,15 @@
       "Google Business Profile Q&A discontinuation in favor of Gemini 'Ask Maps' (score 58, weaker tie to revenue conversion)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Web form speed-to-lead test: audit how fast your own contact form replies to a submitted lead, then fix it with an instant auto-confirmation (email + text under 60 seconds)",
+    "score": 89,
+    "rejected": [
+      "6-touch new-lead follow-up cadence (overlaps too closely with the quote follow-up and reactivation cadences already shipped)",
+      "GoHighLevel CRM changelog recap (fits News category better, not today's Education slot)",
+      "Google Business Profile messaging channel speed test (feature rollout and evidence too thin to state confidently)"
+    ],
+    "category": "education_informative"
   }
 ]
