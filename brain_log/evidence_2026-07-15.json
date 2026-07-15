@@ -17,5 +17,32 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "The 7x/60x figures come directly from the Harvard Business Review study 'The Short Life of Online Sales Leads' (Oldroyd, McElheran, Elkington, 2011, n=2,241 US firms). The one-hour response rate benchmark is a generalized industry pattern rather than a single verified statistic, presented as a qualified estimate rather than an exact figure.",
+    "claims": [
+      {
+        "text": "Harvard Business Review published a study auditing 2,241 US companies that submitted test web leads and timed the response of each",
+        "status": "third_party"
+      },
+      {
+        "text": "Firms that made contact with a lead within an hour were nearly seven times more likely to qualify it than firms that waited just one hour longer",
+        "status": "third_party"
+      },
+      {
+        "text": "Firms that waited a full day to respond were more than sixty times less likely to qualify the same lead compared to fast responders",
+        "status": "third_party"
+      },
+      {
+        "text": "Industry benchmarking puts the one-hour lead response rate for service businesses below one in five",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow builds automated response systems that engage every new lead within minutes",
+        "status": "verified"
+      }
+    ]
   }
 ]

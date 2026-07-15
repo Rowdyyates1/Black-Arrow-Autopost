@@ -9,5 +9,15 @@
       "Named framework version of the four systems (already shipped)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "HBR's 'Short Life of Online Sales Leads' study (2,241 companies, 7x/60x qualification odds) used as third-party evidence for speed-to-lead, tied to industry benchmarking on response times and Black Arrow's automated response capability",
+    "score": 91,
+    "rejected": [
+      "HubSpot 2026 short-form video/content trend recap \u2014 interesting but not a revenue action for the owner",
+      "Generic 'immediate response' customer-service stat \u2014 too close to a stat already used in a past post",
+      "Instagram carousel-vs-reels algorithm update \u2014 meta content about posting strategy, not the owner's business"
+    ],
+    "category": "third_party_research"
   }
 ]

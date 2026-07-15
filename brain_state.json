@@ -74,9 +74,14 @@
       "date": "2026-07-15",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-15",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
-  "site_hash": "94ff171d1ddf5fd8",
+  "site_hash": "cb5e67b91474febe",
   "eligibility_overrides": {},
   "memory": {}
 }
