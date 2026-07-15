@@ -78,5 +78,45 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Fills the under-served Third-Party Research slot with a fresh, rigorously sourced academic study (distinct from the HubSpot stat already used), delivered as the carousel format research shows wins saves for authority/educational content."
+  },
+  {
+    "timestamp": "2026-07-15T18:56:11.622151Z",
+    "category": "demonstrations_walkthroughs",
+    "category_label": "Demonstrations / System Walkthroughs",
+    "guidance": "Show, in a clearly-labeled illustrative way, how a Black Arrow system works (e.g. an automated lead follow-up sequence, missed-call text-back, review request flow).",
+    "format_bias": "slideshow",
+    "evidence_note": "Label as an example/demonstration. NEVER imply it is a specific client's live account or claim a performance result.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Demonstrations / System Walkthroughs' was the most under-served eligible category (target 15%, recent 12%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.188,
+      "demonstrations_walkthroughs": 0.125,
+      "news_industry": 0.125,
+      "third_party_research": 0.125,
+      "contrarian_pov": 0.062,
+      "offers_lead_magnets": 0.062,
+      "objection_nurture": 0.062
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Fills the under-served Demonstrations/System Walkthroughs slot with an unclaimed stage (the no-show, not the missed call or the quote) using the carousel format research shows wins saves and depth for B2B educational content."
   }
 ]

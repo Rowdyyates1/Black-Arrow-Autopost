@@ -44,5 +44,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Not a client account.",
+    "claims": [
+      {
+        "text": "Automated CRM flagging of a no-show and a timed multi-touch SMS recovery sequence is a capability Black Arrow's Operations and Retention systems build",
+        "status": "verified"
+      },
+      {
+        "text": "The specific timing (10 min, 2 hr, 24 hr) and message wording shown",
+        "status": "illustrative"
+      },
+      {
+        "text": "A no-show is an open lead until it's marked closed",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

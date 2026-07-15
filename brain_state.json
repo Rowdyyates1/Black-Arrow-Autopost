@@ -79,6 +79,11 @@
       "date": "2026-07-15",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-15",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
   "site_hash": "cb5e67b91474febe",

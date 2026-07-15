@@ -19,5 +19,15 @@
       "Instagram carousel-vs-reels algorithm update \u2014 meta content about posting strategy, not the owner's business"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Automated no-show recovery sequence, shown as a labeled illustrative CRM workflow (Demonstrations/System Walkthroughs)",
+    "score": 87,
+    "rejected": [
+      "After-hours website form-fill instant response demo (overlaps too closely with missed-call and DM-reply demos already shipped)",
+      "GoHighLevel Conversation AI latency improvement as news (better suited to News/Industry Intelligence slot, already covered recently)",
+      "Estimate/quote follow-up demonstration (too close to the quote-reminder video and 4-touch cadence carousel already shipped)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
