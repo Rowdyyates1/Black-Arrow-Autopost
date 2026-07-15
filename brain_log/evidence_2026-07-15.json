@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Specific response-rate statistic removed. No single verifiable public figure was cited, so the claim was rewritten as a directional industry pattern.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Fast response converts meaningfully better than slow response, making follow-up speed a higher-leverage fix than added ad spend in that quadrant",
+        "status": "verified"
+      },
+      {
+        "text": "The 2x2 lead-volume/response-speed framework as a way to diagnose whether the bottleneck is acquisition or follow-up",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
