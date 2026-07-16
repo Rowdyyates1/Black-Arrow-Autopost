@@ -8,5 +8,16 @@
       "Google Business Profile Q&A discontinuation and messaging SLA - overlaps closely with a GBP response-time post already shipped"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "EZ Texting's 2026 Consumer Texting Behavior Report (959 US consumers): most people check a new text within 15 minutes and nearly 70% expect a reply within an hour, even from a business they've never used, reframed through Black Arrow's speed-to-lead lens with a this-week reply-speed audit.",
+    "score": 90,
+    "rejected": [
+      "SimpleTexting's aggregated 2026 SMS stats on check-time speed (lower-rigor blog aggregation vs. a fielded annual survey, more redundant with prior HubSpot post)",
+      "Numa's 'up to 80% of callers choose texting over voicemail' stat (self-reported customer data from a competing phone-answering vendor, less citable)",
+      "A meta post about carousel-vs-reel format performance (useful for internal strategy, not a usable tactic for the audience)",
+      "Older Twilio/ZipWhip texting-preference data from 2016-2020 (stale, not current per today's research standard)"
+    ],
+    "category": "third_party_research"
   }
 ]

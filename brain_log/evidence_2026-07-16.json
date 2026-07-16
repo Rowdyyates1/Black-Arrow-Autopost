@@ -21,5 +21,32 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Consumer behavior stats sourced from EZ Texting's 2026 Consumer Texting Behavior Report (959 US consumers). Lead-response multiplier sourced from the Kellogg School/Harvard Business Review lead response management study, cited generally without unverifiable business-specific figures.",
+    "claims": [
+      {
+        "text": "87% of consumers check a new text within 15 minutes, 32% immediately",
+        "status": "third_party"
+      },
+      {
+        "text": "Nearly 70% of consumers expect a business to respond to a text within an hour",
+        "status": "third_party"
+      },
+      {
+        "text": "65% of consumers prefer appointment reminders by text over any other message type",
+        "status": "third_party"
+      },
+      {
+        "text": "Responding to a lead within 5 minutes makes you 21x more likely to qualify it than waiting 30 minutes",
+        "status": "rewritten"
+      },
+      {
+        "text": "Owners should audit their last 20 leads for reply speed this week",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

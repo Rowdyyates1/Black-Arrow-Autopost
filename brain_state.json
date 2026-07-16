@@ -89,9 +89,14 @@
       "date": "2026-07-16",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-16",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
-  "site_hash": "cb5e67b91474febe",
+  "site_hash": "5f37748ccb21c67d",
   "eligibility_overrides": {},
   "memory": {}
 }
