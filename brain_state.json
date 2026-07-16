@@ -84,6 +84,11 @@
       "date": "2026-07-15",
       "category": "demonstrations_walkthroughs",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-16",
+      "category": "news_industry",
+      "format": "reel"
     }
   ],
   "site_hash": "cb5e67b91474febe",

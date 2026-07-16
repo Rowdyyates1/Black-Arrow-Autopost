@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Meta launched Business Agent globally across WhatsApp, Instagram, and Messenger",
+        "status": "verified"
+      },
+      {
+        "text": "the agent can answer customer questions, recommend products, book appointments, and qualify sales leads",
+        "status": "verified"
+      },
+      {
+        "text": "the agent does not include a CRM, lead routing, or a follow-up sequence after the conversation ends",
+        "status": "qualified"
+      },
+      {
+        "text": "responding within 5 minutes meaningfully improves the odds of converting a lead",
+        "status": "qualified"
+      }
+    ]
+  }
+]

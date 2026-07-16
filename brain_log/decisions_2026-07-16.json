@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-07-16T02:28:37.983002Z",
+    "category": "news_industry",
+    "category_label": "News / Industry Intelligence",
+    "guidance": "Interpret a genuinely recent, relevant marketing/software development for service-business owners: what it means and what they should do. Be the interpreter, not a reposter.",
+    "format_bias": "reel",
+    "evidence_note": "Only if current and verifiable from your research. Cite the source. Distinguish fact from interpretation.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'News / Industry Intelligence' was the most under-served eligible category (target 15%, recent 12%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.235,
+      "education_informative": 0.176,
+      "demonstrations_walkthroughs": 0.176,
+      "news_industry": 0.118,
+      "third_party_research": 0.118,
+      "contrarian_pov": 0.059,
+      "offers_lead_magnets": 0.059,
+      "objection_nurture": 0.059
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Meta's global Business Agent launch is genuine, current news untouched by this account, and reels still lead reach for cold audiences, so this interprets the platform shift through the speed-to-lead gap it doesn't solve instead of just recapping the feature."
+  }
+]

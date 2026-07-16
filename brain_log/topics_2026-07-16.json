@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Meta's global launch of Business Agent (free AI auto-responder in IG/WhatsApp/Messenger DMs), interpreted through the gap it leaves open: no CRM, no lead routing, no human handoff for hot leads",
+    "score": 89,
+    "rejected": [
+      "Instagram algorithm ranking signals (DM sends, watch time, saves) - already covered repeatedly across past posts",
+      "GoHighLevel calendar/service-booking edit feature - too platform-niche with thin actionability for a general owner audience",
+      "Google Business Profile Q&A discontinuation and messaging SLA - overlaps closely with a GBP response-time post already shipped"
+    ],
+    "category": "news_industry"
+  }
+]
