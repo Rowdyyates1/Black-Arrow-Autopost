@@ -21,5 +21,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_citation",
+    "disclosure": "Response time statistics reflect widely cited industry research on lead follow-up speed, not an internally measured Black Arrow metric.",
+    "claims": [
+      {
+        "text": "Industry research indicates answering a hot lead within 5 minutes can roughly double close rates",
+        "status": "rewritten"
+      },
+      {
+        "text": "Only 17% of service businesses respond to new leads within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Hot/Warm/Cold lead triage framework and matching response protocols",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

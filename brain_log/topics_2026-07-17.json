@@ -9,5 +9,15 @@
       "Instagram DM auto-reply feature (already covered)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Lead Temperature Framework: sort every lead into Hot/Warm/Cold and match response speed to the bucket, not a one-size sequence",
+    "score": 88,
+    "rejected": [
+      "Diagnosis-order framework (invest in speed before ads) - too close to prior 'owners diagnose marketing backwards' post",
+      "Lead value equation (cost x close probability x speed multiplier) - too numeric/abstract for a one-week action",
+      "Named variant of the four-system method - already shipped as self-scoring model and forensic diagnostic"
+    ],
+    "category": "authority_frameworks"
   }
 ]

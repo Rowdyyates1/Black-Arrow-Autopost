@@ -99,9 +99,14 @@
       "date": "2026-07-17",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
-  "site_hash": "dca4f531151eac34",
+  "site_hash": "3a1e00dc8d4ad093",
   "eligibility_overrides": {},
   "memory": {}
 }
