@@ -40,5 +40,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Carrier enforcement timeline described in general terms (2025) rather than a specific month, since exact rollout dates and enforcement intensity vary by carrier.",
+    "claims": [
+      {
+        "text": "Major U.S. carriers block unregistered A2P 10DLC business SMS entirely as of 2025, with no error shown to the sender",
+        "status": "rewritten"
+      },
+      {
+        "text": "Registration requires brand and campaign approval through The Campaign Registry (TCR)",
+        "status": "third_party"
+      },
+      {
+        "text": "Missed-call text-backs, appointment reminders, and review requests are automated business SMS subject to this rule",
+        "status": "third_party"
+      }
+    ]
   }
 ]

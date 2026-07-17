@@ -19,5 +19,16 @@
       "Named variant of the four-system method - already shipped as self-scoring model and forensic diagnostic"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "A2P 10DLC carrier SMS-blocking rule as an unclaimed, verified compliance check tied to speed-to-lead and follow-up automation",
+    "score": 90,
+    "rejected": [
+      "Monday/lunch-hour missed-call timing patterns (weaker, less authoritative stat sourcing)",
+      "Instagram Trial Reels algorithm feature (off-brand, not tied to revenue systems)",
+      "GoHighLevel shared-domain SMS sender-reputation ramp-up (too agency-internal, low owner actionability)",
+      "Missed-call text-back general ROI stat (already extensively covered by this account)"
+    ],
+    "category": "education_informative"
   }
 ]
