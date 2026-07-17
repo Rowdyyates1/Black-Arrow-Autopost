@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from Google Business Profile public documentation and third-party reporting",
+    "claims": [
+      {
+        "text": "Google Business Profile has a chat/messaging feature that is not enabled by default",
+        "status": "verified"
+      },
+      {
+        "text": "Businesses must reply within 24 hours or Google can automatically disable chat",
+        "status": "verified"
+      },
+      {
+        "text": "Owners can set an automated welcome message that fires when a chat starts",
+        "status": "verified"
+      },
+      {
+        "text": "Example welcome message script",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

@@ -94,9 +94,14 @@
       "date": "2026-07-16",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-17",
+      "category": "education_informative",
+      "format": "reel"
     }
   ],
-  "site_hash": "5f37748ccb21c67d",
+  "site_hash": "dca4f531151eac34",
   "eligibility_overrides": {},
   "memory": {}
 }
