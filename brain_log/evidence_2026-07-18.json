@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time and close-rate figures reflect widely cited lead response management research and are presented as general industry benchmarks, not Black Arrow's proprietary data.",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses respond to a new lead within an hour, according to industry research.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within 5 minutes roughly doubles close rate compared to slower response times, per industry studies.",
+        "status": "rewritten"
+      },
+      {
+        "text": "The 5-gate customer journey map (click, response, booking, show-up, return) as a diagnostic framework",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

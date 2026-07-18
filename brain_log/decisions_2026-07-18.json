@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-07-18T02:21:51.600460Z",
+    "category": "authority_frameworks",
+    "category_label": "Authority / Frameworks",
+    "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+    "format_bias": "carousel",
+    "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Authority / Frameworks' was the most under-served eligible category (target 25%, recent 23%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.2,
+      "demonstrations_walkthroughs": 0.15,
+      "news_industry": 0.15,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.05,
+      "objection_nurture": 0.05
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.227,
+      "education_informative": 0.227,
+      "demonstrations_walkthroughs": 0.136,
+      "news_industry": 0.136,
+      "third_party_research": 0.136,
+      "contrarian_pov": 0.045,
+      "offers_lead_magnets": 0.045,
+      "objection_nurture": 0.045
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels currently lead saves and depth for authority/educational B2B content, and this ships an unclaimed journey-stage mental model (5 customer-lifecycle gates) distinct from the four-system scorecard and forensic diagnostic already covered."
+  }
+]
