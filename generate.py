@@ -16,6 +16,16 @@ Requires: ANTHROPIC_API_KEY.
 Optional: MODEL (default claude-sonnet-5), POSTS_PER_RUN (default 1),
           IG_USER_ID + IG_ACCESS_TOKEN (to read past performance).
 Prints a JSON array of post specs to stdout.
+
+v2 changes (2026-07-18):
+  * Fixed keyword system: TOOLS / TRIAL / SCALE only. No more per-post invented
+    keywords.
+  * Single DM mention per post (the CTA line itself; never a second "DM the
+    keyword to start" style instruction).
+  * Done-for-you services: NO pricing anywhere, ever. Meeting first.
+  * Offer stack context: free tools are lead magnets; the platform
+    (blackarrow.ltd/app) has a 14-day no-card trial and a give-a-month-get-a-
+    month referral; /app added to the default company pages.
 """
 import os, json, re, sys, html, urllib.parse, urllib.request
 
@@ -34,15 +44,16 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # --------------------------------------------------------------------------- #
 def _company_pages():
     """Which pages the Brain reads as the source of truth. Editable via
-    brain_config.json -> "company_pages". Defaults include /tools so new lead
-    magnets are picked up automatically."""
+    brain_config.json -> "company_pages". Defaults include /tools and /app so
+    new lead magnets and the platform are picked up automatically."""
     try:
         cfg = json.load(open(os.path.join(HERE, "brain_config.json")))
         if cfg.get("company_pages"):
             return cfg["company_pages"]
     except Exception:
         pass
-    return ["https://blackarrow.ltd", "https://blackarrow.ltd/tools"]
+    return ["https://blackarrow.ltd", "https://blackarrow.ltd/tools",
+            "https://blackarrow.ltd/app"]
 
 def _fetch_one(url, cap=3000):
     try:
@@ -57,9 +68,10 @@ def _fetch_one(url, cap=3000):
         return f"(could not fetch: {e})"
 
 def fetch_site():
-    """Read every configured company page (homepage + /tools by default) so the
-    Brain sees current offers, tools, and lead magnets — and notices new ones."""
-    return "\n\n".join(f"[{u}]\n{_fetch_one(u)}" for u in _company_pages())[:8000]
+    """Read every configured company page (homepage + /tools + /app by default)
+    so the Brain sees current offers, tools, and lead magnets — and notices new
+    ones."""
+    return "\n\n".join(f"[{u}]\n{_fetch_one(u)}" for u in _company_pages())[:10000]
 
 def fetch_media_struct():
     """Structured recent-post metrics for the Brain's attribution (Phase C)."""
@@ -120,8 +132,29 @@ follows. Build trust by giving away real, usable value — specific things an
 owner can do this week to make more money — then convert that trust into DM
 conversations that can become clients. Nurture first. Sell second.
 
-CONTENT MIX: most posts are pure free value. But regularly (about 1 in 4) teach
-what Black Arrow actually builds and why it works — the four systems
+THE OFFER STACK (what the CTAs point at — read the live site context for the
+current details, but these are the fixed rails):
+1. FREE TOOLS = LEAD MAGNETS (blackarrow.ltd/tools). Everything on that page is
+   free value and is used as a lead magnet: the calculators, the audits, the AI
+   builders, and Black Arrow OS (the free pocket CRM tool). No signup, no card.
+   Feature them generously — they ARE the top of the funnel.
+2. THE PLATFORM (blackarrow.ltd/app). The all-in-one Black Arrow platform: CRM,
+   unified inbox, two-way texting, booking, quiz funnels, automated missed-call
+   callbacks, review collection, win-backs, referral tracking, revenue
+   reporting. Promote with its real offers: 14-day free trial, full access, no
+   card needed, cancel anytime; and the referral deal (refer a business, when
+   they subscribe you both get a free month, tracked automatically).
+3. DONE-FOR-YOU SERVICES. Black Arrow builds the whole system for clients.
+   HARD RULE: NEVER state, estimate, or hint at pricing for done-for-you
+   services — no dollar amounts, no ranges, no ad-spend tiers, no "starting
+   at". The only path is: request a meeting, Black Arrow diagnoses the
+   pipeline, then scope and pricing are discussed there. Requests are reviewed
+   personally with a response within one business day.
+
+CONTENT MIX: most posts are pure free value. Lead-magnet posts featuring the
+free tools and the platform's free trial are a first-class category — cycle
+them in regularly (the category system handles ratios). Regularly (about 1 in
+4) teach what Black Arrow actually builds and why it works — the four systems
 (acquisition, instant/automated follow-up, CRM operations, retention), the
 under-5-minute speed-to-lead advantage, missed-call recovery, review and
 reactivation systems. People can only hire you for what they understand, so
@@ -170,14 +203,22 @@ COPY & PSYCHOLOGY:
   built by actually helping. Then the CTA earns the DM.
 - Every post ends by inviting a DM to start a conversation (see CTA rules).
 
-CTA RULES — one DM call to action per post, tied to the topic, using a single
-relevant keyword. The account is the sender, so "DM" means DMing this account.
-NEVER name a person. Only "Black Arrow" or "the Black Arrow team". Shape (write
-your own; match the keyword to the post's topic):
-- "Want fast lead-nurture automations running in your business? DM 'SPEED'."
-- "Want this exact follow-up system built for your shop? DM 'SYSTEM'."
-- "Want us to find where your leads are leaking? DM 'LEAKS'."
-Never use "link in bio". Exactly one CTA per post.
+CTA RULES — exactly one DM call to action per post, and the account uses ONLY
+THREE KEYWORDS, ever. Do not invent new keywords. Route by intent:
+- TOOLS  -> any free tool / lead magnet / calculator / Black Arrow OS.
+- TRIAL  -> the platform: the 14-day no-card free trial or the referral deal.
+- SCALE  -> done-for-you: the reader wants Black Arrow to build it for them
+            (leads to a meeting request; remember: no pricing in the post).
+Write the CTA as a natural line that ends with the keyword in quotes, e.g.:
+- "The calculator takes four numbers. DM 'TOOLS'."
+- "See it with your own pipeline. 14 days free. DM 'TRIAL'."
+- "Want it built around your numbers? DM 'SCALE'."
+THE KEYWORD APPEARS EXACTLY ONCE in the entire post (caption + on-graphic text
+combined, counting both). The DM line IS the instruction. NEVER add a second
+instruction like "DM the keyword to start", "send us the word above", or any
+restatement of how to DM. One mention. Never use "link in bio". The account is
+the sender, so "DM" means DMing this account. NEVER name a person. Only "Black
+Arrow" or "the Black Arrow team".
 
 EVIDENCE GOVERNANCE — every claim must be grounded in one of these classes:
 - verified_company_fact / verified_company_capability (only from the Black Arrow
@@ -192,6 +233,7 @@ numbers, invented client names or testimonials, screenshots implied to be a real
 client account, invented case studies or campaign results, invented founder stories
 or quotes, claims that Black Arrow produced a third-party study's result, unsupported
 guarantees, or any specific outcome Black Arrow "achieved" without verified evidence.
+Also prohibited: any price, cost range, or budget tier for done-for-you services.
 If a useful angle would need a prohibited claim, REWRITE it into a supportable form
 (a labeled demonstration, a qualified citation, or an honest general pattern) rather
 than dropping it. Demonstrations/mockups must carry a short disclosure such as
@@ -207,8 +249,10 @@ the research says is working.
 Every caption is formatted to be scannable, never a wall of text. Use real line
 breaks (\n): a punchy first line, then 2-4 short chunks separated by a blank line
 (\n\n), each chunk one or two short sentences. Then the ONE keyword DM CTA on its
-own line. Then EXACTLY 5 relevant hashtags on the final line. Numbered steps get
-their own lines. Keep it teaching something genuinely useful.
+own line (keyword must be TOOLS, TRIAL, or SCALE; it appears once in the whole
+post and is never followed by a second "how to DM" instruction). Then EXACTLY 5
+relevant hashtags on the final line. Numbered steps get their own lines. Keep it
+teaching something genuinely useful.
 
 Every post ALSO includes an "evidence" object recording how its claims are grounded:
 "evidence": {"class": "<evidence class>", "disclosure": "<short label or empty>",
@@ -224,7 +268,14 @@ IMAGE:
   quote params: {"white","muted"}
   myth  params: {"myth","truth"}
   list  params: {"kicker","title","items":[4 short items]}
-  promo params: {"white","muted"}
+  promo params: {"kicker","white","muted","sub","cta"}
+    kicker: short label like "Free tool" or "14 days free" (NEVER a DM
+    instruction — the cta pill is the card's single DM mention).
+    sub: one supporting line about the specific offer.
+    cta: 'DM "TOOLS"' or 'DM "TRIAL"' or 'DM "SCALE"'.
+    If the caption already contains the keyword CTA, the on-card cta pill counts
+    as the graphic's mention — do not also write the keyword in the caption
+    body a second time; put it in ONE place only.
 
 CAROUSEL (5-8 slides, hook first, real value in the middle, DM CTA last):
 {"format":"carousel","slides":[
@@ -232,10 +283,10 @@ CAROUSEL (5-8 slides, hook first, real value in the middle, DM CTA last):
   {"kind":"point","params":{"n":"01","kicker","title","sub"}},
   {"kind":"stat","params":{"kicker","big","sub"}},
   {"kind":"quote","params":{"white","muted"}},
-  {"kind":"cta","params":{"white":"one short question hook","button":"DM \"WORD\"","foot":"one supporting line"}}],
+  {"kind":"cta","params":{"white":"one short question hook","button":"DM \"TOOLS|TRIAL|SCALE\"","foot":"one supporting line that does NOT mention DMing"}}],
  "caption":"...","rationale":"..."}
 The cta slide has ONE call to action only: the button. Do not repeat "DM me"
-elsewhere on that slide. Pick a single memorable keyword for the DM.
+anywhere else on that slide (the foot line supports, it never re-instructs).
 
 SLIDESHOW (the same slides as a carousel, but rendered as a vertical VIDEO with
 on-brand music and posted as a reel). Choose this over a carousel when the topic
@@ -250,12 +301,16 @@ REEL (animated text; hook lands in ~1s; open a loop, close it):
   "kicker":"SHORT LABEL",
   "hook":["punchy line 1","line 2"],
   "beats":[{"kicker":"","lines":["short","short"],"mark":"check?"}, ... 3-5 beats],
-  "end":{"lines":["payoff line","second line"],"cta":"DM me"},
+  "end":{"lines":["payoff line","second line"],"cta":"DM \"TOOLS|TRIAL|SCALE\""},
   "audio":"one of: dark | minimal premium | cinematic tension | driving bold"},
  "caption":"...","rationale":"..."}
-Choose "audio" to match the post's emotion AND Black Arrow's brand (confident,
-premium, a little dark). The renderer lays a track of that mood under the reel.
-Keep every on-screen line to a few words. Deliver the actual tip inside the reel.
+The end card shows the cta pill as its single call to action. If the cta pill
+carries the keyword, the caption's CTA line should carry it instead and the end
+card cta can be a short action phrase; either way the keyword appears exactly
+once across the whole post. Choose "audio" to match the post's emotion AND
+Black Arrow's brand (confident, premium, a little dark). The renderer lays a
+track of that mood under the reel. Keep every on-screen line to a few words.
+Deliver the actual tip inside the reel.
 """
 
 def _call(messages, tools=None, max_tokens=6000, system_override=None):
@@ -331,6 +386,14 @@ Then return the FINAL posts as a JSON array in the exact same schema. Rules:
   form: a clearly-labeled demonstration, a qualified third-party citation, or an
   honest general pattern. Never delete the post, never fabricate. Fill each post's
   "evidence" object honestly and mark any rewritten claim status "rewritten".
+- PRICING CHECK: done-for-you services never carry a price, range, or budget
+  tier. If a draft mentions one, strip it and route the reader to a meeting.
+- KEYWORD CHECK: the only DM keywords that exist are TOOLS, TRIAL, and SCALE.
+  Replace any other keyword with the right one of the three (TOOLS = free
+  tools/lead magnets, TRIAL = the platform/free trial/referral, SCALE =
+  done-for-you). The keyword must appear EXACTLY ONCE across the caption and
+  all on-graphic text combined. Delete any second mention and any "DM the
+  keyword to start" style re-instruction — the CTA line is the instruction.
 - The post must be worth paying for — real steps/numbers/scripts, not vague tips.
 - Keep it unmistakably Black Arrow: confident, premium, a little dark, useful.
 - Never name a person. Only "Black Arrow" or "the Black Arrow team".

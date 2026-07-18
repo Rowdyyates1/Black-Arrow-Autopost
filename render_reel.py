@@ -9,13 +9,21 @@ spec = {
      {"kicker": "Business A", "lines": ["Texts back in", "90 seconds."], "emph": 1},
      ...
   ],
-  "end":   {"lines": ["Same lead.", "Different system."], "cta": 'Comment "SCORE"'}
+  "end":   {"lines": ["Same lead.", "Different system."], "cta": 'DM "TOOLS"'}
 }
 Needs ffmpeg on PATH. Returns the output mp4 path.
+
+v2 changes (2026-07-18):
+  * Checkmarks render through brand.check_mark() — supersampled, anti-aliased,
+    round-capped. The old two-raw-lines check read as a pixel drawing.
+  * A beat with mark:"check" now reserves space: the check sits in its own band
+    ABOVE the text block (which shifts down). It can no longer overlap the copy.
+  * The end card carries ONE call to action: the keyword pill. The extra
+    "DM the keyword to start" box is gone — the keyword IS the instruction.
 """
 import os, subprocess, tempfile, glob, random
 from PIL import Image, ImageDraw
-import brand  # reuse fonts + colors + triangle
+import brand  # reuse fonts + colors + triangle + check_mark
 
 MUSIC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "music")
 
@@ -94,6 +102,10 @@ def _layout(d, lines, big, small):
         out.append((fs, subs, col, int(fs * 1.18)))
     return out
 
+def _block_height(d, lines, big=74, small=46):
+    laid = _layout(d, lines, big, small)
+    return sum(lh * len(subs) for _, subs, _, lh in laid)
+
 def _draw_scene(d, cx, lines, a, dy, center=650, big=74, small=46):
     laid = _layout(d, lines, big, small)
     total = sum(lh * len(subs) for _, subs, _, lh in laid)
@@ -113,7 +125,9 @@ def _scenes_from_spec(spec):
         scenes.append((2.6, b.get("kicker", ""), lines, b.get("mark")))
     end = spec.get("end", {})
     scenes.append((3.2, "", [(l, "big") for l in end.get("lines", [])], "triangle"))
-    return scenes, end.get("cta", 'Comment "SCORE"')
+    return scenes, end.get("cta", 'DM "TOOLS"')
+
+CHECK_SIZE = 84          # px, on the 720x1280 canvas
 
 def render_reel(spec, out_path):
     scenes, cta = _scenes_from_spec(spec)
@@ -137,15 +151,26 @@ def render_reel(spec, out_path):
                 a = max(0.0, min(intro, outro))
                 dy = (1-intro) * 45
                 _kicker(d, cx, 470+dy, kick, a)
-                if mark == "check":
-                    col = _blend(WHITE, a)
-                    d.line([(cx-30, 770+dy),(cx-4,796+dy)], fill=col, width=9)
-                    d.line([(cx-4,796+dy),(cx+38,752+dy)], fill=col, width=9)
                 if mark == "triangle":
                     brand.triangle(d, cx, 640+dy, 90, _blend(WHITE, a))
-                    _ctext(d, cx, 760+dy, cta, brand.font(_fit(d, cta, 44)), WHITE, a)
-                    d.rounded_rectangle([cx-260, 900+dy, cx+260, 1010+dy], radius=16, outline=_blend(WHITE,a), width=3)
-                    _ctext(d, cx, 935+dy, "DM the keyword to start", brand.font(30), MUTED, a)
+                    # ONE call to action: the keyword pill. The keyword is the
+                    # instruction — never add "DM the keyword to start" under it.
+                    fcta = brand.font(_fit(d, cta, 48))
+                    tw = sum(d.textlength(ch, font=fcta) for ch in cta)
+                    x0, x1 = cx - tw/2 - 52, cx + tw/2 + 52
+                    d.rounded_rectangle([x0, 810+dy, x1, 930+dy], radius=16,
+                                        outline=_blend(WHITE, a), width=3)
+                    _ctext(d, cx, 842+dy, cta, fcta, WHITE, a)
+                elif mark == "check":
+                    # the check gets its own fixed band below the kicker, and
+                    # the text block starts BELOW that band — a guaranteed gap,
+                    # so the check can never sit on top of the copy.
+                    check_cy = 556 + CHECK_SIZE / 2                # own band
+                    text_top = check_cy + CHECK_SIZE / 2 + 40      # 40px gap
+                    bh = _block_height(d, lines)
+                    brand.check_mark(img, cx, check_cy + dy, CHECK_SIZE,
+                                     color=WHITE, alpha=a)
+                    _draw_scene(d, cx, lines, a, dy, center=text_top + bh / 2)
                 else:
                     _draw_scene(d, cx, lines, a, dy)
                 break

@@ -2,7 +2,8 @@
   "_comment": "Black Arrow strategy config. Edit freely — no code changes needed. Ratios are strategic starting points, not quotas; the Brain balances toward them among ELIGIBLE categories and redistributes away from unavailable ones.",
   "company_pages": [
     "https://blackarrow.ltd",
-    "https://blackarrow.ltd/tools"
+    "https://blackarrow.ltd/tools",
+    "https://blackarrow.ltd/app"
   ],
   "_company_pages_note": "Pages the Brain reads as source-of-truth each run. Add any page with offers/tools/lead magnets so they get featured and monitored automatically.",
   "primary_objective": "balanced",
@@ -47,8 +48,8 @@
         "hypothesis": "A specific keyword DM CTA drives more DMs than a soft 'DM us'.",
         "options": ["keyword", "soft"],
         "instructions": {
-          "keyword": "End with a specific one-word DM keyword tied to the topic.",
-          "soft": "End with a softer, conversational invitation to DM."
+          "keyword": "End with the standard DM keyword for the post's intent (TOOLS, TRIAL, or SCALE).",
+          "soft": "End with a softer, conversational invitation to DM (still route to TOOLS, TRIAL, or SCALE if a keyword is used)."
         }
       },
       {
@@ -77,6 +78,7 @@
     "third_party_research": "problem_aware",
     "contrarian_pov": "solution_aware",
     "offers_lead_magnets": "high_intent",
+    "platform_promo": "high_intent",
     "objection_nurture": "product_aware",
     "verified_proof": "high_intent",
     "personal_founder": "solution_aware"
@@ -90,13 +92,14 @@
     "niche_keywords": [
       "speed to lead", "lead follow-up automation", "missed call text back",
       "CRM for contractors", "local service marketing", "review generation",
-      "database reactivation", "appointment reminders"
+      "database reactivation", "appointment reminders", "free CRM",
+      "all-in-one marketing platform", "lead magnet tools"
     ]
   },
   "categories": {
     "authority_frameworks": {
       "label": "Authority / Frameworks",
-      "target_ratio": 0.25,
+      "target_ratio": 0.15,
       "eligibility": "fully_eligible",
       "format_bias": "carousel",
       "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
@@ -104,7 +107,7 @@
     },
     "education_informative": {
       "label": "Education / Informative",
-      "target_ratio": 0.20,
+      "target_ratio": 0.15,
       "eligibility": "fully_eligible",
       "format_bias": "reel",
       "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings — worth paying for.",
@@ -112,7 +115,7 @@
     },
     "demonstrations_walkthroughs": {
       "label": "Demonstrations / System Walkthroughs",
-      "target_ratio": 0.15,
+      "target_ratio": 0.10,
       "eligibility": "fully_eligible",
       "format_bias": "slideshow",
       "guidance": "Show, in a clearly-labeled illustrative way, how a Black Arrow system works (e.g. an automated lead follow-up sequence, missed-call text-back, review request flow).",
@@ -120,7 +123,7 @@
     },
     "news_industry": {
       "label": "News / Industry Intelligence",
-      "target_ratio": 0.15,
+      "target_ratio": 0.08,
       "eligibility": "fully_eligible",
       "format_bias": "reel",
       "guidance": "Interpret a genuinely recent, relevant marketing/software development for service-business owners: what it means and what they should do. Be the interpreter, not a reposter.",
@@ -128,7 +131,7 @@
     },
     "third_party_research": {
       "label": "Third-Party Research / Market Evidence",
-      "target_ratio": 0.10,
+      "target_ratio": 0.07,
       "eligibility": "fully_eligible",
       "format_bias": "carousel",
       "guidance": "Use a credible external study to explain why a capability matters. Qualified language: 'Research suggests...', 'The study found...'.",
@@ -144,19 +147,27 @@
     },
     "offers_lead_magnets": {
       "label": "Offers / Lead Magnets",
-      "target_ratio": 0.05,
+      "target_ratio": 0.22,
       "eligibility": "fully_eligible",
       "format_bias": "image",
-      "guidance": "Feature a specific free tool or lead magnet actually published on the site (blackarrow.ltd/tools) or the Revenue Score, and invite a DM with a topic keyword. Lead with the value, never a hard sell.",
+      "guidance": "Feature ONE specific free tool actually published at blackarrow.ltd/tools (a calculator, an audit, an AI builder, or Black Arrow OS — the free pocket CRM). Everything on that page is free value used as a lead magnet. Lead with what the tool tells or gives the owner, cite its stated value where the site shows one, and end with the TOOLS keyword CTA. Rotate through the tools; never feature the same one twice in a row.",
       "evidence_note": "Only describe tools/offers actually published on the Black Arrow site."
+    },
+    "platform_promo": {
+      "label": "Platform / Free Trial Promo",
+      "target_ratio": 0.12,
+      "eligibility": "fully_eligible",
+      "format_bias": "reel",
+      "guidance": "Promote the Black Arrow platform (blackarrow.ltd/app) through its real offers: the 14-day full-access free trial (no card needed, cancel anytime) and the referral deal (refer a business, when they subscribe you both get a free month, tracked automatically). Angle it around a real pain the platform kills (tool sprawl, missed calls, slow follow-up, no revenue reporting). Lead with value, end with the TRIAL keyword CTA. Never invent features or plan pricing; point plan questions to the site.",
+      "evidence_note": "Only features and offers actually published on blackarrow.ltd/app. No invented pricing or results."
     },
     "objection_nurture": {
       "label": "Objection Handling / Audience Nurture",
-      "target_ratio": 0.05,
+      "target_ratio": 0.06,
       "eligibility": "fully_eligible",
       "format_bias": "carousel",
-      "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust.",
-      "evidence_note": "Transparent and honest; no unsupported guarantees."
+      "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust. For done-for-you cost objections: never give numbers; the honest answer is that pricing follows a diagnosis meeting.",
+      "evidence_note": "Transparent and honest; no unsupported guarantees, no done-for-you pricing."
     },
     "verified_proof": {
       "label": "Verified Proof / Case Studies",

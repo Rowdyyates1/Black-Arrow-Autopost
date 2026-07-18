@@ -1,5 +1,15 @@
 """Black Arrow brand rendering. Portable Pillow templates -> 1080x1350 PNG.
-Monochrome, premium, matches blackarrow.ltd (#0A0A0A + the triangle mark)."""
+Monochrome, premium, matches blackarrow.ltd (#0A0A0A + the triangle mark).
+
+v2 changes (2026-07-18):
+  * reel_canvas(): fits any feed image onto a native 1080x1920 canvas so reel
+    covers are never the 4:5 art blown up to fill 9:16 (the over-scale bug).
+  * check_mark(): crisp anti-aliased vector checkmark (supersampled), shared by
+    all renderers. No more raw 9px lines that read as a pixel drawing.
+  * promo_card(): kicker/sub/cta are parameters now; the kicker no longer says
+    "DM to start" (the CTA pill is the single DM mention on the card).
+  * slide_cta(): the foot line no longer repeats the DM instruction.
+"""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
@@ -69,6 +79,37 @@ def block(d, text, f, fill, x, y, max_w, leading):
 def triangle(d, cx, cy, size, fill):
     h = size * 0.87
     d.polygon([(cx, cy - h/2), (cx - size/2, cy + h/2), (cx + size/2, cy + h/2)], fill=fill)
+
+# ---- Crisp vector checkmark ------------------------------------------------
+_CK_CACHE = {}
+def check_tile(size, color=WHITE, ss=4):
+    """Anti-aliased checkmark on a transparent tile, rendered at ss-times
+    resolution and downsampled (Pillow lines aren't anti-aliased natively —
+    drawing them 1:1 is what produced the pixel-drawing look)."""
+    key = (size, color)
+    if key not in _CK_CACHE:
+        s = size * ss
+        t = Image.new("RGBA", (s, s), (0, 0, 0, 0))
+        td = ImageDraw.Draw(t)
+        wdt = max(ss * 2, int(s * 0.13))
+        p1 = (s * 0.14, s * 0.55)
+        p2 = (s * 0.40, s * 0.80)
+        p3 = (s * 0.86, s * 0.22)
+        td.line([p1, p2], fill=color + (255,), width=wdt)
+        td.line([p2, p3], fill=color + (255,), width=wdt)
+        r = wdt / 2
+        for (px, py) in (p1, p2, p3):                     # round caps/joint
+            td.ellipse([px - r, py - r, px + r, py + r], fill=color + (255,))
+        _CK_CACHE[key] = t.resize((size, size), Image.LANCZOS)
+    return _CK_CACHE[key]
+
+def check_mark(img, cx, cy, size, color=WHITE, alpha=1.0):
+    """Paste a crisp checkmark centered on (cx, cy) of an RGB image."""
+    tile = check_tile(size, color)
+    if alpha < 1.0:
+        tile = tile.copy()
+        tile.putalpha(tile.getchannel("A").point(lambda a: int(a * alpha)))
+    img.paste(tile, (int(cx - size / 2), int(cy - size / 2)), tile)
 
 def _new():
     img = Image.new("RGB", (W, H), BG)
@@ -202,13 +243,15 @@ def myth_truth(myth, truth):
              area=(dy + 120, 1170), max_w=920, valign="top", top=dy + 120)
     _footer(d); return img
 
-def promo_card(title_white, title_muted, cta='DM ME ▲'):
+def promo_card(title_white, title_muted, cta='DM "TOOLS"', sub=None, kicker="Free tool"):
+    """Offer/lead-magnet card. The CTA pill is the ONE DM mention on the card —
+    the kicker never says 'DM to start' (that was the double-mention bug)."""
     img, d = _new()
-    _kicker(d, "Free · DM to start")
+    _kicker(d, kicker)
     _compose(d, [
         {"text": title_white, "size": 80, "color": WHITE, "gap_after": 10},
         {"text": title_muted, "size": 80, "color": MUTED, "gap_after": 40},
-        {"text": "Get scored across Acquisition, Conversion, Operations and Retention.",
+        {"text": sub or "Free from Black Arrow. No signup, no card.",
          "size": 42, "bold": False, "color": MUTED},
     ], area=(300, 1060), max_w=920)
     d.rounded_rectangle([80, 1120, W - 80, 1240], radius=18, fill=WHITE)
@@ -223,7 +266,8 @@ def render(post):
     if t == "quote": return quote_card(p["white"], p.get("muted"))
     if t == "list":  return list_card(p["kicker"], p["title"], p["items"])
     if t == "myth":  return myth_truth(p["myth"], p["truth"])
-    if t == "promo": return promo_card(p["white"], p["muted"], p.get("cta", 'DM ME ▲'))
+    if t == "promo": return promo_card(p["white"], p["muted"], p.get("cta", 'DM "TOOLS"'),
+                                       p.get("sub"), p.get("kicker", "Free tool"))
     raise ValueError(f"unknown template {t}")
 
 # ---- Carousel slides -------------------------------------------------------
@@ -277,16 +321,17 @@ def slide_quote(p, idx, total):
     return img
 
 def slide_cta(p, idx, total):
-    """One CTA only: a headline question + a single DM button."""
+    """One CTA only: a headline question + a single DM button. The foot line
+    supports the button; it never repeats the DM instruction."""
     img = Image.new("RGB", (W, H), PANEL); d = ImageDraw.Draw(img)
     _wordmark(d, W/2, 160)
     head = p.get("white") or p.get("headline") or "Want this built for your business?"
     _compose(d, [{"text": head, "size": 56, "color": WHITE}],
              area=(320, 660), max_w=860, center_x=W/2)
     d.rounded_rectangle([150, 720, W-150, 846], radius=18, outline=WHITE, width=3)
-    tracked(d, (0, 760), p.get("button", 'DM "START"'),
-            font(_fitw(d, p.get("button", 'DM "START"'), 48, W - 360)), WHITE, 0, center_x=W/2)
-    block_center(d, p.get("foot", "DM us and we'll map it for your business."),
+    tracked(d, (0, 760), p.get("button", 'DM "TOOLS"'),
+            font(_fitw(d, p.get("button", 'DM "TOOLS"'), 48, W - 360)), WHITE, 0, center_x=W/2)
+    block_center(d, p.get("foot", "The Black Arrow team maps it for your business."),
                  font(34, bold=False), MUTED, 910, 900)
     _footer_idx(d, idx, total)
     return img
@@ -332,6 +377,24 @@ def story_canvas(im, prompt="SEE FULL POST ON PROFILE"):
         x0, x1, y0, y1 = (SW - tw) // 2 - 44, (SW + tw) // 2 + 44, 1740, 1828
         d.rounded_rectangle([x0, y0, x1, y1], radius=44, outline=WHITE, width=3)
         tracked(d, (0, y0 + 27), prompt.upper(), f, WHITE, 4, center_x=SW / 2)
+    return c
+
+def reel_canvas(im):
+    """Fit ANY feed-ratio image onto a native 1080x1920 canvas, centered on the
+    brand background with the wordmark up top. Use this for every reel cover
+    that starts life as 4:5 art. Never hand Instagram a 4:5 image as a reel
+    cover directly — it scales it to fill 9:16 and the cover lands over-zoomed
+    in the Reels tab (the bug this function fixes)."""
+    SW, SH = 1080, 1920
+    c = Image.new("RGB", (SW, SH), BG)
+    d = ImageDraw.Draw(c)
+    # scale to fit INSIDE the safe center area, preserving ratio (no crop/zoom)
+    max_w, max_h = SW, 1350
+    w = max_w; h = int(im.height * w / im.width)
+    if h > max_h:
+        h = max_h; w = int(im.width * h / im.height)
+    c.paste(im.resize((w, h)), ((SW - w) // 2, (SH - h) // 2))
+    _wordmark(d, SW / 2, 150, scale=0.9)
     return c
 
 def reel_cover(spec):
