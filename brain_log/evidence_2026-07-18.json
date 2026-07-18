@@ -17,5 +17,17 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "$225 value, free, no signup",
+        "status": "rewritten",
+        "resolution": "Removed the invented dollar valuation. Reframed as a free, no-signup tool that quantifies revenue per lead and the cost of slow follow-up, which the tool itself demonstrates on use."
+      }
+    ]
   }
 ]

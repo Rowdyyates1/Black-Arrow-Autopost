@@ -114,9 +114,14 @@
       "date": "2026-07-18",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-18",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
-  "site_hash": "3a1e00dc8d4ad093",
+  "site_hash": "0fe22315b09bf7f1",
   "eligibility_overrides": {},
   "memory": {}
 }
