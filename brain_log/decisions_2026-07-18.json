@@ -80,5 +80,47 @@
     ],
     "chosen_format": "image",
     "post_rationale": "Offers/Lead Magnets was the most under-served category this cycle, and this features an unclaimed tool (the Missed Revenue Calculator) that quantifies lead leakage without relying on an invented dollar valuation."
+  },
+  {
+    "timestamp": "2026-07-18T15:54:22.743465Z",
+    "category": "platform_promo",
+    "category_label": "Platform / Free Trial Promo",
+    "guidance": "Promote the Black Arrow platform (blackarrow.ltd/app) through its real offers: the 14-day full-access free trial (no card needed, cancel anytime) and the referral deal (refer a business, when they subscribe you both get a free month, tracked automatically). Angle it around a real pain the platform kills (tool sprawl, missed calls, slow follow-up, no revenue reporting). Lead with value, end with the TRIAL keyword CTA. Never invent features or plan pricing; point plan questions to the site.",
+    "format_bias": "reel",
+    "evidence_note": "Only features and offers actually published on blackarrow.ltd/app. No invented pricing or results.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Platform / Free Trial Promo' was the most under-served eligible category (target 12%, recent 0%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.25,
+      "education_informative": 0.208,
+      "demonstrations_walkthroughs": 0.125,
+      "news_industry": 0.125,
+      "third_party_research": 0.125,
+      "contrarian_pov": 0.042,
+      "offers_lead_magnets": 0.083,
+      "platform_promo": 0.0,
+      "objection_nurture": 0.042
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Fills the under-served Platform/Free Trial category by naming the real tool-sprawl pain the app.blackarrow.ltd feature set (unified inbox, texting, booking, reviews, reporting) directly solves, using the reach-favoring reel format for a cold-audience offer."
   }
 ]

@@ -8,5 +8,15 @@
       "First-touch/last-touch mental model (weaker actionability)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Tool sprawl costs leads: the platform replaces 5+ disconnected apps with one login",
+    "score": 90,
+    "rejected": [
+      "Direct price comparison vs GoHighLevel dollar figures (too competitor-focused, thinner teaching value)",
+      "Generic 'test your own numbers' trial pitch (lower novelty, less specific pain)",
+      "Referral-deal-first angle (transactional, doesn't teach anything)"
+    ],
+    "category": "platform_promo"
   }
 ]

@@ -29,5 +29,24 @@
         "resolution": "Removed the invented dollar valuation. Reframed as a free, no-signup tool that quantifies revenue per lead and the cost of slow follow-up, which the tool itself demonstrates on use."
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform combines CRM, two-way texting, missed-call callback, booking, reviews, and revenue reporting in one inbox",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referral deal: refer a business, when they subscribe you both get a free month, tracked automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]
