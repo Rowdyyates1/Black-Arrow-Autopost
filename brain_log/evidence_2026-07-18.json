@@ -48,5 +48,27 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Black Arrow OS is a free pipeline tool that runs in the browser with drag-and-drop stages, follow-up scheduling, and CPL/ROAS tracking.",
+        "status": "original",
+        "evidence_class": "product demonstration"
+      },
+      {
+        "claim": "Holds 25 contacts on one device, no signup, no card.",
+        "status": "original",
+        "evidence_class": "product specification"
+      },
+      {
+        "claim": "Watch your follow-up rate change.",
+        "status": "rewritten",
+        "evidence_class": "general pattern, no specific figure claimed"
+      }
+    ]
   }
 ]

@@ -124,9 +124,14 @@
       "date": "2026-07-18",
       "category": "platform_promo",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-18",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
-  "site_hash": "0fe22315b09bf7f1",
+  "site_hash": "0e795d2bdeec991d",
   "eligibility_overrides": {},
   "memory": {}
 }
