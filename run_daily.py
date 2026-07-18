@@ -11,6 +11,11 @@ two steps so Instagram can fetch it by public URL.
 
 A --specs <file> flag lets you feed pre-made specs (e.g. for a local dry run
 without spending API tokens).
+
+v2 change (2026-07-18): every reel cover is now a NATIVE 1080x1920 image.
+Slideshow covers used to ship the first 4:5 feed slide directly as cover_url;
+Instagram scaled it to fill 9:16 and it landed over-zoomed in the Reels tab.
+They now go through brand.reel_canvas() first.
 """
 import os, sys, json, datetime, subprocess
 import brand
@@ -43,7 +48,7 @@ def render_spec(spec, outdir, date):
         vpath = os.path.join(outdir, "reel.mp4")
         render_reel.render_reel(spec["spec"], vpath)
         video = f"published/{date}/{base}/reel.mp4"
-        _jpg(brand.reel_cover(spec["spec"]), "cover.jpg")
+        _jpg(brand.reel_cover(spec["spec"]), "cover.jpg")     # native 9:16
         cover = f"published/{date}/{base}/cover.jpg"
         story_src = brand.hook_card(spec["spec"].get("kicker"), spec["spec"].get("hook"))
     elif fmt == "slideshow":
@@ -52,7 +57,10 @@ def render_spec(spec, outdir, date):
         render_reel.render_slideshow(spec, vpath)
         video = f"published/{date}/{base}/reel.mp4"
         clean0 = brand.render_carousel(spec["slides"], video=True)[0]
-        _jpg(clean0, "cover.jpg")
+        # NEVER ship the 4:5 slide as the reel cover — compose it onto a native
+        # 1080x1920 canvas so the Reels tab shows it un-zoomed. (The grid's
+        # center-crop still reads because the art sits in the middle band.)
+        _jpg(brand.reel_canvas(clean0), "cover.jpg")
         cover = f"published/{date}/{base}/cover.jpg"
         story_src = clean0
     elif fmt == "carousel":
