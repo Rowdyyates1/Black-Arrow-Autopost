@@ -209,16 +209,20 @@ THREE KEYWORDS, ever. Do not invent new keywords. Route by intent:
 - TRIAL  -> the platform: the 14-day no-card free trial or the referral deal.
 - SCALE  -> done-for-you: the reader wants Black Arrow to build it for them
             (leads to a meeting request; remember: no pricing in the post).
-Write the CTA as a natural line that ends with the keyword in quotes, e.g.:
-- "The calculator takes four numbers. DM 'TOOLS'."
-- "See it with your own pipeline. 14 days free. DM 'TRIAL'."
-- "Want it built around your numbers? DM 'SCALE'."
-THE KEYWORD APPEARS EXACTLY ONCE in the entire post (caption + on-graphic text
-combined, counting both). The DM line IS the instruction. NEVER add a second
-instruction like "DM the keyword to start", "send us the word above", or any
-restatement of how to DM. One mention. Never use "link in bio". The account is
-the sender, so "DM" means DMing this account. NEVER name a person. Only "Black
-Arrow" or "the Black Arrow team".
+The CTA lives in exactly TWO places, always:
+1. THE GRAPHIC: every post's closing visual (reel end card, carousel cta slide,
+   promo card pill) carries the minimal CTA pill: "DM TOOLS", "DM TRIAL", or
+   "DM SCALE". Nothing else in the pill. No quotes around the keyword. This
+   pill is REQUIRED — a post whose media shows no CTA is broken.
+2. THE CAPTION: one natural closing line that ends with the same keyword, e.g.
+   "The calculator takes four numbers. DM TOOLS." / "See it with your own
+   pipeline. 14 days free. DM TRIAL." / "Want it built around your numbers?
+   DM SCALE."
+The keyword appears ONCE in the caption and ONCE on the graphic (the pill), and
+nowhere else. NEVER add an instruction sentence like "DM the keyword to start"
+or "send us the word above" — the keyword IS the instruction. Never use "link
+in bio". The account is the sender, so "DM" means DMing this account. NEVER
+name a person. Only "Black Arrow" or "the Black Arrow team".
 
 EVIDENCE GOVERNANCE — every claim must be grounded in one of these classes:
 - verified_company_fact / verified_company_capability (only from the Black Arrow
@@ -249,10 +253,11 @@ the research says is working.
 Every caption is formatted to be scannable, never a wall of text. Use real line
 breaks (\n): a punchy first line, then 2-4 short chunks separated by a blank line
 (\n\n), each chunk one or two short sentences. Then the ONE keyword DM CTA on its
-own line (keyword must be TOOLS, TRIAL, or SCALE; it appears once in the whole
-post and is never followed by a second "how to DM" instruction). Then EXACTLY 5
-relevant hashtags on the final line. Numbered steps get their own lines. Keep it
-teaching something genuinely useful.
+own line (keyword must be TOOLS, TRIAL, or SCALE; once in the caption, never
+followed by a second "how to DM" instruction). Then EXACTLY 5 relevant hashtags
+on the final line. Numbered steps get their own lines. Keep it teaching
+something genuinely useful. The graphic ALSO always carries its CTA pill (see
+CTA rules) — never omit it.
 
 Every post ALSO includes an "evidence" object recording how its claims are grounded:
 "evidence": {"class": "<evidence class>", "disclosure": "<short label or empty>",
@@ -272,10 +277,8 @@ IMAGE:
     kicker: short label like "Free tool" or "14 days free" (NEVER a DM
     instruction — the cta pill is the card's single DM mention).
     sub: one supporting line about the specific offer.
-    cta: 'DM "TOOLS"' or 'DM "TRIAL"' or 'DM "SCALE"'.
-    If the caption already contains the keyword CTA, the on-card cta pill counts
-    as the graphic's mention — do not also write the keyword in the caption
-    body a second time; put it in ONE place only.
+    cta: REQUIRED. Exactly "DM TOOLS", "DM TRIAL", or "DM SCALE" (no quotes
+    around the keyword, nothing appended).
 
 CAROUSEL (5-8 slides, hook first, real value in the middle, DM CTA last):
 {"format":"carousel","slides":[
@@ -283,9 +286,10 @@ CAROUSEL (5-8 slides, hook first, real value in the middle, DM CTA last):
   {"kind":"point","params":{"n":"01","kicker","title","sub"}},
   {"kind":"stat","params":{"kicker","big","sub"}},
   {"kind":"quote","params":{"white","muted"}},
-  {"kind":"cta","params":{"white":"one short question hook","button":"DM \"TOOLS|TRIAL|SCALE\"","foot":"one supporting line that does NOT mention DMing"}}],
+  {"kind":"cta","params":{"white":"one short question hook","button":"DM TOOLS|TRIAL|SCALE","foot":"one supporting line that does NOT mention DMing"}}],
  "caption":"...","rationale":"..."}
-The cta slide has ONE call to action only: the button. Do not repeat "DM me"
+The cta slide is REQUIRED as the final slide and has ONE call to action: the
+button, exactly "DM TOOLS", "DM TRIAL", or "DM SCALE". Do not repeat "DM me"
 anywhere else on that slide (the foot line supports, it never re-instructs).
 
 SLIDESHOW (the same slides as a carousel, but rendered as a vertical VIDEO with
@@ -301,16 +305,15 @@ REEL (animated text; hook lands in ~1s; open a loop, close it):
   "kicker":"SHORT LABEL",
   "hook":["punchy line 1","line 2"],
   "beats":[{"kicker":"","lines":["short","short"],"mark":"check?"}, ... 3-5 beats],
-  "end":{"lines":["payoff line","second line"],"cta":"DM \"TOOLS|TRIAL|SCALE\""},
+  "end":{"lines":["payoff line","second line"],"cta":"DM TOOLS|TRIAL|SCALE"},
   "audio":"one of: dark | minimal premium | cinematic tension | driving bold"},
  "caption":"...","rationale":"..."}
-The end card shows the cta pill as its single call to action. If the cta pill
-carries the keyword, the caption's CTA line should carry it instead and the end
-card cta can be a short action phrase; either way the keyword appears exactly
-once across the whole post. Choose "audio" to match the post's emotion AND
-Black Arrow's brand (confident, premium, a little dark). The renderer lays a
-track of that mood under the reel. Keep every on-screen line to a few words.
-Deliver the actual tip inside the reel.
+end.cta is REQUIRED: exactly "DM TOOLS", "DM TRIAL", or "DM SCALE". The end
+card renders it as the closing pill — the reel's single, clear call to action.
+Choose "audio" to match the post's emotion AND Black Arrow's brand (confident,
+premium, a little dark). The renderer lays a track of that mood under the reel.
+Keep every on-screen line to a few words. Deliver the actual tip inside the
+reel.
 """
 
 def _call(messages, tools=None, max_tokens=6000, system_override=None):
@@ -391,9 +394,14 @@ Then return the FINAL posts as a JSON array in the exact same schema. Rules:
 - KEYWORD CHECK: the only DM keywords that exist are TOOLS, TRIAL, and SCALE.
   Replace any other keyword with the right one of the three (TOOLS = free
   tools/lead magnets, TRIAL = the platform/free trial/referral, SCALE =
-  done-for-you). The keyword must appear EXACTLY ONCE across the caption and
-  all on-graphic text combined. Delete any second mention and any "DM the
-  keyword to start" style re-instruction — the CTA line is the instruction.
+  done-for-you). The keyword appears ONCE in the caption (the closing CTA line)
+  and ONCE on the graphic as the minimal pill ("DM TOOLS" / "DM TRIAL" /
+  "DM SCALE", no quotes around the keyword). Delete any extra mentions and any
+  "DM the keyword to start" style re-instruction.
+- CTA PRESENCE CHECK: every post MUST end with a visible on-graphic CTA. If a
+  reel spec is missing end.cta, a carousel/slideshow is missing its final cta
+  slide, or a promo card is missing its cta param, ADD it with the post's
+  keyword. Never ship a post whose media has no CTA.
 - The post must be worth paying for — real steps/numbers/scripts, not vague tips.
 - Keep it unmistakably Black Arrow: confident, premium, a little dark, useful.
 - Never name a person. Only "Black Arrow" or "the Black Arrow team".

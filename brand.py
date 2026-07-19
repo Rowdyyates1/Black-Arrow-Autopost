@@ -243,10 +243,17 @@ def myth_truth(myth, truth):
              area=(dy + 120, 1170), max_w=920, valign="top", top=dy + 120)
     _footer(d); return img
 
-def promo_card(title_white, title_muted, cta='DM "TOOLS"', sub=None, kicker="Free tool"):
+def clean_cta(cta, fallback="DM TOOLS"):
+    """Minimal CTA text: quotes stripped ("DM TRIAL", not 'DM "TRIAL"'),
+    never empty — a card without a visible CTA is a bug."""
+    c = (cta or "").replace('"', "").replace("“", "").replace("”", "").strip()
+    return c or fallback
+
+def promo_card(title_white, title_muted, cta="DM TOOLS", sub=None, kicker="Free tool"):
     """Offer/lead-magnet card. The CTA pill is the ONE DM mention on the card —
     the kicker never says 'DM to start' (that was the double-mention bug)."""
     img, d = _new()
+    cta = clean_cta(cta)
     _kicker(d, kicker)
     _compose(d, [
         {"text": title_white, "size": 80, "color": WHITE, "gap_after": 10},
@@ -266,7 +273,7 @@ def render(post):
     if t == "quote": return quote_card(p["white"], p.get("muted"))
     if t == "list":  return list_card(p["kicker"], p["title"], p["items"])
     if t == "myth":  return myth_truth(p["myth"], p["truth"])
-    if t == "promo": return promo_card(p["white"], p["muted"], p.get("cta", 'DM "TOOLS"'),
+    if t == "promo": return promo_card(p["white"], p["muted"], p.get("cta", "DM TOOLS"),
                                        p.get("sub"), p.get("kicker", "Free tool"))
     raise ValueError(f"unknown template {t}")
 
@@ -328,9 +335,10 @@ def slide_cta(p, idx, total):
     head = p.get("white") or p.get("headline") or "Want this built for your business?"
     _compose(d, [{"text": head, "size": 56, "color": WHITE}],
              area=(320, 660), max_w=860, center_x=W/2)
-    d.rounded_rectangle([150, 720, W-150, 846], radius=18, outline=WHITE, width=3)
-    tracked(d, (0, 760), p.get("button", 'DM "TOOLS"'),
-            font(_fitw(d, p.get("button", 'DM "TOOLS"'), 48, W - 360)), WHITE, 0, center_x=W/2)
+    button = clean_cta(p.get("button"))
+    d.rounded_rectangle([150, 720, W-150, 846], radius=18, fill=WHITE)
+    tracked(d, (0, 760), button,
+            font(_fitw(d, button, 48, W - 360)), BG, 0, center_x=W/2)
     block_center(d, p.get("foot", "The Black Arrow team maps it for your business."),
                  font(34, bold=False), MUTED, 910, 900)
     _footer_idx(d, idx, total)

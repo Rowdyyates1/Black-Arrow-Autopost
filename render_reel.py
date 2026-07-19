@@ -106,10 +106,13 @@ def _block_height(d, lines, big=74, small=46):
     laid = _layout(d, lines, big, small)
     return sum(lh * len(subs) for _, subs, _, lh in laid)
 
-def _draw_scene(d, cx, lines, a, dy, center=650, big=74, small=46):
+def _draw_scene(d, cx, lines, a, dy, center=650, big=74, small=46, min_top=None):
     laid = _layout(d, lines, big, small)
     total = sum(lh * len(subs) for _, subs, _, lh in laid)
-    y = center - total / 2 + dy          # vertically center the block
+    y = center - total / 2               # vertically center the block
+    if min_top is not None and y < min_top:
+        y = min_top                      # never rise into the kicker/divider
+    y += dy
     for fs, subs, col, lh in laid:
         for s in subs:
             _ctext(d, cx, y, s, brand.font(fs), col, a); y += lh
@@ -125,7 +128,10 @@ def _scenes_from_spec(spec):
         scenes.append((2.6, b.get("kicker", ""), lines, b.get("mark")))
     end = spec.get("end", {})
     scenes.append((3.2, "", [(l, "big") for l in end.get("lines", [])], "triangle"))
-    return scenes, end.get("cta", 'DM "TOOLS"')
+    # the CTA pill is guaranteed: strip quotes for the clean minimal look
+    # ("DM TRIAL", not 'DM "TRIAL"') and fall back rather than render nothing.
+    cta = (end.get("cta") or "").replace('"', "").replace("“", "").replace("”", "").strip()
+    return scenes, (cta or "DM TOOLS")
 
 CHECK_SIZE = 84          # px, on the 720x1280 canvas
 
@@ -152,15 +158,17 @@ def render_reel(spec, out_path):
                 dy = (1-intro) * 45
                 _kicker(d, cx, 470+dy, kick, a)
                 if mark == "triangle":
-                    brand.triangle(d, cx, 640+dy, 90, _blend(WHITE, a))
-                    # ONE call to action: the keyword pill. The keyword is the
-                    # instruction — never add "DM the keyword to start" under it.
-                    fcta = brand.font(_fit(d, cta, 48))
+                    # end card: payoff lines, then the mark, then ONE clear CTA
+                    # pill (e.g. "DM TRIAL"). The keyword is the instruction —
+                    # never add "DM the keyword to start" under it.
+                    _draw_scene(d, cx, lines, a, dy, center=470, min_top=360)
+                    brand.triangle(d, cx, 660+dy, 90, _blend(WHITE, a))
+                    fcta = brand.font(_fit(d, cta, 52))
                     tw = sum(d.textlength(ch, font=fcta) for ch in cta)
-                    x0, x1 = cx - tw/2 - 52, cx + tw/2 + 52
-                    d.rounded_rectangle([x0, 810+dy, x1, 930+dy], radius=16,
-                                        outline=_blend(WHITE, a), width=3)
-                    _ctext(d, cx, 842+dy, cta, fcta, WHITE, a)
+                    x0, x1 = cx - tw/2 - 56, cx + tw/2 + 56
+                    d.rounded_rectangle([x0, 790+dy, x1, 912+dy], radius=18,
+                                        fill=_blend(WHITE, a))
+                    _ctext(d, cx, 822+dy, cta, fcta, BG, 1.0)
                 elif mark == "check":
                     # the check gets its own fixed band below the kicker, and
                     # the text block starts BELOW that band — a guaranteed gap,
@@ -172,7 +180,10 @@ def render_reel(spec, out_path):
                                      color=WHITE, alpha=a)
                     _draw_scene(d, cx, lines, a, dy, center=text_top + bh / 2)
                 else:
-                    _draw_scene(d, cx, lines, a, dy)
+                    # a scene with a kicker has a divider at y=522; keep the
+                    # text block clamped below it so tall blocks never overlap
+                    _draw_scene(d, cx, lines, a, dy,
+                                min_top=560 if kick else 500)
                 break
         _ctext(d, cx, H-96, "BLACKARROW.LTD", brand.font(26), DIM, 1.0, trk=5)
         img.save(f"{frames_dir}/f{i:04d}.png", compress_level=1)
