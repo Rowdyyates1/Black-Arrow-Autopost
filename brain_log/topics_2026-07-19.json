@@ -8,5 +8,16 @@
       "Blazeo 2026 SLA-compliance stat (54.9% vs 29.5%) \u2014 less intuitive and actionable for a solo owner than the median-audit angle"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Feature the Lead Response Audit (blackarrow.ltd/tools) as the free lead magnet, tying its score/leads-lost/revenue-at-risk output directly to the core 17%-response-rate industry benchmark",
+    "score": 89,
+    "rejected": [
+      "Re-feature the Missed Revenue Calculator (already shipped)",
+      "Re-feature Black Arrow OS (already shipped twice)",
+      "Feature the AI Follow-Up Builder without a citable output metric",
+      "Feature the Ad ROI Calculator (less tied to core speed-to-lead brand fact)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

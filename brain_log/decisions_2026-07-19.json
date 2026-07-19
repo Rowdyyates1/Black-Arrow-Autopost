@@ -40,5 +40,47 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Carousels still lead saves/depth for B2B educational content in 2026, and this reframes the account's core speed-to-lead fact around a fresh, precisely-sourced 2026 study, teaching median-vs-best-case measurement instead of restating the familiar 17%/double-close-rate line."
+  },
+  {
+    "timestamp": "2026-07-19T15:56:01.236890Z",
+    "category": "offers_lead_magnets",
+    "category_label": "Offers / Lead Magnets",
+    "guidance": "Feature ONE specific free tool actually published at blackarrow.ltd/tools (a calculator, an audit, an AI builder, or Black Arrow OS \u2014 the free pocket CRM). Everything on that page is free value used as a lead magnet. Lead with what the tool tells or gives the owner, cite its stated value where the site shows one, and end with the TOOLS keyword CTA. Rotate through the tools; never feature the same one twice in a row.",
+    "format_bias": "image",
+    "evidence_note": "Only describe tools/offers actually published on the Black Arrow site.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Offers / Lead Magnets' was the most under-served eligible category (target 22%, recent 11%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.222,
+      "education_informative": 0.185,
+      "demonstrations_walkthroughs": 0.111,
+      "news_industry": 0.111,
+      "third_party_research": 0.148,
+      "contrarian_pov": 0.037,
+      "offers_lead_magnets": 0.111,
+      "platform_promo": 0.037,
+      "objection_nurture": 0.037
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels are currently the format that wins saves, depth, and conversion for B2B offer content, and this is the first solo feature of the Lead Response Audit, filling the under-served Offers/Lead Magnets slot with an unclaimed tool."
   }
 ]

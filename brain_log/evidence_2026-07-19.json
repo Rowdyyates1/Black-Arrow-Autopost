@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Audit mechanics (inputs, score, leads-lost estimate, revenue-at-risk output) and the sub-60-second SMS capability are Black Arrow's own verified tool functions. The 17% figure is presented as a qualified industry benchmark citation, not a Black Arrow-measured statistic, and the original unearned '$250 value' claim was removed.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit takes four inputs (monthly leads, average job value, response speed, response method) and returns a response score, leads lost estimate, and revenue at risk",
+        "status": "verified"
+      },
+      {
+        "text": "Industry benchmarks suggest only 17% of service businesses respond to new leads within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow fires an SMS to every new lead in under 60 seconds, automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]

@@ -134,9 +134,14 @@
       "date": "2026-07-19",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-19",
+      "category": "offers_lead_magnets",
+      "format": "carousel"
     }
   ],
-  "site_hash": "87821604851aa91d",
+  "site_hash": "3955b99b0d881532",
   "eligibility_overrides": {},
   "memory": {}
 }
