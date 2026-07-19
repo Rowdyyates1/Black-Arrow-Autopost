@@ -19,5 +19,16 @@
       "Feature the Ad ROI Calculator (less tied to core speed-to-lead brand fact)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Tool sprawl pain (separate booking/texting/review/spreadsheet tools) resolved by the all-in-one Black Arrow platform, promoting the 14-day free trial and referral deal",
+    "score": 89,
+    "rejected": [
+      "Referral deal spotlighted on its own without a pain hook (score 74, weaker without the sprawl problem framing)",
+      "Missed-call text-back as a standalone platform feature promo (score 70, overlaps with prior missed-call demo content)",
+      "Revenue reporting feature spotlight alone (score 68, less universally felt pain than tool sprawl)",
+      "Quiz funnel feature spotlight alone (score 65, narrower relevance across all verticals)"
+    ],
+    "category": "platform_promo"
   }
 ]

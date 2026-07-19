@@ -71,5 +71,28 @@
         "resolution": "Replaced the invented statistic with an honest, unquantified statement about how response speed affects lead conversion, consistent with widely observed industry behavior."
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform runs CRM, unified inbox, two-way texting, booking, missed-call callbacks, review collection, win-backs, and revenue reporting in one system",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referral deal: refer a business, when they subscribe you both get a free month, tracked automatically",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses run several disconnected tools for booking, texting, and reviews",
+        "status": "qualified"
+      }
+    ]
   }
 ]
