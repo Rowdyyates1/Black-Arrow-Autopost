@@ -82,5 +82,47 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Carousels are currently the format that wins saves, depth, and conversion for B2B offer content, and this is the first solo feature of the Lead Response Audit, filling the under-served Offers/Lead Magnets slot with an unclaimed tool."
+  },
+  {
+    "timestamp": "2026-07-19T18:52:24.315036Z",
+    "category": "platform_promo",
+    "category_label": "Platform / Free Trial Promo",
+    "guidance": "Promote the Black Arrow platform (blackarrow.ltd/app) through its real offers: the 14-day full-access free trial (no card needed, cancel anytime) and the referral deal (refer a business, when they subscribe you both get a free month, tracked automatically). Angle it around a real pain the platform kills (tool sprawl, missed calls, slow follow-up, no revenue reporting). Lead with value, end with the TRIAL keyword CTA. Never invent features or plan pricing; point plan questions to the site.",
+    "format_bias": "reel",
+    "evidence_note": "Only features and offers actually published on blackarrow.ltd/app. No invented pricing or results.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Platform / Free Trial Promo' was the most under-served eligible category (target 12%, recent 4%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.214,
+      "education_informative": 0.179,
+      "demonstrations_walkthroughs": 0.107,
+      "news_industry": 0.107,
+      "third_party_research": 0.143,
+      "contrarian_pov": 0.036,
+      "offers_lead_magnets": 0.143,
+      "platform_promo": 0.036,
+      "objection_nurture": 0.036
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Cut the referral tangent to keep one clean idea: revenue attribution. Keyword now appears exactly once, in the caption CTA, while the video end card teases the payoff without repeating it. Tightened language removes filler adverbs and aligns the video's spreadsheet line with the caption for consistency."
   }
 ]

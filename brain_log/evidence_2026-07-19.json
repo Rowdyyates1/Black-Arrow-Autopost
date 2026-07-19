@@ -36,5 +36,27 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Owners often see mismatched revenue numbers across ad accounts, CRMs, and spreadsheets.",
+        "class": "general_pattern",
+        "status": "supported"
+      },
+      {
+        "text": "The Black Arrow platform unifies CRM, texting, booking, reviews, and reporting into one login.",
+        "class": "product_feature_demonstration",
+        "status": "supported"
+      },
+      {
+        "text": "14-day free trial, no card required.",
+        "class": "product_policy",
+        "status": "supported"
+      }
+    ]
   }
 ]
