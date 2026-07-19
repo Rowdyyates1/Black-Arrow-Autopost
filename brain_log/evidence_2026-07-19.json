@@ -58,5 +58,18 @@
         "status": "supported"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Only 17% of service businesses answer a new lead within an hour, and 5-minute responders close at nearly double the rate.",
+        "status": "rewritten",
+        "evidence_class": "general_pattern",
+        "resolution": "Replaced the invented statistic with an honest, unquantified statement about how response speed affects lead conversion, consistent with widely observed industry behavior."
+      }
+    ]
   }
 ]

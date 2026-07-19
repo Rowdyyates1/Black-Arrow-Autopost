@@ -124,5 +124,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Cut the referral tangent to keep one clean idea: revenue attribution. Keyword now appears exactly once, in the caption CTA, while the video end card teases the payoff without repeating it. Tightened language removes filler adverbs and aligns the video's spreadsheet line with the caption for consistency."
+  },
+  {
+    "timestamp": "2026-07-19T19:07:15.854152Z",
+    "category": "offers_lead_magnets",
+    "category_label": "Offers / Lead Magnets",
+    "guidance": "Feature ONE specific free tool actually published at blackarrow.ltd/tools (a calculator, an audit, an AI builder, or Black Arrow OS \u2014 the free pocket CRM). Everything on that page is free value used as a lead magnet. Lead with what the tool tells or gives the owner, cite its stated value where the site shows one, and end with the TOOLS keyword CTA. Rotate through the tools; never feature the same one twice in a row.",
+    "format_bias": "image",
+    "evidence_note": "Only describe tools/offers actually published on the Black Arrow site.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Offers / Lead Magnets' was the most under-served eligible category (target 22%, recent 14%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.207,
+      "education_informative": 0.172,
+      "demonstrations_walkthroughs": 0.103,
+      "news_industry": 0.103,
+      "third_party_research": 0.138,
+      "contrarian_pov": 0.034,
+      "offers_lead_magnets": 0.138,
+      "platform_promo": 0.069,
+      "objection_nurture": 0.034
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "image",
+    "post_rationale": "Carousels and tool-based lead magnets both index high for saves/DMs right now, and this solo-features the one published free tool (AI Follow-Up Builder) this account hasn't covered yet, tying it directly to the core speed-to-lead principle without relying on unverified statistics."
   }
 ]
