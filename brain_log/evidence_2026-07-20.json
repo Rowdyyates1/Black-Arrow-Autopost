@@ -1,0 +1,25 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Illustrative math example",
+    "claims": [
+      {
+        "text": "The Ad ROI Calculator is a free tool published on blackarrow.ltd/tools",
+        "status": "verified"
+      },
+      {
+        "text": "No signup required to use the free tools",
+        "status": "verified"
+      },
+      {
+        "text": "$40 cost-per-lead / 10% vs 25% close rate example math",
+        "status": "illustrative"
+      },
+      {
+        "text": "Slow follow-up after the click drives up cost per booked job",
+        "status": "qualified"
+      }
+    ]
+  }
+]

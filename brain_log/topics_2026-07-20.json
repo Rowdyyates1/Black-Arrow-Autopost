@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Solo-feature the Ad ROI Calculator, reframing 'ad ROI' from cost-per-lead to cost-per-booked-job",
+    "score": 88,
+    "rejected": [
+      "Re-feature Black Arrow OS or the Revenue Calculator (already solo-featured, would repeat a past angle)",
+      "Feature the 'Marketer Tools' section (unclear fit for the service-business owner audience, weaker evidence)",
+      "A news/algorithm angle (doesn't fit today's mandated Offers/Lead Magnets category)"
+    ],
+    "category": "offers_lead_magnets"
+  }
+]
