@@ -124,5 +124,47 @@
     ],
     "chosen_format": "slideshow",
     "post_rationale": "Fills the under-served Demonstrations/System Walkthroughs slot with the one system stage this account hasn't shown yet (customer referral tracking), rendered as a slideshow per the category's format guidance for motion-driven step reveals."
+  },
+  {
+    "timestamp": "2026-07-20T19:26:31.001387Z",
+    "category": "offers_lead_magnets",
+    "category_label": "Offers / Lead Magnets",
+    "guidance": "Feature ONE specific free tool actually published at blackarrow.ltd/tools (a calculator, an audit, an AI builder, or Black Arrow OS \u2014 the free pocket CRM). Everything on that page is free value used as a lead magnet. Lead with what the tool tells or gives the owner, cite its stated value where the site shows one, and end with the TOOLS keyword CTA. Rotate through the tools; never feature the same one twice in a row.",
+    "format_bias": "image",
+    "evidence_note": "Only describe tools/offers actually published on the Black Arrow site.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Offers / Lead Magnets' was the most under-served eligible category (target 22%, recent 20%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.133,
+      "contrarian_pov": 0.033,
+      "offers_lead_magnets": 0.2,
+      "platform_promo": 0.1,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "image",
+    "post_rationale": "Solo-features Black Arrow OS with verified, on-site specs (pipeline, follow-ups, KPI dashboard, CSV export, $0/25 contacts). No third-party or performance claims made; all statements describe the tool's own functionality."
   }
 ]

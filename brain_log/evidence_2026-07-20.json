@@ -59,5 +59,22 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Black Arrow OS is free with 25 contacts, no signup or card required",
+        "class": "product_specification",
+        "status": "verified"
+      },
+      {
+        "claim": "Includes visual pipeline, follow-up scheduling, CPL/ROAS dashboard, and CSV export",
+        "class": "product_specification",
+        "status": "verified"
+      }
+    ]
   }
 ]
