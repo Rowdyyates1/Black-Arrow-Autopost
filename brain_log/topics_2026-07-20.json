@@ -8,5 +8,15 @@
       "A news/algorithm angle (doesn't fit today's mandated Offers/Lead Magnets category)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Cost objection reframed honestly: compare the system's cost to the cost of slow follow-up (not to zero), and explain why pricing only comes after a real pipeline diagnosis.",
+    "score": 85,
+    "rejected": [
+      "Complexity/time objection reframed via the platform's one-click templates (score 75, less urgent than the cost objection)",
+      "\"Automation feels impersonal\" reframe (already shipped, 0 engagement, would repeat a dead angle)",
+      "\"I already have a CRM\" tool-sprawl objection (overlaps with recently covered tool-consolidation posts)"
+    ],
+    "category": "objection_nurture"
   }
 ]

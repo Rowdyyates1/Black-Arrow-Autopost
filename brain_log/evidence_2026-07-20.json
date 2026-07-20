@@ -21,5 +21,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "mixed",
+    "disclosure": "The follow-up speed claim is presented as a general industry pattern, not a specific measured statistic, since no verifiable source is cited. The pricing policy and response-time claims describe Black Arrow's own operating practice.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours to respond to a new lead, and those who respond within minutes close far more of them",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow does not quote done-for-you pricing before a diagnosis meeting",
+        "status": "verified"
+      },
+      {
+        "text": "Every request gets a response within one business day",
+        "status": "verified"
+      }
+    ]
   }
 ]

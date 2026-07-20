@@ -40,5 +40,47 @@
     ],
     "chosen_format": "image",
     "post_rationale": "Fills the under-served Offers/Lead Magnets slot with the one published free tool this account hasn't solo-featured yet, using an image promo card since a single clear offer card converts fastest for a straightforward lead-magnet push."
+  },
+  {
+    "timestamp": "2026-07-20T02:49:36.145193Z",
+    "category": "objection_nurture",
+    "category_label": "Objection Handling / Audience Nurture",
+    "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust. For done-for-you cost objections: never give numbers; the honest answer is that pricing follows a diagnosis meeting.",
+    "format_bias": "carousel",
+    "evidence_note": "Transparent and honest; no unsupported guarantees, no done-for-you pricing.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Objection Handling / Audience Nurture' was the most under-served eligible category (target 6%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.1,
+      "third_party_research": 0.133,
+      "contrarian_pov": 0.033,
+      "offers_lead_magnets": 0.2,
+      "platform_promo": 0.1,
+      "objection_nurture": 0.033
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Objection Handling is under-served this cycle, and the cost objection has never been tackled honestly on this account; carousels currently win saves/depth for B2B objection content, and this gives owners a real reframe (compare to the cost of slow follow-up, not zero) instead of dodging the pricing question."
   }
 ]
