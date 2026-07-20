@@ -164,6 +164,11 @@
       "date": "2026-07-20",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "35252aa13ad58c46",

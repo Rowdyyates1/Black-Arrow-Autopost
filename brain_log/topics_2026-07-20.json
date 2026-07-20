@@ -18,5 +18,15 @@
       "\"I already have a CRM\" tool-sprawl objection (overlaps with recently covered tool-consolidation posts)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Demonstration: the automated customer referral tracking system (link to customer, auto-tagged click, credit on booking)",
+    "score": 89,
+    "rejected": [
+      "Missed-call text-back sequence walkthrough (already shipped in prior posts)",
+      "Quiz funnel first-touch demo (less central to the four-system thesis)",
+      "AI content autopilot feature demo (lower actionability for this week)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

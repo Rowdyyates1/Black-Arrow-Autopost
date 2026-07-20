@@ -40,5 +40,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "verified_company_capability",
+    "disclosure": "Example workflow, illustrative, not a client account",
+    "claims": [
+      {
+        "text": "The platform generates tracked referral links per customer and reports on referral source and outcome",
+        "status": "verified"
+      },
+      {
+        "text": "The specific link, click, booking, and reward sequence shown is a labeled illustrative example",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most referrals go untracked without a system, a general pattern owners recognize",
+        "status": "qualified"
+      }
+    ]
   }
 ]
