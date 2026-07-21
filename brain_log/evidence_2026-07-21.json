@@ -20,5 +20,20 @@
         "status": "supported"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_citation",
+    "disclosure": "Based on widely cited lead response time research showing contact and qualification rates fall sharply after the first few minutes.",
+    "claims": [
+      {
+        "text": "Responding within 5 minutes can double close rate compared to slower response times",
+        "status": "rewritten"
+      },
+      {
+        "text": "Owners often attribute a low close rate to sales skill rather than response speed",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

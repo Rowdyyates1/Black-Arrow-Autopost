@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Contrarian brand POV: a low close rate is usually a follow-up speed problem, not a sales-team problem, reframing blame from people to systems",
+    "score": 89,
+    "rejected": [
+      "Reviews matter less than response speed for building trust (weaker actionability without new data)",
+      "Doubling ad spend without fixing follow-up wastes money (too close to a previously shipped angle)",
+      "You don't have a marketing problem, you have a follow-up problem (overused core theme, not fresh POV)"
+    ],
+    "category": "contrarian_pov"
+  }
+]
