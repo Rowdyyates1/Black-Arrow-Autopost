@@ -179,6 +179,11 @@
       "date": "2026-07-21",
       "category": "platform_promo",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-21",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
   "site_hash": "48ccb9254f7bac0e",
