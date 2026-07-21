@@ -1,0 +1,24 @@
+[
+  {
+    "format": "carousel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "14 days full access, no card needed, cancel anytime",
+        "evidence_class": "product_policy",
+        "status": "supported"
+      },
+      {
+        "claim": "Refer another business owner, both get a free month, tracked in-platform",
+        "evidence_class": "product_policy",
+        "status": "supported"
+      },
+      {
+        "claim": "Tool sprawl (separate CRM, texting, booking, reviews) creates gaps where leads go cold",
+        "evidence_class": "general_pattern",
+        "status": "supported"
+      }
+    ]
+  }
+]
