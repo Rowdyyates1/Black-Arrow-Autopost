@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The First-Claim Rule: auto-assign every new lead to one owner and auto-escalate if unclaimed after 5 minutes, to fix the multi-rep bystander effect",
+    "score": 87,
+    "rejected": [
+      "GoHighLevel's 2026 AI Employee/Voice AI changelog recap (too generic, overlaps prior CRM-news post, risks confusing Black Arrow's own platform identity)",
+      "Instagram's 2026 DM-shares-as-top-ranking-signal trend (meta-commentary on the algorithm, not a revenue tactic for the owner's business)",
+      "UTM tagging for ad attribution (lower novelty, largely overlaps already-shipped revenue-reporting demonstration)"
+    ],
+    "category": "education_informative"
+  }
+]

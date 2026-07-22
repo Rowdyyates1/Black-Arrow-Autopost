@@ -189,9 +189,14 @@
       "date": "2026-07-21",
       "category": "contrarian_pov",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-22",
+      "category": "education_informative",
+      "format": "reel"
     }
   ],
-  "site_hash": "48ccb9254f7bac0e",
+  "site_hash": "57f9a5de2aa656b2",
   "eligibility_overrides": {},
   "memory": {}
 }

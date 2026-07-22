@@ -1,0 +1,17 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "The bystander-effect reference describes a well-documented general behavioral pattern in shared responsibility settings, not a specific client result.",
+    "claims": [
+      {
+        "text": "CRM pipelines and task automation give a team a single clear owner for each lead so nothing falls through",
+        "status": "verified"
+      },
+      {
+        "text": "Auto-reassigning unclaimed leads after a set window counters the bystander effect that happens when a lead alert reaches multiple reps at once",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
