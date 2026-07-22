@@ -13,5 +13,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_citation",
+    "disclosure": "Figures reflect widely cited lead-response-time research (e.g., Lead Response Management / InsideSales studies) rather than Black Arrow's own client data.",
+    "claims": [
+      {
+        "text": "The businesses winning jobs are the fastest to respond, not necessarily the best at the trade",
+        "status": "illustrative"
+      },
+      {
+        "text": "Under 20% of businesses respond to a new lead within an hour",
+        "status": "cited"
+      },
+      {
+        "text": "Responding within 5 minutes nearly doubles the close rate",
+        "status": "cited"
+      }
+    ]
   }
 ]

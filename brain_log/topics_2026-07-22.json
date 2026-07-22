@@ -8,5 +8,15 @@
       "UTM tagging for ad attribution (lower novelty, largely overlaps already-shipped revenue-reporting demonstration)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Contrarian POV: reputation and price don't win the job, response speed does",
+    "score": 86,
+    "rejected": [
+      "CRM without automation is just a filing cabinet, not a system (overlaps with prior four-system framework posts)",
+      "Referrals only look like luck, they're a tracking failure (too close to referral demo already shipped)",
+      "You compete on price because you're not competing on speed (narrower version of chosen angle, less distinct standalone claim)"
+    ],
+    "category": "contrarian_pov"
   }
 ]
