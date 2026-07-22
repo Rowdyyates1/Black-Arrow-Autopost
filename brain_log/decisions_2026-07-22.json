@@ -82,5 +82,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Fills the under-served Contrarian/Brand POV category with a sharp, unclaimed reframe (craftsmanship/reputation isn't the deciding edge, response speed is), and reels still carry the strongest reach plus the top-weighted 2026 DM-share signal for this kind of point-of-view content."
+  },
+  {
+    "timestamp": "2026-07-22T18:58:41.522094Z",
+    "category": "offers_lead_magnets",
+    "category_label": "Offers / Lead Magnets",
+    "guidance": "Feature ONE specific free tool actually published at blackarrow.ltd/tools (a calculator, an audit, an AI builder, or Black Arrow OS \u2014 the free pocket CRM). Everything on that page is free value used as a lead magnet. Lead with what the tool tells or gives the owner, cite its stated value where the site shows one, and end with the TOOLS keyword CTA. Rotate through the tools; never feature the same one twice in a row.",
+    "format_bias": "image",
+    "evidence_note": "Only describe tools/offers actually published on the Black Arrow site.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Offers / Lead Magnets' was the most under-served eligible category (target 22%, recent 20%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.2,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "image",
+    "post_rationale": "Offers/Lead Magnets is under-served this cycle, and the Ad ROI Calculator is the one published free tool this account hasn't solo-featured yet, using the image-promo format that converts fastest for a single clear offer."
   }
 ]
