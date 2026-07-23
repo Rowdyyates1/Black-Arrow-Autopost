@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified",
+    "disclosure": "Response-time and close-rate statistics are drawn from widely cited third-party lead-response research, not Black Arrow's own client data. Figures are presented as industry benchmarks, not company-verified results.",
+    "claims": [
+      {
+        "text": "Industry research suggests only about 17% of service businesses respond to a new lead within an hour.",
+        "status": "qualified"
+      },
+      {
+        "text": "Responding within five minutes can double the odds of closing a lead, per third-party lead-response research.",
+        "status": "qualified"
+      },
+      {
+        "text": "Most owners believe they sit at Level 2, but many actually sit at Level 1.",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

@@ -40,5 +40,47 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Carousels still lead saves/depth for B2B educational content in 2026, and this tackles an unclaimed timing objection (delaying automation until 'bigger') distinct from the impersonal and cost objections already shipped."
+  },
+  {
+    "timestamp": "2026-07-23T16:24:55.031896Z",
+    "category": "authority_frameworks",
+    "category_label": "Authority / Frameworks",
+    "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+    "format_bias": "carousel",
+    "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Authority / Frameworks' was the most under-served eligible category (target 15%, recent 10%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.1,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels currently lead saves and depth for B2B authority content, and this ships an unclaimed maturity-ladder framework distinct from the self-score, forensic diagnostic, and triage models already covered."
   }
 ]

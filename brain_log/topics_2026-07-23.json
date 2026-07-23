@@ -8,5 +8,15 @@
       "'Follow-up feels spammy' objection (too close to already-shipped cadence/script posts)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "The Speed-to-Lead Maturity Ladder: a 4-level framework (no process, manual whenever, manual under an hour, automated under 5 minutes) owners use to self-place and find the next concrete step up.",
+    "score": 90,
+    "rejected": [
+      "Lead temperature triage model (already shipped)",
+      "Follow-up debt metaphor framework (weaker actionability, risks unquantifiable metaphor)",
+      "Three-zone revenue ownership model (too close to the existing four-system self-score)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
