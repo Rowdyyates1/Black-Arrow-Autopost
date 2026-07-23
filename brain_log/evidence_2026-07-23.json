@@ -36,5 +36,28 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from Search Engine Journal and Search Engine Roundtable coverage of Google's July 2026 announcement",
+    "claims": [
+      {
+        "text": "Google is moving Local Services Ads into Google Ads as Performance Max pay-per-lead campaigns beginning August 2026, with other accounts following through 2027",
+        "status": "verified"
+      },
+      {
+        "text": "Google will calculate one campaign-level Target CPA covering multiple service categories after migration, unless advertisers create separate campaigns",
+        "status": "verified"
+      },
+      {
+        "text": "Business name, address, and hours sync from Google Business Profile into the new Google Ads setup, and significant changes trigger a 24-48 hour verification review that can pause the campaign",
+        "status": "verified"
+      },
+      {
+        "text": "Owners should pull 90 days of cost-per-lead, close rate, and job value data by service category before the migration reaches their account",
+        "status": "qualified"
+      }
+    ]
   }
 ]
