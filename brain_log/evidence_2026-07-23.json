@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Manual follow-up breaks at a specific lead-volume/timing point rather than degrading gradually",
+        "status": "illustrative"
+      },
+      {
+        "text": "An automated system fires the first response in under five minutes",
+        "status": "verified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial with no card needed",
+        "status": "verified"
+      }
+    ]
+  }
+]

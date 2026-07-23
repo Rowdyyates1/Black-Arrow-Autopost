@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Objection handling: reframe 'I'll automate once I'm bigger' by showing manual follow-up already breaks at a specific volume/timing point, with concrete self-check signs",
+    "score": 88,
+    "rejected": [
+      "'Automation feels impersonal' objection (already covered on this account)",
+      "Cost objection revisited (already covered on this account)",
+      "'Follow-up feels spammy' objection (too close to already-shipped cadence/script posts)"
+    ],
+    "category": "objection_nurture"
+  }
+]
