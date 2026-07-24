@@ -44,5 +44,24 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from industry trackers on Gmail/Yahoo sender authentication enforcement, 2024 onward",
+    "claims": [
+      {
+        "text": "In recent years, Gmail and Yahoo tightened enforcement so non-compliant email faces outright rejection rather than only spam filtering",
+        "status": "rewritten"
+      },
+      {
+        "text": "SPF, DKIM, and DMARC are the authentication records inbox providers check before allowing mail through",
+        "status": "third_party"
+      },
+      {
+        "text": "Sender-authentication expectations have expanded beyond only the highest-volume bulk senders",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

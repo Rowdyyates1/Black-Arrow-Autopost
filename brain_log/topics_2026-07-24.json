@@ -18,5 +18,15 @@
       "Impact vs effort prioritization matrix for marketing fixes (generic consulting concept, low brand specificity)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Email deliverability as an unclaimed speed-to-lead failure point: Gmail/Yahoo's tightened sender authentication enforcement can silently reject an unauthenticated automated follow-up email, taught with a concrete this-week SPF/DKIM/DMARC test and fix.",
+    "score": 90,
+    "rejected": [
+      "Missed-call callback cadence timing (overlaps prior missed-call text-back and voicemail-greeting posts)",
+      "Seventh Circuit TCPA text-message ruling recap (legal-advice risk, not a this-week actionable tactic)",
+      "General Instagram carousel algorithm mechanics for owners' own social posts (weak fit to core speed-to-lead niche)"
+    ],
+    "category": "education_informative"
   }
 ]

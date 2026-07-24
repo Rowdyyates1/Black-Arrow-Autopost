@@ -1,8 +1,8 @@
 {
-  "caption": "Most owners judge an agency by the leads it generates.\n\nWrong test.\n\nAsk these four questions before you sign anything, or before you renew what you already have.\n\n1. Who owns follow-up the second a lead lands?\n2. What happens in the first five minutes?\n3. Can they trace a dollar back to the ad that made it?\n4. What happens to a lead that goes quiet?\n\nA shrug on any of these means the budget is buying attention. It isn't buying revenue.\n\nDM SCALE\n\n#ServiceBusiness #LeadGeneration #SmallBusinessMarketing #CRM #HomeServices",
+  "caption": "Your automated follow-up email may never reach the lead.\n\nGmail and Yahoo tightened their sender rules in recent years. Unauthenticated mail now gets rejected outright instead of landing in spam.\n\nThe fix lives in three DNS records: SPF, DKIM, and DMARC. They confirm your CRM's email is authorized to send on your domain's behalf.\n\nRun this test this week:\n1. Submit a lead through your own form with a Gmail or Yahoo address you control.\n2. Check inbox, spam, and promotions within the hour.\n3. If nothing shows up anywhere, the automation has a hole in it.\n\nAsk whoever manages your sending one question: are SPF, DKIM, and DMARC authenticated and aligned to my domain? An unsure answer is your answer.\n\nWant calls, texts, and email checked together?\n\nDM SCALE\n\n#LeadFollowUp #ServiceBusiness #SpeedToLead #EmailDeliverability #ContractorMarketing",
   "format": "carousel",
-  "rationale": "Carousels currently lead saves and depth for B2B authority content, and this fills Authority/Frameworks with a genuinely unclaimed angle (a vendor-vetting checklist, not another self-score of the owner's own business) distinct from every prior four-system framework this account has run.",
-  "category": "authority_frameworks",
+  "rationale": "Carousels lead saves and depth for B2B educational content, and this surfaces a genuinely unclaimed, real enforcement shift (Gmail/Yahoo's move to outright rejection of unauthenticated mail) that can silently break the email half of automated follow-up, with a concrete this-week test and fix.",
+  "category": "education_informative",
   "experiment": null,
   "images": [
     "published/2026-07-24/post1_carousel/image_0.jpg",
