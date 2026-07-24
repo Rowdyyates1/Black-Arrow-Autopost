@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-07-24T02:32:54.759954Z",
+    "category": "education_informative",
+    "category_label": "Education / Informative",
+    "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings \u2014 worth paying for.",
+    "format_bias": "reel",
+    "evidence_note": "Tactics must be logically airtight and actually executable as described.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Education / Informative' was the most under-served eligible category (target 15%, recent 10%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.1,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.1,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Meta Instant Form leads log instantly but sit unseen until someone manually checks Ads Manager, a genuine speed-to-lead gap this account hasn't covered, taught with a real test and the native CRM fix."
+  }
+]

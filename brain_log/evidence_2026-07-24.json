@@ -1,0 +1,29 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Meta logs an Instant Form lead the moment it's submitted, but many businesses only see it when someone manually checks Ads Manager or exports a CSV",
+        "status": "qualified"
+      },
+      {
+        "text": "Response-time research shows contact and close rates drop fast once a lead sits untouched past the first hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Meta lets you connect an Instant Form directly to a CRM through the Integrations tab so leads route in real time instead of manual export",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform routes every lead into one inbox and can text back automatically within seconds",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required",
+        "status": "verified"
+      }
+    ]
+  }
+]
