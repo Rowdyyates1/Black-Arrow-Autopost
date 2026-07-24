@@ -8,5 +8,15 @@
       "Google Ads call-only ad phase-out recap (already covered in a prior post)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The 4-Question Agency Vetting Framework: what to ask before you sign or renew any marketing contract",
+    "score": 89,
+    "rejected": [
+      "Growth-ceiling / weakest-link journey-stage scoring framework (too close to prior self-score and maturity-ladder posts)",
+      "Cost-of-delay quantification framework (overlaps with the existing Revenue and Response Audit calculators)",
+      "Impact vs effort prioritization matrix for marketing fixes (generic consulting concept, low brand specificity)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

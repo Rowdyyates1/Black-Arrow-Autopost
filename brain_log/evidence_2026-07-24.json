@@ -25,5 +25,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Response-time claim reframed as a general industry pattern; no single verified source cited for a precise percentage.",
+    "claims": [
+      {
+        "text": "Most service businesses take longer than an hour to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "A 4-question vetting framework for evaluating any marketing agency's follow-up system",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most agencies treat the job as done once a lead lands in the inbox, leaving quiet leads unmanaged",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]
