@@ -9,5 +9,15 @@
       "Repost of Rocket CRM's missed-call text-back press release as news (low-quality competitor PR, not a credible platform update)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Google's shift from postcard to mandatory video verification for Google Business Profiles (rolling out since July 2026) and the suspension risk for service businesses that ignore it",
+    "score": 87,
+    "rejected": [
+      "GoHighLevel July 2026 Workflow AI / changelog update (agency-facing, less directly actionable for owners, and GHL changelog news already used this cycle)",
+      "Google Business Profile chat retirement (already covered in a prior post)",
+      "Meta Business Agent global launch recap (already covered in a prior post)"
+    ],
+    "category": "news_industry"
   }
 ]

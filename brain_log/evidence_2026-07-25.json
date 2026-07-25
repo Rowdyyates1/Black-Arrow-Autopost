@@ -13,5 +13,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from multiple independent industry trackers reporting on Google's 2026 verification rollout; not an official Google announcement.",
+    "claims": [
+      {
+        "text": "Google has replaced postcard verification with a required video walkthrough for most business listings, rolling out since early July 2026",
+        "status": "qualified"
+      },
+      {
+        "text": "Failing or skipping verification can lead to a suspended listing, removing it from Search and Maps",
+        "status": "qualified"
+      },
+      {
+        "text": "The verification video should show signage, an address match, and proof of operating there in one continuous, unedited take",
+        "status": "qualified"
+      }
+    ]
   }
 ]

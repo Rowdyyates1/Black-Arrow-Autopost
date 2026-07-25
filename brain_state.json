@@ -239,6 +239,11 @@
       "date": "2026-07-25",
       "category": "demonstrations_walkthroughs",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-25",
+      "category": "news_industry",
+      "format": "reel"
     }
   ],
   "site_hash": "cde31aa55c9d382c",
