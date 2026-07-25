@@ -234,9 +234,14 @@
       "date": "2026-07-24",
       "category": "education_informative",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-25",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
-  "site_hash": "954ac07b7ad39f7b",
+  "site_hash": "cde31aa55c9d382c",
   "eligibility_overrides": {},
   "memory": {}
 }

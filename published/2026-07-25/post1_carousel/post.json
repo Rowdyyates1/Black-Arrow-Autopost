@@ -1,0 +1,17 @@
+{
+  "caption": "A pipe bursts at 9 PM.\n\nMost businesses lose that call to voicemail and never see the caller again.\n\nHere's the branch logic behind an after-hours line that captures the call: one text asks if it's an emergency, then routes the reply two different ways in real time. No dispatcher needed after midnight.\n\nExample workflow below. Illustrative, not a live client account.\n\nDM SCALE\n\n#HomeServices #HVAC #Roofing #LeadFollowUp #SpeedToLead",
+  "format": "carousel",
+  "rationale": "Carousels currently lead saves and depth for B2B educational content, and this fills Demonstrations/System Walkthroughs with an unclaimed stage: after-hours emergency triage branching, distinct from every prior missed-call, quote, or reminder demo already shipped.",
+  "category": "demonstrations_walkthroughs",
+  "experiment": null,
+  "images": [
+    "published/2026-07-25/post1_carousel/image_0.jpg",
+    "published/2026-07-25/post1_carousel/image_1.jpg",
+    "published/2026-07-25/post1_carousel/image_2.jpg",
+    "published/2026-07-25/post1_carousel/image_3.jpg",
+    "published/2026-07-25/post1_carousel/image_4.jpg",
+    "published/2026-07-25/post1_carousel/image_5.jpg",
+    "published/2026-07-25/post1_carousel/image_6.jpg"
+  ],
+  "story": "published/2026-07-25/post1_carousel/story.jpg"
+}

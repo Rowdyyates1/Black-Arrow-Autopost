@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "After-hours emergency triage: an automated text-back that branches emergency vs. non-emergency replies into two different response paths",
+    "score": 87,
+    "rejected": [
+      "Lead scoring/auto-routing hot-warm-cold demonstration (too close to prior CRM bystander-effect angle)",
+      "Full missed-call-to-appointment text thread example (overlaps prior missed-call script reel)",
+      "Revenue attribution dashboard walkthrough (already covered in a prior reel)",
+      "Repost of Rocket CRM's missed-call text-back press release as news (low-quality competitor PR, not a credible platform update)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

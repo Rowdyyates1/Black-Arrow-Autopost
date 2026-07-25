@@ -1,0 +1,17 @@
+[
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "Automated text asks caller if it's an emergency and branches to on-call tech alert or next-day booking",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most service businesses lose after-hours calls to voicemail, giving callers a reason to try the next roofer or plumber",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
