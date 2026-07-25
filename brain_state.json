@@ -244,6 +244,11 @@
       "date": "2026-07-25",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-25",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "cde31aa55c9d382c",

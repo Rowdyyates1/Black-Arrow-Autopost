@@ -1,8 +1,8 @@
 {
-  "caption": "A pipe bursts at 9 PM.\n\nMost businesses lose that call to voicemail and never see the caller again.\n\nHere's the branch logic behind an after-hours line that captures the call: one text asks if it's an emergency, then routes the reply two different ways in real time. No dispatcher needed after midnight.\n\nExample workflow below. Illustrative, not a live client account.\n\nDM SCALE\n\n#HomeServices #HVAC #Roofing #LeadFollowUp #SpeedToLead",
+  "caption": "A new study measured how fast a lead actually goes cold.\n\nA 2026 benchmark tracked 253,817 real B2B lead responses across 127 companies and built a full conversion curve by response speed.\n\nUnder 5 minutes: 21% convert.\nWait 30-60 minutes: 8% convert.\nWait 24 hours or more: 2.3% convert.\n\nThe study's median response time across companies is 42 hours. Only about 7% respond inside the 5-minute window.\n\nDM TOOLS\n\n#leadresponse #speedtolead #servicebusiness #leadgeneration #smallbusinessgrowth",
   "format": "carousel",
-  "rationale": "Carousels currently lead saves and depth for B2B educational content, and this fills Demonstrations/System Walkthroughs with an unclaimed stage: after-hours emergency triage branching, distinct from every prior missed-call, quote, or reminder demo already shipped.",
-  "category": "demonstrations_walkthroughs",
+  "rationale": "Fills the under-served Third-Party Research category with a fresh, precisely-sourced 2026 study distinct from the HubSpot and EZ Texting data already used, and ties the decay curve directly to the free Lead Response Audit tool.",
+  "category": "third_party_research",
   "experiment": null,
   "images": [
     "published/2026-07-25/post1_carousel/image_0.jpg",

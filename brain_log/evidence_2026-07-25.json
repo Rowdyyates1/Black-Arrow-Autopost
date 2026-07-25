@@ -32,5 +32,32 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Source: 2026 Speed-to-Lead Benchmark study (artemisgtm.ai), cross-referenced via aloware.com",
+    "claims": [
+      {
+        "text": "Study analyzed 253,817 lead responses across 127 B2B companies",
+        "status": "third_party"
+      },
+      {
+        "text": "Under-5-minute responders convert at 21%",
+        "status": "third_party"
+      },
+      {
+        "text": "30-60 minute responders convert at 8%",
+        "status": "third_party"
+      },
+      {
+        "text": "24+ hour responders convert at 2.3%",
+        "status": "third_party"
+      },
+      {
+        "text": "Median B2B response time is 42 hours and only about 7% respond within 5 minutes",
+        "status": "third_party"
+      }
+    ]
   }
 ]

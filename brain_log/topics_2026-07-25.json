@@ -19,5 +19,16 @@
       "Meta Business Agent global launch recap (already covered in a prior post)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "New 2026 Speed-to-Lead Benchmark study (253,817 leads, 127 companies): full conversion decay curve by response tier, tied to the free Lead Response Audit tool",
+    "score": 91,
+    "rejected": [
+      "RevenueHero's 63.5%-never-respond stat (too close to the account's existing 17%-non-response theme)",
+      "HubSpot's 10-minute definition of 'immediate' (already used by this account)",
+      "EZ Texting 2026 consumer survey (already used by this account)",
+      "Reels-vs-carousels platform benchmark data used as the post topic itself (not audience-relevant to owners)"
+    ],
+    "category": "third_party_research"
   }
 ]
