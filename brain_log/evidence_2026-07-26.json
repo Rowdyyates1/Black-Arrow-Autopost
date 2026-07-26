@@ -17,5 +17,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Qualified, industry-standard research on B2B lead follow-up cadences",
+    "claims": [
+      {
+        "text": "Most sales reps give up after one or two follow-up attempts",
+        "status": "qualified"
+      },
+      {
+        "text": "Reaching a prospect by phone typically takes several more attempts than reps assume",
+        "status": "qualified"
+      },
+      {
+        "text": "The Platform sends the automated first-touch text and reminds the team when each call is due",
+        "status": "verified"
+      }
+    ]
   }
 ]

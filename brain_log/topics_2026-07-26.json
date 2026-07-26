@@ -8,5 +8,15 @@
       "CRM-as-second-employee role framework (weaker actionability, less numeric)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "The 6-touch lead cadence: why follow-up dies after one call, and the real 3-day touch schedule to fix it",
+    "score": 91,
+    "rejected": [
+      "Appointment reminder cadence for booked visits (already shipped as a prior carousel)",
+      "Instagram carousel-vs-reel algorithm trend recap (too meta, low direct revenue actionability)",
+      "General no-show SMS statistics recap (overlaps prior appointment-reminder post)"
+    ],
+    "category": "education_informative"
   }
 ]
