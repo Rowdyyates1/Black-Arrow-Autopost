@@ -259,6 +259,11 @@
       "date": "2026-07-26",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-07-26",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "cde31aa55c9d382c",

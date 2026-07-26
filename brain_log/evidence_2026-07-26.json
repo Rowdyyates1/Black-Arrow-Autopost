@@ -36,5 +36,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow builds CRM pipelines, booking flows, and task automation so a team knows exactly what to do next and nothing falls through",
+        "status": "verified"
+      },
+      {
+        "text": "Leads without a named owner at each pipeline stage tend to stall (general operating pattern)",
+        "status": "qualified"
+      }
+    ]
   }
 ]

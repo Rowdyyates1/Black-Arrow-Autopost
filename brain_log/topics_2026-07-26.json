@@ -18,5 +18,15 @@
       "General no-show SMS statistics recap (overlaps prior appointment-reminder post)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The One-Name Rule: a pipeline-ownership framework where every stage must have a named owner (person or automation), paired with a 48-hour auto-escalation rule.",
+    "score": 88,
+    "rejected": [
+      "Channel-by-channel response-window framework (5 min call, 10 min text, 1 hr email) \u2014 lower novelty, overlaps with prior triage/temperature framing",
+      "Cost-of-silence stage-by-stage revenue framework \u2014 too close to the four-multiplicative-levers post already shipped",
+      "Vendor-style scoring of your own team's follow-up habits \u2014 overlaps with the self-scoring mental model already covered"
+    ],
+    "category": "authority_frameworks"
   }
 ]
