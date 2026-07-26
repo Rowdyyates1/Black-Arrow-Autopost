@@ -249,6 +249,11 @@
       "date": "2026-07-25",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-07-26",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "cde31aa55c9d382c",

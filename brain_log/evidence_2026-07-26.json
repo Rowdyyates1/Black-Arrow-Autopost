@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "The revenue formula is an illustrative framework, not a measured internal metric. The response-time claim reflects widely cited lead response research rather than a Black Arrow-specific statistic.",
+    "claims": [
+      {
+        "text": "Revenue = Leads \u00d7 Close Rate \u00d7 Average Job Value \u00d7 Repeat Rate",
+        "status": "illustrative"
+      },
+      {
+        "text": "Close rate usually moves fastest and costs the least ad spend to improve",
+        "status": "qualified"
+      },
+      {
+        "text": "Businesses that respond to a new lead within the first hour close more of them than those that wait",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
