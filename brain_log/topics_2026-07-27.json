@@ -7,5 +7,15 @@
       "Google Local Services Ads change recap (score 60, overlaps with account's best-performing past post on the same topic)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Feature Black Arrow OS (free pocket CRM) as this week's actionable lead-tracking tool",
+    "score": 89,
+    "rejected": [
+      "Ad ROI Calculator solo feature (less detailed verified copy available)",
+      "AI Follow-Up Builder repeat (already covered, less fresh)",
+      "Lead Response Audit repeat (already covered twice previously)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Drag-and-drop pipeline, follow-up scheduling, and a KPI dashboard with CPL and ROAS",
+        "status": "verified"
+      },
+      {
+        "text": "$0 forever, no signup, 25 contacts free",
+        "status": "verified"
+      },
+      {
+        "text": "CSV export available",
+        "status": "verified"
+      }
+    ]
   }
 ]
