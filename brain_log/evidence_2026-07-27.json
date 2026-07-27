@@ -1,0 +1,17 @@
+[
+  {
+    "format": "reel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example script",
+    "claims": [
+      {
+        "text": "Text script for reactivating a dead quote (\"Hi [Name], following up on the estimate...\")",
+        "status": "illustrative"
+      },
+      {
+        "text": "The Black Arrow platform includes an automated win-back sequence feature",
+        "status": "verified"
+      }
+    ]
+  }
+]
