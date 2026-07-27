@@ -32,5 +32,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Every text and email threads per contact in one record",
+        "status": "verified"
+      },
+      {
+        "text": "Quiz answers, ad source, and message history are stored on the same contact record",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

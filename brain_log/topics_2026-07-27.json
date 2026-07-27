@@ -17,5 +17,15 @@
       "Lead Response Audit repeat (already covered twice previously)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Context-loss at the second touchpoint: whoever answers the phone has no history, and the unified CRM record fixes it",
+    "score": 87,
+    "rejected": [
+      "Tool sprawl pain point (already used 3x for this category)",
+      "Solo-feature the referral deal as the standalone hook",
+      "Revenue attribution/reporting gap (already covered in a prior post)"
+    ],
+    "category": "platform_promo"
   }
 ]
