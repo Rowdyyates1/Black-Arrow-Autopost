@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most service businesses lose leads by responding too slowly",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Lead Response Audit is a free tool that requires no signup",
+        "status": "verified"
+      },
+      {
+        "text": "It calculates a response score, monthly leads lost, and revenue at risk from four inputs",
+        "status": "verified"
+      }
+    ]
+  }
+]
