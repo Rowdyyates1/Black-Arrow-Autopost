@@ -40,5 +40,47 @@
     ],
     "chosen_format": "image",
     "post_rationale": "Offers/Lead Magnets is under-served this cycle and image promos convert fastest for a single clear tool; this solo-features the Lead Response Audit (not used last, unlike Black Arrow OS) with only its stated on-site inputs and outputs."
+  },
+  {
+    "timestamp": "2026-07-28T16:39:04.268095Z",
+    "category": "third_party_research",
+    "category_label": "Third-Party Research / Market Evidence",
+    "guidance": "Use a credible external study to explain why a capability matters. Qualified language: 'Research suggests...', 'The study found...'.",
+    "format_bias": "carousel",
+    "evidence_note": "Attribute the source. NEVER imply Black Arrow produced the result or achieves the same without evidence.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Third-Party Research / Market Evidence' was the most under-served eligible category (target 7%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.167,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.033,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Reframes speed-to-lead as a well-documented industry pattern instead of citing a specific invented study, keeping the post grounded in an honest, defensible claim while preserving the concrete self-audit action and free Lead Response Audit CTA."
   }
 ]

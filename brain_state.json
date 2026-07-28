@@ -284,6 +284,11 @@
       "date": "2026-07-28",
       "category": "offers_lead_magnets",
       "format": "image"
+    },
+    {
+      "date": "2026-07-28",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "cde31aa55c9d382c",

@@ -17,5 +17,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Reflects widely documented speed-to-lead research patterns (e.g., published studies on lead response time and conversion). No single specific study is cited, and no invented sample sizes or precise percentages are used.",
+    "claims": [
+      {
+        "text": "Businesses that respond to a new lead within minutes close more of them than businesses that wait a day",
+        "status": "rewritten"
+      },
+      {
+        "text": "Most businesses do not respond within minutes; response time is typically much longer than customers expect",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

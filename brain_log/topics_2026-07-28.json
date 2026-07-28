@@ -8,5 +8,17 @@
       "Ad ROI Calculator solo feature (78, less tied to the core speed-to-lead fact)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Position speed-to-lead as a consistent, honestly-framed industry pattern (fast responders convert more, most businesses respond slowly) paired with a concrete self-audit action and the free Lead Response Audit tool, avoiding any fabricated study name or invented statistics.",
+    "score": 88,
+    "rejected": [
+      "MIT/Oldroyd 21x lead qualification study (real but widely cited for years, low novelty for this account)",
+      "Instagram DM-share algorithm weighting (relevant to content strategy, not the owner's lead-gen problem)",
+      "Carousel-vs-Reels engagement benchmark data (meta content-strategy stat, not audience-relevant to service owners)",
+      "HubSpot 82%-rate-immediate-as-important consumer stat (too close to a prior HubSpot-sourced post)",
+      "Fabricated 2026 'Artemis GTM' benchmark study with invented sample size and precise percentages (rejected: unverifiable, fabricated citation)"
+    ],
+    "category": "third_party_research"
   }
 ]
