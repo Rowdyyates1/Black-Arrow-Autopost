@@ -20,5 +20,16 @@
       "Fabricated 2026 'Artemis GTM' benchmark study with invented sample size and precise percentages (rejected: unverifiable, fabricated citation)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Solo-feature the free Revenue Calculator (four inputs, three outputs) as this cycle's Offers/Lead Magnets post",
+    "score": 87,
+    "rejected": [
+      "Ad ROI Calculator feature (score 58) - site text cuts off before stating its full input/output specs, higher risk of under-supported claims",
+      "AI Follow-Up Builder feature (score 55) - already solo-featured previously and specs not fully detailed in current site context",
+      "Black Arrow OS feature (score 50) - heavily repeated in recent cycles, low novelty for this rotation",
+      "Instagram DM-share algorithm news angle (score 62) - genuinely current but doesn't fit today's mandated Offers/Lead Magnets category"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

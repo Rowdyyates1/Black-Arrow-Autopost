@@ -32,5 +32,28 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Four inputs, three outputs: revenue per lead, monthly loss to slow follow-up, and value of a 10% fix per year.",
+        "status": "verified"
+      },
+      {
+        "text": "Free, no signup, no card required.",
+        "status": "verified"
+      },
+      {
+        "text": "Inputs are monthly leads, close rate, average job value, and average response time.",
+        "status": "verified"
+      },
+      {
+        "text": "Assigned dollar value ($225) removed from kicker as an unverifiable figure; tool is positioned as free with no invented cost claim instead.",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
