@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Feature the platform's automatic referral deal (refer a business, both get a free month) paired with the 14-day free trial, reframing untracked word-of-mouth as recurring revenue",
+    "score": 88,
+    "rejected": [
+      "Missed-call recovery as trial hook (overlaps prior demo posts)",
+      "Review generation and win-back automation as trial pitch (overlaps retention demos already shipped)",
+      "Quiz funnel to CRM trial promo (demo format already covered as walkthrough)",
+      "Generic 14-day trial announcement with no differentiated hook (weaker, already covered via revenue-attribution and tool-sprawl posts)"
+    ],
+    "category": "platform_promo"
+  }
+]
