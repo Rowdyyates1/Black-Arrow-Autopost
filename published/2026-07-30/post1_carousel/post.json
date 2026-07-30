@@ -1,0 +1,16 @@
+{
+  "caption": "You tried automated follow-up once. It underperformed, so you went back to answering every lead yourself.\n\nBefore you write off automation for good, look at which failure happened:\n\n1. One sequence for every lead. The quote request and the newsletter click got identical emails.\n\n2. No handoff. A lead asked about pricing and the sequence kept sending tips instead of routing to your phone.\n\n3. Built once, left alone. The sequence launched, then sat untouched while your offer changed twice.\n\nMost systems that fail trace back to one of these three setup gaps.\n\nDM SCALE\n\n#LeadFollowUp #ServiceBusiness #MarketingAutomation #CRM #SmallBusinessGrowth",
+  "format": "carousel",
+  "rationale": "Carousels currently win engagement and saves for B2B educational content, and this fills the under-served Objection Handling category with an unclaimed angle: reframing 'I already tried automation and it failed' as three diagnosable setup gaps instead of dismissing or repeating the impersonal/cost/timing objections already shipped.",
+  "category": "objection_nurture",
+  "experiment": null,
+  "images": [
+    "published/2026-07-30/post1_carousel/image_0.jpg",
+    "published/2026-07-30/post1_carousel/image_1.jpg",
+    "published/2026-07-30/post1_carousel/image_2.jpg",
+    "published/2026-07-30/post1_carousel/image_3.jpg",
+    "published/2026-07-30/post1_carousel/image_4.jpg",
+    "published/2026-07-30/post1_carousel/image_5.jpg"
+  ],
+  "story": "published/2026-07-30/post1_carousel/story.jpg"
+}

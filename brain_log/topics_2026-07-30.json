@@ -18,5 +18,15 @@
       "GoHighLevel/CRM news recap (already covered by this account, not fresh)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Objection handling: reframe 'I tried automation and it failed' as a diagnosable setup problem, not proof automation doesn't work",
+    "score": 88,
+    "rejected": [
+      "Long sales cycle objection: 'my leads take months to decide, so speed doesn't matter' (score 80, less urgent for most of the audience)",
+      "Customers prefer phone calls over automated texts trust objection (score 74, harder to support without a specific stat)",
+      "Switching-cost/tool-overwhelm objection (score 70, already claimed under Platform/Free Trial category)"
+    ],
+    "category": "objection_nurture"
   }
 ]

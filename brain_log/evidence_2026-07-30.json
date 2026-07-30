@@ -32,5 +32,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Automated sequences that treat every lead identically regardless of source or intent commonly underperform",
+        "status": "qualified"
+      },
+      {
+        "text": "Sequences with no handoff rule let hot leads sit in slow-drip messaging unnoticed",
+        "status": "qualified"
+      },
+      {
+        "text": "Sequences built once and never revisited go stale as offers change",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow reviews the pipeline before proposing a rebuild",
+        "status": "verified"
+      }
+    ]
   }
 ]
