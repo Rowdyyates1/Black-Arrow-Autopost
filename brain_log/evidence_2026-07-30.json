@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "No onboarding calls, no certification courses; pick a template, flip it on, live in minutes",
+        "status": "verified"
+      },
+      {
+        "text": "The platform unifies inbox, texting, booking, review collection, and reporting under one login",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
+  }
+]
