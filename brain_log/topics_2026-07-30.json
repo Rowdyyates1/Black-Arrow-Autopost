@@ -8,5 +8,15 @@
       "AI content autopilot feature as standalone hook (weaker tie to core speed-to-lead story)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Solo-feature the Ad ROI Calculator as the free lead magnet, image promo format",
+    "score": 87,
+    "rejected": [
+      "AI Follow-Up Builder solo feature (used more recently than Ad ROI in rotation)",
+      "Black Arrow OS solo feature (already run twice in prior cycles)",
+      "GoHighLevel/CRM news recap (already covered by this account, not fresh)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

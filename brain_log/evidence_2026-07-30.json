@@ -17,5 +17,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Three calculators that show where revenue is leaking, including the Ad ROI Calculator, are published free on blackarrow.ltd/tools",
+        "status": "verified"
+      },
+      {
+        "text": "The tools require no signup and no card",
+        "status": "verified"
+      }
+    ]
   }
 ]
