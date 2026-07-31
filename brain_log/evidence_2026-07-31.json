@@ -29,5 +29,28 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "Example text: illustrative, not a client account",
+    "claims": [
+      {
+        "text": "Confirming the exact request proves a real system caught the lead's specific ask",
+        "status": "illustrative"
+      },
+      {
+        "text": "Limiting the first reply to one qualifying question keeps the lead responding",
+        "status": "illustrative"
+      },
+      {
+        "text": "A specific next step with a time attached outperforms a vague promise of contact",
+        "status": "illustrative"
+      },
+      {
+        "text": "The generic 'thanks for reaching out' example confirms, clarifies, and commits to nothing",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

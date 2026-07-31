@@ -8,5 +8,16 @@
       "Cover the 2026 carousel-vs-image engagement research as a standalone news post (fits Authority/News, not today's assigned Offers/Lead Magnets category)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "The 3-part first-text framework (Confirm, Clarify, Commit) for automated lead follow-up",
+    "score": 89,
+    "rejected": [
+      "Capacity-check framework before increasing ad spend (too close to shipped contrarian ad-vs-follow-up POV)",
+      "CRM pipeline stage naming by action not status (overlaps with shipped per-stage ownership framework)",
+      "Channel-matching framework: match follow-up channel to lead source",
+      "Review-ask timing model by service type (better fits Demonstrations than Authority)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

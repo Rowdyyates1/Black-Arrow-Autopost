@@ -82,5 +82,47 @@
     ],
     "chosen_format": "image",
     "post_rationale": "Offers/Lead Magnets is under-served this cycle and image promos convert fastest for a single clear tool offer; this solo-features the AI Follow-Up Builder, the one published free tool not featured most recently (Ad ROI Calculator ran last)."
+  },
+  {
+    "timestamp": "2026-07-31T19:09:22.930988Z",
+    "category": "authority_frameworks",
+    "category_label": "Authority / Frameworks",
+    "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+    "format_bias": "carousel",
+    "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats.",
+    "mode": "exploration",
+    "reason": "Exploration (8% budget): sampling 'Authority / Frameworks' to keep learning what performs, not just exploiting the current leader.",
+    "confidence": 0.4,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.167,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.1,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels currently lead saves/depth for B2B authority content, and this ships an unclaimed copy framework for the first automated text itself, distinct from every prior self-score, diagnostic, triage, ladder, and ownership model already covered."
   }
 ]
