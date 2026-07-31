@@ -1,0 +1,14 @@
+[
+  {
+    "format": "slideshow",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Partial quiz answers save to the CRM before submission, then trigger automated recovery texts at 10 minutes and 45 minutes, followed by human handoff at 2 hours.",
+        "class": "demonstration",
+        "status": "labeled demonstration"
+      }
+    ]
+  }
+]
