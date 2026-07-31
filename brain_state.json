@@ -324,9 +324,14 @@
       "date": "2026-07-31",
       "category": "demonstrations_walkthroughs",
       "format": "slideshow"
+    },
+    {
+      "date": "2026-07-31",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
-  "site_hash": "cde31aa55c9d382c",
+  "site_hash": "bc86f7233a116807",
   "eligibility_overrides": {},
   "memory": {}
 }

@@ -10,5 +10,24 @@
         "status": "labeled demonstration"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Replaced an unsourced specific percentage claim with a general, defensible pattern statement.",
+    "claims": [
+      {
+        "text": "The AI Follow-Up Builder asks a few questions and produces a custom follow-up sequence (SMS and email) for the business",
+        "status": "verified"
+      },
+      {
+        "text": "The tool is free, with no signup and no card required",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses take hours to respond to a new lead",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
