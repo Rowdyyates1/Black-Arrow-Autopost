@@ -17,5 +17,28 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses respond to a new lead within an hour",
+        "status": "verified"
+      },
+      {
+        "text": "Responding in under 5 minutes roughly doubles the close rate",
+        "status": "verified"
+      },
+      {
+        "text": "The platform fires an automatic text-back on missed calls",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

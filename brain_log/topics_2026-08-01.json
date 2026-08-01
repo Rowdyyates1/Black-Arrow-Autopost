@@ -9,5 +9,16 @@
       "End-to-end quiz-to-revenue funnel (already shipped)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Missed-call text-back as the specific, unclaimed pain the Black Arrow platform kills, promoted through the 14-day free trial",
+    "score": 88,
+    "rejected": [
+      "Tool sprawl pain (already shipped twice for this category)",
+      "Onboarding friction / switching cost (already shipped)",
+      "Referral-for-a-free-month solo feature (already shipped)",
+      "Fragmented context on the second touchpoint (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]
