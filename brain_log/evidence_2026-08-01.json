@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "Black Arrow's retention system includes review generation and follow-up sequences",
+        "status": "verified"
+      },
+      {
+        "text": "Step-by-step trigger, message, star-rating fork, and reminder sequence",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most shops with a formal review request outrun the ones leaving it to memory",
+        "status": "qualified"
+      }
+    ]
+  }
+]

@@ -334,9 +334,14 @@
       "date": "2026-07-31",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-08-01",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
-  "site_hash": "bc86f7233a116807",
+  "site_hash": "52c4245d743ef51b",
   "eligibility_overrides": {},
   "memory": {}
 }

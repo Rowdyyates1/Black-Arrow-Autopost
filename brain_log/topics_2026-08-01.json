@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Post-job automated review request flow (trigger, message, star-rating fork, reminder) as an unclaimed Demonstrations stage",
+    "score": 89,
+    "rejected": [
+      "After-hours emergency triage branching (already shipped)",
+      "Quiz abandonment recovery (already shipped)",
+      "Customer referral tracking demo (already shipped)",
+      "End-to-end quiz-to-revenue funnel (already shipped)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

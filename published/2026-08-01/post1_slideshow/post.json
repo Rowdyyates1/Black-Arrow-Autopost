@@ -1,0 +1,10 @@
+{
+  "caption": "Your team closes a job and moves straight to the next one.\n\nNobody remembers to ask for the review. By the time someone does, the customer has already forgotten how good the work was.\n\nExample workflow below. Illustrative only, not a live client account:\n\n1. Job status flips to Complete in the CRM\n2. An SMS fires automatically asking for a 1-5 star rating\n3. 4-5 stars routes straight to your Google review link while it's fresh\n4. 1-3 stars alerts you privately, before it ever goes public\n5. No response in 3 days triggers one follow-up message, then nothing\n\nMost shops with a formal ask outrun the ones leaving it to memory.\n\nWant this running behind every closed job?\nDM SCALE\n#ServiceBusiness #ReviewGeneration #HomeServices #CRMAutomation #SmallBusinessGrowth",
+  "format": "slideshow",
+  "rationale": "Fills the under-served Demonstrations slot with an unclaimed stage (post-job review request flow), using the slideshow format the brief recommends for step-based system walkthroughs.",
+  "category": "demonstrations_walkthroughs",
+  "experiment": null,
+  "video": "published/2026-08-01/post1_slideshow/reel.mp4",
+  "cover": "published/2026-08-01/post1_slideshow/cover.jpg",
+  "story": "published/2026-08-01/post1_slideshow/story.jpg"
+}
