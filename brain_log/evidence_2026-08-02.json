@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Based on Google's publicly documented local ranking guidance and widely cited local SEO research on review response impact.",
+    "claims": [
+      {
+        "text": "Google's local ranking algorithm factors in review response rate and recency",
+        "status": "qualified"
+      },
+      {
+        "text": "Responding to negative reviews within 24 hours is a widely recommended reputation-management practice",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow's platform includes automated review generation and collection",
+        "status": "verified"
+      }
+    ]
   }
 ]

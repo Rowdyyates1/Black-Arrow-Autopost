@@ -8,5 +8,15 @@
       "AI DM chatbots won't fix follow-up without process first (weaker evidence grounding, less timely)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "The 4-line reply framework for negative Google reviews, tied to Google's use of response rate as a local ranking signal",
+    "score": 88,
+    "rejected": [
+      "Recap of Rocket CRM's missed-call-text-back press release (too generic, not novel, thin sourcing)",
+      "Appointment reminder cadence to cut no-shows (solid but relies on inconsistent third-party no-show percentages and overlaps with existing reminder/demo content)",
+      "General Instagram 2026 trend recap (not core to service-business revenue, off-mission for this account)"
+    ],
+    "category": "education_informative"
   }
 ]
