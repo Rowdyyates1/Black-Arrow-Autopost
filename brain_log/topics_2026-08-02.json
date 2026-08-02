@@ -18,5 +18,16 @@
       "General Instagram 2026 trend recap (not core to service-business revenue, off-mission for this account)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Feature Black Arrow OS (free pocket CRM) framed around the exact dropped-lead problem already resonating in this account's top-performing recent videos, using verified on-site specs only.",
+    "score": 88,
+    "rejected": [
+      "Ad ROI Calculator promo image (score 73, weaker verified spec detail available from site text)",
+      "AI Follow-Up Builder feature (score 82, featured recently, only partial specs verified)",
+      "Lead Response Audit repeat feature (score 80, overused this cycle already)",
+      "Revenue Calculator repeat feature (score 77, risk of echoing the account's previously weak 'four numbers' framing)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

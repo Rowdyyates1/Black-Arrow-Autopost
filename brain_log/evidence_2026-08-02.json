@@ -32,5 +32,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow OS is a drag-and-drop pipeline with stages you move leads through",
+        "status": "verified"
+      },
+      {
+        "text": "It includes follow-up scheduling",
+        "status": "verified"
+      },
+      {
+        "text": "It shows weekly KPI numbers including cost per lead and ROAS",
+        "status": "verified"
+      },
+      {
+        "text": "It supports CSV export",
+        "status": "verified"
+      },
+      {
+        "text": "It is $0 forever, no signup, free for the first 25 contacts, unlimited on the Platform",
+        "status": "verified"
+      }
+    ]
   }
 ]
