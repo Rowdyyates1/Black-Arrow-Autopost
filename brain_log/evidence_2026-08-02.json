@@ -1,0 +1,17 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Migration details reflect Google's public rollout of merging Local Service Ads into Google Ads. Response-time figures reflect widely cited industry lead-response research (e.g., Lead Response Management study; Harvard Business Review coverage of speed-to-lead).",
+    "claims": [
+      {
+        "text": "Google is folding Local Service Ads into Google Ads for home service advertisers",
+        "status": "rewritten"
+      },
+      {
+        "text": "Only about 17% of service businesses respond to a new lead within an hour, and responding within five minutes roughly doubles close rate",
+        "status": "verified"
+      }
+    ]
+  }
+]

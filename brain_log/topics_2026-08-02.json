@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Contrarian POV: the ad platform isn't the deciding variable in growth, the follow-up system underneath it is, illustrated through the real LSA-to-Google-Ads migration",
+    "score": 83,
+    "rejected": [
+      "More leads won't fix a broken pipeline (overlaps prior lead-volume-vs-speed framework)",
+      "Price isn't why you lose the job, response time is (too similar to prior craftsmanship/reputation contrarian post)",
+      "AI DM chatbots won't fix follow-up without process first (weaker evidence grounding, less timely)"
+    ],
+    "category": "contrarian_pov"
+  }
+]
