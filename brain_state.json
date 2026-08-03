@@ -359,6 +359,11 @@
       "date": "2026-08-02",
       "category": "offers_lead_magnets",
       "format": "image"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "52c4245d743ef51b",

@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Automations like missed-call text-back, review engine, and win-backs install once and run continuously without manual upkeep",
+        "status": "verified"
+      },
+      {
+        "text": "Setup takes minutes with no onboarding calls or certification courses required",
+        "status": "verified"
+      },
+      {
+        "text": "Manual, one-attempt follow-up is the real time sink for most service teams",
+        "status": "verified"
+      }
+    ]
+  }
+]

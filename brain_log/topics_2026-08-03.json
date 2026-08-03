@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Objection: 'I don't have time to run another system' reframed as manual follow-up already being the bigger time sink, paired with the platform's set-once automations",
+    "score": 83,
+    "rejected": [
+      "Control/oversight fear objection (owner doesn't trust automation's tone) - scored 78, less pressing than the time objection",
+      "Compliance/spam-risk objection around automated texting - scored ~65, too much legal-risk surface for a confident answer",
+      "Reframing the cost objection again - rejected outright, already shipped this cycle"
+    ],
+    "category": "objection_nurture"
+  }
+]
