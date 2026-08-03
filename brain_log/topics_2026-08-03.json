@@ -8,5 +8,15 @@
       "Reframing the cost objection again - rejected outright, already shipped this cycle"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Contrarian POV: more ad spend isn't the growth lever, follow-up speed is \u2014 doubling leads into a broken system doubles losses, not revenue",
+    "score": 85,
+    "rejected": [
+      "Review recency beats review volume for local ranking (better fit for Education, not brand POV)",
+      "CRM as record-keeping tool vs. real-time growth tool (too close to prior speed-to-lead framing)",
+      "LSA-to-Google-Ads migration reframe (already shipped as a news-hook post)"
+    ],
+    "category": "contrarian_pov"
   }
 ]

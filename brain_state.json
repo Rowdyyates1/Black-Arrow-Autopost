@@ -364,6 +364,11 @@
       "date": "2026-08-03",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-08-03",
+      "category": "contrarian_pov",
+      "format": "reel"
     }
   ],
   "site_hash": "52c4245d743ef51b",

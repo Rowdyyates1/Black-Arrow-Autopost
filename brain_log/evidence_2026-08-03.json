@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Increasing ad spend without fixing follow-up increases lost leads and cost per sale rather than revenue",
+        "status": "qualified"
+      },
+      {
+        "text": "Advertising creates opportunities; systems convert them into revenue (Black Arrow's core positioning)",
+        "status": "qualified"
+      },
+      {
+        "text": "The free Lead Response Audit shows where leads are leaking",
+        "status": "demonstration"
+      }
+    ]
   }
 ]
