@@ -18,5 +18,14 @@
       "LSA-to-Google-Ads migration reframe (already shipped as a news-hook post)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Google retired GBP Q&A for AI-generated Ask Maps answers, interpreted as a reason to automate review collection",
+    "score": 88,
+    "rejected": [
+      "Instagram 2026 DM-share ranking signal (already run as a contrarian POV post)",
+      "GBP video verification requirement for new listings (weaker tie to speed-to-lead/follow-up niche)"
+    ],
+    "category": "news_industry"
   }
 ]

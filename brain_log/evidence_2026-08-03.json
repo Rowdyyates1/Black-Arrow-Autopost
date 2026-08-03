@@ -36,5 +36,24 @@
         "status": "demonstration"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from documented Google Business Profile product change reporting; Black Arrow interpretation of the business impact.",
+    "claims": [
+      {
+        "text": "Google discontinued the GBP Q&A feature and replaced it with Ask Maps, a Gemini-powered tool that generates real-time answers",
+        "status": "third_party"
+      },
+      {
+        "text": "Ask Maps pulls from a business's profile data, website content, and customer reviews to generate its answers",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform includes an automated review collection engine",
+        "status": "verified"
+      }
+    ]
   }
 ]
