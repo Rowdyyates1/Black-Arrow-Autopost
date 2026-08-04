@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most missed-call text-back setups stop at a single automated reply with no assigned owner or deadline",
+        "status": "qualified"
+      },
+      {
+        "text": "Assigning a named person and deadline, plus keeping the interaction on one record, closes the accountability gap auto-reply alone leaves open",
+        "status": "qualified"
+      },
+      {
+        "text": "The Platform provides CRM pipelines, unified inbox, and booking to keep this on one record",
+        "status": "verified"
+      }
+    ]
   }
 ]

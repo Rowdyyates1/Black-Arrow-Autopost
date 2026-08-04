@@ -8,5 +8,15 @@
       "Team accountability matrix by pipeline stage (overlaps the prior name-an-owner model)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Missed-call text-back only works if the reply creates an owned, timed task on one record, not just an auto-reply",
+    "score": 85,
+    "rejected": [
+      "Instagram carousel-vs-reel algorithm shift (low core-niche relevance for this audience)",
+      "Repeat the 17%/under-5-minutes stat again (already covered extensively, no new angle)",
+      "Google Business Profile Q&A retirement (already shipped as a news post)"
+    ],
+    "category": "education_informative"
   }
 ]
