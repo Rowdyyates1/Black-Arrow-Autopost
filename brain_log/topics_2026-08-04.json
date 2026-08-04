@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The Lead Aging Report: a 4-bucket time-based framework (0-5min, 5-60min, 1-24hr, 24hr+) for triaging open leads by contact recency, tied to the free Lead Response Audit.",
+    "score": 87,
+    "rejected": [
+      "Vendor-neutral tech stack audit checklist (too close to the prior vendor-vetting checklist)",
+      "Weekly revenue leak scorecard (overlaps the prior four-lever revenue math framework)",
+      "Team accountability matrix by pipeline stage (overlaps the prior name-an-owner model)"
+    ],
+    "category": "authority_frameworks"
+  }
+]

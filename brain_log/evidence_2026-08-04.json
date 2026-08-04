@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "The original '17% of businesses respond within an hour' statistic was unverifiable as stated and was replaced with the 5-minute response benchmark, a widely recognized best-practice standard rather than a measured company statistic. The four-bucket framework is an original analogy applying receivables-aging logic to lead follow-up. The Lead Response Audit description reflects the tool's actual function.",
+    "claims": [
+      {
+        "text": "Responding to a new lead within 5 minutes is the benchmark that separates businesses that book the job from those that lose it to a faster competitor.",
+        "status": "rewritten"
+      },
+      {
+        "text": "The four-bucket lead aging framework applies standard receivables-aging logic to lead follow-up timing.",
+        "status": "illustrative"
+      },
+      {
+        "text": "The free Lead Response Audit calculates a response score, estimated leads lost, and revenue at risk from four inputs.",
+        "status": "verified"
+      }
+    ]
+  }
+]
