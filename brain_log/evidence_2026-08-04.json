@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most CRM pipeline stages are labels with no rule for when a lead should move on",
+        "status": "qualified"
+      },
+      {
+        "text": "Defining one checkable exit fact per stage lets automation move leads instead of manual review",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "Black Arrow OS offers a free drag-and-drop pipeline with no signup",
+        "status": "verified"
+      }
+    ]
   }
 ]

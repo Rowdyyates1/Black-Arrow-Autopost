@@ -1,7 +1,7 @@
 {
-  "caption": "Your invoices get an aging report. Your leads don't.\n\nEvery open lead sits in one of four buckets, sorted by time since first contact: 0\u20135 minutes, 5\u201360 minutes, 1\u201324 hours, and 24-plus.\n\nEach bucket needs a different move.\n\nBucket one gets an instant automated touch. Bucket two gets a live callback. Bucket three gets a channel switch. Bucket four gets reactivation, not another sales pitch.\n\nRespond inside 5 minutes and you're playing a different game. Most shops don't, and most CRMs won't flag it when they miss the window.\n\nPull your last 20 leads this week. Timestamp them. Sort them into the four buckets. Count what's sitting in bucket four.\n\nDM TOOLS\n\n#SpeedToLead #ServiceBusiness #LeadFollowUp #CRM #SmallBusinessGrowth",
+  "caption": "Most CRMs have stages. Few have exits.\n\nNew, Contacted, Quoted, Won: the labels look complete. But nothing tells a lead when it's time to leave a stage, so it sits until someone remembers to check.\n\nGive every stage one exit rule. Write a checkable fact: a text sent, a quote delivered, 48 hours of silence. When that fact turns true, the lead moves.\n\nOpen your CRM this week. List every stage. Write the fact that ends it. Assign who or what makes it happen on schedule.\n\nDM TOOLS\n\n#ServiceBusiness #CRM #LeadFollowUp #HomeServices #SmallBusinessGrowth",
   "format": "carousel",
-  "rationale": "Carousels currently lead saves and depth for B2B authority content, and this ships an unclaimed time-based aging-bucket framework (borrowed from receivables logic) distinct from every prior self-score, diagnostic, triage, ladder, and ownership model already covered.",
+  "rationale": "Carousels currently lead saves/depth for B2B authority content, and this ships an unclaimed pipeline-design concept (per-stage exit criteria) distinct from every prior self-score, diagnostic, triage, ladder, ownership, and aging-bucket model already covered.",
   "category": "authority_frameworks",
   "experiment": null,
   "images": [
@@ -11,8 +11,7 @@
     "published/2026-08-04/post1_carousel/image_3.jpg",
     "published/2026-08-04/post1_carousel/image_4.jpg",
     "published/2026-08-04/post1_carousel/image_5.jpg",
-    "published/2026-08-04/post1_carousel/image_6.jpg",
-    "published/2026-08-04/post1_carousel/image_7.jpg"
+    "published/2026-08-04/post1_carousel/image_6.jpg"
   ],
   "story": "published/2026-08-04/post1_carousel/story.jpg"
 }

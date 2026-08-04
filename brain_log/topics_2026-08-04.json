@@ -18,5 +18,14 @@
       "Google Business Profile Q&A retirement (already shipped as a news post)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Exit criteria framework: give every CRM pipeline stage one checkable fact that ends it",
+    "score": 90,
+    "rejected": [
+      "Pipeline velocity as the one weekly metric to track (score 72, less novel and harder to make concretely actionable in one sitting)",
+      "Weekly stale-lead review ritual (score 65, overlaps too closely with the aging-bucket framework already shipped)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
