@@ -8,5 +8,16 @@
       "Estimate/quote follow-up reminder sequence (overlaps prior quote-related video)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Google Maps' new emoji-reaction feature for reviews (2026): what it's for, its mobile-only limit, and why it can't replace a written reply where ranking and conversion are concerned",
+    "score": 78,
+    "rejected": [
+      "GBP messaging auto-disable after 24hrs unanswered (already covered previously)",
+      "Instagram 'Trial Reels' cold-audience testing feature (lower niche relevance, about content strategy not revenue systems)",
+      "GoHighLevel AI Employee suite release (competitor-platform mention risk, not an owned Black Arrow capability)",
+      "Gmail emoji reactions on by default (consumer inbox feature, weak tie to lead follow-up or revenue)"
+    ],
+    "category": "news_industry"
   }
 ]

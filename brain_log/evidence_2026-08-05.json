@@ -13,5 +13,36 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Birdeye, 2026 coverage of Google Maps review reactions",
+    "claims": [
+      {
+        "text": "Google Maps now lets businesses react to a review with an emoji instead of only liking it",
+        "status": "verified"
+      },
+      {
+        "text": "The feature currently works only in the Google Maps mobile app, not desktop",
+        "status": "verified"
+      },
+      {
+        "text": "Emoji reactions work as a fast acknowledgment but are not a substitute for a written reply on detailed reviews",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "Written review replies can carry indexed keywords that support local search visibility, while a reaction does not",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "The Black Arrow platform's review engine requests, tracks, and centralizes replies to reviews from one inbox",
+        "status": "verified"
+      },
+      {
+        "text": "The Black Arrow platform offers a 14-day free trial",
+        "status": "verified"
+      }
+    ]
   }
 ]
