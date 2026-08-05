@@ -399,6 +399,11 @@
       "date": "2026-08-05",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "52c4245d743ef51b",

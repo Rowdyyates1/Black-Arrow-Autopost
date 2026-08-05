@@ -44,5 +44,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Chili Piper 2025 Demo Form Conversion Rate Benchmark Report (B2B SaaS data; principle applied here to service-business quote/estimate forms)",
+    "claims": [
+      {
+        "text": "Instant self-scheduling on a form's confirmation page lifted booking rate from a 30% industry average to 66.7% across 4 million form submissions.",
+        "status": "third_party"
+      },
+      {
+        "text": "Only about 8% of top B2B SaaS sites offer any instant-scheduling tool on their forms.",
+        "status": "third_party"
+      },
+      {
+        "text": "The same instant-booking principle applies to a service-business quote or estimate request form.",
+        "status": "qualified"
+      }
+    ]
   }
 ]

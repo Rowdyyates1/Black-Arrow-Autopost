@@ -19,5 +19,15 @@
       "Gmail emoji reactions on by default (consumer inbox feature, weak tie to lead follow-up or revenue)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Instant self-scheduling after form submission (Chili Piper's 4M-submission study) nearly doubles booking rate, applied to service-business quote and estimate forms",
+    "score": 87,
+    "rejected": [
+      "Vertical median response-time benchmarks (legal 13 min, HVAC 88% over 5 min) \u2014 too close to the prior median-vs-best-case 2026 study post",
+      "Velocify 391% conversion-within-60-seconds stat \u2014 near duplicate of the core 17%/double-close-rate fact already used repeatedly",
+      "Blazeo 2026 AI-vs-manual response-standard stat \u2014 solid but less concretely actionable this week"
+    ],
+    "category": "third_party_research"
   }
 ]
