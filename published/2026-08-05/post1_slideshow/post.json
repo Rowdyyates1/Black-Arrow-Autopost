@@ -1,0 +1,10 @@
+{
+  "caption": "A booked appointment can still end as an empty chair.\n\nHere's the automated sequence that keeps it filled:\n\n1. Confirmation text and email fire the second someone books.\n\n2. A reminder goes out 24 hours ahead with a one-tap confirm or reschedule.\n\n3. A second reminder fires 2 hours before the appointment.\n\n4. If they still don't show, the system texts a rebooking link and adds a call task to your team's list.\n\nExample workflow, illustrative only, not a live client account.\n\nDM SCALE\n#ServiceBusiness #NoShowReduction #CRMAutomation #HomeServices #LeadFollowUp",
+  "format": "slideshow",
+  "rationale": "Fills the under-served Demonstrations category with an unclaimed stage (appointment reminder / no-show recovery), using the slideshow format for step-based motion while still riding 2026 reach-favoring reels.",
+  "category": "demonstrations_walkthroughs",
+  "experiment": null,
+  "video": "published/2026-08-05/post1_slideshow/reel.mp4",
+  "cover": "published/2026-08-05/post1_slideshow/cover.jpg",
+  "story": "published/2026-08-05/post1_slideshow/story.jpg"
+}

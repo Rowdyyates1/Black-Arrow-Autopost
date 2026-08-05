@@ -1,0 +1,17 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Illustrative sequence, not a live client account.",
+    "claims": [
+      {
+        "text": "CRM pipelines, booking flows, and task automation so your team knows exactly what to do next",
+        "status": "verified"
+      },
+      {
+        "text": "Businesses that automate appointment reminders generally see fewer no-shows than those relying on manual scheduling",
+        "status": "rewritten"
+      }
+    ]
+  }
+]

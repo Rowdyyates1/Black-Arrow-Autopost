@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Demonstration: automated appointment reminder and no-show recovery sequence",
+    "score": 85,
+    "rejected": [
+      "Database reactivation win-back sequence walkthrough (overlaps prior retention posts)",
+      "Lead scoring and routing demonstration (overlaps prior CRM-ownership angle)",
+      "Estimate/quote follow-up reminder sequence (overlaps prior quote-related video)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

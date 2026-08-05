@@ -389,6 +389,11 @@
       "date": "2026-08-04",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-08-05",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "52c4245d743ef51b",
