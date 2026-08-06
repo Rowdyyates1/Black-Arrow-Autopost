@@ -8,5 +8,15 @@
       "Ad-spend-vs-follow-up 2x2 diagnostic matrix for where revenue actually leaks"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "A2P 10DLC carrier blocking: unregistered automated business texts (missed-call text-back, reminders, reviews) can fail silently since Feb 2025",
+    "score": 90,
+    "rejected": [
+      "Instagram 2026 algorithm ranking changes (not a revenue tactic for the owner's business)",
+      "Generic speed-to-lead 17%/5-minute stat reframe (already used repeatedly)",
+      "Google review-reply / Ask Maps feature updates (already covered recently)"
+    ],
+    "category": "education_informative"
   }
 ]

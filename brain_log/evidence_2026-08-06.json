@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from 2026 SMS/carrier compliance publications (A2P 10DLC registration requirement)",
+    "claims": [
+      {
+        "text": "Since February 2025, major U.S. carriers block unregistered A2P 10DLC business text traffic outright rather than filtering or delaying it.",
+        "status": "third_party"
+      },
+      {
+        "text": "Automated texts like missed-call text-backs, appointment reminders, and review requests can fail to deliver if sent from an unregistered number, with no alert to the sender.",
+        "status": "third_party"
+      },
+      {
+        "text": "The fix is registering the business's brand and messaging campaign so content matches the approved use case.",
+        "status": "third_party"
+      }
+    ]
   }
 ]
