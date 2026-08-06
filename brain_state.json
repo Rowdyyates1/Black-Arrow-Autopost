@@ -404,6 +404,11 @@
       "date": "2026-08-05",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-08-06",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "52c4245d743ef51b",

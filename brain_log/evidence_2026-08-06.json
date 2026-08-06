@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Missed calls can trigger an automatic text-back within seconds",
+        "status": "verified"
+      },
+      {
+        "text": "Leads reach a business through multiple channels (phone, form, message, walk-in) and most shops only automate the first",
+        "status": "qualified"
+      },
+      {
+        "text": "A unified inbox threads every text and email per contact so no channel gets missed",
+        "status": "verified"
+      }
+    ]
+  }
+]

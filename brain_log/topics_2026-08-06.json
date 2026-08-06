@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Channel Ownership Framework: mapping an automatic follow-up response to each of the four ways a lead reaches a service business (phone, form, message, walk-in), distinct from every prior stage-based, ownership, or diagnostic framework already run",
+    "score": 89,
+    "rejected": [
+      "Lead Expiration framework: a decision model for when to stop following up on a cold lead",
+      "Speed-tier classification framework (instant/fast/slow/dead response tiers)",
+      "Ad-spend-vs-follow-up 2x2 diagnostic matrix for where revenue actually leaks"
+    ],
+    "category": "authority_frameworks"
+  }
+]
