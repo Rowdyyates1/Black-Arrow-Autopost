@@ -17,5 +17,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Google Business Profile Help documentation confirms permanent discontinuation of chat and call history",
+    "claims": [
+      {
+        "text": "Google Business Profile's chat inbox and call-history log have been permanently discontinued with no setting to restore them",
+        "status": "verified"
+      },
+      {
+        "text": "Black Arrow's platform can route a tracked number and automatically text back every missed call",
+        "status": "verified"
+      }
+    ]
   }
 ]
