@@ -32,5 +32,22 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "$0 forever, no signup, 25 contacts",
+        "class": "product_spec_demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "Weekly dashboard shows CPL and ROAS",
+        "class": "product_feature_demonstration",
+        "status": "original"
+      }
+    ]
   }
 ]
