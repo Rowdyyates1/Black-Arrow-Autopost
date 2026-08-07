@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "High-value, high-urgency leads should get an immediate human phone response within minutes",
+        "status": "qualified"
+      },
+      {
+        "text": "Low-value, high-urgency leads can be handled by an instant automated text and booking link",
+        "status": "qualified"
+      },
+      {
+        "text": "Sorting leads by value and urgency onto a 2x2 grid helps an owner allocate follow-up effort and automation",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

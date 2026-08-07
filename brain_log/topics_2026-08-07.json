@@ -1,0 +1,11 @@
+[
+  {
+    "chosen": "The Lead Value Matrix: a 2x2 framework (value x urgency) for deciding which leads get a human call, which get scheduled nurture, and which get full automation",
+    "score": 87,
+    "rejected": [
+      "3-2-1 multi-touch follow-up cadence framework (overlaps the multi-touch cadence angle already shipped)",
+      "New/Working/Nurture/Dead lead lifecycle stage framework (overlaps prior pipeline-stage, ladder, and aging-bucket frameworks already shipped)"
+    ],
+    "category": "authority_frameworks"
+  }
+]
