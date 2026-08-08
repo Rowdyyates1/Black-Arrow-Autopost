@@ -32,5 +32,28 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Paraphrase of widely-documented speed-to-lead research patterns across B2B CRM data; no single named study or invented sample size is cited.",
+    "claims": [
+      {
+        "text": "Leads contacted within 5 minutes close at roughly double the rate of leads contacted a day later",
+        "status": "rewritten"
+      },
+      {
+        "text": "Average first-response time across most industries runs well past 24 hours, with fewer than one in four companies responding within 5 minutes",
+        "status": "rewritten"
+      },
+      {
+        "text": "Testing your own response speed by having someone submit a test lead reveals your actual speed-to-lead gap",
+        "status": "qualified"
+      },
+      {
+        "text": "The free Lead Response Audit scores current response speed and estimates the cost of the delay",
+        "status": "verified"
+      }
+    ]
   }
 ]

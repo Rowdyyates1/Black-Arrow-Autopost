@@ -19,5 +19,16 @@
       "GBP 'Interaction Prominence' ranking news (fits News/Education category, not today's assigned Offers/Lead Magnets slot)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Speed-to-lead as a general, well-documented B2B pipeline pattern (~2x close rate for sub-5-minute response vs. next-day response), with a this-week self-test tactic and no fabricated single-source study",
+    "score": 88,
+    "rejected": [
+      "HBR 2011 60x qualification stat (older dataset, overlaps with previously-used 'well-documented pattern' framing)",
+      "Chili Piper instant-scheduling meeting-booking stat (already shipped as a prior post)",
+      "Salesforce 64% real-time-response buyer expectation stat (less concrete/actionable than a close-rate figure)",
+      "Fabricated 'Optifai 2026 Pipeline Benchmark' study with invented N=939 and specific percentages (unverifiable, replaced with honest general-pattern framing)"
+    ],
+    "category": "third_party_research"
   }
 ]
