@@ -8,5 +8,16 @@
       "Revenue attribution reporting (already covered)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Solo-feature the Revenue Calculator (four inputs to revenue-per-lead, follow-up loss, annual gain model) tied to the core speed-to-lead stat, filling the under-served Offers/Lead Magnets slot with the tool least recently featured in this category.",
+    "score": 88,
+    "rejected": [
+      "Lead Response Audit (most recently used tool in this category)",
+      "Ad ROI Calculator (featured more recently than Revenue Calculator)",
+      "Black Arrow OS (featured more recently than Revenue Calculator)",
+      "GBP 'Interaction Prominence' ranking news (fits News/Education category, not today's assigned Offers/Lead Magnets slot)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

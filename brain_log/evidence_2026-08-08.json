@@ -17,5 +17,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Removed an invented '$225 value' tag on a free tool and an unsourced precise stat (17% response rate, near-2x conversion claim). Replaced with an honest general pattern about lead response speed.",
+    "claims": [
+      {
+        "text": "Revenue Calculator uses four inputs (monthly leads, close rate, average job value, response time) to output revenue per lead, a follow-up loss estimate, and an annual gain model, offered free with no signup",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses take hours to respond to a new lead, and those who respond within minutes close significantly more of them",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
