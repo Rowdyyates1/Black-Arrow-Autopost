@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Quiz funnels hosted on your link, every completion lands in your CRM and gets texted back within seconds",
+        "status": "verified"
+      },
+      {
+        "text": "Lead scoring happens as part of the quiz-to-CRM flow",
+        "status": "verified"
+      },
+      {
+        "text": "14-day full access free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
+  }
+]
