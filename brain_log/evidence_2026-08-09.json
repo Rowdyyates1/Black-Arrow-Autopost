@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "demonstration",
+    "disclosure": "General industry pattern, not a sourced statistic.",
+    "claims": [
+      {
+        "text": "Most service businesses lose leads to slow response times, not bad marketing",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Lead Response Audit uses 4 inputs to output a response score, leads lost estimate, and revenue at risk",
+        "status": "verified"
+      },
+      {
+        "text": "The tool is free, requires no signup or card",
+        "status": "verified"
+      }
+    ]
+  }
+]

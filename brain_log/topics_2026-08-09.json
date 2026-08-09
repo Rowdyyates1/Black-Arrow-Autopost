@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Solo-feature the Lead Response Audit (free tool, least recently rotated) to fill the under-served Offers/Lead Magnets category with an image promo card",
+    "score": 89,
+    "rejected": [
+      "Re-feature Black Arrow OS (used most recently in this category)",
+      "Re-feature the Revenue Calculator (used more recently than the Audit)",
+      "News angle on Google's LSA-to-Google-Ads migration (already shipped previously)",
+      "Carousel walkthrough of the Audit's mechanics (image promo converts faster for a single clear offer)"
+    ],
+    "category": "offers_lead_magnets"
+  }
+]
