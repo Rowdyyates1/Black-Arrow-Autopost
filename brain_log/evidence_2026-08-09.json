@@ -32,5 +32,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow's free AI Follow-Up Builder is one of two AI builders on the tools page that produce custom systems for a business, at no cost.",
+        "status": "verified"
+      },
+      {
+        "text": "The tool generates a finished follow-up sequence, including messages, order, and timing, within minutes of input.",
+        "status": "verified"
+      }
+    ]
   }
 ]

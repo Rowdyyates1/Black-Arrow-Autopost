@@ -19,5 +19,15 @@
       "Revenue attribution / no reporting visibility (already shipped, excluded)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Feature the AI Follow-Up Builder (the free tool least recently solo-featured) to solve the blank-page problem of writing a lead follow-up sequence.",
+    "score": 82,
+    "rejected": [
+      "Re-feature Ad ROI Calculator (used more recently than AI Follow-Up Builder)",
+      "News angle on Google LSA-to-Google Ads Performance Max migration (already covered on this account recently)",
+      "Objection-handling carousel on cost (wrong category for today's Offers/Lead Magnets slot)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
