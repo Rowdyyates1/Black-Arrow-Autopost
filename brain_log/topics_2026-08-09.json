@@ -9,5 +9,15 @@
       "Carousel walkthrough of the Audit's mechanics (image promo converts faster for a single clear offer)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Database reactivation / dormant past customers as the pain the platform's win-back automation solves",
+    "score": 87,
+    "rejected": [
+      "Review generation disconnected from follow-up (score 79)",
+      "Appointment reminder / no-show pain reused for Platform/Trial framing (score 70)",
+      "Revenue attribution / no reporting visibility (already shipped, excluded)"
+    ],
+    "category": "platform_promo"
   }
 ]
