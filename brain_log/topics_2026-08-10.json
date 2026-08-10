@@ -1,0 +1,14 @@
+[
+  {
+    "chosen": "Unwritten marketing content as the real cost, solved by the platform's built-in AI content generator, tied to the 14-day free trial",
+    "score": 84,
+    "rejected": [
+      "Tool sprawl / multiple subscriptions pain (already shipped)",
+      "Missed calls going unanswered (already shipped)",
+      "Onboarding friction / switching cost (already shipped)",
+      "Referral-for-a-free-month as standalone hook (already shipped)",
+      "Fragmented context on second touchpoint (already shipped)"
+    ],
+    "category": "platform_promo"
+  }
+]
