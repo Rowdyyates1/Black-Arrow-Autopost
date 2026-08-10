@@ -20,5 +20,15 @@
       "News angle on Instagram's 2026 DM-share ranking shift (score 50, rejected: doesn't fit today's mandated Offers/Lead Magnets category)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Objection Handling: 'I don't want to get stuck in another contract' \u2014 resolved honestly with the platform's real 14-day no-card trial and referral terms, plus a self-audit tactic owners can run this week regardless of whether they buy.",
+    "score": 88,
+    "rejected": [
+      "AI messaging will get my brand voice wrong (control objection) - lower novelty, close to already-shipped 'impersonal' angle",
+      "We don't have enough lead volume to justify a CRM (volume objection) - weaker evidence availability",
+      "Automation will mishandle an edge-case customer reply (reliability fear) - harder to resolve without implying an unsupported guarantee"
+    ],
+    "category": "objection_nurture"
   }
 ]

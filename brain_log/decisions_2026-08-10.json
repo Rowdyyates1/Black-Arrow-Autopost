@@ -82,5 +82,47 @@
     ],
     "chosen_format": "image",
     "post_rationale": "Offers/Lead Magnets is under-served this cycle; Black Arrow OS is the verified-spec tool least recently solo-featured, shown with an image promo, the format that converts fastest for a single clear offer."
+  },
+  {
+    "timestamp": "2026-08-10T18:43:09.409001Z",
+    "category": "objection_nurture",
+    "category_label": "Objection Handling / Audience Nurture",
+    "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust. For done-for-you cost objections: never give numbers; the honest answer is that pricing follows a diagnosis meeting.",
+    "format_bias": "carousel",
+    "evidence_note": "Transparent and honest; no unsupported guarantees, no done-for-you pricing.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Objection Handling / Audience Nurture' was the most under-served eligible category (target 6%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.033
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Objection Handling is under-served this cycle, and this names the genuine, unclaimed contract-lock-in fear (distinct from the impersonal, cost, timing, and complexity objections already shipped), resolved with verified trial and referral terms."
   }
 ]

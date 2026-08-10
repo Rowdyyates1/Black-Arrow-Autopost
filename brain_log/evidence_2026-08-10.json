@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Black Arrow platform offers a 14-day free trial, no card needed, cancel anytime.",
+        "status": "verified"
+      },
+      {
+        "text": "Referring a business that subscribes gets both parties a free month, tracked automatically.",
+        "status": "verified"
+      },
+      {
+        "text": "Many businesses carry unused, still-billing software subscriptions.",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]
