@@ -10,5 +10,15 @@
       "Fragmented context on second touchpoint (already shipped)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Solo-feature Black Arrow OS (free pocket CRM) with verified on-site specs, framed around the scattered-pipeline pain point",
+    "score": 88,
+    "rejected": [
+      "Feature the Ad ROI Calculator (score 55, rejected: no verified on-site input/output specs found to cite safely)",
+      "Re-feature the Revenue Calculator (score 65, rejected: used too recently to satisfy rotation freshness)",
+      "News angle on Instagram's 2026 DM-share ranking shift (score 50, rejected: doesn't fit today's mandated Offers/Lead Magnets category)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
