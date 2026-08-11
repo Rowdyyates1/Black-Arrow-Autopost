@@ -19,5 +19,16 @@
       "Carousel on Reels-vs-carousels benchmarks (not relevant to the service-business audience, meta content about the platform itself)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "The 3-Tier Response SLA framework: tiering leads by urgency (hot/warm/cold) to set differentiated response-time commitments per channel",
+    "score": 89,
+    "rejected": [
+      "Vendor lock-in / contract objection reframe (already covered)",
+      "Weekly revenue-leak audit using the four systems (too close to prior four-system frameworks)",
+      "Referral tracking incentive framework (fits Offers category better)",
+      "Review-response scoring framework (fits Education/Informative better)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

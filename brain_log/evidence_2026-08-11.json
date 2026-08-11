@@ -32,5 +32,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "Response-time gap described as a general industry pattern, not a cited statistic. No specific percentage is claimed.",
+    "claims": [
+      {
+        "text": "Most service businesses need hours, not minutes, to answer a new lead, and few build a true Tier 1",
+        "status": "rewritten"
+      },
+      {
+        "text": "Automated text-back can respond to inbound leads in under 60 seconds",
+        "status": "verified"
+      },
+      {
+        "text": "A three-tier response framework (hot/warm/cold) improves speed-to-lead discipline",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
