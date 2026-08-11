@@ -8,5 +8,16 @@
       "Lead scoring/CRM tagging walkthrough (already implied in prior quiz-funnel demonstration)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Solo-feature the Ad ROI Calculator (Offers/Lead Magnets), the free tool least recently rotated in, framed around the cost-per-click vs. cost-per-booked-job gap.",
+    "score": 89,
+    "rejected": [
+      "Reel on Instagram's 2026 DM-share ranking signal (strong format but wrong category for today's mandated Offers/Lead Magnets slot)",
+      "Solo-feature Black Arrow OS (rejected: was the most recently used tool in this rotation)",
+      "News angle on Google Ask Maps/GBP changes (already covered in a prior post, and doesn't fit today's fixed category)",
+      "Carousel on Reels-vs-carousels benchmarks (not relevant to the service-business audience, meta content about the platform itself)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

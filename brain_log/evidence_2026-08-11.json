@@ -17,5 +17,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Ad ROI Calculator is one of five free tools at blackarrow.ltd/tools with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Most owners track ad spend closely but not what it converts into after the lead comes in",
+        "status": "qualified"
+      }
+    ]
   }
 ]
