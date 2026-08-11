@@ -474,9 +474,14 @@
       "date": "2026-08-10",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-08-11",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
-  "site_hash": "2cb1f007d353a658",
+  "site_hash": "2c811a33913330d6",
   "eligibility_overrides": {},
   "memory": {}
 }

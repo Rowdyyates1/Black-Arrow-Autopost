@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Illustrative, not a client account.",
+    "claims": [
+      {
+        "text": "Automated SMS/email sequence at 10 minutes, Day 1, Day 3, and Day 7 after a quote is sent",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most shops send a quote once and stop chasing",
+        "status": "illustrative"
+      },
+      {
+        "text": "Black Arrow builds this cadence into a CRM for clients",
+        "status": "verified"
+      }
+    ]
+  }
+]
