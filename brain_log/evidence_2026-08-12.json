@@ -1,0 +1,25 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "The platform runs automated win-back sequences for dormant contacts",
+        "status": "verified"
+      },
+      {
+        "text": "The specific day-by-day sequence (Day 0 text, Day 4 email, Day 9 nudge) shown is an illustrative example, not a real client's data",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most service businesses never re-contact past customers after the first job",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform can be tried on a business's own list at no cost",
+        "status": "rewritten"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Database reactivation sequence shown as a step-by-step system demonstration",
+    "score": 90,
+    "rejected": [
+      "Missed-call text-back walkthrough (already shipped multiple times, low novelty)",
+      "Referral tracking flow demo (weaker category fit, overlaps offer stack)",
+      "End-to-end quiz funnel demo (too similar to already-shipped quiz abandonment recovery angle)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]
