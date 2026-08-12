@@ -8,5 +8,15 @@
       "End-to-end quiz funnel demo (too similar to already-shipped quiz abandonment recovery angle)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Automate the post-job review ask through the platform's review engine, positioned as a 14-day trial offer",
+    "score": 88,
+    "rejected": [
+      "Booking phone-tag / double-booking friction as the platform pain (score 79, overlaps with existing appointment-reminder demo)",
+      "Unqualified form leads without a quiz filter (score 74, too close to prior unqualified-calls angle)",
+      "Split inboxes across channels as the core pain (score 72, overlaps with prior fragmented-context angle)"
+    ],
+    "category": "platform_promo"
   }
 ]

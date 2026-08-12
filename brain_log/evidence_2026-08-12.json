@@ -21,5 +21,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Platform includes an automated review engine that sends the review request the moment a job is marked complete",
+        "status": "verified"
+      },
+      {
+        "text": "Platform unifies booking, texting, and CRM into a single login and inbox",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full platform access, no card required",
+        "status": "verified"
+      }
+    ]
   }
 ]
