@@ -40,5 +40,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most missed revenue traces to a lack of systemized second follow-up, not a lack of leads",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow OS logs leads and schedules follow-ups automatically as a free pocket CRM",
+        "status": "verified"
+      }
+    ]
   }
 ]

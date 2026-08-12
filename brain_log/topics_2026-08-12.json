@@ -18,5 +18,15 @@
       "Split inboxes across channels as the core pain (score 72, overlaps with prior fragmented-context angle)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Reframe growth as a systems-memory problem (businesses forget to follow up) rather than an ad-spend or channel problem",
+    "score": 89,
+    "rejected": [
+      "Ad spend vs. follow-up as the real lever (already shipped)",
+      "Referrals as an unmanaged, passive marketing channel",
+      "Friction-removal POV: making it easier to say yes beats persuading harder"
+    ],
+    "category": "contrarian_pov"
   }
 ]
