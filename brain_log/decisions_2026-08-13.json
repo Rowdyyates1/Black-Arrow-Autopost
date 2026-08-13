@@ -40,5 +40,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "A verified 2026 texting shift (iOS 18 RCS + verified sender badges) that silently affects reply rates on the exact automated follow-up texts this account teaches, paired with a free five-minute copy fix."
+  },
+  {
+    "timestamp": "2026-08-13T15:57:19.070015Z",
+    "category": "offers_lead_magnets",
+    "category_label": "Offers / Lead Magnets",
+    "guidance": "Feature ONE specific free tool actually published at blackarrow.ltd/tools (a calculator, an audit, an AI builder, or Black Arrow OS \u2014 the free pocket CRM). Everything on that page is free value used as a lead magnet. Lead with what the tool tells or gives the owner, cite its stated value where the site shows one, and end with the TOOLS keyword CTA. Rotate through the tools; never feature the same one twice in a row.",
+    "format_bias": "image",
+    "evidence_note": "Only describe tools/offers actually published on the Black Arrow site.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Offers / Lead Magnets' was the most under-served eligible category (target 22%, recent 20%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.2,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "image",
+    "post_rationale": "Offers/Lead Magnets is under-served this cycle, and rotates to the Revenue Calculator, the free tool least recently solo-featured relative to Ad ROI, Black Arrow OS, and the others, using the image-promo format research confirms still converts fastest for a single clear offer."
   }
 ]

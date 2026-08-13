@@ -21,5 +21,24 @@
         "status": "demonstration"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "$225 value for free tool",
+        "status": "rewritten",
+        "type": "unsupported_metric",
+        "resolution": "Removed invented dollar value from kicker; tool described by function only."
+      },
+      {
+        "text": "17% of service businesses respond within an hour; under-5-minute responders convert nearly double",
+        "status": "rewritten",
+        "type": "unverified_stat",
+        "resolution": "Replaced with qualified general industry pattern about response speed and win rate, no fabricated figures."
+      }
+    ]
   }
 ]
