@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "iOS 18 RCS support and sender verification behavior confirmed via Apple and RCS Business Messaging documentation. The trust/reply-rate link reflects a general messaging best-practice pattern, not a measured internal statistic. The response-speed check offered via DM TOOLS is Black Arrow's own diagnostic tool.",
+    "claims": [
+      {
+        "text": "Apple's iOS 18 added RCS support, so iPhone users now receive RCS messages from Android senders instead of falling back to legacy SMS",
+        "status": "verified"
+      },
+      {
+        "text": "A verified RCS business sender profile shows the business name, logo, and a verification badge instead of an anonymous number",
+        "status": "verified"
+      },
+      {
+        "text": "An unbranded, unrecognized-number text reads as less trustworthy and is more likely to be ignored",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow offers a free check of response speed and follow-up setup via DM",
+        "status": "demonstration"
+      }
+    ]
+  }
+]
