@@ -40,5 +40,24 @@
         "resolution": "Replaced with qualified general industry pattern about response speed and win rate, no fabricated figures."
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The business that replies to a lead first usually wins the job, and most service teams take hours rather than minutes to respond",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow's automated system texts a new lead within seconds and hands the conversation to a real team member",
+        "status": "verified"
+      },
+      {
+        "text": "A single staff member can only handle one channel or lead at a time, especially outside business hours",
+        "status": "qualified"
+      }
+    ]
   }
 ]

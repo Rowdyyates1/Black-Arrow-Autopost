@@ -8,5 +8,15 @@
       "Instagram 2026 'Views as primary metric / saves > likes' algorithm shift (45) - off-niche, not a service-business revenue tactic"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Objection: 'I already have staff for that' \u2014 reframe automation as a speed-to-lead safety net, not a replacement for the team",
+    "score": 88,
+    "rejected": [
+      "Volume-too-small-to-justify-automation objection",
+      "Fear that automation will say the wrong thing to a customer",
+      "Repeat the already-covered 'feels impersonal' objection"
+    ],
+    "category": "objection_nurture"
   }
 ]
