@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "back-and-forth scheduling messages give a lead more chances to go cold or book elsewhere",
+        "status": "illustrative"
+      },
+      {
+        "text": "the platform includes booking flows as part of its automated follow-up system",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required",
+        "status": "verified"
+      }
+    ]
+  }
+]

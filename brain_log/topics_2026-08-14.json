@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Contrarian POV: the real growth leak is booking friction (back-and-forth scheduling), not lead volume or response speed",
+    "score": 84,
+    "rejected": [
+      "More ad spend won't fix a leaky pipeline (already shipped as prior contrarian reframe)",
+      "Reviews don't win jobs, speed does (too close to prior craftsmanship/reputation reframe)",
+      "Fewer tools beat more tools (overlaps prior tool-sprawl angle already shipped)",
+      "Hiring more staff won't fix slow follow-up (overlaps prior staff-redundancy objection already shipped)"
+    ],
+    "category": "contrarian_pov"
+  }
+]
