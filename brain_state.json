@@ -529,6 +529,11 @@
       "date": "2026-08-14",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-08-14",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "2c811a33913330d6",

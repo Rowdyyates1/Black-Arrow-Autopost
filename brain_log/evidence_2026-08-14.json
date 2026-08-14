@@ -44,5 +44,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "RFM (recency, frequency, monetary) is an established direct-marketing segmentation model, applied here to service-business customer reactivation.",
+    "claims": [
+      {
+        "text": "RFM (recency, frequency, monetary) segmentation framework applied to past customer reactivation",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow builds reactivation/win-back sequences as part of its retention system",
+        "status": "verified"
+      }
+    ]
   }
 ]

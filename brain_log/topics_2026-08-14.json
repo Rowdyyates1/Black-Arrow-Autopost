@@ -19,5 +19,16 @@
       "Instagram 'Your Algorithm' topic controls expanding to main feed (meta-marketing trivia, low actionability for lead follow-up)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "RFM segmentation framework for database reactivation (Recency, Frequency, Monetary) as a repeatable mental model to tier past customers before running win-back campaigns",
+    "score": 87,
+    "rejected": [
+      "Four multiplicative revenue levers (already shipped)",
+      "Per-stage pipeline exit criteria (already shipped)",
+      "Value-times-urgency prioritization matrix (already shipped)",
+      "Build-vs-buy decision framework for automation"
+    ],
+    "category": "authority_frameworks"
   }
 ]
