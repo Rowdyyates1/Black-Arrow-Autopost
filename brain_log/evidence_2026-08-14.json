@@ -17,5 +17,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Citing 2026 local SEO industry audits on Google Business Profile engagement signals",
+    "claims": [
+      {
+        "text": "Google's local ranking now gives more weight to profile activity signals like call clicks and post/photo views",
+        "status": "rewritten"
+      },
+      {
+        "text": "Profiles inactive 30+ days on posts/photos see visibility drops",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow's platform generates a week of on-brand posts from one goal",
+        "status": "verified"
+      },
+      {
+        "text": "Black Arrow's platform includes a review engine for automated review collection",
+        "status": "verified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial with no card required",
+        "status": "verified"
+      }
+    ]
   }
 ]

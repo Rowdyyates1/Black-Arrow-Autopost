@@ -9,5 +9,15 @@
       "Hiring more staff won't fix slow follow-up (overlaps prior staff-redundancy objection already shipped)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Google's 2026 profile-activity ranking weight and the 30-day posting-decay pattern, with a this-week fix",
+    "score": 83,
+    "rejected": [
+      "Instagram's 2026 DM-share/watch-time algorithm shift (lower niche relevance, not a service-business action item)",
+      "Google's AI menu-scanning GBP feature (restaurant-specific, weak fit for Black Arrow's contractor/HVAC/dental audience)",
+      "Instagram 'Your Algorithm' topic controls expanding to main feed (meta-marketing trivia, low actionability for lead follow-up)"
+    ],
+    "category": "news_industry"
   }
 ]
