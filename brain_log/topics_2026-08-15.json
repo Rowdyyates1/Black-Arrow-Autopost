@@ -18,5 +18,16 @@
       "Reframing the three-tier response-SLA as a monthly review cadence (overlaps the prior response-SLA carousel already shipped)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Demonstration: automated referral-ask sequence triggered on job-won, with tracked attribution",
+    "score": 85,
+    "rejected": [
+      "New-lead speed-to-lead intake walkthrough (overlaps prior missed-call and multi-touch cadence angles)",
+      "Automated quote-delivery follow-up (overlaps prior quote-to-close nudge cadence carousel)",
+      "New-customer welcome/onboarding sequence (lower revenue relevance than referral system)",
+      "Quiz-completion-to-CRM handoff walkthrough (overlaps prior quiz abandonment recovery demonstration)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

@@ -40,5 +40,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, not a specific client's results",
+    "claims": [
+      {
+        "text": "Referral sequence fires automatically when a job is marked Won",
+        "status": "illustrative"
+      },
+      {
+        "text": "Platform tracks who sent a referral, what they did, and what it closed for",
+        "status": "verified"
+      },
+      {
+        "text": "Most shops leave referrals to memory rather than a system",
+        "status": "qualified"
+      },
+      {
+        "text": "Referrals are generally the cheapest lead a business gets",
+        "status": "qualified"
+      }
+    ]
   }
 ]
