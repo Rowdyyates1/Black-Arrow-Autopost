@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Industry guidance, Automation Insiders 2026 missed-call text-back scripts guide",
+    "claims": [
+      {
+        "text": "Carrier spam filters flag automated-sounding messages with links, promotional language, and excessive punctuation",
+        "status": "third_party"
+      },
+      {
+        "text": "Disclosing a message as automated reduces reply rates because urgency to respond disappears",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's free AI Follow-Up Builder generates a custom follow-up sequence",
+        "status": "verified"
+      }
+    ]
+  }
+]
