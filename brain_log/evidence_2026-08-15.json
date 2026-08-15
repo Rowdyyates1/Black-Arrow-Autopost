@@ -17,5 +17,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Cost per booked appointment ranks channels better than raw cost-per-click",
+        "status": "qualified"
+      },
+      {
+        "text": "Response time gap between lead arrival and first reply decides close outcomes",
+        "status": "qualified"
+      },
+      {
+        "text": "A number nobody reviews on a fixed schedule goes stale / needs a named owner",
+        "status": "qualified"
+      },
+      {
+        "text": "The Response Audit and Revenue Calculator are free, no signup",
+        "status": "verified"
+      }
+    ]
   }
 ]
