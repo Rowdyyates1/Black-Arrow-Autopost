@@ -1,0 +1,29 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from independent reporting on Google's April 2026 Prohibited and Restricted Content policy update",
+    "claims": [
+      {
+        "text": "Google's April 2026 update explicitly bans merchants from directing staff to solicit a specific number of reviews (quotas)",
+        "status": "third_party"
+      },
+      {
+        "text": "Google's April 2026 update explicitly bans directing customers to include specific content, including a staff member's name, in a review",
+        "status": "third_party"
+      },
+      {
+        "text": "Reports describe reviews being quietly removed and profiles picking up restrictions or warning banners under the updated automated enforcement",
+        "status": "third_party"
+      },
+      {
+        "text": "The policy requires review requests to go to all customers equally rather than selectively",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform includes an automated review-collection engine that can send requests to every customer the same way",
+        "status": "verified"
+      }
+    ]
+  }
+]
