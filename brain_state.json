@@ -554,6 +554,11 @@
       "date": "2026-08-16",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-08-16",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "2c811a33913330d6",

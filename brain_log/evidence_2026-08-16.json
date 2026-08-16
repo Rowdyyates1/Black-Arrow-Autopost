@@ -25,5 +25,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Sourced to industry call-tracking research and the MIT/Harvard Business Review Lead Response Management Study",
+    "claims": [
+      {
+        "text": "62% of calls to small businesses go unanswered, and 85% of those callers never call back",
+        "status": "third_party"
+      },
+      {
+        "text": "Leads contacted within five minutes are far more likely to connect than those reached 30 minutes later, per the original MIT/HBR Lead Response Management Study",
+        "status": "third_party"
+      },
+      {
+        "text": "Missed-call text-back automatically replies the moment a call goes unanswered",
+        "status": "verified"
+      },
+      {
+        "text": "The Lead Response Audit scores response speed from four inputs",
+        "status": "verified"
+      }
+    ]
   }
 ]

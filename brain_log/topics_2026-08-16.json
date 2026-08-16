@@ -8,5 +8,15 @@
       "GBP Q&A officially retired in favor of Ask Maps \u2014 already covered in a prior post"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Cite verifiable third-party research (industry call-tracking data + MIT/HBR Lead Response Management Study) to show why unanswered calls cost jobs, then route to the free Lead Response Audit.",
+    "score": 89,
+    "rejected": [
+      "Standalone HubSpot 'immediate = 10 minutes' customer-expectation stat (too close to prior speed-to-lead framing)",
+      "Phone-lead conversion-by-channel stat (46% phone conversion) without a clear this-week action",
+      "RFM segmentation research for database reactivation (already covered by a prior carousel)"
+    ],
+    "category": "third_party_research"
   }
 ]
