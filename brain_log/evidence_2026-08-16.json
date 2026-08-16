@@ -48,5 +48,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time stats are widely cited industry benchmarks, not Black Arrow's own data. The sample first-response text is an illustrative example, not a real client message. CRM escalation automation is a real Black Arrow build capability.",
+    "claims": [
+      {
+        "text": "Roughly 17% of service businesses respond to a new lead within an hour, per industry research",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within 5 minutes can double close rate compared to slower follow-up, per industry studies",
+        "status": "rewritten"
+      },
+      {
+        "text": "Sample first-response text message",
+        "status": "illustrative"
+      },
+      {
+        "text": "Black Arrow can build automatic lead escalation/routing rules into a CRM",
+        "status": "verified_company_fact"
+      }
+    ]
   }
 ]

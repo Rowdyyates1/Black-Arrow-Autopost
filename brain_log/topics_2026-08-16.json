@@ -18,5 +18,15 @@
       "RFM segmentation research for database reactivation (already covered by a prior carousel)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "The First Response Contract: a 4-clause framework (Clock, Channel, Content, Escalation) for lead follow-up",
+    "score": 89,
+    "rejected": [
+      "RACI matrix for lead handling (too close to shipped ownership-per-stage model)",
+      "3-3-3 follow-up cadence rule (too close to shipped time-based aging-bucket framework)",
+      "Marketing-to-sales handoff contract (too B2B/enterprise, less relevant to solo service owners)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
