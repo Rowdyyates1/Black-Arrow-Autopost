@@ -21,5 +21,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "References widely cited lead-response-time research (e.g., the Lead Response Management study covered by Harvard Business Review and InsideSales.com) showing that speed to lead strongly predicts qualification and close rates. No claim is presented as Black Arrow's own measured data.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours to respond to a new lead",
+        "status": "illustrative"
+      },
+      {
+        "text": "Contacting a lead within five minutes instead of thirty makes it far easier to qualify and close",
+        "status": "rewritten"
+      },
+      {
+        "text": "Most shops under-invest in follow-up and retention relative to ad spend",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

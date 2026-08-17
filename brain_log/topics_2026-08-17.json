@@ -8,5 +8,16 @@
       "Another GBP feature news recap"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The 3-Bucket Marketing Budget framework (attraction/capture/compounding) as an Authority/Frameworks post",
+    "score": 90,
+    "rejected": [
+      "Follow-up debt / interest-decay metaphor (overlaps prior aging-bucket angle)",
+      "Second Sale contrarian reframe (overlaps prior POV reframes)",
+      "Budget rebalance checklist without a named framework (less novel, less memorable)",
+      "LSA-to-Google Ads migration follow-up (repeats a prior news angle)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
