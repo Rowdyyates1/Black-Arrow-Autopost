@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Example script \u2014 illustrative, not a client transcript",
+    "claims": [
+      {
+        "text": "SMS open rates typically run above 90%, with most messages read within minutes.",
+        "status": "third_party"
+      },
+      {
+        "text": "Most home service quotes still get delivered as an emailed PDF that sits unopened in an inbox.",
+        "status": "qualified"
+      },
+      {
+        "text": "Example script: 'Quote for [job] ready: [link]. Reply YES to book.'",
+        "status": "illustrative"
+      },
+      {
+        "text": "A 24-hour call follow-up and 72-hour text follow-up cascade for unopened or unanswered quotes.",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
