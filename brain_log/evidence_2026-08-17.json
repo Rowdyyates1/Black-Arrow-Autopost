@@ -40,5 +40,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General pattern observed across service-business follow-up; not a guaranteed outcome for any specific business.",
+    "claims": [
+      {
+        "text": "Most businesses stop chasing a lead after one attempt while most jobs book on a later touch",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow can build an automated multi-touch follow-up sequence that sends the first response within 60 seconds",
+        "status": "verified"
+      }
+    ]
   }
 ]

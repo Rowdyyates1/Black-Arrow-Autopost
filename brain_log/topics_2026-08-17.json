@@ -19,5 +19,16 @@
       "LSA-to-Google Ads migration follow-up (repeats a prior news angle)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "The 6-touch follow-up framework: a touch-count cadence (not time-bucket, value-matrix, channel, or ownership based) teaching the exact sequence and channel per touch",
+    "score": 87,
+    "rejected": [
+      "RFM-style segmentation for reactivation (already shipped)",
+      "Value-times-urgency prioritization matrix (already shipped)",
+      "Channel-based lead intake framework (already shipped)",
+      "Four-clause 'contract' framework for the first response only (already shipped)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
