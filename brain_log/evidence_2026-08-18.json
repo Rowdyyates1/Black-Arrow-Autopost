@@ -40,5 +40,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform scores each lead automatically when a contact is created, before notification and text-back",
+        "status": "verified"
+      },
+      {
+        "text": "Every new lead gets an automated text-back in seconds",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

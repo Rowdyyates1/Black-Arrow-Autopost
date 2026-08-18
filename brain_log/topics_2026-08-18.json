@@ -20,5 +20,16 @@
       "Revenue Calculator (most recently featured Offers/Lead Magnets tool, would repeat too soon)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Lead scoring as the fix for owners giving every lead equal follow-up priority, promoting the 14-day free trial",
+    "score": 86,
+    "rejected": [
+      "Tool sprawl consolidation pain (already shipped in prior Platform/Trial posts)",
+      "Referral deal solo-feature (already shipped)",
+      "Missed-call recovery pain (already shipped)",
+      "Dormant past-customer / win-back pain (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]
