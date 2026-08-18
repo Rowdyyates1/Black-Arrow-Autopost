@@ -9,5 +9,16 @@
       "Lead-source tagging for differentiated follow-up sequences (less concrete/actionable)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Feature the Lead Response Audit as the free lead magnet, image-promo format",
+    "score": 91,
+    "rejected": [
+      "Ad ROI Calculator (recently featured, less overdue than the Audit)",
+      "Black Arrow OS pocket CRM (featured more recently in rotation)",
+      "AI Follow-Up Builder (site detail cut off, weaker evidence base)",
+      "Revenue Calculator (most recently featured Offers/Lead Magnets tool, would repeat too soon)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

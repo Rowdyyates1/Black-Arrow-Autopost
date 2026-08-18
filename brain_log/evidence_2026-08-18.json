@@ -17,5 +17,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Lead Response Audit takes four inputs: monthly inbound leads, average job value, response speed, and response method",
+        "status": "verified"
+      },
+      {
+        "text": "It returns a response score, a leads-lost estimate, and a revenue-at-risk figure",
+        "status": "verified"
+      },
+      {
+        "text": "The audit is free with no signup required",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses lose deals due to slow lead response",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
