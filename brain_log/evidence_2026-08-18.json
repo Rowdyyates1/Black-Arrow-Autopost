@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Illustrative script, not a live client message.",
+    "claims": [
+      {
+        "text": "Most service businesses stop responding to leads once the office closes for the weekend",
+        "status": "qualified"
+      },
+      {
+        "text": "An after-hours acknowledgment text script example (\"Thanks for reaching out... reply URGENT\")",
+        "status": "illustrative"
+      },
+      {
+        "text": "Black Arrow's free AI Follow-Up Builder can produce a custom automated follow-up system",
+        "status": "verified"
+      }
+    ]
+  }
+]

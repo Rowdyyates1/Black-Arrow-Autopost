@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Teach the 'weekend gap' tactic: build an automated after-hours acknowledgment text for leads that arrive outside business hours, with a concrete trigger and script, then point to the free AI Follow-Up Builder to build it.",
+    "score": 88,
+    "rejected": [
+      "Repeat the secret-shopper speed-to-lead self-audit (already shipped)",
+      "Post-job review request timing optimization (overlaps prior review-flow demonstration)",
+      "Voicemail-to-text script rewrite (overlaps prior missed-call copy post)",
+      "Lead-source tagging for differentiated follow-up sequences (less concrete/actionable)"
+    ],
+    "category": "education_informative"
+  }
+]
