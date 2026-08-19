@@ -44,5 +44,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Two AI builders that produce custom systems for your business, including an AI Follow-Up Builder, are published free on the Black Arrow tools page",
+        "status": "verified"
+      },
+      {
+        "text": "The tools page offers these at zero cost with no signup",
+        "status": "verified"
+      },
+      {
+        "text": "The recommended cadence (5-minute text, same-day email, day-3 text, day-7 touch) is an honest general follow-up pattern, not a claim about a specific client outcome",
+        "status": "qualified"
+      }
+    ]
   }
 ]

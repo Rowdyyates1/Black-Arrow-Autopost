@@ -18,5 +18,16 @@
       "Time-to-text audit tactic for owners to measure their own response speed (score 69, close to prior self-score/diagnostic posts already shipped)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Feature the AI Follow-Up Builder as this week's free lead magnet, teaching the real cadence a working follow-up sequence needs",
+    "score": 87,
+    "rejected": [
+      "Feature the Revenue Calculator again (scored 58: recently rotated, would break the never-repeat-last-tool rule in spirit of freshness)",
+      "Feature the Lead Response Audit again (scored 45: this was the most recently featured tool per rotation history)",
+      "Feature Black Arrow OS again (scored 61: strong tool but featured more recently than the AI Follow-Up Builder)",
+      "Feature the Ad ROI Calculator (scored 64: solid but also featured more recently in rotation than the Follow-Up Builder)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
