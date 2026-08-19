@@ -25,5 +25,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "Example script \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "Black Arrow's platform sends automated missed-call text-back with a booking link in under 60 seconds",
+        "status": "verified"
+      },
+      {
+        "text": "Most shops send an apology text without a way to book, so the lead still waits",
+        "status": "qualified"
+      },
+      {
+        "text": "Sample two-line text script combining apology, booking link, and urgent-issue fallback",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

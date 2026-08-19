@@ -8,5 +8,15 @@
       "Conversational AI text-back 3x qualification claim (single-vendor case study, weak/promotional evidence)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Teach owners to add a direct booking link inside the missed-call text-back message itself, closing the gap between automated apology texts and actual bookings",
+    "score": 88,
+    "rejected": [
+      "Voicemail greeting rewrite to mention that texting works (score 71, less novel, thin on script depth)",
+      "Qualifying question inside the first text to filter tire-kickers (score 74, overlaps with prior lead-scoring/Trial post)",
+      "Time-to-text audit tactic for owners to measure their own response speed (score 69, close to prior self-score/diagnostic posts already shipped)"
+    ],
+    "category": "education_informative"
   }
 ]
