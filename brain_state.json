@@ -594,6 +594,11 @@
       "date": "2026-08-18",
       "category": "platform_promo",
       "format": "reel"
+    },
+    {
+      "date": "2026-08-19",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "2c811a33913330d6",

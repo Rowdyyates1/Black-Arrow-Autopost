@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Database reactivation timing and channel research (90-day window, SMS vs. email, multichannel pattern) tied to the platform's win-back automation",
+    "score": 88,
+    "rejected": [
+      "Missed-call text-back response-rate range (15-50%) as third-party stat (overlaps prior missed-call and speed-to-lead posts)",
+      "MIT-style speed-to-lead 5-min vs 1hr close rate research (core stat already used repeatedly)",
+      "Conversational AI text-back 3x qualification claim (single-vendor case study, weak/promotional evidence)"
+    ],
+    "category": "third_party_research"
+  }
+]

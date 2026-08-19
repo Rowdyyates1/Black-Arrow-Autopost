@@ -1,0 +1,29 @@
+[
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Industry research, cited and qualified",
+    "claims": [
+      {
+        "text": "Leads reached within 90 days of going cold re-engage more often than leads left dormant for a year or more",
+        "status": "qualified"
+      },
+      {
+        "text": "SMS reactivation outperforms email-only outreach by a wide margin in home-services benchmarks",
+        "status": "rewritten"
+      },
+      {
+        "text": "Multichannel campaigns combining SMS, email, and voice outperform single-channel outreach by roughly 2-3X in reported benchmarks",
+        "status": "rewritten"
+      },
+      {
+        "text": "Segmented, history-specific messaging outperforms generic blasts",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform runs automated win-back sequences for dormant contacts, sorted by how long they've been quiet",
+        "status": "verified"
+      }
+    ]
+  }
+]
