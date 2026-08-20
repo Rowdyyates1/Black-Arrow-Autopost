@@ -8,5 +8,16 @@
       "AI content autopilot pain (score 60, already shipped as 'content never gets written' angle)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Solo-feature Black Arrow OS (free pocket CRM), the tool longest overdue in the Offers/Lead Magnets rotation, as a single-offer image promo.",
+    "score": 90,
+    "rejected": [
+      "AI Follow-Up Builder \u2014 featured most recently, lowest novelty for this rotation",
+      "Lead Response Audit \u2014 featured recently, second-lowest novelty",
+      "Revenue Calculator \u2014 featured recently, would repeat too soon",
+      "Ad ROI Calculator \u2014 featured more recently than Black Arrow OS"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
