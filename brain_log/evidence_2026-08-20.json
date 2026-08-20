@@ -40,5 +40,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform includes a booking feature that captures appointments directly into the CRM",
+        "status": "verified"
+      },
+      {
+        "text": "The platform runs automations including two-way texting so a reminder can go out ahead of an appointment",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

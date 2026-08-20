@@ -19,5 +19,17 @@
       "Ad ROI Calculator \u2014 featured more recently than Black Arrow OS"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Booking friction (manual back-and-forth scheduling and resulting no-shows) as an unclaimed Platform/Trial pain, solved by the platform's live booking link + CRM logging + automated reminder, routing to the 14-day free trial",
+    "score": 89,
+    "rejected": [
+      "Tool sprawl / too many logins (already shipped multiple times)",
+      "Missed calls going unanswered (already shipped)",
+      "Content never gets written (already shipped)",
+      "Revenue reporting/attribution refrain (already shipped)",
+      "Inconsistent review asks (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]
