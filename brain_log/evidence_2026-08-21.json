@@ -17,5 +17,36 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow - illustrative, not a live client account",
+    "claims": [
+      {
+        "text": "Missed-call text-back sends an SMS automatically after an unanswered call",
+        "status": "verified"
+      },
+      {
+        "text": "The example message text shown",
+        "status": "illustrative"
+      },
+      {
+        "text": "Replies thread into one inbox tagged to the contact",
+        "status": "verified"
+      },
+      {
+        "text": "A booking link can be sent in the same conversation thread",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses do not respond to new leads within the first hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

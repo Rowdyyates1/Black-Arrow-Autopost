@@ -8,5 +8,16 @@
       "News hook on DM-share algorithm weighting (belongs in News/Industry Intelligence, not Offers this cycle)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Full missed-call text-back system walkthrough as a labeled demonstration (score 88)",
+    "score": 88,
+    "rejected": [
+      "Another aging-bucket or ladder framework carousel (overused, repetitive structure)",
+      "News angle on carrier SMS enforcement (already shipped recently)",
+      "Contrarian ad-spend-vs-follow-up reframe (already shipped multiple times)",
+      "Objection handling on staff redundancy (better suited to a different cycle slot)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
