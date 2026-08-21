@@ -82,5 +82,47 @@
     ],
     "chosen_format": "slideshow",
     "post_rationale": "Demonstrations is under-served this cycle, and a full missed-call text-back walkthrough is an unclaimed stage distinct from every prior review, reminder, reactivation, quote-cadence, and referral demonstration already shipped, in the slideshow format the brief prefers for step-based systems."
+  },
+  {
+    "timestamp": "2026-08-21T18:23:02.936572Z",
+    "category": "news_industry",
+    "category_label": "News / Industry Intelligence",
+    "guidance": "Interpret a genuinely recent, relevant marketing/software development for service-business owners: what it means and what they should do. Be the interpreter, not a reposter.",
+    "format_bias": "reel",
+    "evidence_note": "Only if current and verifiable from your research. Cite the source. Distinguish fact from interpretation.",
+    "mode": "exploration",
+    "reason": "Exploration (8% budget): sampling 'News / Industry Intelligence' to keep learning what performs, not just exploiting the current leader.",
+    "confidence": 0.4,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.2,
+      "education_informative": 0.167,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.167,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.033
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "A genuinely fresh, verified Google Ads product change (BBB callout deprecation) unclaimed by any prior post, interpreted through Black Arrow's core follow-up-over-ad-signal position, in the reel format that still wins reach for cold-audience news."
   }
 ]

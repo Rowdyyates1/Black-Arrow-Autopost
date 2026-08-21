@@ -19,5 +19,15 @@
       "Objection handling on staff redundancy (better suited to a different cycle slot)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Google Ads retired the BBB callout asset type; interpret the required fix and pivot to speed-to-lead as the real trust signal",
+    "score": 84,
+    "rejected": [
+      "Instagram 2026 rewatchability ranking shift (weaker tie to core niche keywords, more generic social-media advice)",
+      "GoHighLevel's new SLA workflow trigger for conversations (reveals underlying tech stack, off-brand to publicize competitor platform)",
+      "GBP 'Interaction Prominence' popularity/decay factor (already covered by a prior shipped post)"
+    ],
+    "category": "news_industry"
   }
 ]

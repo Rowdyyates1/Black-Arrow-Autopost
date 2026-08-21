@@ -48,5 +48,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from Google Ads Help documentation; response-time claim reflects a widely observed industry pattern, not a specific cited statistic.",
+    "claims": [
+      {
+        "text": "Google Ads retired the BBB callout asset type and now requires advertisers to use other structured callouts.",
+        "status": "verified"
+      },
+      {
+        "text": "Many home service businesses take longer than an hour to respond to a new lead.",
+        "status": "rewritten"
+      },
+      {
+        "text": "A trust badge earns the click. Fast follow-up wins the job.",
+        "status": "qualified"
+      }
+    ]
   }
 ]
