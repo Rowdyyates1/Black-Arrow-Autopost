@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Revenue Calculator uses monthly leads, close rate, average job value, and response time as inputs",
+        "status": "verified"
+      },
+      {
+        "text": "Outputs revenue per lead, monthly follow-up loss, and annual gain from a 10% improvement",
+        "status": "verified"
+      },
+      {
+        "text": "Free tool, no signup or card required",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
