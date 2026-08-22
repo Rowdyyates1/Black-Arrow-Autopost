@@ -8,5 +8,15 @@
       "Cover the 2026 Instagram carousel-vs-reels engagement data as a news angle (score 55, doesn't fit today's assigned Offers/Lead Magnets category)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Automated review-request sequence walkthrough (job-complete trigger, SMS + email nudge, logged results)",
+    "score": 88,
+    "rejected": [
+      "Booking confirmation and calendar-sync walkthrough (74 - less urgent pain than reviews)",
+      "Lead-scoring priority queue demonstration (70 - more platform-feature explainer than a stage walkthrough)",
+      "Second version of the database reactivation sequence (60 - too close to an already-shipped demonstration)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

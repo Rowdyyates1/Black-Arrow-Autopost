@@ -17,5 +17,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a specific client account.",
+    "claims": [
+      {
+        "text": "Black Arrow's platform includes an automated review engine as part of its retention automations",
+        "status": "verified"
+      },
+      {
+        "text": "The illustrated trigger, SMS, email nudge, and logging steps",
+        "status": "illustrative"
+      },
+      {
+        "text": "A consistent automated ask outperforms a team relying on memory",
+        "status": "qualified"
+      }
+    ]
   }
 ]
