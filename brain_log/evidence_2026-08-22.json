@@ -36,5 +36,28 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "mixed",
+    "disclosure": "Lead response-time claim generalized to an industry pattern instead of a single unverified statistic.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Missed-call text-back automation runs identically regardless of lead volume",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Lower lead volume raises the relative cost of each dropped lead",
+        "status": "qualified"
+      }
+    ]
   }
 ]

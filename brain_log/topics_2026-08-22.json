@@ -18,5 +18,15 @@
       "Second version of the database reactivation sequence (60 - too close to an already-shipped demonstration)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Objection handling: 'I don't get enough leads to justify a system' reframed with the low-volume math and resolved via the free trial",
+    "score": 87,
+    "rejected": [
+      "Objection: automation feels impersonal to customers (already shipped)",
+      "Objection: fear the system makes an embarrassing mistake in front of a customer",
+      "Objection: already using a CRM, don't need another tool (overlaps prior tool-sprawl angle)"
+    ],
+    "category": "objection_nurture"
   }
 ]
