@@ -13,5 +13,28 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "BrightLocal 2026 Local Consumer Review Survey, via secondary reporting",
+    "claims": [
+      {
+        "text": "The share of shoppers who require at least 4.5 stars before considering a business rose from 17% to 31% in one year.",
+        "status": "third_party"
+      },
+      {
+        "text": "47% of consumers won't consider a business with fewer than 20 reviews, regardless of rating.",
+        "status": "third_party"
+      },
+      {
+        "text": "Consumers expect a response to a negative review within a week, but most businesses never respond to reviews at all.",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform includes automated review-request sending as part of its retention system.",
+        "status": "verified"
+      }
+    ]
   }
 ]

@@ -8,5 +8,15 @@
       "Contrarian POV on Instagram's DM-shares algorithm weighting (belongs in News/POV slot, not today's Offers category)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "2026 BrightLocal review-threshold survey (rising star-rating and review-count bar) interpreted through the platform's automated review-request capability",
+    "score": 87,
+    "rejected": [
+      "Appointment reminder no-show reduction study (38%) \u2014 overlaps with the already-shipped no-show-recovery demonstration",
+      "2026 speed-to-lead benchmark stats (Blazeo/artemisgtm) \u2014 overexposed, this account has run multiple speed-to-lead stat posts already",
+      "Missed-call text-back unanswered-call research \u2014 explicitly already used in a prior Third-Party Research post per rotation history"
+    ],
+    "category": "third_party_research"
   }
 ]
