@@ -1,0 +1,17 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Removed unverifiable 17% statistic and unsupported $250 valuation; replaced with a qualified general industry pattern.",
+    "claims": [
+      {
+        "text": "Lead Response Audit uses four inputs to produce a response score, leads-lost estimate, and revenue-at-risk figure, offered free",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses lose leads to slow response rather than poor marketing",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
