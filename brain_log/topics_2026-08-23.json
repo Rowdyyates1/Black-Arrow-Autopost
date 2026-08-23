@@ -18,5 +18,16 @@
       "Missed-call text-back unanswered-call research \u2014 explicitly already used in a prior Third-Party Research post per rotation history"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Feature the AI Follow-Up Builder as this cycle's Offers/Lead Magnets post, next in tool rotation after the Lead Response Audit",
+    "score": 85,
+    "rejected": [
+      "Reel on missed-call text-back copy mistakes (already shipped as a distinct angle)",
+      "Carousel on a new prioritization/segmentation framework (multiple already shipped this cycle)",
+      "News angle on Instagram carousel algorithm benchmarks (not a service-business-specific insight, weaker relevance)",
+      "Feature Ad ROI Calculator instead (used more recently than AI Follow-Up Builder in current rotation)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

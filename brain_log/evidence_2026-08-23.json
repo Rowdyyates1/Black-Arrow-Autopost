@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Two AI builders that produce custom systems for your business, free",
+        "status": "verified"
+      },
+      {
+        "text": "The AI Follow-Up Builder generates a custom follow-up sequence based on business inputs",
+        "status": "verified"
+      },
+      {
+        "text": "No signup, no card required for the free tools",
+        "status": "verified"
+      }
+    ]
   }
 ]
