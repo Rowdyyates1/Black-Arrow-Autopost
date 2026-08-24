@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Every contact, message, and lead lives in your account and exports to CSV any time from Reporting",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel any time",
+        "status": "verified"
+      },
+      {
+        "text": "Owners who've switched business software before often fear losing their data on exit",
+        "status": "general_pattern"
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "chosen": "Objection handling: fear of being locked into a platform with customer data trapped if you cancel, resolved with the platform's verified data-export and cancel-anytime terms",
+    "score": 91,
+    "rejected": [
+      "Impersonal automation objection (already shipped)",
+      "Cost objection reframe (already shipped)",
+      "Tried-automation-before-and-failed objection (already shipped)",
+      "Staff redundancy objection (already shipped)",
+      "Contract lock-in fear (already shipped, distinct from data-portability fear)"
+    ],
+    "category": "objection_nurture"
+  }
+]
