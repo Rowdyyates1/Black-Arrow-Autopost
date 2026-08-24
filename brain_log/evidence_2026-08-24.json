@@ -17,5 +17,24 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Automated follow-up can text every lead back within minutes and log every scheduled follow-up",
+        "status": "verified"
+      },
+      {
+        "text": "The Platform offers a 14-day free trial with no card required",
+        "status": "verified"
+      },
+      {
+        "text": "Framing a CRM/automation system as a revenue-producing 'employee' rather than overhead",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
