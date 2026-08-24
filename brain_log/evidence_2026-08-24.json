@@ -36,5 +36,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Quiz funnels hosted on your link, every completion lands in your CRM and gets texted back in seconds",
+        "status": "verified"
+      },
+      {
+        "text": "Lead scored step in the platform's live journey",
+        "status": "verified"
+      },
+      {
+        "text": "Missed-call text-back and instant text-back automations run without manual work",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

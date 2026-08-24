@@ -21,5 +21,15 @@
       "Review count doesn't grow your business, recency does (score 50, overlaps recent review-threshold and policy posts)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Platform/Trial: unqualified web-form leads eating call time, solved by quiz-funnel lead scoring at the point of capture",
+    "score": 85,
+    "rejected": [
+      "Landing page/forms consolidation (overlaps prior tool-sprawl angle)",
+      "Referral tracking revisit (already shipped)",
+      "Booking friction/no-show revisit (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]
