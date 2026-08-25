@@ -8,5 +8,15 @@
       "Lead quality is manufactured by intake, not ad targeting (overlaps prior tool-feature posts)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Missed-call text-back completeness test: audit whether your auto-reply actually creates an owned, timed CRM record or is just a nicer voicemail",
+    "score": 89,
+    "rejected": [
+      "Instagram Trial Reels feature for hook-testing (too meta, not a direct revenue tactic for service owners)",
+      "AI virtual receptionist layered with text-back (implies an unverified live-answering capability)",
+      "Repeat the first-responder/speed-to-lead stat (already run multiple times this cycle)"
+    ],
+    "category": "education_informative"
   }
 ]

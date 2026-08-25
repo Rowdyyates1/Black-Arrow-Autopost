@@ -17,5 +17,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "A missed-call text with no assigned owner, deadline, or record functions like a politer voicemail and still loses the lead",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow's platform runs missed-call text-back and logs it to the CRM as part of its automations",
+        "status": "verified"
+      }
+    ]
   }
 ]
