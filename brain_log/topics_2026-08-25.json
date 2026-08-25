@@ -18,5 +18,17 @@
       "Repeat the first-responder/speed-to-lead stat (already run multiple times this cycle)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Four-System Health Check: score acquisition, conversion, operations, retention 1-4 to find the compounding revenue leak",
+    "score": 89,
+    "rejected": [
+      "value-times-urgency prioritization matrix (already shipped)",
+      "three-tier response-SLA framework (already shipped)",
+      "touch-count cadence framework (already shipped)",
+      "budget-allocation attraction/capture/compounding framework (already shipped)",
+      "channel-based intake framework (already shipped)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

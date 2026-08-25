@@ -32,5 +32,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Self-assessment framework; results reflect the reader's own scoring, not audited client data.",
+    "claims": [
+      {
+        "text": "Black Arrow's method groups revenue systems into acquisition, conversion, operations, and retention",
+        "status": "verified"
+      },
+      {
+        "text": "a 1-4 self-score per system reveals which one is the compounding leak",
+        "status": "demonstration"
+      }
+    ]
   }
 ]
