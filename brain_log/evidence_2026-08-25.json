@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time and close-rate figures reflect commonly cited industry lead-response research (e.g. Lead Response Management studies); results vary by market and are not Black Arrow's own measured data.",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses respond to a new lead within an hour",
+        "status": "qualified"
+      },
+      {
+        "text": "Responding in under 5 minutes can nearly double the close rate",
+        "status": "qualified"
+      },
+      {
+        "text": "Price is rarely the real reason a job is lost",
+        "status": "qualified"
+      }
+    ]
+  }
+]
