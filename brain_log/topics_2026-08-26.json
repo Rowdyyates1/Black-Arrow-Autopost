@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Demonstration: automated 3-touch appointment reminder/confirmation sequence (72hr/24hr/2hr) as an unclaimed system walkthrough",
+    "score": 89,
+    "rejected": [
+      "Database reactivation sequence walkthrough (already shipped)",
+      "Missed-call text-back full walkthrough (already shipped)",
+      "Review-request sequence walkthrough (already shipped)",
+      "Post-win referral ask with tracked attribution (already shipped)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

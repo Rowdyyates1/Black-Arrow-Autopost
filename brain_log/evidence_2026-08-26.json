@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "third_party_research",
+    "disclosure": "Example workflow, not a specific client result.",
+    "claims": [
+      {
+        "text": "Three-touch timing (72hr / 24hr / 2hr) follows a common no-show-prevention pattern: confirm early enough to refill the slot, remind before the day, catch last-minute drop-offs",
+        "status": "rewritten"
+      },
+      {
+        "text": "Automated SMS reminder sequences reduce no-shows in roughly a 30-60% range",
+        "status": "qualified"
+      },
+      {
+        "text": "The Platform includes booking and automation tools that can run this kind of sequence",
+        "status": "verified"
+      }
+    ]
+  }
+]
