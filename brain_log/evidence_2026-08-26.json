@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "General reference to 2026 CRM platform AI voice-agent rollouts and established speed-to-lead patterns. No fabricated company-specific stats used.",
+    "claims": [
+      {
+        "text": "AI phone agents that book appointments live, mid-call, are rolling out across major CRM platforms this year.",
+        "status": "third_party"
+      },
+      {
+        "text": "Most shops still don't have a system built to catch and route those calls fast enough.",
+        "status": "qualified"
+      },
+      {
+        "text": "Response time past the first few minutes sharply reduces the odds of reaching a live lead.",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

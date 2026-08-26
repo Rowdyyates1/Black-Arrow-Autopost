@@ -9,5 +9,15 @@
       "Post-win referral ask with tracked attribution (already shipped)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "GoHighLevel's 2026 live-call AI appointment-booking rollout reframed as a reminder to fix basic speed-to-lead before adding voice AI, taught via a friend-call self-test in the reel format for cold-audience news",
+    "score": 89,
+    "rejected": [
+      "Instagram 'Your Algorithm' opt-out feature and content-category consistency (85, less tied to core niche keywords)",
+      "Google's April 2026 review-gating and on-premises-ask ban (78, same underlying policy event as a previously shipped angle)",
+      "GBP 2026 profile-activity/popularity ranking shift (70, already covered by a prior post)"
+    ],
+    "category": "news_industry"
   }
 ]
