@@ -19,5 +19,15 @@
       "GBP 2026 profile-activity/popularity ranking shift (70, already covered by a prior post)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "The 3-Question Automation Test: a decision framework for owners to sort recurring tasks into 'needs a system' vs 'needs a person'",
+    "score": 88,
+    "rejected": [
+      "Follow-up debt framework quantifying unanswered leads as unpaid invoices (overlaps with existing Revenue Calculator/Response Audit angles)",
+      "Two-Clock speed-to-lead measurement model (overlaps with the already-shipped under-5-minute stat framing)",
+      "Freshness scoring framework for review requests (fits Demonstrations better than Authority/Frameworks)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

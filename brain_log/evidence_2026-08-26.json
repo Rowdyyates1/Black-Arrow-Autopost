@@ -36,5 +36,20 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "a task that happens the same way every time, where timing matters more than judgment, and that must still work on a bad day is a strong candidate for automation",
+        "status": "qualified"
+      },
+      {
+        "text": "missed-call callbacks, appointment reminders, and review requests are common examples of tasks businesses automate",
+        "status": "verified"
+      }
+    ]
   }
 ]
