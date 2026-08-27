@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Reflects widely observed caller behavior around missed calls; not a specific measured statistic.",
+    "claims": [
+      {
+        "text": "Most callers who reach voicemail hang up without leaving one and call the next business",
+        "status": "rewritten"
+      },
+      {
+        "text": "A three-part voicemail script (acknowledge, redirect to text, set reply time) can convert hang-ups into text leads",
+        "status": "qualified"
+      },
+      {
+        "text": "Testing the greeting by calling your business line from a second phone confirms it plays correctly",
+        "status": "demonstration"
+      }
+    ]
+  }
+]

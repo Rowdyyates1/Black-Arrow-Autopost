@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The voicemail script rewrite that turns hang-ups into text leads (acknowledge, redirect to text, set reply time)",
+    "score": 88,
+    "rejected": [
+      "Google Business Profile services-menu optimization tactic (score 71, lower urgency/novelty)",
+      "TCPA quiet-hours compliance for automated follow-up texts (score 74, higher legal risk/complexity)",
+      "Two-touch call-plus-text cadence after a missed call (score 69, too close to shipped missed-call/text-back angles)"
+    ],
+    "category": "education_informative"
+  }
+]
