@@ -21,5 +21,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Replying to a negative review within 24 hours with a specific, non-defensive script protects trust with future customers who read the thread before booking",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow's platform automates the review request and threads every reply in one inbox",
+        "status": "verified"
+      }
+    ]
   }
 ]

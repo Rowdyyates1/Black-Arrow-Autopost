@@ -8,5 +8,16 @@
       "Per-stage CRM SLA timeout framework (overlaps heavily with the already-shipped response-SLA and aging-bucket models)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Teach the four-line negative-review reply script (name the issue, no-excuse apology, direct contact, move offline) owners can execute this week inside a 24-hour window, closed with the platform's review-engine and unified-inbox tie-in",
+    "score": 89,
+    "rejected": [
+      "Manual missed-call text template for owners without automation \u2014 overlaps prior text-back copy and voicemail-script angles already shipped",
+      "CRM duplicate-contact cleanup checklist \u2014 lower urgency, weaker hook, thinner evidence",
+      "Google Business Profile Q&A seeding tactic \u2014 thinner evidence base, lower this-week actionability",
+      "Abandoned online-booking recovery text \u2014 overlaps prior booking-friction Contrarian angle already shipped"
+    ],
+    "category": "education_informative"
   }
 ]
