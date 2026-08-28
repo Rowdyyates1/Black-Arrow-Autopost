@@ -29,5 +29,15 @@
       "Break-even response speed / lead half-life calculation framework"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Contrarian POV: more ad spend isn't growth if follow-up is broken; diagnostic test (leads-in vs jobs-booked) to run before increasing budget",
+    "score": 85,
+    "rejected": [
+      "Referrals scale for free, so ad spend is overrated (too generic, not distinct)",
+      "A weak market position, not an ad problem, is why price becomes the deciding factor (less actionable, no concrete test)",
+      "CAC:CLV ratio contrarian framing (too data-heavy for a reel, weaker hook)"
+    ],
+    "category": "contrarian_pov"
   }
 ]

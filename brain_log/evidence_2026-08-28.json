@@ -59,5 +59,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "General industry pattern on lead response speed; not a Black Arrow-verified statistic, so no specific figure is cited.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Increasing ad spend without fixing follow-up raises cost per booked job",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
