@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Frequency crossing roughly 2.5 to 3 for the same audience in a week is a widely used fatigue threshold",
+        "status": "qualified"
+      },
+      {
+        "text": "A CTR drop against launch-week baseline signals creative wear-out",
+        "status": "qualified"
+      },
+      {
+        "text": "Cost per lead climbing with stable targeting and budget indicates the algorithm working harder against a fatigued creative",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow builds and runs acquisition campaigns as one of its four systems",
+        "status": "verified"
+      }
+    ]
+  }
+]

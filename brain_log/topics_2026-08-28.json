@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The 3-signal ad creative fatigue framework (frequency, CTR decay, CPL creep) for deciding when to refresh paid ad creative",
+    "score": 87,
+    "rejected": [
+      "Another follow-up touch-count or aging-bucket cadence framework (redundant with numerous prior posts)",
+      "Review-ask timing decision framework by job size (too close to prior review-sequence and star-rating posts)",
+      "Per-stage CRM SLA timeout framework (overlaps heavily with the already-shipped response-SLA and aging-bucket models)"
+    ],
+    "category": "authority_frameworks"
+  }
+]
