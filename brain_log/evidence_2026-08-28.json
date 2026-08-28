@@ -36,5 +36,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "A single-price quote leaves the customer only one comparison: cheaper or not",
+        "status": "qualified"
+      },
+      {
+        "text": "A premium-anchored tier makes the middle option read as the reasonable choice",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow's platform tracks quotes and follow-up automatically inside one CRM pipeline",
+        "status": "verified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial, no card required, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]
