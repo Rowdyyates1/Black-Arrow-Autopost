@@ -19,5 +19,15 @@
       "Referral-tracking-as-unclaimed-pain angle (already shipped)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Third-party research on lead contactability decay (MIT/InsideSales.com: 10x drop in contact odds at 5 min), reframing speed-to-lead around 'can you even reach them' rather than close rate alone, routed to the platform's automated instant-response trial",
+    "score": 89,
+    "rejected": [
+      "CallRail missed-call abandonment stat (78%/82% call a competitor) routed to text-back capability \u2014 too close to the already-shipped missed-call + Lead Response Audit third-party post",
+      "BrightLocal-style rising star-rating threshold stat \u2014 review angle already used in this category",
+      "HubSpot 82%/90% consumer immediate-response-importance stat as a standalone post \u2014 less actionable and less novel than the contactability decay curve"
+    ],
+    "category": "third_party_research"
   }
 ]

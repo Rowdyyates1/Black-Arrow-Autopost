@@ -36,5 +36,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "MIT / InsideSales.com Lead Response Management Study, widely cited in current industry research",
+    "claims": [
+      {
+        "text": "The odds of successfully contacting a lead drop roughly 10x after five minutes of delay",
+        "status": "third_party"
+      },
+      {
+        "text": "Past ten minutes, most interested leads have already contacted a competitor or stopped answering",
+        "status": "rewritten"
+      },
+      {
+        "text": "Only 17% of service businesses respond to a new lead within an hour",
+        "status": "verified"
+      },
+      {
+        "text": "Responding in under five minutes roughly doubles the close rate",
+        "status": "verified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial with no card needed",
+        "status": "verified"
+      }
+    ]
   }
 ]
