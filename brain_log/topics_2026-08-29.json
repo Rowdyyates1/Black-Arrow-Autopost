@@ -8,5 +8,16 @@
       "Carousel on 2026 Instagram algorithm shifts (DM shares weighting) \u2014 informative but off-category for today's under-served slot"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "The direct-vs-agency-markup reframe: promote the platform's 14-day trial and referral deal by naming the real cost pain of paying an agency markup for the same tech stack, sourced directly from Black Arrow's own pricing page copy",
+    "score": 89,
+    "rejected": [
+      "Dormant past-customer / no win-back system pain (already shipped)",
+      "Scattered, unthreaded conversations / unified inbox pain (already shipped)",
+      "Booking friction and no-show risk (already shipped)",
+      "Referral-tracking-as-unclaimed-pain angle (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]

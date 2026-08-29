@@ -13,5 +13,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Agencies resell the same category of lead-to-revenue system built on a bigger platform, marked up, while Black Arrow offers it direct",
+        "status": "verified"
+      },
+      {
+        "text": "The platform includes CRM, two-way texting, booking, quiz funnels, automated missed-call text-back, review collection, win-backs, referral tracking, and revenue reporting under one login",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial with full access, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Refer a business and when they subscribe, you both get a free month, tracked automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]
