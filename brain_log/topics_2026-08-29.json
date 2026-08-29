@@ -29,5 +29,15 @@
       "HubSpot 82%/90% consumer immediate-response-importance stat as a standalone post \u2014 less actionable and less novel than the contactability decay curve"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "No-show recovery cascade demonstration: the automated reschedule + win-back sequence that fires after a booked appointment is missed",
+    "score": 85,
+    "rejected": [
+      "Instant new-lead response sequence walkthrough (too close to prior missed-call text-back demo, novelty score ~75)",
+      "Post-estimate insurance/warranty follow-up demo (too niche for broad audience, score ~60)",
+      "Referral tracking demonstration (already shipped as post-win referral ask, low novelty)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

@@ -754,6 +754,11 @@
       "date": "2026-08-29",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-08-29",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "2c811a33913330d6",

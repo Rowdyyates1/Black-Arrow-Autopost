@@ -63,5 +63,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "The no-show is flagged the moment the appointment window passes",
+        "status": "illustrative"
+      },
+      {
+        "text": "An automated text with a reschedule link goes out ten minutes after the miss",
+        "status": "illustrative"
+      },
+      {
+        "text": "A second touch on a different channel follows four hours later if there's no reply",
+        "status": "illustrative"
+      },
+      {
+        "text": "The contact moves into a win-back queue after 24 hours instead of falling out of the pipeline",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most shops let a no-show fall off the calendar and never revisit it",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]
