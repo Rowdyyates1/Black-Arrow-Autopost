@@ -32,5 +32,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "AI content tool lets you set your brand voice once and generate a week of on-brand posts from a single goal, then approve",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

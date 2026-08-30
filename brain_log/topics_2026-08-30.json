@@ -20,5 +20,15 @@
       "Build a carousel walking through all 5 free tools at once (dilutes the single clear offer research shows converts fastest)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "AI content autopilot solves the 'no time to post' problem for service business owners",
+    "score": 84,
+    "rejected": [
+      "Referral deal deep-dive (overlaps prior referral-focused Platform/Trial post)",
+      "Live-in-minutes setup vs weeks of onboarding (overlaps prior agency-markup cost-narrative angle)",
+      "Unified inbox pain (already shipped as a Platform/Trial angle)"
+    ],
+    "category": "platform_promo"
   }
 ]
