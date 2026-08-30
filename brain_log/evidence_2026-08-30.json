@@ -17,5 +17,20 @@
         "status": "informed_interpretation"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Revenue Calculator takes four inputs (monthly leads, close rate, average job value, response time) and returns revenue per lead, monthly loss to slow follow-up, and an annual gain model based on a 10% improvement scenario",
+        "status": "verified"
+      },
+      {
+        "text": "The tool is free to use with no signup required",
+        "status": "verified"
+      }
+    ]
   }
 ]

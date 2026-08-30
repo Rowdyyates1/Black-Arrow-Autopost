@@ -9,5 +9,16 @@
       "Follow-up email subject-line A/B test (too generic, low niche specificity)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Feature the Revenue Calculator as a single-offer promo image, completing the free-tool rotation cycle (Response Audit \u2192 AI Follow-Up Builder \u2192 Black Arrow OS \u2192 Ad ROI Calculator \u2192 Revenue Calculator)",
+    "score": 87,
+    "rejected": [
+      "News-jack a 2026 Instagram algorithm carousel-vs-reel study (interesting but not a this-week revenue action, weaker fit for Offers category)",
+      "Feature Black Arrow OS again (repeats the tool featured earliest in this rotation cycle, breaks the sequence)",
+      "Feature the AI Follow-Up Builder (already featured this cycle, would repeat too soon)",
+      "Build a carousel walking through all 5 free tools at once (dilutes the single clear offer research shows converts fastest)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
