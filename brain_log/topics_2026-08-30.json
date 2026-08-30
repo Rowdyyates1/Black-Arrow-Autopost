@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Teach owners to run a secret-shopper speed-to-lead test this week using an outside tester, timing the real first response against general response-speed patterns",
+    "score": 90,
+    "rejected": [
+      "GBP messaging response-time as a ranking factor (overlaps prior GBP ranking post)",
+      "TCPA opt-in compliance script for automated texts (legal complexity, higher risk)",
+      "Optimal post-job review-ask timing window (less directly actionable this week without a tool)",
+      "Follow-up email subject-line A/B test (too generic, low niche specificity)"
+    ],
+    "category": "education_informative"
+  }
+]

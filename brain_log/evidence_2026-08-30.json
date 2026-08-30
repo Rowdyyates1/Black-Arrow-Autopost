@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "General industry pattern on lead response speed, not a specific sourced statistic.",
+    "claims": [
+      {
+        "text": "Most service businesses take longer than an hour to respond to a new lead.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Faster first response is associated with meaningfully higher close rates.",
+        "status": "rewritten"
+      },
+      {
+        "text": "An outside tester submitting a lead and timing the real response reveals true speed-to-lead.",
+        "status": "informed_interpretation"
+      }
+    ]
+  }
+]
