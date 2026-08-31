@@ -34,5 +34,42 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "$0 forever, no signup required",
+        "class": "owned product spec",
+        "status": "verified"
+      },
+      {
+        "claim": "25 contacts free, unlimited on the Platform",
+        "class": "owned product tier spec",
+        "status": "verified"
+      },
+      {
+        "claim": "Drag each lead from New to Quoted to Won",
+        "class": "owned product feature",
+        "status": "verified"
+      },
+      {
+        "claim": "Set a follow-up date so no lead goes cold",
+        "class": "owned product feature",
+        "status": "verified"
+      },
+      {
+        "claim": "Check CPL and ROAS on a weekly dashboard",
+        "class": "owned product feature",
+        "status": "verified"
+      },
+      {
+        "claim": "Runs in your browser today, no card required",
+        "class": "owned product spec",
+        "status": "verified"
+      }
+    ]
   }
 ]
