@@ -1,0 +1,19 @@
+[
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "The AI Follow-Up Builder asks a few questions and writes a complete follow-up sequence (texts, timing, order)",
+        "evidence_class": "demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "Tool is free with no signup or card required",
+        "evidence_class": "demonstration",
+        "status": "original"
+      }
+    ]
+  }
+]
