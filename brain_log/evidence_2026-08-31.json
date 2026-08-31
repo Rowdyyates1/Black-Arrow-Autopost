@@ -15,5 +15,24 @@
         "status": "original"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform shows one page of revenue-first reporting tying leads to the dollars they closed",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referral deal: refer a business, both get a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]
