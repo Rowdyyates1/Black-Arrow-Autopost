@@ -1,0 +1,29 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Google is moving Local Services Ads into Google Ads as Performance Max pay-per-lead campaigns",
+        "status": "verified"
+      },
+      {
+        "text": "Phased rollout targets home and storefront service advertisers including plumbing, HVAC, electrical, roofing, cleaning, and pest control",
+        "status": "verified"
+      },
+      {
+        "text": "Historical LSA performance data must be exported before migration since it does not carry over automatically",
+        "status": "verified"
+      },
+      {
+        "text": "Performance Max bidding is guided by the lead-outcome data reported back, making accurate CRM tracking more important for ad efficiency",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform tracks every lead through to the revenue it produces",
+        "status": "qualified"
+      }
+    ]
+  }
+]
