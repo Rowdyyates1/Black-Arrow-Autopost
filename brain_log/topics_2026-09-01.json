@@ -9,5 +9,15 @@
       "Instagram 5-hashtag limit change (score 40, low importance, not revenue-actionable for owners)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Feature the Ad ROI Calculator as a single-offer promo card, the tool next due in rotation after Black Arrow OS, giving owners a way to see real cost-per-lead and cost-per-booked-job numbers instead of just tracking spend.",
+    "score": 88,
+    "rejected": [
+      "Re-feature Black Arrow OS or Revenue Calculator (both ran too recently in the rotation)",
+      "News reel on iOS 18 RCS texting shift (already shipped as a prior angle)",
+      "Carousel on a new objection-handling framework (wrong category for today's brain decision)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

@@ -25,5 +25,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Ad ROI Calculator is a free tool published at blackarrow.ltd/tools",
+        "status": "verified"
+      },
+      {
+        "text": "It calculates cost per lead, cost per booked job, and revenue per dollar of ad spend from monthly spend, lead count, close rate, and job value inputs",
+        "status": "verified"
+      },
+      {
+        "text": "No signup is required to use it",
+        "status": "verified"
+      }
+    ]
   }
 ]
