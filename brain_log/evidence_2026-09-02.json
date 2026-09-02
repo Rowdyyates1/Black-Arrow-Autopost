@@ -17,5 +17,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "No onboarding calls, no certification courses; pick a template, flip it on",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Speed-to-lead SMS, missed-call text-back, and review requests are pre-built platform automations",
+        "status": "verified"
+      }
+    ]
   }
 ]

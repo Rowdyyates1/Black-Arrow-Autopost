@@ -9,5 +9,16 @@
       "iOS 18 RCS texting shift interpretation (already shipped as a news angle)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Objection handling: 'I don't have time to learn new software' resolved with the platform's verified no-onboarding, template-based setup",
+    "score": 88,
+    "rejected": [
+      "Cost objection for done-for-you pricing (requires numbers, prohibited)",
+      "Impersonal-automation objection (already shipped)",
+      "Staff-redundancy objection (already shipped)",
+      "Data lock-in fear on cancellation (already shipped)"
+    ],
+    "category": "objection_nurture"
   }
 ]

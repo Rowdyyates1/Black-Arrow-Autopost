@@ -804,6 +804,11 @@
       "date": "2026-09-02",
       "category": "demonstrations_walkthroughs",
       "format": "slideshow"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "2c811a33913330d6",
