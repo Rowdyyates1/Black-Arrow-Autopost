@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Illustrative example, not a client account",
+    "claims": [
+      {
+        "text": "Black Arrow's platform includes automated win-back sequences as a built-in feature",
+        "status": "verified"
+      },
+      {
+        "text": "The specific 3-touch, day-1/day-4/day-10 win-back cadence and copy shown",
+        "status": "illustrative"
+      },
+      {
+        "text": "Reactivating past customers costs less effort than winning brand-new leads",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
