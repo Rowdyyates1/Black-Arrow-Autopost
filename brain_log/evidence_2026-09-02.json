@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Removed the unverifiable '$250 value' figure and the unsourced 17% statistic; replaced with a general, honestly-supportable pattern statement about response speed.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit grades response speed against industry benchmarks from 4 inputs",
+        "status": "verified"
+      },
+      {
+        "text": "The audit estimates monthly leads lost and revenue at risk based on response speed",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

@@ -809,6 +809,11 @@
       "date": "2026-09-02",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-09-02",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "2c811a33913330d6",
