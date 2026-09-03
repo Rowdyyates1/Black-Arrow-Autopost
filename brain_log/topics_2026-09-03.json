@@ -8,5 +8,15 @@
       "Speed-to-lead 2026 stat news reel (no genuinely new dataset found beyond already-cited figures)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Published lead-response-time research shows a formal SLA plus automation improves a business's odds of hitting the fast-response window, mapped to the free Lead Response Audit.",
+    "score": 89,
+    "rejected": [
+      "Single-stat carousel on home-services phone-lead conversion rate - thinner narrative, less actionable",
+      "Reprise of MIT/InsideSales 21x qualification stat - already implicit in account's core facts, low novelty",
+      "GBP profile-activity ranking update - already shipped this cycle"
+    ],
+    "category": "third_party_research"
   }
 ]

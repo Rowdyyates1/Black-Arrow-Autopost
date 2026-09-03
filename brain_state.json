@@ -819,6 +819,11 @@
       "date": "2026-09-03",
       "category": "offers_lead_magnets",
       "format": "image"
+    },
+    {
+      "date": "2026-09-03",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "2c811a33913330d6",

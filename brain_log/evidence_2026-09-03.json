@@ -13,5 +13,32 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General pattern drawn from widely published lead-response-time research; no single named study is cited.",
+    "claims": [
+      {
+        "text": "Businesses that respond to new leads within five minutes convert more often than those that respond later",
+        "status": "rewritten"
+      },
+      {
+        "text": "Businesses with a formal written response-time standard hit fast-response windows more often than those without one",
+        "status": "rewritten"
+      },
+      {
+        "text": "Teams using automated first-response tools outperform manual-only teams on response speed",
+        "status": "rewritten"
+      },
+      {
+        "text": "Slower response times correlate with businesses reporting more lost leads",
+        "status": "rewritten"
+      },
+      {
+        "text": "The free Lead Response Audit scores response speed against industry benchmarks",
+        "status": "verified"
+      }
+    ]
   }
 ]
