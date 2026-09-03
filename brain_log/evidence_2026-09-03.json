@@ -1,0 +1,17 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Revenue Calculator uses four inputs (monthly leads, close rate, job value, response time) to show revenue per lead, follow-up loss, and annual gain model",
+        "status": "verified"
+      },
+      {
+        "text": "Original draft assigned an invented $225 value to the free tool; claim removed and rewritten to state the tool is free with no signup required",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
