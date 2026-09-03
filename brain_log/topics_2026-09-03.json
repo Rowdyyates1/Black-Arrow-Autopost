@@ -18,5 +18,15 @@
       "GBP profile-activity ranking update - already shipped this cycle"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Objection: fear of losing control of brand voice to automation, resolved with a template-approval + human-handoff framework, grounded in an honest general pattern about customer trust rather than an invented statistic.",
+    "score": 89,
+    "rejected": [
+      "Re-run the 'automation feels impersonal' objection (already shipped in a prior post)",
+      "Cost/affordability objection without disclosing pricing (too close to prohibited pricing hints, weaker actionability)",
+      "Staff adoption objection ('my team won't use new software') too close to the complexity objection already covered"
+    ],
+    "category": "objection_nurture"
   }
 ]

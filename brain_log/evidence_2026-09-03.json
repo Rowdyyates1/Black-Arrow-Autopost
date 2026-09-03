@@ -40,5 +40,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "No specific consumer survey is cited. The claim about customer comfort with automation is framed as an honest general pattern, not a sourced statistic.",
+    "claims": [
+      {
+        "text": "customers generally tolerate automated texts as long as a human is reachable when automation falls short",
+        "status": "rewritten"
+      },
+      {
+        "text": "automated messages run off templates the business writes and approves before they send",
+        "status": "verified"
+      },
+      {
+        "text": "every text and email threads into one inbox so a person can reply from the same conversation",
+        "status": "verified"
+      },
+      {
+        "text": "the platform offers a 14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]
