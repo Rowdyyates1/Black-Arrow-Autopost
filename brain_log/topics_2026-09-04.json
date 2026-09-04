@@ -1,0 +1,11 @@
+[
+  {
+    "chosen": "The Retention Triangle: reviews, reactivation, and referral framed as three separate revenue events from the same existing customer list, mapped to Black Arrow's verified platform automations. Score 85.",
+    "score": 85,
+    "rejected": [
+      "3 KPIs to track weekly per system (score 72, too close to the prior self-score diagnostic already shipped)",
+      "3-question automated message quality audit (score 65, overlaps with the prior four-clause first-response framework)"
+    ],
+    "category": "authority_frameworks"
+  }
+]

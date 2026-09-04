@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Automated review requests fire after a completed job (review engine)",
+        "status": "verified"
+      },
+      {
+        "text": "Automated win-back/reactivation sequences re-engage dormant customers",
+        "status": "verified"
+      },
+      {
+        "text": "Referral links are tracked per customer with attribution to what they closed",
+        "status": "verified"
+      },
+      {
+        "text": "Grouping these three as a single 'Retention Triangle' mental model",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
