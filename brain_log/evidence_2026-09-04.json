@@ -21,5 +21,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform's review engine automates review requests as part of its always-on automations",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

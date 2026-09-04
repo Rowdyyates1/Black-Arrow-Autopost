@@ -7,5 +7,15 @@
       "3-question automated message quality audit (score 65, overlaps with the prior four-clause first-response framework)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Automated review-request engine as the fix for the review ask that gets forgotten after a job closes, promoted via the 14-day free trial",
+    "score": 90,
+    "rejected": [
+      "Missed-call text-back as trial promo pain (score 65, heavy overlap with existing Education/Demonstration missed-call posts)",
+      "Win-back/reactivation as trial promo pain (score 60, overlaps prior Third-Party Research and Demonstrations reactivation posts)",
+      "Referral deal / agency-markup cost narrative (score 55, already shipped as a Platform/Trial angle)"
+    ],
+    "category": "platform_promo"
   }
 ]
