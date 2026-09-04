@@ -82,5 +82,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Fills the under-served Platform/Trial slot with an unclaimed pain (the review ask that quietly never happens between jobs) using the platform's verified automated review engine, distinct from every prior tool-sprawl, lead-scoring, inbox, reporting, and booking-friction angle already shipped."
+  },
+  {
+    "timestamp": "2026-09-04T20:02:36.137200Z",
+    "category": "contrarian_pov",
+    "category_label": "Contrarian / Brand Point of View",
+    "guidance": "State a sharp, defensible point of view or contrarian take on how service businesses actually grow. Confident, specific, never gimmicky engagement-bait.",
+    "format_bias": "reel",
+    "evidence_note": "Framed clearly as Black Arrow's view; no fabricated proof.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Contrarian / Brand Point of View' was the most under-served eligible category (target 5%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.033,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Under-served Contrarian slot gets a fresh, unclaimed reframe (blame the missing process, not the staff) tested with a concrete this-week diagnostic, distinct from every prior speed/employee/budget POV already shipped."
   }
 ]

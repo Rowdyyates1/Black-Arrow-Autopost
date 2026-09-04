@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Owners often blame staff when a lead goes cold instead of the missing process behind it",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Asking multiple staff members what happens after a lead calls in often reveals inconsistent answers",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "Black Arrow builds CRM pipelines and task automation so every lead follows the same sequence regardless of who answers",
+        "status": "verified"
+      }
+    ]
   }
 ]

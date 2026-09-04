@@ -17,5 +17,15 @@
       "Referral deal / agency-markup cost narrative (score 55, already shipped as a Platform/Trial angle)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Contrarian POV: the front-desk/staff isn't the reason leads go cold, the missing defined process is, proven with a three-staff-member diagnostic test",
+    "score": 88,
+    "rejected": [
+      "Speed-beats-price or ad-spend contrarian reframes (already covered multiple times)",
+      "Review-chasing vs. database reactivation POV (overlaps with account's top-performing prior video)",
+      "Automate-vs-hire decision test (already shipped as a carousel)"
+    ],
+    "category": "contrarian_pov"
   }
 ]
