@@ -36,5 +36,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, illustrative only, not a real client account",
+    "claims": [
+      {
+        "text": "Referral request text sent automatically two days after a job closes",
+        "status": "illustrative"
+      },
+      {
+        "text": "Tracked referral links show who sent who and what it closed for",
+        "status": "verified"
+      },
+      {
+        "text": "Referring and new customer both get a reward tracked automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]
