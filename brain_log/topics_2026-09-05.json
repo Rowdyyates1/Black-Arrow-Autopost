@@ -8,5 +8,15 @@
       "Tire-kicker disqualifying question script (score 72, shifts focus to sales skill rather than CRM/speed-to-lead infrastructure)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The Revenue Equation: leads \u00d7 close rate \u00d7 average job value as a weekly audit framework, mapped to Black Arrow's own Revenue Calculator logic and a cited speed-to-lead close-rate pattern.",
+    "score": 87,
+    "rejected": [
+      "Channel-match follow-up framework (match response channel to original inquiry channel)",
+      "Decision-rights ownership framework for each pipeline stage (too close to prior ownership-model post)",
+      "GoHighLevel AI Employee bundle news recap (better suited to a News category, not Authority/Frameworks)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

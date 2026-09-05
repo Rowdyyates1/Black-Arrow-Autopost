@@ -40,5 +40,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Reels still win reach for cold-audience teaching, and this ships an unclaimed fix (simultaneous ring-group at the phone-system level, stopping the miss before it happens) distinct from every prior text-back-after-the-miss, voicemail-script, and diagnostic angle already shipped."
+  },
+  {
+    "timestamp": "2026-09-05T17:08:03.968838Z",
+    "category": "authority_frameworks",
+    "category_label": "Authority / Frameworks",
+    "guidance": "Teach a repeatable framework or mental model a service-business owner can apply this week. Name the steps concretely. Premium and confident, never generic.",
+    "format_bias": "carousel",
+    "evidence_note": "Grounded in Black Arrow's method and general operating logic; no invented stats.",
+    "mode": "exploration",
+    "reason": "Exploration (8% budget): sampling 'Authority / Frameworks' to keep learning what performs, not just exploiting the current leader.",
+    "confidence": 0.4,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels lead saves/depth for B2B authority content in 2026 benchmarks, and this ships an unclaimed revenue-math framework (leads \u00d7 close rate \u00d7 job value) distinct from every prior stage, ladder, ownership, matrix, segmentation, budget-allocation, and cadence model already covered."
   }
 ]

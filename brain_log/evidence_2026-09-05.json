@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Compounding math slide is an illustrative example, not a claimed client result. Speed-to-lead stat is a third-party research pattern, not a Black Arrow-measured outcome.",
+    "claims": [
+      {
+        "text": "Black Arrow's free Revenue Calculator computes revenue per lead based on close rate and average job value",
+        "status": "verified"
+      },
+      {
+        "text": "Speed-to-lead research shows responding within 5 minutes can roughly double close rate versus slower response",
+        "status": "cited"
+      },
+      {
+        "text": "Three independent 10% gains compound to roughly a 33% lift rather than 30%",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

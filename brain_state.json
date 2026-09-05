@@ -849,6 +849,11 @@
       "date": "2026-09-05",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-09-05",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "2c811a33913330d6",
