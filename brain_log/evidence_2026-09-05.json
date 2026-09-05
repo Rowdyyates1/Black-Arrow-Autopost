@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most service businesses route their main line to a single phone, creating a single point of failure for missed calls",
+        "status": "qualified"
+      },
+      {
+        "text": "Setting a ring group to simultaneous ring instead of routing to one number reduces missed calls at the phone-system level",
+        "status": "qualified"
+      },
+      {
+        "text": "The free Lead Response Audit estimates calls and leads lost from a few basic inputs",
+        "status": "verified"
+      }
+    ]
+  }
+]

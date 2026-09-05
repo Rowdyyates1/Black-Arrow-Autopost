@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Simultaneous ring-group phone setup to stop missed calls before text-back ever needs to fire",
+    "score": 90,
+    "rejected": [
+      "A2P 10DLC SMS registration compliance tactic (score 70, riskier due to carrier-specific technical variance)",
+      "Google Business Profile messaging setup tactic (score 65, overlaps too closely with prior Google Ads/GMB news angles)",
+      "Tire-kicker disqualifying question script (score 72, shifts focus to sales skill rather than CRM/speed-to-lead infrastructure)"
+    ],
+    "category": "education_informative"
+  }
+]
