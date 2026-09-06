@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Five-minute close-rate figure reflects widely cited third-party lead-response-time research, not a guaranteed outcome for any specific business.",
+    "claims": [
+      {
+        "text": "Leads answered inside five minutes close at nearly double the rate of slower responders, per widely cited lead-response research.",
+        "status": "qualified"
+      },
+      {
+        "text": "Phone calls, forms, DMs, and comments carry different buying-intent levels and warrant different response windows.",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform threads every text, call, and DM per contact in one inbox.",
+        "status": "verified"
+      }
+    ]
   }
 ]

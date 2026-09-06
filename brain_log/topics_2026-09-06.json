@@ -7,5 +7,15 @@
       "Instagram DM automation via Meta's official Graph API for comment-to-DM lead capture"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Signal-strength channel priority framework: rank inbound leads (call > form > DM > comment) and set a response window for each, tied to the platform's unified inbox.",
+    "score": 88,
+    "rejected": [
+      "Post-sale first 48 hours onboarding framework (confirmation/delivery/ask) \u2014 too close to already-shipped retention/review-sequence angles",
+      "Budget readiness check before scaling ad spend \u2014 overlaps prior pre-spend leads-in-vs-jobs-booked POV",
+      "Lead cost ceiling per job value framework \u2014 too close to prior revenue-math (leads x close rate x job value) carousel"
+    ],
+    "category": "authority_frameworks"
   }
 ]
