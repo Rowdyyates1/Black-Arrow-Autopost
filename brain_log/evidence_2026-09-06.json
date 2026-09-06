@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Based on Google's publicly documented Business Profile messaging policy, which auto-disables the Message button after sustained non-response.",
+    "claims": [
+      {
+        "text": "Google Business Profile requires replies to messages within 24 hours or Google will auto-disable the Message button",
+        "status": "verified"
+      },
+      {
+        "text": "Google monitors response time and rate over a rolling window and can deactivate messaging for inconsistent shops",
+        "status": "verified"
+      },
+      {
+        "text": "The Black Arrow platform threads every text and email into one inbox per contact",
+        "status": "verified"
+      }
+    ]
+  }
+]
