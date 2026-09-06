@@ -36,5 +36,16 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Automated texts sent from toll-free or short-code numbers get filtered or ignored more often than those from local, 10-digit numbers matching the customer's area",
+        "status": "qualified"
+      }
+    ]
   }
 ]

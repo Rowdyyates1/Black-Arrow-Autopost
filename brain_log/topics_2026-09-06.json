@@ -17,5 +17,15 @@
       "Lead cost ceiling per job value framework \u2014 too close to prior revenue-math (leads x close rate x job value) carousel"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Local-number vs. toll-free/short-code sending number as a hidden cause of low text-back reply rates, with a same-week fix",
+    "score": 85,
+    "rejected": [
+      "Google local ranking shift from prominence to popularity signals (BrightLocal 2026) \u2014 thinner action step, conflicting source reliability on GBP messaging status",
+      "Instagram 2026 algorithm shift rewarding DM shares over likes \u2014 genuinely fresh but tangential to core follow-up/CRM thesis",
+      "Automated payment/invoice reminder sequence \u2014 not a verified platform capability, risks unsupported claim"
+    ],
+    "category": "education_informative"
   }
 ]
