@@ -32,5 +32,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "demonstration",
+    "disclosure": "The 118/168 figure is a worked example from a stated 50-hour week (5 days x 10 hours), not a universal industry stat. The claim that calls arrive outside business hours reflects a general, widely observed pattern in service businesses, not a cited study.",
+    "claims": [
+      {
+        "text": "A standard 50-hour work week leaves 118 of the week's 168 hours uncovered by live staff",
+        "status": "verified"
+      },
+      {
+        "text": "Inbound leads commonly call outside standard business hours",
+        "status": "qualified"
+      },
+      {
+        "text": "Automated missed-call text-back and instant follow-up run at any hour, independent of staffing",
+        "status": "verified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial with no card required",
+        "status": "verified"
+      }
+    ]
   }
 ]

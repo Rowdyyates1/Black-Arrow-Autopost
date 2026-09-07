@@ -19,5 +19,15 @@
       "Google Business Profile 24-hour reply rule \u2014 already shipped angle"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The Coverage Math framework: hours open \u00f7 168 reveals what share of the week a business can live-answer a lead, mapped to the automated-coverage fix.",
+    "score": 88,
+    "rejected": [
+      "Two-pipeline model separating new-lead conversion from customer reactivation (overlaps prior retention/reactivation frameworks)",
+      "Four-question vendor/tool audit framework (risks duplicating existing four-system self-score diagnostic)",
+      "Max allowable cost-per-lead formula tied to job value and close rate (overlaps prior revenue-math and LTV:CPA frameworks)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
