@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "The 3:1 LTV:CPA ratio framework: teach owners to calculate customer lifetime value against cost-per-acquisition and use the ratio to decide whether to fix follow-up/retention before scaling ad spend",
+    "score": 90,
+    "rejected": [
+      "Four-system self-score diagnostic (already shipped)",
+      "Touch-count cadence framework (already shipped)",
+      "Ad creative fatigue signal framework (already shipped)",
+      "Tiered pricing/quoting framework (already shipped)"
+    ],
+    "category": "authority_frameworks"
+  }
+]

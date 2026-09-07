@@ -1,0 +1,17 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "A 3:1 LTV-to-CPA ratio is a widely used benchmark in growth marketing for judging whether acquisition spend is sustainable.",
+        "status": "qualified"
+      },
+      {
+        "text": "A low LTV:CPA ratio can stem from either expensive leads or slow follow-up, and the ratio alone doesn't reveal which cause is responsible.",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
