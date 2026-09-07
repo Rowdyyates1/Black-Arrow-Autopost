@@ -13,5 +13,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Some missed-call text-back systems trigger only after the full voicemail cycle completes rather than the moment the call is missed",
+        "status": "qualified"
+      },
+      {
+        "text": "A typical greeting-plus-prompt cycle can burn roughly 20-30 seconds before the text sends",
+        "status": "illustrative"
+      },
+      {
+        "text": "An outside caller timing the text arrival is a valid, logically sound way to test this",
+        "status": "verified"
+      }
+    ]
   }
 ]

@@ -9,5 +9,15 @@
       "Tiered pricing/quoting framework (already shipped)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Missed-call text-back often triggers after the voicemail cycle ends instead of on the miss itself, quietly adding 20-30 seconds before the lead sees a response; teach owners to test the delay with an outside caller and ask their provider to switch the trigger",
+    "score": 88,
+    "rejected": [
+      "Missed-call text-back eligibility filters (opt-outs, dedupe, spam exclusion) \u2014 too technical/config-heavy for a one-week owner action",
+      "2026 Instagram Reels best-practice recap \u2014 platform-generic, not a niche revenue tactic",
+      "Google Business Profile 24-hour reply rule \u2014 already shipped angle"
+    ],
+    "category": "education_informative"
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "caption": "Your missed-call text-back might be firing 30 seconds too late.\n\nMost systems don't trigger the moment a call goes unanswered. They wait for the full voicemail cycle: greeting, prompt, hang-up, then the text sends.\n\nA 20-second greeting plus a 10-second prompt burns 30 seconds before your lead sees a word from you. That's enough time to call the next name on their list.\n\nThis week, have someone outside your business call your line and time how long the text takes to land.\n\nIf it takes longer than 15 seconds, ask your provider whether the trigger fires on the missed call itself or on voicemail completion, then switch it to the faster option.\n\nSpeed decides who gets the job.\n\nDM TOOLS\n\n#MissedCallTextBack #LeadResponseTime #CallHandling #SmallBusinessTools #ResponseSpeed",
+  "format": "reel",
+  "rationale": "Reels still win reach for cold-audience teaching, and this fills Education with an unclaimed, logically airtight mechanical gap (voicemail-cycle trigger delay) distinct from every prior text-back-copy, ring-group, voicemail-script, and sending-number angle already shipped.",
+  "category": "education_informative",
+  "experiment": null,
+  "video": "published/2026-09-07/post1_reel/reel.mp4",
+  "cover": "published/2026-09-07/post1_reel/cover.jpg",
+  "story": "published/2026-09-07/post1_reel/story.jpg"
+}
