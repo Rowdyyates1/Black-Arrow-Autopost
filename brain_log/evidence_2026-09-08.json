@@ -17,5 +17,27 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Tool generates a complete follow-up sequence (messages, timing, escalation) from a few business inputs",
+        "type": "product_demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "No signup or payment card required to use the tool",
+        "type": "product_fact",
+        "status": "original"
+      },
+      {
+        "claim": "Sequence can be produced and handed to a team the same day",
+        "type": "general_pattern",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
