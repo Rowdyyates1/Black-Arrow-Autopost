@@ -39,5 +39,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform ships pre-built for your industry and goes live in minutes via templates",
+        "status": "verified"
+      },
+      {
+        "text": "No onboarding calls, no certification courses; pick a template and flip it on",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

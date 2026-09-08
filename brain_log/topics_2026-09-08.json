@@ -8,5 +8,16 @@
       "Growth is an operations problem before it's a marketing problem (too abstract, weaker actionability)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Generic, build-it-yourself software setup vs. Black Arrow's pre-built, industry-specific templates that go live without onboarding calls",
+    "score": 86,
+    "rejected": [
+      "Unified inbox killing scattered channel conversations (already shipped)",
+      "Referral deal as standalone feature (already shipped)",
+      "Booking friction / no-show risk (already shipped)",
+      "Revenue-first reporting gap (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]
