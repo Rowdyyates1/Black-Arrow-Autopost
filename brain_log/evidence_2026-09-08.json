@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time figures reflect commonly cited lead-response-management industry research, presented as general industry patterns rather than Black Arrow's proprietary data.",
+    "claims": [
+      {
+        "text": "Most service businesses take longer than an hour to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within five minutes can roughly double the close rate compared to slower response times",
+        "status": "rewritten"
+      },
+      {
+        "text": "More ad spend without faster follow-up wastes the added leads",
+        "status": "qualified"
+      }
+    ]
+  }
+]
