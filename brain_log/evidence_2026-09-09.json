@@ -40,5 +40,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "ending a call with an open promise to call back gives the caller room to keep shopping instead of booking",
+        "status": "qualified"
+      },
+      {
+        "text": "offering two specific times instead of an open question increases the odds the caller books on that same call",
+        "status": "qualified"
+      },
+      {
+        "text": "the Black Arrow platform includes two-way texting and booking flows that reinforce this kind of scheduling",
+        "status": "verified"
+      }
+    ]
   }
 ]

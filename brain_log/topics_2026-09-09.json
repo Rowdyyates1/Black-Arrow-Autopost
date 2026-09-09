@@ -19,5 +19,16 @@
       "Post-job welcome/onboarding sequence (lower urgency, thinner evidence)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Teach the assumptive two-option booking question that closes calls on the spot, replacing the common front-desk line that lets callers keep shopping",
+    "score": 87,
+    "rejected": [
+      "Another missed-call text-back copy variant (overlap with multiple prior text-back posts)",
+      "Dormant-customer reactivation script (overlaps with existing win-back sequence demonstration)",
+      "Voicemail greeting rewrite (already shipped)",
+      "Google Business Profile quick-reply feature (GBP angle already used for the 24-hour reply policy)"
+    ],
+    "category": "education_informative"
   }
 ]
