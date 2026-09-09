@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General pattern observed across home services and lead-response behavior; no single verifiable public statistic cited for the specific figures in the original draft.",
+    "claims": [
+      {
+        "text": "Response speed beats price and reviews as the deciding factor for who gets hired in home services",
+        "status": "rewritten"
+      },
+      {
+        "text": "Most contractors do not track their own response time, and many take hours rather than minutes to reply",
+        "status": "rewritten"
+      },
+      {
+        "text": "The platform texts back every missed call and new lead automatically",
+        "status": "verified"
+      }
+    ]
+  }
+]

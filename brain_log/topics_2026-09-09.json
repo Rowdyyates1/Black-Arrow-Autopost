@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "The general pattern that response speed beats price and reviews in home services, paired with a doable self-test for response time, tied to the platform's automated missed-call/lead text-back capability",
+    "score": 84,
+    "rejected": [
+      "BrightLocal review-threshold stat (already shipped in this category)",
+      "Contactability-decay study (already shipped in this category)",
+      "MIT/HBR 21x lead-qualification stat alone (core fact, overused, no new angle)",
+      "Fabricated 2026 Podium/Hatch percentages (unverifiable, replaced with honest general pattern)"
+    ],
+    "category": "third_party_research"
+  }
+]
