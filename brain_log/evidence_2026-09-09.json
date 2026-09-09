@@ -17,5 +17,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow: illustrative, not a live client account. Response-time stat reflects widely cited industry research, not a Black Arrow-measured result.",
+    "claims": [
+      {
+        "text": "Automated SMS and email fire when a new lead is created in the CRM",
+        "status": "verified"
+      },
+      {
+        "text": "Replies across text and email thread into one inbox",
+        "status": "verified"
+      },
+      {
+        "text": "Leads answered inside 5 minutes convert at nearly double the rate of slower responders",
+        "status": "rewritten"
+      },
+      {
+        "text": "The specific timeline (0:45, 2 min, 15 min, 1 hour) shown is an illustrative example, not a guaranteed or client-specific outcome",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

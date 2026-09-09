@@ -909,6 +909,11 @@
       "date": "2026-09-09",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-09-09",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "2c811a33913330d6",

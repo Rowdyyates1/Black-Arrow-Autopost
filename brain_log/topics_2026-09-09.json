@@ -9,5 +9,15 @@
       "Fabricated 2026 Podium/Hatch percentages (unverifiable, replaced with honest general pattern)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "New-lead first-hour automated follow-up sequence, shown step by step as a labeled example workflow",
+    "score": 89,
+    "rejected": [
+      "Stale-quote reminder cadence (quote-cadence stage already shipped)",
+      "Quiz funnel click-to-booking walkthrough (overlaps prior Platform/Trial quiz-funnel reel)",
+      "Post-job welcome/onboarding sequence (lower urgency, thinner evidence)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
