@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow OS is a pocket CRM with drag-and-drop pipeline and follow-up scheduling",
+        "status": "verified"
+      },
+      {
+        "text": "It shows a weekly KPI dashboard with CPL and ROAS",
+        "status": "verified"
+      },
+      {
+        "text": "It is free forever, no signup, 25 contacts, with the paid Platform being unlimited",
+        "status": "verified"
+      }
+    ]
+  }
+]
