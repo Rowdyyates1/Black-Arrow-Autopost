@@ -924,9 +924,14 @@
       "date": "2026-09-10",
       "category": "offers_lead_magnets",
       "format": "image"
+    },
+    {
+      "date": "2026-09-10",
+      "category": "platform_promo",
+      "format": "reel"
     }
   ],
-  "site_hash": "2c811a33913330d6",
+  "site_hash": "23925f78d492e77d",
   "eligibility_overrides": {},
   "memory": {}
 }

@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform threads every text and email per contact into one inbox and lets you reply from anywhere",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Refer another business and you both get a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]

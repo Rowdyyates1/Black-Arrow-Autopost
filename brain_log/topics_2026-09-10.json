@@ -9,5 +9,15 @@
       "Google Ads/GBP news reel (news angles already covered heavily in recent Contrarian/Education slots, wrong category today)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Platform/Trial promo built around the unified-inbox pain (leads scattered across text, email, DM) as an unclaimed angle in this category, paired with the 14-day trial and referral deal CTA",
+    "score": 87,
+    "rejected": [
+      "Tool-sprawl general framing (already used as backdrop across multiple prior Platform/Trial posts)",
+      "Missed-call text-back as the trial hook (heavily covered already in Demonstrations/Education categories)",
+      "Referral deal as sole anchor (thinner pain hook, weaker curiosity loop than the scattered-inbox scene)"
+    ],
+    "category": "platform_promo"
   }
 ]
