@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Platform connects every response to CRM, texting, booking, and automations in one system",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full access, no card required, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referral deal: refer a business, both get a free month when they subscribe, tracked automatically on the backend",
+        "status": "verified"
+      }
+    ]
+  }
+]
