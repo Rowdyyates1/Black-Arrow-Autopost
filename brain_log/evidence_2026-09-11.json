@@ -17,5 +17,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Specific third-party percentages replaced with qualified general-pattern language due to lack of a citable source.",
+    "claims": [
+      {
+        "text": "The Revenue Calculator uses four inputs (monthly leads, close rate, average job value, response time) to model revenue per lead and a follow-up gap",
+        "status": "verified"
+      },
+      {
+        "text": "Calculator outputs are illustrative estimates, not guarantees",
+        "status": "qualified"
+      },
+      {
+        "text": "Industry data shows most service businesses take over an hour to answer a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Faster response times correlate with higher close rates",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

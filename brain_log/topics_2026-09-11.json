@@ -9,5 +9,15 @@
       "Agency markup vs. direct pricing narrative (already shipped)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Feature the free Revenue Calculator as this cycle's rotation tool in a single promo image, filling the under-served Offers/Lead Magnets slot with the tool next up after the Ad ROI Calculator.",
+    "score": 88,
+    "rejected": [
+      "Carousel deep-dive on calculator mechanics \u2014 slower single-ask conversion than an image card",
+      "Reel dramatizing lead loss \u2014 this slot's research favors a static single-offer image over reel/carousel",
+      "News interpretation of 2026 speed-to-lead benchmark studies \u2014 repeats a stat framing already shipped in prior posts"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
