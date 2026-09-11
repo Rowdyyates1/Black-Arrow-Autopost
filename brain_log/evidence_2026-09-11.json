@@ -40,5 +40,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Interpreted from 2026 Google Business Profile ranking analyses; Google has not published an official ranking-factor breakdown, so figures are described in qualified language and attributed to marketing analysts.",
+    "claims": [
+      {
+        "text": "Marketing analysts report Google's 2026 local ranking algorithm weighs profile interactions (calls, photo views, engagement with Update posts) alongside traditional brand and review signals",
+        "status": "qualified"
+      },
+      {
+        "text": "Marketing analysts report that posting Google Business Profile Updates at least twice a week is now treated as a baseline for an active, higher-ranking profile",
+        "status": "third_party"
+      },
+      {
+        "text": "A stronger local ranking increases the calls a business receives, but only fast response converts that visibility into booked revenue",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]

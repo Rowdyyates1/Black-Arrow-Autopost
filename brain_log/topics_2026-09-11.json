@@ -19,5 +19,15 @@
       "News interpretation of 2026 speed-to-lead benchmark studies \u2014 repeats a stat framing already shipped in prior posts"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Google's 2026 GBP ranking shift toward 'interaction prominence' (calls, photo views, Update-post views, twice-weekly posting) reframed through Black Arrow's speed-to-lead thesis: more visibility only pays off if the calls get answered fast.",
+    "score": 87,
+    "rejected": [
+      "Instagram's 2026 'sends per reach' DM-share signal as the strongest organic reach metric (interesting but less directly tied to owner revenue action)",
+      "Google Business Profile Q&A section shutdown in favor of Gemini 'Ask Maps' (stale news dating to late 2025, low weekly actionability)",
+      "GBP suspension risk from rapid multi-field profile edits (real caution but narrower relevance than the ranking-signal shift)"
+    ],
+    "category": "news_industry"
   }
 ]
