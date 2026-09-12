@@ -959,6 +959,11 @@
       "date": "2026-09-12",
       "category": "demonstrations_walkthroughs",
       "format": "slideshow"
+    },
+    {
+      "date": "2026-09-12",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "28297c4a1adbbb86",

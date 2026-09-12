@@ -19,5 +19,27 @@
     "class": null,
     "disclosure": "",
     "claims": []
+  },
+  {
+    "format": "carousel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Automated review requests work when set up correctly",
+        "type": "general_industry_pattern",
+        "status": "supported"
+      },
+      {
+        "claim": "Workflow shown is illustrative, not a live client account",
+        "type": "demonstration_label",
+        "status": "labeled"
+      },
+      {
+        "claim": "14-day free trial, no card required, cancel anytime",
+        "type": "product_offer",
+        "status": "verified"
+      }
+    ]
   }
 ]
