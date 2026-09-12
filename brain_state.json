@@ -949,9 +949,14 @@
       "date": "2026-09-11",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-09-12",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
-  "site_hash": "0bb017e05d39e032",
+  "site_hash": "28297c4a1adbbb86",
   "eligibility_overrides": {},
   "memory": {}
 }

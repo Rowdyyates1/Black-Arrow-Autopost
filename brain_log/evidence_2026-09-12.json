@@ -1,0 +1,17 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Industry benchmark cited with qualifying language rather than presented as a house statistic.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit takes four inputs and returns a response score, a leads-lost estimate, and a revenue-at-risk figure modeled on a 25% close rate",
+        "status": "verified"
+      },
+      {
+        "text": "Industry benchmarks suggest only 17% of service businesses answer a new lead within an hour, and businesses that respond within 5 minutes close roughly twice as often as slower ones",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
