@@ -40,5 +40,47 @@
     ],
     "chosen_format": "image",
     "post_rationale": "Static single-offer promo cards still convert fastest for one clear ask, and the Lead Response Audit is the tool least recently featured after four straight cycles through Follow-Up Builder, Black Arrow OS, Ad ROI, and Revenue Calculator."
+  },
+  {
+    "timestamp": "2026-09-12T17:41:15.511810Z",
+    "category": "demonstrations_walkthroughs",
+    "category_label": "Demonstrations / System Walkthroughs",
+    "guidance": "Show, in a clearly-labeled illustrative way, how a Black Arrow system works (e.g. an automated lead follow-up sequence, missed-call text-back, review request flow).",
+    "format_bias": "slideshow",
+    "evidence_note": "Label as an example/demonstration. NEVER imply it is a specific client's live account or claim a performance result.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Demonstrations / System Walkthroughs' was the most under-served eligible category (target 10%, recent 7%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.067,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "slideshow",
+    "post_rationale": "Slideshows still carry reel-favoring reach for system content, and this is the first post to show the entire ad-to-revenue chain as one continuous walkthrough instead of a single isolated stage."
   }
 ]
