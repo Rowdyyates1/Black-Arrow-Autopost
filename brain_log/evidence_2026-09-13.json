@@ -1,0 +1,17 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Free AI tool that drafts a follow-up message set based on inputs about the business",
+        "status": "verified"
+      },
+      {
+        "text": "No signup, no card needed to use the tool",
+        "status": "verified"
+      }
+    ]
+  }
+]
