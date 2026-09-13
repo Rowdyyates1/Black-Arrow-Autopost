@@ -32,5 +32,32 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Third-party SMS/email benchmark research, not Black Arrow client data.",
+    "claims": [
+      {
+        "text": "Text messages average a 45% reply rate versus about 6% for email",
+        "status": "qualified"
+      },
+      {
+        "text": "About 98% of texts get opened compared to roughly 20% for email",
+        "status": "qualified"
+      },
+      {
+        "text": "Average reply time to a text is about 3 minutes versus roughly 90 minutes for email",
+        "status": "qualified"
+      },
+      {
+        "text": "A slower follow-up channel after a missed call risks losing the lead before contact happens",
+        "status": "illustrative"
+      },
+      {
+        "text": "The Black Arrow platform can automatically text back a missed call",
+        "status": "verified"
+      }
+    ]
   }
 ]

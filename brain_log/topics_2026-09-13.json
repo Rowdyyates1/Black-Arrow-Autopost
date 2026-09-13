@@ -19,5 +19,15 @@
       "Voicemail greeting script (already shipped)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Third-party SMS vs. email response-rate/speed research, reframed to the platform's automated missed-call text-back capability",
+    "score": 88,
+    "rejected": [
+      "Missed-call unanswered-call stats (62%) - overused across many prior missed-call posts this cycle",
+      "Google Business Profile ranking/reply-rule update - already covered multiple times recently",
+      "Instagram carousel-vs-reels algorithm benchmark data - not actionable for an owner's business"
+    ],
+    "category": "third_party_research"
   }
 ]
