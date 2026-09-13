@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "General SEO industry consensus on review recency and ask-timing; removed an invented specific algorithm update citation and reworded as an honest general pattern.",
+    "claims": [
+      {
+        "text": "The best time to ask for a review is the moment the job closes, while customer satisfaction peaks.",
+        "status": "third_party"
+      },
+      {
+        "text": "Google's local ranking algorithm has increasingly rewarded recent, ongoing reviews over raw review count, based on general SEO industry observation.",
+        "status": "rewritten"
+      },
+      {
+        "text": "A steady stream of fresh reviews each month outperforms a large but stale review count.",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]
