@@ -979,6 +979,11 @@
       "date": "2026-09-13",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "b75c40e897ba6ae4",

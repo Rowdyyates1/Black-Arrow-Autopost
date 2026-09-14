@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Example workflow, not a client account",
+    "claims": [
+      {
+        "text": "Fixed-script automated systems can't adapt to questions outside their configuration, compounding frustration",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform threads every text and email per contact in one inbox so a human can take over with full context",
+        "status": "verified"
+      },
+      {
+        "text": "The platform runs automated missed-call text-back as a speed-to-lead feature",
+        "status": "verified"
+      },
+      {
+        "text": "Example acknowledgment-only auto-reply script with no price or scheduling promise",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

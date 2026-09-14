@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Objection: fear that automated follow-up overpromises or says the wrong thing, resolved by scoping the auto-reply to acknowledgment-only with human handoff via the unified inbox",
+    "score": 87,
+    "rejected": [
+      "Fear of losing brand voice/control to automation (already shipped)",
+      "Fear that onboarding automation takes too much time (already shipped)",
+      "Generic cost reassurance without pricing (weak, low actionability, risks sounding evasive)",
+      "Fear staff will resist adopting new CRM software (valid but lower audience relevance than the overpromise fear surfaced in current research)"
+    ],
+    "category": "objection_nurture"
+  }
+]
