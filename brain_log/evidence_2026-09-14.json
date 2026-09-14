@@ -21,5 +21,22 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Dashboard shows weekly numbers including cost per lead and return on ad spend",
+        "class": "product_demonstration",
+        "status": "original"
+      },
+      {
+        "text": "Free in browser, up to 25 contacts, no signup, no card",
+        "class": "product_specification",
+        "status": "original"
+      }
+    ]
   }
 ]
