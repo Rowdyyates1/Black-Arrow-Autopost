@@ -9,5 +9,16 @@
       "Fear staff will resist adopting new CRM software (valid but lower audience relevance than the overpromise fear surfaced in current research)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Tool-sprawl reframed as a lead-loss mechanism: leads die in the handoff between disconnected apps (phone, voicemail, email, spreadsheet), solved by the platform's unified inbox and always-on automations, closing on the 14-day free trial and referral deal.",
+    "score": 88,
+    "rejected": [
+      "Standalone referral-deal spotlight without a new pain framing (score 70, too similar to prior referral mentions)",
+      "Unified inbox as the pain (already shipped in a prior post)",
+      "Inconsistent social posting / AI content autopilot pain (already shipped)",
+      "Revenue reporting single-page pain (already shipped)"
+    ],
+    "category": "platform_promo"
   }
 ]

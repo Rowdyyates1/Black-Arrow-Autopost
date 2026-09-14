@@ -38,5 +38,32 @@
         "status": "original"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform threads every text and email per contact in one inbox you can reply from anywhere",
+        "status": "verified"
+      },
+      {
+        "text": "Missed-call text-back, review engine, and win-backs run automatically once installed",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referring another business gets both accounts a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      },
+      {
+        "text": "A lead can disappear in the gap between separate, disconnected tools",
+        "status": "qualified"
+      }
+    ]
   }
 ]
