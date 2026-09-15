@@ -8,5 +8,15 @@
       "More ad spend won't fix a slow month (repeats the account's best-performing prior video almost exactly)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "The Four-System Diagnostic: a self-audit framework mapping acquisition, instant follow-up, CRM operations, and retention so an owner can find which system is capping revenue",
+    "score": 89,
+    "rejected": [
+      "Lead Temperature framework (hot/warm/cold follow-up mapping) - too close to prior segmentation/aging-bucket frameworks",
+      "Compounding follow-up model citing third-party 5-touch research - too close to prior cadence-ritual framework",
+      "Owner's time-audit quadrant (selling vs delivering vs follow-up vs admin) - less tied to Black Arrow's core product structure"
+    ],
+    "category": "authority_frameworks"
   }
 ]

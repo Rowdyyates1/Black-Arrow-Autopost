@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "The 5-minute vs. 60-minute response claim reflects widely cited lead-response research and is stated as a general pattern, not a proprietary or invented statistic. The four-system framework is Black Arrow's own diagnostic methodology.",
+    "claims": [
+      {
+        "text": "Studies on lead response time show a 5-minute reply closes more leads than a 60-minute reply",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow organizes its diagnostic method around four systems: acquisition, instant follow-up, CRM operations, and retention",
+        "status": "verified"
+      },
+      {
+        "text": "Most owners concentrate effort on acquisition and let follow-up, CRM, and retention run without a system",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
