@@ -18,5 +18,16 @@
       "Owner's time-audit quadrant (selling vs delivering vs follow-up vs admin) - less tied to Black Arrow's core product structure"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Teach the exact 3-text appointment-reminder sequence (booking confirmation, 24-hour, 2-hour), grounded in a real RCT showing a ~37% relative drop in no-shows, routed to the free Follow-Up Builder tool.",
+    "score": 88,
+    "rejected": [
+      "Instagram 2026 trend piece on DM shares/carousel-vs-reel engagement shifts \u2014 interesting but not a revenue tactic for the owner, weak fit for Education category (score 54)",
+      "Same-day posting cadence as a 2026 Reels ranking lever \u2014 meta-marketing tip, doesn't teach a money tactic for a service business this week (score 48)",
+      "Review-ask timing window for recency-based local SEO \u2014 too close to a previously shipped review-recency angle (score 60)",
+      "Quiz funnel completion as a qualification tactic \u2014 solid but overlaps acquisition-side territory already covered by prior framework posts (score 66)"
+    ],
+    "category": "education_informative"
   }
 ]

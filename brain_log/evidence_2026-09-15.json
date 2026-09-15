@@ -36,5 +36,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Cites a third-party randomized controlled trial (Clinical Pediatrics) on SMS appointment reminders, reported via a 2026 industry data source.",
+    "claims": [
+      {
+        "text": "Text appointment reminders cut no-show rates from about 38% to about 24%, a reduction of about a third, in a randomized controlled trial",
+        "status": "qualified"
+      },
+      {
+        "text": "The Follow-Up Builder is a free tool that drafts a follow-up text sequence for a business",
+        "status": "verified"
+      }
+    ]
   }
 ]
