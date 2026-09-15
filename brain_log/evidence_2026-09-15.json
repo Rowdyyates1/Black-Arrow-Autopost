@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Pattern observed across service businesses that review their own lead response data; individual results vary by trade and market.",
+    "claims": [
+      {
+        "text": "A full calendar does not by itself indicate a healthy conversion rate",
+        "status": "illustrative"
+      },
+      {
+        "text": "Many owners who audit their last 20 leads find conversion under half even when busy",
+        "status": "qualified"
+      },
+      {
+        "text": "The free Lead Response Audit reviews your response process from a few inputs",
+        "status": "verified"
+      }
+    ]
+  }
+]

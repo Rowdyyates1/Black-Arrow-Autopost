@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Contrarian POV: a full calendar is not proof of a healthy business, it can hide a conversion leak; owners should audit booked-vs-lost on their last 20 leads",
+    "score": 87,
+    "rejected": [
+      "Automation isn't impersonal, silence is (too close to prior brand-voice/impersonal objection posts)",
+      "The best contractor doesn't win the job, the fastest one does (overlaps a prior weak-performing post and a prior speed POV)",
+      "More ad spend won't fix a slow month (repeats the account's best-performing prior video almost exactly)"
+    ],
+    "category": "contrarian_pov"
+  }
+]
