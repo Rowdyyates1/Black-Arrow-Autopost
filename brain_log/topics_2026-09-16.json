@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Lead scoring and automated routing demonstration: one quiz answer sorts leads into hot/warm/cold paths, each with a different automated response",
+    "score": 87,
+    "rejected": [
+      "Quiz-abandonment recovery sequence demonstration (feature stretch, not explicitly verified)",
+      "Double-booking prevention demonstration (too close to already-shipped Platform/Trial booking-friction angle)",
+      "Estimate-expiration urgency sequence (overlaps quote-cadence demonstration already shipped)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

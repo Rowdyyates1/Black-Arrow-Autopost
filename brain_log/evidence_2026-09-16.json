@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow (illustrative, not a client account)",
+    "claims": [
+      {
+        "text": "the platform scores leads from quiz answers and notifies the owner automatically",
+        "status": "verified"
+      },
+      {
+        "text": "quiz completions land in the CRM and get texted back within seconds",
+        "status": "verified"
+      },
+      {
+        "text": "the specific hot/warm/cold routing paths shown",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
