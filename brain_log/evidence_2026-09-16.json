@@ -40,5 +40,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "mixed",
+    "disclosure": "Response-time and close-rate figures reflect widely cited industry lead-response research. Black Arrow presents them as third-party data, not internally verified statistics.",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses answer a lead within an hour, per industry response-time research",
+        "status": "rewritten"
+      },
+      {
+        "text": "Answering within 5 minutes can roughly double the close rate on that lead, per industry response-time research",
+        "status": "rewritten"
+      },
+      {
+        "text": "An unanswered lead accrues cost across wasted ad spend, lost competitive edge, and reputation harm",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most homeowners call more than one company before booking",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

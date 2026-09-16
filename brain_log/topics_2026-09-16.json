@@ -19,5 +19,15 @@
       "GBP April 2026 review policy banning staff-name solicitation and kiosks (less rich interpretive narrative)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Follow-Up Debt framework: treating an unanswered lead as debt that accrues interest across wasted ad spend, competitor conversion, and reputation",
+    "score": 90,
+    "rejected": [
+      "Three Leaks framework (acquisition/follow-up/retention): overlaps with the already-shipped four-systems post",
+      "Lead Temperature Ladder: overlaps with prior ladder/stage frameworks already covered",
+      "Diagnostic Order (fix before you spend): overlaps with the already-shipped pre-spend diagnostic POV"
+    ],
+    "category": "authority_frameworks"
   }
 ]
