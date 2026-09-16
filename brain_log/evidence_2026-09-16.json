@@ -17,5 +17,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Google discontinued the Q&A API on November 3, 2025, and the public Q&A section is disappearing from listings",
+        "status": "verified"
+      },
+      {
+        "text": "Ask Maps, a Gemini-powered feature, now answers customer questions using profile data, reviews, photos, and website content rather than owner-submitted Q&A",
+        "status": "verified"
+      },
+      {
+        "text": "Recent, detailed reviews now function as the raw material the AI cites when answering prospect questions",
+        "status": "qualified"
+      },
+      {
+        "text": "The Black Arrow platform can automate review requests after every job closes",
+        "status": "verified"
+      }
+    ]
   }
 ]

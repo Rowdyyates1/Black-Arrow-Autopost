@@ -8,5 +8,16 @@
       "Estimate-expiration urgency sequence (overlaps quote-cadence demonstration already shipped)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Google Business Profile Q&A discontinued, replaced by Gemini-powered 'Ask Maps' pulling answers from reviews/photos instead of owner input",
+    "score": 88,
+    "rejected": [
+      "Local Services Ads migrating into Google Ads/Performance Max (already covered in prior post)",
+      "GBP popularity/interaction ranking shift and twice-weekly posting (already covered in prior post)",
+      "Instagram Reels skip-rate becoming a ranking signal (more relevant to content strategy than owner revenue)",
+      "GBP April 2026 review policy banning staff-name solicitation and kiosks (less rich interpretive narrative)"
+    ],
+    "category": "news_industry"
   }
 ]
