@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Dormant contacts already know the business and are typically cheaper to convert than a brand new cold lead",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform runs automated win-back sequences to re-engage dormant contacts",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required",
+        "status": "verified"
+      }
+    ]
   }
 ]

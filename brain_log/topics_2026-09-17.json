@@ -9,5 +9,15 @@
       "Live-call closing tactic at the end of a sales call \u2014 already shipped as a distinct closing-moment angle"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Contrarian POV: revenue growth hides in the dormant customer list already in the CRM, not in new lead volume",
+    "score": 88,
+    "rejected": [
+      "Leads-in vs jobs-booked pre-spend diagnostic (already shipped as Contrarian)",
+      "Price-shopping-is-a-symptom reframe (too close to a previously weak-performing carousel)",
+      "GBP ranking/speed-to-lead news reframe (this news angle already overused this cycle)"
+    ],
+    "category": "contrarian_pov"
   }
 ]
