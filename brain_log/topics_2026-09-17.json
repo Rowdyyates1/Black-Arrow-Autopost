@@ -19,5 +19,15 @@
       "GBP ranking/speed-to-lead news reframe (this news angle already overused this cycle)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Full illustrative walkthrough of the missed-call text-back sequence (call missed to appointment booked) as a labeled example demonstration",
+    "score": 90,
+    "rejected": [
+      "Automated review-request flow demonstration (objection-handling angle on reviews already shipped recently)",
+      "AI receptionist industry trend recap (less tied to a specific Black Arrow capability, weaker actionability)",
+      "Another Google Business Profile update recap (already covered twice in recent cycles)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

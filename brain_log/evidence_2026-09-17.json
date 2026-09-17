@@ -36,5 +36,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, illustrative, not a client account. Response-rate figures cite general industry research, not a Black Arrow client result.",
+    "claims": [
+      {
+        "text": "Missed call automatically logs as a contact and triggers a text-back within seconds",
+        "status": "illustrative"
+      },
+      {
+        "text": "Industry research shows only about 17% of service businesses answer a lead within an hour",
+        "status": "qualified_third_party"
+      },
+      {
+        "text": "Responding within 5 minutes can roughly double close rate",
+        "status": "qualified_third_party"
+      },
+      {
+        "text": "14-day free trial, no card needed",
+        "status": "verified"
+      }
+    ]
   }
 ]

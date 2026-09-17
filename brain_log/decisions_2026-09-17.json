@@ -82,5 +82,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Contrarian framing drives engagement per current reel research, and this reframes growth around an unclaimed database-reactivation POV distinct from every prior speed/employee/leads-vs-jobs contrarian angle shipped."
+  },
+  {
+    "timestamp": "2026-09-17T20:45:52.775088Z",
+    "category": "demonstrations_walkthroughs",
+    "category_label": "Demonstrations / System Walkthroughs",
+    "guidance": "Show, in a clearly-labeled illustrative way, how a Black Arrow system works (e.g. an automated lead follow-up sequence, missed-call text-back, review request flow).",
+    "format_bias": "slideshow",
+    "evidence_note": "Label as an example/demonstration. NEVER imply it is a specific client's live account or claim a performance result.",
+    "mode": "exploration",
+    "reason": "Exploration (8% budget): sampling 'Demonstrations / System Walkthroughs' to keep learning what performs, not just exploiting the current leader.",
+    "confidence": 0.4,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.1,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.1,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "slideshow",
+    "post_rationale": "Demonstrations is this cycle's exploration slot, and no prior post has shown the full missed-call text-back sequence end-to-end as one labeled walkthrough."
   }
 ]
