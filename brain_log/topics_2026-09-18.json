@@ -8,5 +8,15 @@
       "RACI-style lead ownership chart"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Instagram's native DM response tools (Instant Reply, Saved Replies, Away Message) as an unclaimed speed-to-lead channel, bridged to the free Lead Response Audit",
+    "score": 90,
+    "rejected": [
+      "A2P 10DLC SMS compliance/opt-in setup (score 65, too technical for a single reel)",
+      "GoHighLevel AI feature roundup (score 40, brand-fit risk since it's not Black Arrow's own platform)",
+      "Another phone-call speed-to-lead cadence framework (score 50, redundant with prior posts)"
+    ],
+    "category": "education_informative"
   }
 ]

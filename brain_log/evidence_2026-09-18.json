@@ -17,5 +17,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Instagram ships six free business-account response tools: FAQs, Saved Replies, Instant Reply, Away Message, Custom Keywords, and Comment to Message",
+        "status": "third_party"
+      },
+      {
+        "text": "The free Lead Response Audit scores response speed and process",
+        "status": "verified"
+      }
+    ]
   }
 ]
