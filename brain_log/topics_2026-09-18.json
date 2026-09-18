@@ -18,5 +18,15 @@
       "Another phone-call speed-to-lead cadence framework (score 50, redundant with prior posts)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The 3-Question Filter: a decision framework (attention vs. follow-through, runs without you, traceable to a dollar) for evaluating any marketing tactic before spending on it",
+    "score": 87,
+    "rejected": [
+      "Contactability half-life reframe (already shipped as third-party research angle)",
+      "Warm-now vs. warm-later lead segmentation (overlaps shipped segmentation/matrix frameworks)",
+      "Cost-of-a-no-show ladder (already shipped as a demonstration)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

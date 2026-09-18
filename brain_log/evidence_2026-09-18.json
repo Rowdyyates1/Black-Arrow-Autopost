@@ -32,5 +32,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Illustrative example, not a client account",
+    "claims": [
+      {
+        "text": "Ads, SEO, and referrals create attention while speed, booking, and follow-up convert it",
+        "status": "general_pattern"
+      },
+      {
+        "text": "A tactic that cannot be traced to a booked job is unproven, not necessarily useless",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Comparison of a boosted social post against an automated missed-call text-back",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
