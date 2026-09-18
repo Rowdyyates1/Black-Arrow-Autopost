@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Illustrative example from Black Arrow's platform, not a client account",
+    "claims": [
+      {
+        "text": "A job's true profit equals revenue minus delivery cost minus acquisition cost",
+        "status": "qualified"
+      },
+      {
+        "text": "Example: a $2,400 job minus $1,600 in delivery, marketing, and overhead leaves $800 true profit",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform provides revenue-first reporting showing where money actually comes from",
+        "status": "verified"
+      }
+    ]
+  }
+]
