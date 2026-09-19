@@ -1,0 +1,19 @@
+[
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Calculator maps cost per lead, cost per booked job, and close-rate impact from four user inputs",
+        "class": "product demonstration",
+        "status": "asis"
+      },
+      {
+        "claim": "Free, no signup required",
+        "class": "factual offer detail",
+        "status": "asis"
+      }
+    ]
+  }
+]
