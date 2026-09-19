@@ -42,5 +42,20 @@
         "status": "verified_company_capability"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Quiz funnel completions land in the CRM and trigger a text reply in 60 seconds",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

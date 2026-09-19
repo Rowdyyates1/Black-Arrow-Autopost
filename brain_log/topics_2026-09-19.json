@@ -8,5 +8,15 @@
       "Google Business Profile ranking/update-cadence angle \u2014 already used twice this cycle"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Interactive quiz funnels beat static contact forms because every completion auto-lands in the CRM and triggers a 60-second text-back, an unclaimed capture-mechanism angle for Platform/Trial distinct from every prior missed-call, inbox, reporting, review, referral, and onboarding angle already shipped.",
+    "score": 89,
+    "rejected": [
+      "Revenue-first reporting solo feature (already covered twice this cycle)",
+      "Referral deal solo promotion (already covered)",
+      "Unified inbox pain (already covered twice)"
+    ],
+    "category": "platform_promo"
   }
 ]
