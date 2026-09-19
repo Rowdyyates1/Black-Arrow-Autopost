@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Third-party callback-rate research (Quo/OpenPhone, 16.7M calls): most missed calls, even in the best-performing industry, never get called back",
+    "score": 91,
+    "rejected": [
+      "Appointment-reminder no-show reduction research (SMS cuts no-shows ~28-38%) \u2014 healthcare-skewed evidence base, weaker fit for the niche",
+      "CallRail competitor-switching survey (82% call a competitor after an unanswered call) \u2014 smaller sample, less novel than the 16.7M-call dataset",
+      "Google Business Profile ranking/update-cadence angle \u2014 already used twice this cycle"
+    ],
+    "category": "third_party_research"
+  }
+]

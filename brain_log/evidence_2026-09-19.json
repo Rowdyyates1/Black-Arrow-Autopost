@@ -15,5 +15,32 @@
         "status": "asis"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Source: Quo (formerly OpenPhone), 'Small Business Callback Statistics 2026,' analysis of 16.7M missed calls",
+    "claims": [
+      {
+        "text": "Quo analyzed 16.7 million missed business calls logged by real customers over three months",
+        "status": "third_party"
+      },
+      {
+        "text": "Professional services, the largest sample in the study at 3.96M calls, returned only 33% of missed calls",
+        "status": "third_party"
+      },
+      {
+        "text": "Healthcare had the highest callback rate in the study at 41% but still left three of five missed calls unreturned",
+        "status": "third_party"
+      },
+      {
+        "text": "Quo's illustrative model: missing 10 callable leads a week at a 30% close rate and $1,000 average job value can cost roughly $156,000 a year",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's free Lead Response Audit scores a business's response process",
+        "status": "verified_company_capability"
+      }
+    ]
   }
 ]

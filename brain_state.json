@@ -1059,6 +1059,11 @@
       "date": "2026-09-19",
       "category": "offers_lead_magnets",
       "format": "image"
+    },
+    {
+      "date": "2026-09-19",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "1d2c1218cf839322",
