@@ -1,0 +1,29 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "A stalled ad campaign often reflects a slow follow-up process rather than a failed acquisition channel.",
+        "status": "qualified"
+      },
+      {
+        "text": "Slow lead response is usually a missing automated system, not a staffing shortage.",
+        "status": "qualified"
+      },
+      {
+        "text": "Review volume tracks how consistently a business asks for reviews, not just job quality.",
+        "status": "qualified"
+      },
+      {
+        "text": "Referral programs fail most often because there is no way to track who referred whom.",
+        "status": "qualified"
+      },
+      {
+        "text": "Service businesses run on four core systems: acquisition, automated follow-up, CRM operations, and retention.",
+        "status": "qualified"
+      }
+    ]
+  }
+]

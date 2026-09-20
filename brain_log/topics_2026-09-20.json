@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Diagnostic framework mapping four common owner complaints to the real system that's broken (acquisition, follow-up, CRM ops, retention) instead of the assumed cause.",
+    "score": 89,
+    "rejected": [
+      "Lead value half-life decay curve (too close to prior follow-up-debt compounding-interest model)",
+      "New-customer vs repeat-customer LTV math (too close to prior LTV:CPA and job-profitability frameworks)",
+      "48-hour lead decision window cadence (too close to prior cadence model)"
+    ],
+    "category": "authority_frameworks"
+  }
+]
