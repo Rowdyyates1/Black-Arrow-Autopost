@@ -8,5 +8,16 @@
       "48-hour lead decision window cadence (too close to prior cadence model)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Single-offer promo card featuring the Lead Response Audit, next in this cycle's free-tool rotation after the Ad ROI Calculator",
+    "score": 85,
+    "rejected": [
+      "Black Arrow OS demo pipeline (already recently featured in rotation)",
+      "Ad ROI Calculator promo (just featured last in rotation)",
+      "Revenue Calculator promo (not next in current rotation order)",
+      "AI Follow-Up Builder promo (already run earlier this cycle)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

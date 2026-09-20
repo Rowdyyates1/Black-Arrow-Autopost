@@ -25,5 +25,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "The claim on response speed and close rate reflects a general industry pattern, not a Black Arrow measured statistic.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit takes four inputs and returns a response score, a leads-lost estimate, and revenue at risk",
+        "status": "verified"
+      },
+      {
+        "text": "The tool is free with no signup",
+        "status": "verified"
+      },
+      {
+        "text": "Businesses that answer new leads within minutes instead of hours close more of them",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
