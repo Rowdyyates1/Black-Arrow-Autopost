@@ -28,5 +28,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform tracks click to quiz to booking to revenue attribution on one reporting page",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referral deal: refer a business, both get a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      }
+    ]
   }
 ]
