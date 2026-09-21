@@ -8,5 +8,15 @@
       "Unified booking-to-CRM pain (already covered in a prior post)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Feature the free Revenue Calculator as a single-offer promo card, the least-recently-used tool in this cycle's Offers/Lead Magnets rotation, paired with the account's core speed-to-lead pattern for a concrete this-week action.",
+    "score": 88,
+    "rejected": [
+      "Black Arrow OS promo card (featured too recently in rotation, lower novelty)",
+      "AI Follow-Up Builder promo card (featured too recently in rotation)",
+      "Carousel teaching a revenue-math framework tied to the calculator (saves-favoring but rotation and brief call for a single clean promo image this cycle)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

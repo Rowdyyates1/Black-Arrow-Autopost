@@ -13,5 +13,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Response-time benchmark reflects widely-cited industry lead response research (e.g., Lead Response Management studies); presented as a general pattern, not a Black Arrow-generated metric.",
+    "claims": [
+      {
+        "text": "The Revenue Calculator is a free tool on blackarrow.ltd/tools that uses four inputs (monthly leads, close rate, average job value, response time) to model revenue per lead and a follow-up gap.",
+        "status": "verified"
+      },
+      {
+        "text": "Only about 17% of service businesses answer a lead within an hour, and answering within 5 minutes roughly doubles the close rate.",
+        "status": "qualified"
+      }
+    ]
   }
 ]
