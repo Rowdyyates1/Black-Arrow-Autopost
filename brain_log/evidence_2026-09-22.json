@@ -17,5 +17,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: 2026 Google Business Profile messaging coverage (PinMeTo, Moore Tech Solutions)",
+    "claims": [
+      {
+        "text": "Google is phasing out native Business Profile Chat in favor of WhatsApp and SMS integrations",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Adding more messaging channels without a unified system raises the risk of a missed or delayed reply",
+        "status": "qualified"
+      },
+      {
+        "text": "The Black Arrow platform can route calls, texts, and GBP-originated messages into one inbox with automated text-back",
+        "status": "verified"
+      }
+    ]
   }
 ]

@@ -8,5 +8,15 @@
       "Carousel on HubSpot's new AI CRM connectors (relevant but off-category for today's brief)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Google retiring native GBP Chat for WhatsApp/SMS, reframed as a channel-consolidation risk mapped to Black Arrow's unified-inbox / speed-to-lead thesis",
+    "score": 88,
+    "rejected": [
+      "Instagram 'Your Algorithm' topic controls expanding to the main Feed (weak tie to core niche, more relevant to content strategy than owner revenue)",
+      "Google testing AI-drafted review reply suggestions (too thin on this-week actionability, overlaps prior review-recency post)",
+      "Instagram Reels 2026 ranking signals: skip rate, saves/shares over likes (meta-strategy angle, not a service-business revenue lever)"
+    ],
+    "category": "news_industry"
   }
 ]
