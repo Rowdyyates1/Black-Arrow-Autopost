@@ -13,5 +13,11 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": null,
+    "disclosure": "",
+    "claims": []
   }
 ]
