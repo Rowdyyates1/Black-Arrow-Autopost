@@ -1,0 +1,17 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Ad ROI Calculator is a free tool published at blackarrow.ltd/tools, no signup required",
+        "status": "verified"
+      },
+      {
+        "text": "Calculator uses the visitor's own inputs run through fixed model assumptions to produce illustrative estimates, not guaranteed benchmarks",
+        "status": "qualified"
+      }
+    ]
+  }
+]
