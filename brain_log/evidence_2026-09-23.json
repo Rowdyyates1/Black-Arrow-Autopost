@@ -19,5 +19,24 @@
     "class": null,
     "disclosure": "",
     "claims": []
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Requests for done-for-you work are reviewed personally with a response within one business day.",
+        "status": "verified"
+      },
+      {
+        "text": "The first meeting diagnoses the pipeline (lead intake, response speed, where leads stall) before any pricing is discussed.",
+        "status": "verified"
+      },
+      {
+        "text": "Scope and pricing for done-for-you services are only discussed after that diagnosis meeting.",
+        "status": "verified"
+      }
+    ]
   }
 ]

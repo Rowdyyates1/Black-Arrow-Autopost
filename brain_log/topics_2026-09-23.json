@@ -8,5 +8,15 @@
       "News angle on GBP messaging shift (already covered recently, not this category's slot today)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Objection handling: the unspoken fear that DMing about done-for-you services leads to a pushy sales pitch, resolved with the honest, verified diagnosis-first process (personal review, one-business-day response, pricing only after seeing the pipeline).",
+    "score": 88,
+    "rejected": [
+      "Contract lock-in fear resolved with the platform's cancel-anytime trial (stronger fit for TRIAL, saved for a Platform/Trial slot)",
+      "Generic 'automation feels impersonal' angle (already shipped as a distinct brand-voice/control objection)",
+      "Setup complexity/time-to-launch fear (overlaps with the already-shipped pre-built templates angle)"
+    ],
+    "category": "objection_nurture"
   }
 ]
