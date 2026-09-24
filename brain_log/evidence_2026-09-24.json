@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Speed-to-lead statistics are widely cited in inside sales research (Lead Response Management study, Harvard Business Review, InsideSales.com) and are presented here as industry benchmarks, not Black Arrow's own measured data.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit uses four inputs, monthly leads, close rate, average job value, and typical response time, to generate a response score and a lead-loss estimate, free with no signup",
+        "status": "verified"
+      },
+      {
+        "text": "Industry benchmarks put average lead response time at over an hour for most service businesses",
+        "status": "rewritten"
+      },
+      {
+        "text": "Leads contacted within 5 minutes close at meaningfully higher rates than those contacted later",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
