@@ -8,5 +8,15 @@
       "News angle reinterpreting a GBP policy change (category is fixed to Offers/Lead Magnets today, not News)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Teach the exact, word-for-word missed-call text-back script to send within 5 minutes, distinct from every prior technical/system missed-call angle (ring-group, sending-number mismatch, voicemail-cycle delay), bridged to the platform's verified automated missed-call text-back feature.",
+    "score": 88,
+    "rejected": [
+      "GBP AI-Overview / action-rate tracking angle (too close to the prior interaction-signal ranking-shift GBP post)",
+      "Meta video-view retargeting audience tactic for acquisition",
+      "Appointment reminder timing script (too close to prior no-show reminder/script angle)"
+    ],
+    "category": "education_informative"
   }
 ]

@@ -17,5 +17,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Sample script is illustrative wording, not a guaranteed result. Response-time claim reflects a general industry pattern, not a specific measured statistic.",
+    "claims": [
+      {
+        "text": "Most leads go to whichever business responds first",
+        "status": "rewritten"
+      },
+      {
+        "text": "The platform runs automated missed-call text-back",
+        "status": "verified"
+      },
+      {
+        "text": "Sample text-back script wording",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
