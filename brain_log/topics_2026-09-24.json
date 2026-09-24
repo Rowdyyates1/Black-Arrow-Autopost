@@ -18,5 +18,15 @@
       "Appointment reminder timing script (too close to prior no-show reminder/script angle)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "BrightLocal 2026 LCRS: AI discovery surge (6%\u219245%) reframes review generation as feeding the algorithm, not just optimizing star-rating optics, routed to the platform's review-engine trial",
+    "score": 88,
+    "rejected": [
+      "Re-cite speed-to-lead benchmark studies (Velocify/MIT) - high redundancy risk given how heavily this thesis is already covered",
+      "BrightLocal review recency/ask-timing window - already shipped in a prior post",
+      "Home-services phone conversion benchmark stats (46% conversion, 37% first-call close) - weaker direct tie to a Black Arrow capability"
+    ],
+    "category": "third_party_research"
   }
 ]

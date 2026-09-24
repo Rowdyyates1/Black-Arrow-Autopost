@@ -1129,6 +1129,11 @@
       "date": "2026-09-24",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-09-24",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "1d2c1218cf839322",

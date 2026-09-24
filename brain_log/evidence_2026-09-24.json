@@ -36,5 +36,32 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "BrightLocal Local Consumer Review Survey 2026",
+    "claims": [
+      {
+        "text": "AI tools jumped from 6% to 45% of local business discovery in one year",
+        "status": "third_party"
+      },
+      {
+        "text": "42% of consumers trust an AI recommendation as much as a written review",
+        "status": "third_party"
+      },
+      {
+        "text": "Google's share of local discovery fell from 83% to 71%",
+        "status": "third_party"
+      },
+      {
+        "text": "The Black Arrow platform can automate review collection and requests",
+        "status": "verified"
+      },
+      {
+        "text": "Weekly review-request cadence and fast reply times keep a profile reading as active",
+        "status": "qualified"
+      }
+    ]
   }
 ]
