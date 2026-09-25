@@ -17,5 +17,37 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Free pocket CRM that runs in your browser",
+        "class": "product_fact",
+        "status": "original"
+      },
+      {
+        "claim": "No signup required",
+        "class": "product_fact",
+        "status": "original"
+      },
+      {
+        "claim": "Free for up to 25 contacts",
+        "class": "product_fact",
+        "status": "original"
+      },
+      {
+        "claim": "Weekly CPL/ROAS dashboard included",
+        "class": "product_fact",
+        "status": "original"
+      },
+      {
+        "claim": "Drag-and-drop pipeline with follow-up reminders",
+        "class": "product_fact",
+        "status": "original"
+      }
+    ]
   }
 ]
