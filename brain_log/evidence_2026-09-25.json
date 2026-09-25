@@ -49,5 +49,24 @@
         "status": "original"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "Referral tracking and referral reward mechanics reflect verified platform functionality.",
+    "claims": [
+      {
+        "text": "The platform gives every customer a tracked referral link and shows who sent it, what they did, and what it closed for",
+        "status": "verified"
+      },
+      {
+        "text": "Refer another business and you both get a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial with full access, no card needed",
+        "status": "verified"
+      }
+    ]
   }
 ]

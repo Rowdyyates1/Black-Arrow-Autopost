@@ -8,5 +8,15 @@
       "The meeting-feels-like-a-sales-trap objection (already shipped)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Untraceable referrals as the core Platform/Trial pain, solved by the platform's verified tracked-referral-link feature and automatic referral reward deal",
+    "score": 90,
+    "rejected": [
+      "Database reactivation / win-back feature pitch (overlaps prior contrarian POV and retention demonstration angles)",
+      "AI content autopilot for dormant social presence (already shipped as a Platform/Trial angle)",
+      "Unified booking system fixing double-bookings (already shipped as a Platform/Trial angle)"
+    ],
+    "category": "platform_promo"
   }
 ]
