@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Honestly handle the done-for-you cost objection by explaining why pricing has no shelf number and giving a concrete self-diagnostic to run before a meeting",
+    "score": 91,
+    "rejected": [
+      "The automation-feels-impersonal objection (adjacent ground already covered by the overpromising-automation angle)",
+      "The onboarding-complexity objection (already shipped via generic-software-setup angle)",
+      "The meeting-feels-like-a-sales-trap objection (already shipped)"
+    ],
+    "category": "objection_nurture"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "The 5-minute response benchmark reflects widely cited lead-response research, not a Black Arrow measured figure.",
+    "claims": [
+      {
+        "text": "the 5-minute response window is the benchmark most industry studies tie to higher close rates",
+        "status": "rewritten"
+      },
+      {
+        "text": "most service businesses take hours, not minutes, to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "done-for-you pricing follows a diagnosis meeting, and DM requests are reviewed by the team with a response within one business day",
+        "status": "verified"
+      }
+    ]
+  }
+]
