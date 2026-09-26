@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Reflects widely observed lead-response patterns across service industries, not a specific cited study.",
+    "claims": [
+      {
+        "text": "Most service businesses take over an hour to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Replying within minutes leads to closing more jobs",
+        "status": "rewritten"
+      },
+      {
+        "text": "Reviews earn the call but speed wins the job",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
