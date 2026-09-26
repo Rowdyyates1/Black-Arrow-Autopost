@@ -17,5 +17,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Every contact, message, and lead lives in your account and exports to CSV from Reporting any time.",
+        "status": "verified"
+      },
+      {
+        "text": "Rented/borrowed/owned attention framework as a way to classify marketing channels and lead data.",
+        "status": "qualified"
+      }
+    ]
   }
 ]

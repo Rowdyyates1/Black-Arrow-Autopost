@@ -9,5 +9,15 @@
       "Growth comes from systems that work while you sleep (too close to prior ad-spend/follow-up-leak tagline POV)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Owned vs Rented Attention Ledger: a 3-column framework (Rented = ad platforms/search rank, Borrowed = followers/review sites, Owned = CRM contacts) with a 90-day lead audit, tied to the platform's verified data-export capability.",
+    "score": 90,
+    "rejected": [
+      "Message-Market Match: a 3-question filter to audit whether ad creative names the specific job, fear, and next step",
+      "Internal response SLA tiers framework (first-touch, second-touch, escalation windows)",
+      "Capture/Response/Close role-ownership handoff framework for who owns each stage of a lead"
+    ],
+    "category": "authority_frameworks"
   }
 ]
