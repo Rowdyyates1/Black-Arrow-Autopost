@@ -32,5 +32,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most owners run every ad channel through one phone number and can't tell which channel produces revenue",
+        "status": "qualified"
+      },
+      {
+        "text": "Dedicating a separate forwarding number per channel lets you attribute which ad actually generates a booked job",
+        "status": "qualified"
+      },
+      {
+        "text": "The Ad ROI Calculator is a free tool for exploring ad spend ROI on your own numbers",
+        "status": "verified"
+      }
+    ]
   }
 ]
