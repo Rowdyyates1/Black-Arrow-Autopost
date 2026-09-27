@@ -1169,9 +1169,14 @@
       "date": "2026-09-27",
       "category": "demonstrations_walkthroughs",
       "format": "slideshow"
+    },
+    {
+      "date": "2026-09-27",
+      "category": "news_industry",
+      "format": "reel"
     }
   ],
-  "site_hash": "1d2c1218cf839322",
+  "site_hash": "211ce4ee75edf7da",
   "eligibility_overrides": {},
   "memory": {}
 }

@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Google Business Profile Rating Manipulation policy update, April 2026 (multiple industry reports)",
+    "claims": [
+      {
+        "text": "Google's April 2026 policy update explicitly prohibits staff review quotas and directing staff to solicit reviews that name a specific employee",
+        "status": "third_party"
+      },
+      {
+        "text": "Industry reports describe automated detection flagging patterned staff-name reviews and resulting review removals or profile warnings",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform can send an automated, timed review request by text once a job is marked complete, with no scripted line for the customer to repeat",
+        "status": "verified_company_capability"
+      }
+    ]
   }
 ]

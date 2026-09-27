@@ -8,5 +8,16 @@
       "Demonstrate lead-source tagging feeding revenue reporting (overlaps with prior revenue-attribution Platform/Trial post)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Interpret Google's April 2026 Rating Manipulation policy update (ban on staff review quotas and staff-name-coached review requests) as a compliance risk to common review-ask scripts, routed to the platform's compliant automated review-request timing.",
+    "score": 90,
+    "rejected": [
+      "Instagram 2026 'sends per reach' (DM-share) ranking signal \u2014 platform-mechanics insight with no direct tie to the core follow-up/review thesis",
+      "GBP video verification now default for new listings \u2014 real but weaker connection to Black Arrow's offer stack",
+      "BrightLocal 2-3x/week GBP posting stat \u2014 already used in a prior twice-weekly posting angle",
+      "GBP Q&A retirement / Ask Maps AI answers \u2014 already claimed by a prior post"
+    ],
+    "category": "news_industry"
   }
 ]
