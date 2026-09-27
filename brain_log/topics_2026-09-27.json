@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Demonstration of a missed-call ownership and escalation queue (task assignment + SLA deadline + backup alert) as the unclaimed accountability layer behind text-back automation",
+    "score": 88,
+    "rejected": [
+      "Demonstrate quote-to-signed follow-up cadence with e-signature/payment steps (evidence not verified on site, higher risk)",
+      "Demonstrate full appointment lifecycle (booking to reminder to follow-up) (overlaps with prior reminder/no-show demonstrations)",
+      "Demonstrate lead-source tagging feeding revenue reporting (overlaps with prior revenue-attribution Platform/Trial post)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "System assigns a missed-call lead to a rep with a 5-minute deadline and escalates to a backup if unclaimed",
+        "status": "illustrative"
+      },
+      {
+        "text": "Follow-up scheduling and a shared pipeline/inbox exist in the Black Arrow platform and Black Arrow OS",
+        "status": "verified"
+      },
+      {
+        "text": "Answering a lead in under five minutes roughly doubles close rate versus slower response",
+        "status": "verified"
+      }
+    ]
+  }
+]
