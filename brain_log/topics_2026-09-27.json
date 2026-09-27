@@ -19,5 +19,15 @@
       "GBP Q&A retirement / Ask Maps AI answers \u2014 already claimed by a prior post"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "The Automation Line: a four-zone framework (Speed, Info, Decision, Recovery) for deciding what a CRM should automate versus what needs a human, taught as a this-week lead audit.",
+    "score": 89,
+    "rejected": [
+      "Contact-rate-as-the-one-metric framework (overlaps with existing speed/coverage-math models)",
+      "First Call Autopsy diagnostic (too close to existing symptom-to-system diagnostic)",
+      "Owner Bottleneck self-test (overlaps with existing decision-filter and four-question self-audit frameworks)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

@@ -36,5 +36,28 @@
         "status": "verified_company_capability"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "An automated text reply can go out within seconds of a missed call or form fill",
+        "status": "verified"
+      },
+      {
+        "text": "Most service shops take over an hour to respond to a new lead",
+        "status": "general_pattern"
+      },
+      {
+        "text": "A four-zone framework (Speed, Info, Decision, Recovery) for deciding what to automate versus what needs a human",
+        "status": "illustrative"
+      },
+      {
+        "text": "Black Arrow builds follow-up systems structured around a client's actual lead flow",
+        "status": "verified"
+      }
+    ]
   }
 ]
