@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "General media-buying heuristic on frequency-based ad fatigue, not tied to a specific named study.",
+    "claims": [
+      {
+        "text": "A frequency of 3 or more weekly views per person is commonly treated as the ad fatigue threshold in paid social media buying.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Rising frequency tends to correlate with falling CTR and rising cost per lead.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Refreshing the opening seconds of a video or swapping the lead image can reset ad delivery without rebuilding the campaign.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Frequency is a real, checkable column in Meta Ads Manager under Performance.",
+        "status": "verified"
+      }
+    ]
+  }
+]
