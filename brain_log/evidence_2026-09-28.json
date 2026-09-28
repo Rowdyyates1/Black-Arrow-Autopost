@@ -40,5 +40,22 @@
         "status": "unchanged"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "A 14/21/30-day win-back sequence can revive quoted-but-not-booked leads without ad spend.",
+        "status": "demonstration",
+        "note": "Presented as an illustrative example workflow, explicitly labeled as not a specific client's results."
+      },
+      {
+        "claim": "The Day 30 breakup message often earns the most replies.",
+        "status": "rewritten",
+        "note": "Reframed from an absolute claim to a qualified general pattern (\"often\"), consistent with well-documented breakup-email behavior in sales copywriting, not a fabricated metric."
+      }
+    ]
   }
 ]
