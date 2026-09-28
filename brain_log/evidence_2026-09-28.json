@@ -21,5 +21,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "83% of happy customers say they'd refer a business, but only 29% ever do",
+        "class": "qualified_third_party_citation",
+        "source": "Widely cited referral marketing research (commonly attributed to Texas Tech University studies on word-of-mouth behavior)",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Black Arrow platform tracks every referral, so you know who sent who",
+        "class": "product_feature_description",
+        "source": "Black Arrow platform capability",
+        "status": "unchanged"
+      }
+    ]
   }
 ]
