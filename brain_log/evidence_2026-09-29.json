@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "third_party_citation",
+    "disclosure": "Response-time and close-rate figures reflect widely cited industry benchmarks on lead response speed, not Black Arrow proprietary data.",
+    "claims": [
+      {
+        "text": "Industry benchmarks suggest only 17% of service businesses respond to a lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Studies show answering within 5 minutes can double close rates",
+        "status": "rewritten"
+      },
+      {
+        "text": "Three-cost framework (acquisition, delay, abandonment) as a mental model for evaluating lead handling",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
