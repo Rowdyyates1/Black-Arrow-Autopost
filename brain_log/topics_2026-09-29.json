@@ -18,5 +18,15 @@
       "Two-question qualifier on the contact form (overlaps prior lead-scoring demonstration)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The Stranger Test: a three-question ad-messaging diagnostic framework (who/what/why-now) for service-business owners auditing their own ads",
+    "score": 87,
+    "rejected": [
+      "Another follow-up-stage or CRM-cadence framework (saturated after 25+ prior stage/ladder/matrix posts)",
+      "Fresh GBP ranking-signal news angle (topic already covered from multiple angles this cycle, no new verifiable update found)",
+      "Job-profitability or LTV:CPA variant framework (duplicate structure to prior shipped models)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

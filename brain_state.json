@@ -1204,6 +1204,11 @@
       "date": "2026-09-29",
       "category": "education_informative",
       "format": "carousel"
+    },
+    {
+      "date": "2026-09-29",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "211ce4ee75edf7da",

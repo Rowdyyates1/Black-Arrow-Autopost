@@ -36,5 +36,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Stranger Test three-question framework for diagnosing weak ad messaging",
+        "status": "illustrative"
+      },
+      {
+        "text": "An ad that earns a click still depends on fast follow-up to convert into a customer",
+        "status": "qualified"
+      }
+    ]
   }
 ]
