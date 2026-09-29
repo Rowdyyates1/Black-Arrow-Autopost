@@ -17,5 +17,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_general_pattern",
+    "disclosure": "General behavioral-pricing pattern (the decoy effect) rather than a specific unverified metric or report figure.",
+    "claims": [
+      {
+        "text": "Most home service pros still hand customers a single price rather than tiered options.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Presenting three pricing tiers instead of one tends to increase how often customers say yes and how much they spend, compared to a single price.",
+        "status": "rewritten"
+      },
+      {
+        "text": "When given three pricing options, customers tend to choose the middle tier rather than the cheapest or most expensive option, a widely documented pattern in pricing research known as the decoy effect.",
+        "status": "qualified"
+      }
+    ]
   }
 ]
