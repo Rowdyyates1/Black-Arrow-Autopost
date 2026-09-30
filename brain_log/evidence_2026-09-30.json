@@ -36,5 +36,42 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Most callers won't try twice after hitting voicemail.",
+        "class": "general_pattern",
+        "status": "rewritten",
+        "note": "Original used an invented '62%' statistic; replaced with an honest, unquantified industry pattern."
+      },
+      {
+        "claim": "Most shops take too long to reply to leads.",
+        "class": "general_pattern",
+        "status": "rewritten",
+        "note": "Original cited an unverified 'over an hour' figure; replaced with a qualitative, defensible statement."
+      },
+      {
+        "claim": "Fast replies close more jobs.",
+        "class": "general_pattern",
+        "status": "rewritten",
+        "note": "Original claimed a specific 'doubles close rate' figure with no source; replaced with a general, supportable claim."
+      },
+      {
+        "claim": "The platform sends an automatic text back within seconds of a missed call.",
+        "class": "product_feature_verified",
+        "status": "verified",
+        "note": "Describes an actual, demonstrable platform feature."
+      },
+      {
+        "claim": "14-day free trial, no card required.",
+        "class": "offer_terms_verified",
+        "status": "verified",
+        "note": "Standard, accurate trial offer detail."
+      }
+    ]
   }
 ]
