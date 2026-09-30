@@ -13,5 +13,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_general_pattern",
+    "disclosure": "Reflects a well-documented pattern in sales response research showing steep drop-off in follow-up speed after the first few minutes; no single named study is cited for the specific SLA-adoption comparison, so the claim is stated as a general pattern rather than a precise benchmark.",
+    "claims": [
+      {
+        "text": "Businesses that put their response-time rule in writing hit their target far more often than those relying on memory alone.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Most teams miss the 5-minute response window even when they consider it essential.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow's platform includes automated missed-call text-back that responds within seconds, including nights and weekends.",
+        "status": "verified"
+      },
+      {
+        "text": "The free Lead Response Audit scores a business's response process from four inputs.",
+        "status": "verified"
+      }
+    ]
   }
 ]
