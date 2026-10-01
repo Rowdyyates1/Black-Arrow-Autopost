@@ -39,5 +39,20 @@
         "status": "supported"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform sends an automated review request by text the moment a job closes",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

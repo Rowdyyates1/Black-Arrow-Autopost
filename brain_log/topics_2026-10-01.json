@@ -8,5 +8,16 @@
       "Review-timing ask-window framework (already shipped)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Platform/Trial promo built on the review-engine automation (unclaimed pain: review requests get forgotten after a job, so good work stays invisible) paired with the 14-day trial offer",
+    "score": 89,
+    "rejected": [
+      "Win-back automation for dormant customers as the Platform/Trial pain (82) - too close to the already-shipped reactivation POV and post-quote win-back demonstration",
+      "Tool sprawl plus unified inbox pain (75) - overlaps with the prior disconnected-tools handoff reel already shipped",
+      "Appointment reminder automation to cut no-shows (70) - reminder scheduling isn't an explicitly listed /app feature, risking an unverifiable claim",
+      "GBP/algorithm news interpretation (65) - doesn't fit today's required Platform/Trial category"
+    ],
+    "category": "platform_promo"
   }
 ]
