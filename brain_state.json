@@ -1224,6 +1224,11 @@
       "date": "2026-09-30",
       "category": "platform_promo",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-01",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "211ce4ee75edf7da",
