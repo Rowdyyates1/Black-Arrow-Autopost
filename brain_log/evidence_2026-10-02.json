@@ -21,5 +21,20 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Platform connects quiz, form, and missed-call responses to one shared booking calendar",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full access, no card needed",
+        "status": "verified"
+      }
+    ]
   }
 ]
