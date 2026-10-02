@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Feature the Ad ROI Calculator as a single-offer promo card, the next tool due in rotation after Black Arrow OS",
+    "score": 90,
+    "rejected": [
+      "Revenue Calculator deep-dive carousel (score 68: tool already featured twice this cycle, lower novelty)",
+      "Follow-Up Builder promo card (score 60: featured too recently, breaks never-repeat-tool rule)",
+      "Reel interpreting another GBP platform change (score 55: GBP news angle already shipped multiple times this cycle)"
+    ],
+    "category": "offers_lead_magnets"
+  }
+]
