@@ -1,0 +1,29 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Based on public statements from Instagram leadership and reported platform policy updates circulating in early 2026.",
+    "claims": [
+      {
+        "text": "Instagram reach runs on watch time, likes per reach, and sends, per public statements from Instagram leadership",
+        "status": "third_party"
+      },
+      {
+        "text": "Hashtags are capped at five and no longer improve reach, per Instagram's reported guidance",
+        "status": "third_party"
+      },
+      {
+        "text": "On April 30, the repost penalty extended from reels to photos and carousels, per reported platform policy updates",
+        "status": "third_party"
+      },
+      {
+        "text": "Reels between 30 and 60 seconds currently see peak reach rates, per reported platform data",
+        "status": "third_party"
+      },
+      {
+        "text": "The Black Arrow platform generates a week of on-brand posts from a single goal for approval",
+        "status": "verified"
+      }
+    ]
+  }
+]
