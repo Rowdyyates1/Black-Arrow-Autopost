@@ -18,5 +18,16 @@
       "Carousel teaching post on follow-up frameworks (wrong category for today's quota)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "System walkthrough of automated double-booking prevention at the scheduling stage: calendar + travel buffer + existing-booking check, with instant confirm-or-reoffer logic",
+    "score": 84,
+    "rejected": [
+      "Side-by-side 'Lead A vs Lead B' speed-to-lead comparison (overlaps prior missed-call demonstrations)",
+      "Full branching appointment-reminder system walkthrough (too close to the prior reminder-script reveal reel)",
+      "Dedicated referral-mechanic walkthrough (thin, overlaps the combined post-job retention demo)",
+      "Review-request flow with star-based routing (compliance risk around review gating)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

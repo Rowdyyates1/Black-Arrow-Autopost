@@ -44,5 +44,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, illustrative only, not a specific client's calendar",
+    "claims": [
+      {
+        "text": "The system checks tech availability, travel buffer, and existing bookings before confirming a slot",
+        "status": "illustrative"
+      },
+      {
+        "text": "Platform connects booking to CRM, texting, and automations",
+        "status": "verified"
+      },
+      {
+        "text": "Most shops still manage scheduling manually across a calendar and group texts",
+        "status": "qualified"
+      }
+    ]
   }
 ]
