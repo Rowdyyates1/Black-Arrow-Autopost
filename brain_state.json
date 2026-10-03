@@ -1259,6 +1259,11 @@
       "date": "2026-10-03",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-03",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "211ce4ee75edf7da",

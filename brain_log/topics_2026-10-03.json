@@ -8,5 +8,15 @@
       "GoHighLevel vs HubSpot pricing comparison (low relevance, reads as competitor content rather than owner value)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Feature the Lead Response Audit as today's single-offer lead magnet, completing the Offers/Lead Magnets tool rotation",
+    "score": 88,
+    "rejected": [
+      "Re-feature Black Arrow OS (too recently used, breaks rotation logic)",
+      "News angle on Instagram DM-share ranking signal (already covered in a recent post)",
+      "Carousel teaching post on follow-up frameworks (wrong category for today's quota)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

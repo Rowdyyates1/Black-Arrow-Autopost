@@ -25,5 +25,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Lead Response Audit uses four inputs to generate a response score, a leads-lost estimate, and an estimated revenue-at-risk figure based on stated assumptions",
+        "status": "verified"
+      },
+      {
+        "text": "The tool is free with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "The tool shows what slow follow-up could be costing a shop in lost revenue",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
