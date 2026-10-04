@@ -18,5 +18,15 @@
       "Generic roundup of third-party AI follow-up tool market trends (55) - rejected, not proprietary to Black Arrow and reads like a reposted listicle"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "On-site video testimonial script (3 questions) as raw ad creative, tied to Black Arrow's video creative service",
+    "score": 89,
+    "rejected": [
+      "Appointment reminder script to cut no-shows (too close to already-shipped reminder-timing prevention angle)",
+      "Double-text follow-up pattern for cold leads (overlaps prior script-reveal missed-call angle)",
+      "GBP services-section optimization (lower urgency, thinner tactic than the video testimonial script)"
+    ],
+    "category": "education_informative"
   }
 ]

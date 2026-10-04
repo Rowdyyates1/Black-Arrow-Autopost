@@ -36,5 +36,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow builds Meta ads and video creative for clients using on-site footage like this",
+        "status": "verified"
+      },
+      {
+        "text": "A short on-site video testimonial typically carries more weight in ads than a written review",
+        "status": "qualified"
+      }
+    ]
   }
 ]
