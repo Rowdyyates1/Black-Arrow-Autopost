@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "EZ Texting 2026 Consumer Texting Behavior Report (959 US consumers). Script slide labeled illustrative only, not a client message.",
+    "claims": [
+      {
+        "text": "54% of consumers are comfortable with automated text assistants, 25% accept them under certain conditions",
+        "status": "third_party"
+      },
+      {
+        "text": "68% still want a clear path to a human, and perception of texting as personal has slipped since 2024",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform threads every text and email per contact into one inbox so anyone can pick up the conversation",
+        "status": "verified"
+      },
+      {
+        "text": "Example first-reply script shown on the quote slide",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

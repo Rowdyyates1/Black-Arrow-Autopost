@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Handle the 'automation feels impersonal' objection with 2026 consumer-texting data (comfort stats plus human-path expectation) and a concrete two-message design (fast auto-acknowledgment, then human handoff on the same thread)",
+    "score": 90,
+    "rejected": [
+      "Automation erring before a human can catch it (already shipped as a distinct fear)",
+      "Generic complexity/onboarding objection (already shipped)",
+      "Cost objection reframed again via diagnosis-first framing (already shipped)"
+    ],
+    "category": "objection_nurture"
+  }
+]
