@@ -8,5 +8,15 @@
       "Cost objection reframed again via diagnosis-first framing (already shipped)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Feature the free AI Follow-Up Builder tool as this cycle's Offers/Lead Magnets post, framed around the real cost of an unwritten third follow-up",
+    "score": 88,
+    "rejected": [
+      "Instagram profile/geotag optimization teaching reel (70) - rejected, wrong category for today's brain decision",
+      "Repeat-feature Black Arrow OS (65) - rejected, used too recently in rotation, risks back-to-back tool repeat",
+      "Generic roundup of third-party AI follow-up tool market trends (55) - rejected, not proprietary to Black Arrow and reads like a reposted listicle"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

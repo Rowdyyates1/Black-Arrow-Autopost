@@ -21,5 +21,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Follow-Up Builder is one of two free AI builders on blackarrow.ltd/tools that drafts a follow-up sequence around the user's business",
+        "status": "verified"
+      },
+      {
+        "text": "The tool requires no signup and no card",
+        "status": "verified"
+      }
+    ]
   }
 ]
