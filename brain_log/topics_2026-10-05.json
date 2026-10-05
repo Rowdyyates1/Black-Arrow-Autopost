@@ -9,5 +9,15 @@
       "TCPA/legal compliance fear around automated texting (higher risk, insufficient evidence to state confidently)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Feature Black Arrow OS (free pocket CRM) as the Offers/Lead Magnets post, cycling back to the start of the tool rotation after Black Arrow OS, Ad ROI Calculator, Revenue Calculator, Lead Response Audit, and Follow-Up Builder have each been featured",
+    "score": 88,
+    "rejected": [
+      "Carousel reframing GBP Rating Manipulation rules as a review-engine compliance angle (already shipped recently, would repeat ground)",
+      "Reel on Instagram's DM-shares ranking signal (already covered in prior IG algorithm post)",
+      "Static promo for Ad ROI Calculator (out of rotation order; OS is next, not Ad ROI)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
