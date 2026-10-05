@@ -1289,6 +1289,11 @@
       "date": "2026-10-05",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-05",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "211ce4ee75edf7da",

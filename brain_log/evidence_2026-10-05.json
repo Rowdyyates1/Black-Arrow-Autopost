@@ -23,5 +23,24 @@
         "status": "original"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Every contact, message, and lead lives in your account and exports to CSV from Reporting any time; cancel and take it with you",
+        "status": "verified"
+      },
+      {
+        "text": "Three-question vendor test to evaluate lock-in risk before signing with any platform",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

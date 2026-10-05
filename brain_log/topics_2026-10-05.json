@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Objection: fear of getting locked into a contract / losing data if they cancel, resolved with verified trial and data-export facts plus a 3-question vendor self-test",
+    "score": 92,
+    "rejected": [
+      "Automation feels impersonal objection (already shipped with 2026 texting-behavior data)",
+      "Cost objection resolved via diagnosis-first framework (already shipped)",
+      "The meeting itself feels like a sales trap objection (already shipped)",
+      "TCPA/legal compliance fear around automated texting (higher risk, insufficient evidence to state confidently)"
+    ],
+    "category": "objection_nurture"
+  }
+]
