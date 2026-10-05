@@ -1,0 +1,27 @@
+[
+  {
+    "format": "carousel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Leads contacted within an hour convert nearly 7x more often than leads contacted later.",
+        "class": "qualified_third_party_citation",
+        "source": "Harvard Business Review, Lead Response Management research (Oldroyd et al.)",
+        "status": "rewritten"
+      },
+      {
+        "claim": "Most service businesses take hours, not minutes, to respond to a new lead.",
+        "class": "honest_general_pattern",
+        "source": "General industry pattern, not tied to a single invented stat",
+        "status": "rewritten"
+      },
+      {
+        "claim": "Free Lead Response Audit scores a business's process from four quick inputs.",
+        "class": "demonstration",
+        "source": "Black Arrow lead magnet, delivered on DM request",
+        "status": "original"
+      }
+    ]
+  }
+]
