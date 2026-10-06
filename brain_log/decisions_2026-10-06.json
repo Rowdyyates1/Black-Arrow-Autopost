@@ -40,5 +40,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Reels win cold-audience reach for offer content, and tool sprawl is an unclaimed unifying pain for Platform/Trial that every prior single-feature post (booking, reviews, reporting, AI content) only addressed in isolation."
+  },
+  {
+    "timestamp": "2026-10-06T19:58:38.743705Z",
+    "category": "contrarian_pov",
+    "category_label": "Contrarian / Brand Point of View",
+    "guidance": "State a sharp, defensible point of view or contrarian take on how service businesses actually grow. Confident, specific, never gimmicky engagement-bait.",
+    "format_bias": "reel",
+    "evidence_note": "Framed clearly as Black Arrow's view; no fabricated proof.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Contrarian / Brand Point of View' was the most under-served eligible category (target 5%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.033,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Bold-claim to-camera reels win hook rate for B2B service audiences right now, and this fills the under-served Contrarian/POV slot with Black Arrow's core ads-vs-systems thesis, untouched by any prior contrarian post."
   }
 ]
