@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Tool sprawl as the unifying pain for the Black Arrow platform: fragmented apps (texting, booking, spreadsheet, reviews) cause leads to fall through the gaps, backed by an honestly qualified industry pattern, resolved by the platform's one-login system and real 14-day trial/referral offers.",
+    "score": 90,
+    "rejected": [
+      "Referral-tracking pain (already shipped as a Platform/Trial angle)",
+      "GBP/review algorithm news recap (already shipped multiple times this cycle)",
+      "Appointment reminder no-show prevention (saturated in recent Demonstrations posts)",
+      "Quiz-funnel-to-60-second-text capture mechanism (already shipped as a distinct Platform/Trial angle)"
+    ],
+    "category": "platform_promo"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "general_industry_pattern",
+    "disclosure": "General industry pattern on tool sprawl among marketing teams, not tied to a single named study",
+    "claims": [
+      {
+        "text": "Marketing teams often run a dozen or more disconnected tools, losing real hours each week just syncing data between them",
+        "status": "rewritten"
+      },
+      {
+        "text": "Platform combines CRM, unified inbox, two-way texting, booking, quiz funnels, missed-call callback, review collection, win-backs, referral tracking, and revenue reporting",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Referral deal: refer a business, both get a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      }
+    ]
+  }
+]
