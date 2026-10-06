@@ -9,5 +9,15 @@
       "Quiz-funnel-to-60-second-text capture mechanism (already shipped as a distinct Platform/Trial angle)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Two Clocks framework: the attention clock (speed of first reply) running simultaneously with the trust clock (persistence of follow-up) as an unclaimed dual-timer mental model, distinct from every prior stage, ladder, matrix, segmentation, cadence, budget, coverage-math, LTV:CPA, job-profitability, decision-filter, diagnostic, channel-ownership, three-cost, four-zone, and debt-compounding framework already shipped",
+    "score": 89,
+    "rejected": [
+      "Half-life of a lead decay curve (too close to the already-shipped follow-up-debt compounding interest model)",
+      "Weekly three-number owner scorecard (less novel, reads as a generic KPI list rather than a true mental model)",
+      "Three doors of a missed lead (overlaps conceptually with prior stage-based frameworks already covered)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

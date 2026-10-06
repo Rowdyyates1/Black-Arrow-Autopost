@@ -43,5 +43,32 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most service businesses take far longer than 5 minutes to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Replying within 5 minutes converts meaningfully more leads than waiting even 30 minutes",
+        "status": "rewritten"
+      },
+      {
+        "text": "The two-clocks mental model (attention clock / trust clock)",
+        "status": "illustrative"
+      },
+      {
+        "text": "A 5+ touch, 10-day follow-up cadence as a sound general practice",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform fires automated first-reply text-back and runs follow-up cadences, 14-day free trial, no card needed",
+        "status": "verified"
+      }
+    ]
   }
 ]
