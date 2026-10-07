@@ -1314,6 +1314,11 @@
       "date": "2026-10-06",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "news_industry",
+      "format": "reel"
     }
   ],
   "site_hash": "211ce4ee75edf7da",
