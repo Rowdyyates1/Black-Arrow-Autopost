@@ -8,5 +8,16 @@
       "Instagram's 3-minute Reels / Explore eligibility change"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "A reader-run secret-shopper speed-to-lead self-audit: a friend calls in, logs every timestamp, and compares the result to the account's core 5-minute/1-hour benchmark, closing to the free Lead Response Audit.",
+    "score": 90,
+    "rejected": [
+      "Word-for-word missed-call text-back script reveal (already shipped as its own reel)",
+      "GBP messaging feature changes interpreted through speed-to-lead (already shipped)",
+      "Written SLA vs informal practice pattern (already shipped)",
+      "Symptom-to-system diagnostic framework (already shipped)"
+    ],
+    "category": "education_informative"
   }
 ]

@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time benchmarks reflect widely cited lead response research (e.g., Lead Response Management studies). Figures are industry patterns, not Black Arrow-specific results.",
+    "claims": [
+      {
+        "text": "Only about 17% of service businesses answer a lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "A 5-minute response can nearly double close rate compared to a 1-hour response",
+        "status": "rewritten"
+      },
+      {
+        "text": "A non-staff caller testing response time is a logically sound way to measure real speed-to-lead",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
