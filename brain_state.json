@@ -1324,6 +1324,11 @@
       "date": "2026-10-07",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-07",
+      "category": "education_informative",
+      "format": "carousel"
     }
   ],
   "site_hash": "211ce4ee75edf7da",

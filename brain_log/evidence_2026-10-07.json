@@ -32,5 +32,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Qualified third-party study, cited generally without naming the publisher to avoid misattribution",
+    "claims": [
+      {
+        "text": "A widely cited scheduling study found a second, earlier reminder lowered no-shows from 5.8% to 4.4% versus a single reminder",
+        "status": "qualified"
+      },
+      {
+        "text": "The free AI Follow-Up Builder can draft a reminder sequence around a business's appointment types",
+        "status": "verified"
+      }
+    ]
   }
 ]

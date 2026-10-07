@@ -19,5 +19,15 @@
       "Symptom-to-system diagnostic framework (already shipped)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Dual-touch appointment reminder cadence (confirm at booking, 3-day, 1-day, optional 2-hour) to cut no-shows, bridged to the free AI Follow-Up Builder",
+    "score": 90,
+    "rejected": [
+      "Meta-post explaining Instagram's own watch-time/save/share ranking signals (not a revenue tactic for the reader's business)",
+      "Review-request timing optimization (already shipped in a prior objection/review post)",
+      "GBP messaging consolidation update (already shipped as a news angle)"
+    ],
+    "category": "education_informative"
   }
 ]
