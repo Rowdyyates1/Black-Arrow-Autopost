@@ -1,0 +1,17 @@
+{
+  "caption": "A no-show doesn't have to be a lost job.\n\nHere's an example of the recovery sequence Black Arrow builds into a client's calendar:\n\n1. Appointment time passes, no check-in. The CRM moves the stage to No-Show on its own.\n\n2. Ten minutes later, a warm text goes out with a one-tap reschedule link.\n\n3. No reply after four hours? A second text offers open slots for the week.\n\n4. Still quiet after three days? One last soft touch, then they move to your regular nurture list instead of disappearing.\n\nExample workflow, not a client account. Shops that reach out within minutes of a no-show rebook far more of them than shops where a missed slot just sits on the schedule.\n\nWant this built around your calendar?\nDM SCALE\n\n#BlackArrow #BusinessAutomation #NoShowRecovery #CRMWorkflow #ServiceBusiness",
+  "format": "carousel",
+  "rationale": "Carousels lead saves/depth for B2B demonstration content in 2026 benchmarks, and this is the first full no-show recovery sequence shown end-to-end, distinct from the pre-appointment reminder and post-job retention demonstrations already shipped.",
+  "category": "demonstrations_walkthroughs",
+  "experiment": null,
+  "images": [
+    "published/2026-10-08/post1_carousel/image_0.jpg",
+    "published/2026-10-08/post1_carousel/image_1.jpg",
+    "published/2026-10-08/post1_carousel/image_2.jpg",
+    "published/2026-10-08/post1_carousel/image_3.jpg",
+    "published/2026-10-08/post1_carousel/image_4.jpg",
+    "published/2026-10-08/post1_carousel/image_5.jpg",
+    "published/2026-10-08/post1_carousel/image_6.jpg"
+  ],
+  "story": "published/2026-10-08/post1_carousel/story.jpg"
+}

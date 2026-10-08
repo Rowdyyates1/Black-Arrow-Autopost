@@ -1329,9 +1329,14 @@
       "date": "2026-10-07",
       "category": "education_informative",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
-  "site_hash": "211ce4ee75edf7da",
+  "site_hash": "086fd785f61c4489",
   "eligibility_overrides": {},
   "memory": {}
 }
