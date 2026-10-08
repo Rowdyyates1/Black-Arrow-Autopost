@@ -36,5 +36,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time and close-rate figures reflect widely cited lead-response research (speed-to-lead studies on contact and conversion rates), not Black Arrow's proprietary client data.",
+    "claims": [
+      {
+        "text": "Only about 17% of service businesses respond to a new lead within the first hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Answering within 5 minutes roughly doubles close rate on leads already generated",
+        "status": "rewritten"
+      },
+      {
+        "text": "Increasing ad spend without fixing follow-up speed sends more leads into the same response gap",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

@@ -19,5 +19,16 @@
       "Second-touch reframe (overlaps shipped cadence content)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Contrarian POV: more ad spend won't fix slow follow-up, fix the response-time leak first (grounded in current contractor-marketing research confirming volume-first spending is backfiring in 2026)",
+    "score": 88,
+    "rejected": [
+      "Reviews-earn-the-call vs speed-wins-the-job POV (already shipped)",
+      "Core ads-vs-systems thesis bold-claim reel (already shipped)",
+      "Referrals-as-fixable-process-gap reframe (already shipped as research angle)",
+      "Job-profitability unit economics reframe (already shipped as carousel)"
+    ],
+    "category": "contrarian_pov"
   }
 ]
