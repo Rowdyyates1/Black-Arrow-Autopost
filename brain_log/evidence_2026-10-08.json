@@ -13,5 +13,28 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time figures reflect widely cited lead-response research, not Black Arrow proprietary data. Framed as general pattern, not an exact guaranteed outcome.",
+    "claims": [
+      {
+        "text": "Most service businesses take over an hour to respond to a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Answering within 5 minutes can double the odds of closing a lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "The three-capacity-ceiling model (ad, response, delivery) as a diagnostic framework",
+        "status": "illustrative"
+      },
+      {
+        "text": "Black Arrow maps pipeline capacity before recommending ad spend",
+        "status": "qualified"
+      }
+    ]
   }
 ]

@@ -9,5 +9,15 @@
       "Generic appointment reminder carousel (overlaps with prior dual-timed reminder post)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "The Three Capacity Ceilings framework (ad, response, delivery) for diagnosing the real growth bottleneck before spending more on ads",
+    "score": 88,
+    "rejected": [
+      "Lead temperature triage (too close to prior cadence models)",
+      "Source quality scorecard (overlaps shipped job-profitability framework)",
+      "Second-touch reframe (overlaps shipped cadence content)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

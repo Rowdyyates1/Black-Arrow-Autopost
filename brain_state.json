@@ -1334,9 +1334,14 @@
       "date": "2026-10-08",
       "category": "demonstrations_walkthroughs",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-08",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
-  "site_hash": "086fd785f61c4489",
+  "site_hash": "171d8817af4fa815",
   "eligibility_overrides": {},
   "memory": {}
 }
