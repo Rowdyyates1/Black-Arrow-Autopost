@@ -1,0 +1,29 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a specific client account. Response-time stat is a qualified industry citation, not a client result.",
+    "claims": [
+      {
+        "text": "Quiz or form completions create a CRM contact instantly",
+        "status": "verified"
+      },
+      {
+        "text": "Leads get scored and routed automatically based on answers",
+        "status": "verified"
+      },
+      {
+        "text": "Automated text is sent within 60 seconds of completion",
+        "status": "verified"
+      },
+      {
+        "text": "Appointments can be booked directly through built-in booking inside the platform",
+        "status": "verified"
+      },
+      {
+        "text": "Industry data: only 17% of service businesses answer a lead within an hour; replying in under 5 minutes can double close rate",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
