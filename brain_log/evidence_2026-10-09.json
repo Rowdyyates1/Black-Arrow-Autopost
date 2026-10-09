@@ -25,5 +25,20 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time pattern reflects widely cited industry research on lead response speed, not a Black Arrow-run study.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead, and faster response is one of the strongest predictors of whether it closes.",
+        "status": "rewritten"
+      },
+      {
+        "text": "High lead volume paired with low win rate on contacted leads points to a follow-up problem, not a lead-quality problem.",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

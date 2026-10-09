@@ -8,5 +8,15 @@
       "Carousel teaching the four-zone automate-vs-human decision model (already shipped)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "The Friday Pipeline Audit: 4 weekly numbers (leads in, response time, stuck leads, win rate on contacted) as an unclaimed CRM-operations framework, closing to the platform's revenue-first reporting trial.",
+    "score": 90,
+    "rejected": [
+      "Three-touch escalation ladder for stuck leads (overlaps prior ladder/escalation frameworks)",
+      "Lifetime-value tiering by lead source (overlaps prior cost/channel-priority frameworks)",
+      "Review-timing matrix for post-job asks (overlaps prior review-timing angles already shipped)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
