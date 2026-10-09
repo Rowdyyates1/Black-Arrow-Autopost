@@ -40,5 +40,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Google Business Profile Q&A phase-out, reported across SEO/marketing sources, 2025-2026",
+    "claims": [
+      {
+        "text": "Google discontinued the Q&A API on Nov 3, 2025 and began phasing out the public Q&A section on Dec 3, 2025",
+        "status": "third_party"
+      },
+      {
+        "text": "Google's AI (Ask Maps) now assembles profile answers from categories, services, attributes, hours, photos, and reviews",
+        "status": "third_party"
+      },
+      {
+        "text": "Completing specific profile fields and securing named reviews is a reasonable response to give the AI accurate source material",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "The platform automates review requests after every job",
+        "status": "verified"
+      }
+    ]
   }
 ]

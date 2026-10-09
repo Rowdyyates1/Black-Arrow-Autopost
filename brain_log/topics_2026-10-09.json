@@ -18,5 +18,15 @@
       "Review-timing matrix for post-job asks (overlaps prior review-timing angles already shipped)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Google is retiring GBP's public Q&A section (API cut Nov 2025, public section phasing out Dec 2025) and its AI now builds answers from profile fields and reviews instead; teach owners the exact fields to complete this week so they're not skipped.",
+    "score": 87,
+    "rejected": [
+      "A2P 10DLC carrier-blocking deep dive on texting deliverability \u2014 important but overly technical and vendor-specific for this feed's tone",
+      "Instagram's own trending reel hook formats as content \u2014 not a revenue tactic for the reader's business",
+      "Generic 'write a GBP FAQ' tip without the news hook \u2014 lower novelty with no current event anchor"
+    ],
+    "category": "education_informative"
   }
 ]
