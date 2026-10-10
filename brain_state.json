@@ -1359,6 +1359,11 @@
       "date": "2026-10-09",
       "category": "education_informative",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-10",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "171d8817af4fa815",
