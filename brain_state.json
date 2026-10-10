@@ -1369,6 +1369,11 @@
       "date": "2026-10-10",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-10",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "171d8817af4fa815",

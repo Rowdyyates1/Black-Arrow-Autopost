@@ -9,5 +9,16 @@
       "Trust ladder revisited (already covered via dual-timer and prior ladder frameworks)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Third-party research (Verse.ai, 10M+ lead interactions): text-before-call sequencing lifts answer rates to 92% vs 25% call-only, taught as a concrete this-week sequence and bridged to BlackMat's instant auto-text capability",
+    "score": 88,
+    "rejected": [
+      "Database reactivation conversion-rate stats (saturated: reactivation/win-back angle shipped multiple times already)",
+      "SMS 98% open rate vs email 20% open rate (generic, overused stat, low novelty)",
+      "HBR/MIT speed-to-lead 21x qualification stat (already used in a prior research post)",
+      "Missed-call phone-conversion-rate-vs-form-fill stat (too close to prior missed-call text-back and capture-mechanism posts)"
+    ],
+    "category": "third_party_research"
   }
 ]

@@ -29,5 +29,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Verse.ai analysis of 10M+ lead interactions",
+    "claims": [
+      {
+        "text": "Call-only outreach connects about 25% of the time",
+        "status": "third_party"
+      },
+      {
+        "text": "Texting before calling lifts answer rates 3.68x",
+        "status": "third_party"
+      },
+      {
+        "text": "92% average answer rate when a lead gets both a text and a call",
+        "status": "third_party"
+      },
+      {
+        "text": "BlackMat can text a new lead automatically within seconds via its texting/automation feature",
+        "status": "verified"
+      }
+    ]
   }
 ]
