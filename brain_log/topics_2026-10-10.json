@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "The Lead Decay Curve: four time windows (0-5min, 5min-1hr, 1-24hr, 24hr+) and the distinct action required in each, teaching speed-to-lead as a decaying asset rather than a binary fast/slow metric",
+    "score": 89,
+    "rejected": [
+      "Three-call persistence framework (lower novelty, overlaps prior cadence content)",
+      "Lead temperature thermometer model (too similar in shape to the decay curve, less specific actions)",
+      "Follow-up debt framework (overlaps the already-shipped three-cost acquisition/delay/abandonment model)",
+      "Trust ladder revisited (already covered via dual-timer and prior ladder frameworks)"
+    ],
+    "category": "authority_frameworks"
+  }
+]

@@ -10,5 +10,24 @@
         "class": "demonstration"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Lead response time claims reflect widely observed industry patterns, not a proprietary study.",
+    "claims": [
+      {
+        "text": "Leads contacted within 5 minutes convert at a meaningfully higher rate than leads contacted even an hour later",
+        "status": "rewritten"
+      },
+      {
+        "text": "A lead's responsiveness and value decay the longer a shop waits to respond",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform texts back in seconds and routes leads into stage-based follow-up sequences",
+        "status": "verified"
+      }
+    ]
   }
 ]
