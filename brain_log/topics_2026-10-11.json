@@ -9,5 +9,15 @@
       "Revenue-attribution reporting pain (already shipped)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Density-before-distance framework: map job radius, cost the drive, saturate close-in demand before expanding, tied to speed-to-lead",
+    "score": 86,
+    "rejected": [
+      "Margin-stack-per-lead-channel framework (overlaps heavily with existing job-profitability/LTV:CPA frameworks)",
+      "Lead-temperature-by-question-type messaging model (overlaps with prior ad-message diagnostic and decision-filter posts)",
+      "Trust ladder for first-time review requests (review angle oversaturated this cycle)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

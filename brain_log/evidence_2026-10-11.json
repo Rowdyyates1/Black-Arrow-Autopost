@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Jobs farther from base carry higher drive-time cost and often thinner margin once windshield time is counted",
+        "status": "illustrative"
+      },
+      {
+        "text": "Distance delays callback speed and effectively taxes follow-up before it touches fuel cost",
+        "status": "qualified"
+      },
+      {
+        "text": "Owners should saturate their closest service ring before paying to expand into farther zip codes",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
