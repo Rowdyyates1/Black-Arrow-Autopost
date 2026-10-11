@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Unified inbox feature solves the fragmented-channel pain (texts and email) causing leads to go unanswered",
+    "score": 87,
+    "rejected": [
+      "Tool sprawl as unifying pain (already shipped)",
+      "AI content autopilot for dormant social presence (already shipped)",
+      "Review-engine automation (already shipped)",
+      "Revenue-attribution reporting pain (already shipped)"
+    ],
+    "category": "platform_promo"
+  }
+]
