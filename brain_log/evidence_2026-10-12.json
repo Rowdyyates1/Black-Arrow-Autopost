@@ -27,5 +27,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Missed Revenue Calculator uses four inputs (monthly leads, close rate, average job value, average response time) to model revenue per lead, monthly revenue, and a follow-up gap",
+        "status": "verified"
+      },
+      {
+        "text": "The tool is free with no signup or card required",
+        "status": "verified"
+      }
+    ]
   }
 ]
