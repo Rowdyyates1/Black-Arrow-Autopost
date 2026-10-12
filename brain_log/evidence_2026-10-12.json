@@ -4,5 +4,28 @@
     "class": null,
     "disclosure": "",
     "claims": []
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "BlackMat lets you set your brand voice once and generate a week of on-brand posts from a single goal, then approve and publish",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full access, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Refer another business and you both get a free month when they subscribe, tracked automatically",
+        "status": "verified"
+      },
+      {
+        "text": "Most service-business owners post inconsistently because they're busy running the business, not managing a content calendar",
+        "status": "qualified"
+      }
+    ]
   }
 ]
