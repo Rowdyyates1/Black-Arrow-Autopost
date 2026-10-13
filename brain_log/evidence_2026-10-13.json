@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform shows one page of revenue-first reporting that traces where money actually comes from, so owners feed winners and fix leaks",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full access, no card needed",
+        "status": "verified"
+      },
+      {
+        "text": "Most owners running multiple ad channels can't say which one is actually profitable because leads and job outcomes live in separate systems",
+        "status": "qualified"
+      }
+    ]
+  }
+]
