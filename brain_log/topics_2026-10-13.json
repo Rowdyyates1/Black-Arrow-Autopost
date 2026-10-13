@@ -7,5 +7,15 @@
       "Quiz funnels as the Platform/Trial anchor (lead capture and qualification) \u2014 scores lower on this-week actionability versus the reporting angle"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Google's 2026 GBP Performance tab now splits visibility by AI surface (map listing, Maps AI summary, AI Overviews), interpreted into a specific review-wording tactic and bridged to revenue-attribution reporting",
+    "score": 86,
+    "rejected": [
+      "Instagram skip-rate ranking signal reel-hook mechanics (lower core-niche relevance, more about content creation than owner revenue)",
+      "GBP review-request neutrality rules (duplicate of previously shipped April 2026 Rating Manipulation post)",
+      "GBP API policy-violation visibility on review replies (too niche, low owner actionability)"
+    ],
+    "category": "news_industry"
   }
 ]

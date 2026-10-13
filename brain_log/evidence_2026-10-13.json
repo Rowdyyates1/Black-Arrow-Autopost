@@ -34,5 +34,20 @@
         "status": "supported"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: industry reporting on Google Business Profile's 2026 Performance tab update",
+    "claims": [
+      {
+        "text": "GBP's Performance tab now splits impressions by surface: classic map listing, Maps AI summary card, and Google AI Overviews",
+        "status": "qualified"
+      },
+      {
+        "text": "Early reporting indicates AI-generated summary surfaces draw from review content and Q&A answers rather than photos or posts",
+        "status": "qualified"
+      }
+    ]
   }
 ]
