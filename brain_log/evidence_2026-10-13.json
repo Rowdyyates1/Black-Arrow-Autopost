@@ -17,5 +17,22 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Slow lead response has a measurable cost in lost revenue.",
+        "class": "general pattern",
+        "status": "supported"
+      },
+      {
+        "claim": "The audit converts four inputs into a response score, leads-lost estimate, and revenue-at-risk figure.",
+        "class": "tool demonstration",
+        "status": "supported"
+      }
+    ]
   }
 ]
