@@ -8,5 +8,15 @@
       "Repeat of automation-feels-impersonal angle already shipped this cycle"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Feature the free AI Follow-Up Builder (next in this cycle's rotation after the Lead Response Audit), framed around the gap between relying on memory and running a real follow-up system",
+    "score": 90,
+    "rejected": [
+      "Re-feature Black Arrow OS pocket CRM, used too recently in the same rotation",
+      "Spotlight the Ad ROI Calculator again, already cycled through twice this stretch",
+      "News angle on the 2026 Instagram carousel-vs-reel engagement shift, which belongs in a Research/Authority slot, not today's Offers category"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

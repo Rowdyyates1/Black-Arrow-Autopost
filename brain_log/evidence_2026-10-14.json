@@ -21,5 +21,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow's free tools page includes two AI builders for drafting systems around your business, one being the Follow-Up Builder",
+        "status": "verified"
+      },
+      {
+        "text": "The tools are free, with no signup and no card required",
+        "status": "verified"
+      },
+      {
+        "text": "Most shops run follow-up on memory and good intentions rather than a system, so leads go cold without anyone deciding that outcome",
+        "status": "illustrative"
+      },
+      {
+        "text": "The follow-up sequence structure the tool drafts is the kind of setup that normally takes weeks to build manually inside a CRM",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
