@@ -1419,9 +1419,14 @@
       "date": "2026-10-14",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
-  "site_hash": "171d8817af4fa815",
+  "site_hash": "de658013f08a4a81",
   "eligibility_overrides": {},
   "memory": {}
 }
