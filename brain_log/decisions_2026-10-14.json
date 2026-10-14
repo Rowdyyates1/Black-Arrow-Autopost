@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-10-14T03:36:24.769526Z",
+    "category": "objection_nurture",
+    "category_label": "Objection Handling / Audience Nurture",
+    "guidance": "Honestly handle a common objection or hesitation an owner has about automation/marketing (cost, complexity, 'it feels impersonal'). Build trust. For done-for-you cost objections: never give numbers; the honest answer is that pricing follows a diagnosis meeting.",
+    "format_bias": "carousel",
+    "evidence_note": "Transparent and honest; no unsupported guarantees, no done-for-you pricing.",
+    "mode": "exploration",
+    "reason": "Exploration (8% budget): sampling 'Objection Handling / Audience Nurture' to keep learning what performs, not just exploiting the current leader.",
+    "confidence": 0.4,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.2,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "carousel",
+    "post_rationale": "Carousels still lead saves/depth for B2B objection content, and this resolves a genuinely unclaimed spam/compliance fear (consent, opt-out, frequency) distinct from every prior cost, impersonal, sales-trap, lock-in, and complexity objection already shipped."
+  }
+]

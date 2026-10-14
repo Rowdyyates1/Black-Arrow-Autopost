@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "A text that answers the exact question a lead just submitted reads as the fastest response to something they asked for",
+        "status": "qualified"
+      },
+      {
+        "text": "Including an opt-out line and capping frequency are standard practices that distinguish legitimate business texting from spam",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform includes two-way texting with consent and opt-out handling as part of its automated follow-up",
+        "status": "verified"
+      },
+      {
+        "text": "The trial is 14 days, free, with no card required",
+        "status": "verified"
+      }
+    ]
+  }
+]

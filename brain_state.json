@@ -1414,6 +1414,11 @@
       "date": "2026-10-13",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-14",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "171d8817af4fa815",

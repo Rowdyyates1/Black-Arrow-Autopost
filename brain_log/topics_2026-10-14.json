@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Objection: automated texting will feel like spam, reframed through consent-at-capture, opt-out messaging, and frequency caps",
+    "score": 87,
+    "rejected": [
+      "Adoption objection: my team won't actually use the new system",
+      "Trust objection: I already tried automation once and it failed",
+      "Repeat of automation-feels-impersonal angle already shipped this cycle"
+    ],
+    "category": "objection_nurture"
+  }
+]
