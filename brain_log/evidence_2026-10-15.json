@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Script structure drawn from published missed-call text-back templates; trigger-speed behavior drawn from standard CRM documentation.",
+    "claims": [
+      {
+        "text": "Effective text-back messages name the business, apologize briefly, ask one forward-moving question, and include an opt-out line",
+        "status": "third_party"
+      },
+      {
+        "text": "Modern CRM platforms can trigger a missed-call text within seconds of the missed call",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's free AI builder can draft a follow-up sequence around a business in minutes",
+        "status": "verified"
+      }
+    ]
+  }
+]
