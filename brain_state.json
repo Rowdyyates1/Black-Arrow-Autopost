@@ -1469,6 +1469,11 @@
       "date": "2026-10-15",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "news_industry",
+      "format": "reel"
     }
   ],
   "site_hash": "de658013f08a4a81",

@@ -68,5 +68,16 @@
       "Lead-to-revenue audit checklist (redundant with already-shipped weekly CRM-operations audit)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Google's AI agentic calling feature (Search calls local businesses on a customer's behalf, confirmed expanding at I/O 2026) interpreted into a GBP settings check and a speed to answer action for service owners",
+    "score": 92,
+    "rejected": [
+      "GBP Q&A full retirement into Ask Maps (already shipped in a prior post)",
+      "Instagram 'Your Algorithm' expansion and DM weight ranking signal (overlaps prior reels/ranking news post)",
+      "Reels extended to 20 minutes with a 3 minute recommendation cutoff (format only, low direct owner actionability)",
+      "GBP WhatsApp messaging rollout (conflicting, unreliable reporting on current messaging status)"
+    ],
+    "category": "news_industry"
   }
 ]

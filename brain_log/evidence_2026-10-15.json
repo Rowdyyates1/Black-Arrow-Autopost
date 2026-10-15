@@ -157,5 +157,32 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from Google I/O 2026 announcement coverage and industry reporting, October 2026.",
+    "claims": [
+      {
+        "text": "Google has introduced an AI calling feature in Search that contacts local businesses on a user's behalf to gather pricing and availability details.",
+        "status": "third_party"
+      },
+      {
+        "text": "Google confirmed at I/O 2026 that this agentic calling feature, live in the US since late 2025, is expanding to home repair, beauty, pet care, and other local services this year.",
+        "status": "third_party"
+      },
+      {
+        "text": "Reporting indicates that if a business doesn't answer in time, Google's AI moves to the next business on the list.",
+        "status": "third_party"
+      },
+      {
+        "text": "Business owners can review and control this feature under Business Profile, Advanced settings, 'Google automated calls and text messages.'",
+        "status": "third_party"
+      },
+      {
+        "text": "The platform's automated missed call callback and instant response tools help a business answer inbound interest in seconds.",
+        "status": "verified"
+      }
+    ]
   }
 ]
