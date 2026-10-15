@@ -184,5 +184,11 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": null,
+    "disclosure": "",
+    "claims": []
   }
 ]

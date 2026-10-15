@@ -1474,6 +1474,11 @@
       "date": "2026-10-15",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-15",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "de658013f08a4a81",
