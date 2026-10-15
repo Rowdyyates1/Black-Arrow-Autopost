@@ -36,5 +36,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "BrightLocal, 2026 Local Consumer Review Survey (n=1,002 US adults)",
+    "claims": [
+      {
+        "text": "The share of consumers who'll only use a business rated 4.5 stars or higher nearly doubled in a year, from 17% to 31%",
+        "status": "qualified"
+      },
+      {
+        "text": "47% of consumers won't even consider a business with fewer than 20 reviews",
+        "status": "qualified"
+      },
+      {
+        "text": "Recency now carries nearly as much weight as the rating itself",
+        "status": "third_party"
+      },
+      {
+        "text": "Texting the review link within 24 hours of a finished job is a recommended tactic to keep volume and recency climbing",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform's review-engine automation can send review requests tied to job completion",
+        "status": "verified"
+      }
+    ]
   }
 ]

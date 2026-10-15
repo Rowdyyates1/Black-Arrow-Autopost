@@ -18,5 +18,15 @@
       "News-based reel on IG algorithm shifts (wrong category for today's Offers/Lead Magnets slot)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "BrightLocal's 2026 Local Consumer Review Survey: the bar rose on both the rating threshold (17% to 31% requiring 4.5+ stars) and minimum review volume (47% won't consider under 20 reviews), reframed into a 24-hour post-job review-request cadence.",
+    "score": 89,
+    "rejected": [
+      "Re-run the HBR/MIT speed-to-lead stat (already the backbone of a prior research post)",
+      "Missed-call 62%-unanswered statistic (saturated territory, fits CRM-ops slot better than research slot)",
+      "SMS comfort/texting-behavior data (already used to resolve the automation-impersonal objection post)"
+    ],
+    "category": "third_party_research"
   }
 ]
