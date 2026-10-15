@@ -63,5 +63,27 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "CRM rollouts commonly fail from unclear ownership and thin training rather than platform limitations.",
+        "status": "rewritten",
+        "support": "General industry pattern. Original draft used invented precise percentages (60%+, 6-10%) with no citable source; replaced with an honest, unquantified pattern claim."
+      },
+      {
+        "claim": "Missed-call text-back, review requests, and win-back automations trigger without manual login.",
+        "status": "verified",
+        "support": "Demonstration of how Black Arrow's automation layer functions, independent of user adoption."
+      },
+      {
+        "claim": "14-day free trial, no card required, cancel anytime.",
+        "support": "Standard Black Arrow trial terms.",
+        "status": "verified"
+      }
+    ]
   }
 ]
