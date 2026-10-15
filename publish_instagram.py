@@ -22,7 +22,7 @@ Optional:
 import os, sys, json, time, urllib.parse, urllib.request, urllib.error
 
 GRAPH = os.environ.get("GRAPH_VERSION", "v21.0")
-BASE = f"https://graph.instagram.com/{GRAPH}"
+BASE = f"https://graph.facebook.com/{GRAPH}"
 
 def _env():
     return (os.environ["IG_USER_ID"], os.environ["IG_ACCESS_TOKEN"],
