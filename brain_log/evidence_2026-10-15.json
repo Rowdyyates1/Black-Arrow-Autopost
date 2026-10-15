@@ -134,5 +134,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow's method is organized around four systems: acquisition, instant follow-up, CRM operations, and retention",
+        "status": "verified"
+      },
+      {
+        "text": "most service businesses only build the acquisition system and leave follow-up, CRM, and retention to run without process",
+        "status": "qualified"
+      },
+      {
+        "text": "having a friend submit a test lead and timing the response reveals real speed-to-lead performance",
+        "status": "illustrative"
+      },
+      {
+        "text": "a manual follow-up task will eventually stop happening without an automated trigger",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

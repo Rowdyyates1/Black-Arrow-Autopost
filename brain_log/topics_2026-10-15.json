@@ -58,5 +58,15 @@
       "CRM-is-not-a-filing-cabinet reframe (weaker hook, less testable)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "The Four Systems framework (acquisition, instant follow-up, CRM operations, retention) as a single self-audit",
+    "score": 90,
+    "rejected": [
+      "Trust ladder: three gates a lead passes before booking (overlaps prior trust-sequence/decision-filter posts)",
+      "One-sentence offer clarity test (too narrow for framework category depth)",
+      "Lead-to-revenue audit checklist (redundant with already-shipped weekly CRM-operations audit)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
