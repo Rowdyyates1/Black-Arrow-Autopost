@@ -38,5 +38,15 @@
       "Re-featuring Black Arrow OS (breaks tool rotation variety; Ad ROI Calculator is next up)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Platform/Trial post anchored on the verified referral-tracking feature, pairing it with the referral deal and the 14-day free trial, a sub-feature never used to anchor this category before",
+    "score": 86,
+    "rejected": [
+      "Quiz funnels as the under-served feature anchor (scored 83, strong but doesn't surface the referral deal the category brief highlights)",
+      "Tool sprawl pain reframed for referrals (rejected, tool sprawl already shipped as a Platform/Trial angle)",
+      "Win-back automation as a trial pitch (rejected, too close to the already-shipped dormant-lead win-back demonstration)"
+    ],
+    "category": "platform_promo"
   }
 ]

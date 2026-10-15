@@ -100,5 +100,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow gives every customer a tracked referral link and the CRM logs who referred who, what they did, and what it closed for",
+        "status": "verified"
+      },
+      {
+        "text": "Refer another business and you both get a free month when they subscribe, tracked the same way",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]
