@@ -119,5 +119,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "Pattern Black Arrow has observed across service business call handling, not a controlled study.",
+    "claims": [
+      {
+        "text": "most lost jobs trace to booking friction rather than price, based on an honest pattern owners report, not a measured study",
+        "status": "illustrative"
+      },
+      {
+        "text": "the platform connects every lead to built-in booking so a customer can get on the calendar in the same interaction",
+        "status": "verified"
+      }
+    ]
   }
 ]

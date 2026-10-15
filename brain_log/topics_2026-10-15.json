@@ -48,5 +48,15 @@
       "Win-back automation as a trial pitch (rejected, too close to the already-shipped dormant-lead win-back demonstration)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Booking friction, not price, loses the job: a contrarian POV reel built on 2026 instant-booking expectations, closing with a friend-run self-test",
+    "score": 85,
+    "rejected": [
+      "Ads-vs-systems core thesis repeat (already shipped twice)",
+      "Reviews build trust faster than speed (risks undercutting review-engine messaging)",
+      "CRM-is-not-a-filing-cabinet reframe (weaker hook, less testable)"
+    ],
+    "category": "contrarian_pov"
   }
 ]
