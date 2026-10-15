@@ -85,5 +85,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow's free Ad ROI Calculator lets an owner enter their own ad spend and numbers to get an illustrative return estimate, no card needed",
+        "status": "verified"
+      },
+      {
+        "text": "a simple spend-divided-by-closed-jobs gut check reveals whether an ad campaign is actually paying for itself",
+        "status": "qualified"
+      }
+    ]
   }
 ]
