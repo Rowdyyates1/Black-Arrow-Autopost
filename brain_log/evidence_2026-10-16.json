@@ -13,5 +13,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Meta Conversations 2026 / TechCrunch coverage of Meta Business Agent rollout",
+    "claims": [
+      {
+        "text": "Meta's Business Agent answers customers automatically in their own tone across WhatsApp, Messenger, and Instagram, qualifying leads and booking appointments",
+        "status": "verified"
+      },
+      {
+        "text": "More than one million businesses were already piloting a version of the agent before the global rollout",
+        "status": "qualified"
+      },
+      {
+        "text": "The agent operates inside Meta's own chat apps and does not unify phone calls, web form leads, or walk-ins into one pipeline",
+        "status": "qualified"
+      },
+      {
+        "text": "A unified CRM behind every channel keeps leads visible regardless of which channel the agent doesn't cover",
+        "status": "verified_company_capability"
+      }
+    ]
   }
 ]

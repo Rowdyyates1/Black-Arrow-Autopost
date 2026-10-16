@@ -8,5 +8,15 @@
       "Database reactivation text script tutorial (heavily overlaps prior win-back and reactivation posts already shipped)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Meta's expanded cross-app Business Agent (auto-replies, qualifies leads, books appointments in IG/Messenger/WhatsApp) interpreted for service owners: it closes the chat channel but leaves calls, forms, and walk-ins uncovered unless one CRM pipeline sits behind every channel.",
+    "score": 89,
+    "rejected": [
+      "Instagram's 2026 skip-rate ranking signal as new algorithm metric (platform mechanics, weak direct tie to lead generation)",
+      "GoHighLevel's October 2026 AI Employee / Voice AI release notes (competitor platform naming risk, indirect relevance)",
+      "Google AI agentic calling of businesses in Search (angle already shipped in a prior post)"
+    ],
+    "category": "news_industry"
   }
 ]
