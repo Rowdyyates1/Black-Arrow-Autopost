@@ -1,0 +1,17 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most service businesses book every inbound call without a qualifying filter, sending estimators to jobs that were never close to buying.",
+        "status": "qualified"
+      },
+      {
+        "text": "A three-question phone filter (urgency, prior quotes, budget range) separates real buyers from tire-kickers before a drive is scheduled.",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
