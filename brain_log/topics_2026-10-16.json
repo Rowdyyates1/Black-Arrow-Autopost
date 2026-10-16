@@ -18,5 +18,15 @@
       "Google AI agentic calling of businesses in Search (angle already shipped in a prior post)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Referral-ask timing: request referrals within minutes of job completion, by text, using the peak-satisfaction moment instead of a delayed invoice/review email",
+    "score": 84,
+    "rejected": [
+      "Quiz-funnel qualifying question to filter bad leads before they hit the CRM (score 79)",
+      "Text response-rate and text-to-booking benchmarks from missed-call research (score 60, overlaps prior missed-call text-back posts)",
+      "Raw/unpolished short-form video trend as a content strategy tip for service business owners (score 65, lower core relevance)"
+    ],
+    "category": "education_informative"
   }
 ]

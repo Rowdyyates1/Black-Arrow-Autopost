@@ -36,5 +36,24 @@
         "status": "verified_company_capability"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Customer satisfaction is highest immediately after the job finishes, before daily life takes over",
+        "status": "qualified"
+      },
+      {
+        "text": "People read and respond to texts faster than emails sent later",
+        "status": "qualified"
+      },
+      {
+        "text": "The free AI Follow-Up Builder can draft a referral-ask sequence for a business",
+        "status": "verified"
+      }
+    ]
   }
 ]
