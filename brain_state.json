@@ -1499,6 +1499,11 @@
       "date": "2026-10-17",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "de658013f08a4a81",

@@ -13,5 +13,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Illustrative, not a client account.",
+    "claims": [
+      {
+        "text": "An automated text confirms quote receipt and sets the follow-up expectation",
+        "status": "illustrative"
+      },
+      {
+        "text": "A day-2 check-in text and day-5 value email nudge a stalled quote",
+        "status": "illustrative"
+      },
+      {
+        "text": "The CRM flags a 7-day quote stall and creates a call task in the pipeline",
+        "status": "illustrative"
+      },
+      {
+        "text": "A day-14 text closes the loop on an unanswered quote",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

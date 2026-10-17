@@ -8,5 +8,15 @@
       "Lead temperature triage by channel (call vs text vs email) \u2014 overlaps the already-shipped lead-decay-curve and capacity-ceiling frameworks"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Quote-stall recovery sequence: a step-by-step demonstration of automated follow-up for sent-but-unaccepted estimates",
+    "score": 89,
+    "rejected": [
+      "Warranty / maintenance reminder automation demonstration",
+      "Job-history-based upsell and cross-sell sequence demonstration",
+      "Lead scoring and routing stage demonstration"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
