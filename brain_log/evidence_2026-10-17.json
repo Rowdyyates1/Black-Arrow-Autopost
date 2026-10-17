@@ -36,5 +36,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "informed_interpretation",
+    "disclosure": "Illustrative math example, not a client result",
+    "claims": [
+      {
+        "text": "A cheaper lead with a lower close rate can cost more per sale than a pricier lead with a higher close rate",
+        "status": "illustrative"
+      },
+      {
+        "text": "Cost per booked job is a more useful measure of ad performance than cost per lead",
+        "status": "qualified"
+      },
+      {
+        "text": "The Ad ROI Calculator can help model cost per booked job",
+        "status": "verified"
+      }
+    ]
   }
 ]

@@ -82,5 +82,47 @@
     ],
     "chosen_format": "slideshow",
     "post_rationale": "Carousels and slideshows lead 2026 saves/depth for B2B demonstration content, and this ships the first quote-stall recovery sequence, a genuinely unclaimed CRM-operations stage distinct from every prior capture, booking, reminder, dispatch, and review demonstration shipped."
+  },
+  {
+    "timestamp": "2026-10-17T19:51:53.205795Z",
+    "category": "contrarian_pov",
+    "category_label": "Contrarian / Brand Point of View",
+    "guidance": "State a sharp, defensible point of view or contrarian take on how service businesses actually grow. Confident, specific, never gimmicky engagement-bait.",
+    "format_bias": "reel",
+    "evidence_note": "Framed clearly as Black Arrow's view; no fabricated proof.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Contrarian / Brand Point of View' was the most under-served eligible category (target 5%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.1,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.033,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Bold-claim to-camera reels win hook rate for B2B service audiences right now, and this cost-per-lead vs cost-per-booked-job POV is a genuinely unclaimed contrarian angle distinct from every prior ads-vs-systems, leak, and booking-friction take already shipped."
   }
 ]

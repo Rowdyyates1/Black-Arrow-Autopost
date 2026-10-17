@@ -18,5 +18,15 @@
       "Lead scoring and routing stage demonstration"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Contrarian POV: cost-per-lead obsession hides the real number, cost per booked job, framed with an illustrative math example and bridged to the free Ad ROI Calculator",
+    "score": 88,
+    "rejected": [
+      "Referral reliance as a hidden marketing dependency (too close to the already-shipped referral-tracking platform post)",
+      "Stop quoting prices over the phone (too close to the already-shipped phone-qualifying-script reel)",
+      "CRM as profit engine vs filing cabinet (overlaps heavily with already-shipped CRM-operations authority posts)"
+    ],
+    "category": "contrarian_pov"
   }
 ]
