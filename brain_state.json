@@ -1494,6 +1494,11 @@
       "date": "2026-10-16",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-17",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "de658013f08a4a81",

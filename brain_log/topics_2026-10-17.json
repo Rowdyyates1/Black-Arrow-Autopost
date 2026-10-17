@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The Reactivation Ladder: a three-bucket framework for mining revenue out of an existing lead/customer list with zero ad spend",
+    "score": 90,
+    "rejected": [
+      "Response-ownership escalation chain (primary/backup/owner) for speed-to-lead accountability \u2014 too close to the already-shipped written-SLA-vs-informal-practice post",
+      "Cost-per-appointment vs cost-per-lead math model \u2014 overlaps the already-shipped LTV:CPA and cost framework rotation",
+      "Lead temperature triage by channel (call vs text vs email) \u2014 overlaps the already-shipped lead-decay-curve and capacity-ceiling frameworks"
+    ],
+    "category": "authority_frameworks"
+  }
+]
