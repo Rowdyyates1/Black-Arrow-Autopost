@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Google requires a reply to Business Profile messages within 24 hours and can deactivate chat for repeated non-response",
+        "status": "third_party"
+      },
+      {
+        "text": "A business's average response time is shown publicly to customers on the listing",
+        "status": "third_party"
+      },
+      {
+        "text": "24 hours is slow for urgent local searches; faster response is the real goal",
+        "status": "rewritten"
+      },
+      {
+        "text": "A welcome message with a qualifying question holds a lead until the owner can respond personally",
+        "status": "informed_interpretation"
+      }
+    ]
+  }
+]
