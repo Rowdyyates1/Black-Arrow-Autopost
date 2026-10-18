@@ -18,5 +18,15 @@
       "News reel on 2026 Instagram carousel-vs-reel benchmarks (score 60) - belongs in News category, not today's Offers/Lead Magnets assignment"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "The Channel Switch Rule: a follow-up framework teaching owners to switch communication channel (call to text to email to video) after each missed touch in the first 24-48 hours, rather than repeating the same channel.",
+    "score": 90,
+    "rejected": [
+      "Lead Source Scorecard framework rating channels by cost, close rate, and LTV",
+      "Customer Value Tiers (A/B/C) prioritization framework, overlaps the already-shipped three-bucket reactivation model",
+      "Time-to-decision window framework, overlaps the already-shipped lead-decay-curve model"
+    ],
+    "category": "authority_frameworks"
   }
 ]

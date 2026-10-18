@@ -44,5 +44,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General pattern based on common follow-up behavior, not a controlled study.",
+    "claims": [
+      {
+        "text": "Repeating the same follow-up channel (three calls to the same number) often fails because it reaches the same attention gap each time.",
+        "status": "illustrative"
+      },
+      {
+        "text": "Switching channels (call, text, email, video) after each missed touch reaches a different kind of attention and improves the odds of a response.",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
