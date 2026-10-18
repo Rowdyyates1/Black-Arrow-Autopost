@@ -7,5 +7,16 @@
       "GBP messaging FAQ auto-answers feature alone \u2014 thinner and less tied to the core speed-to-lead stakes than the deactivation deadline"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Promo image featuring the free Revenue Calculator, tying its response-time input directly to Black Arrow's speed-to-lead thesis",
+    "score": 91,
+    "rejected": [
+      "Promo image for Black Arrow OS pocket CRM (score 80) - out of rotation sequence, used two cycles ago",
+      "Reel walkthrough of the Lead Response Audit (score 74) - format mismatch for this cycle's under-served Offers/Lead Magnets slot, which calls for single-offer promo image",
+      "Carousel teaching the AI Follow-Up Builder as a demonstration (score 68) - Demonstrations slot already heavily used this cycle",
+      "News reel on 2026 Instagram carousel-vs-reel benchmarks (score 60) - belongs in News category, not today's Offers/Lead Magnets assignment"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
