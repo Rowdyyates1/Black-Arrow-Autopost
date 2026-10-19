@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Industry call-tracking research, multiple sources",
+    "claims": [
+      {
+        "text": "62% of calls to small businesses go unanswered",
+        "status": "qualified"
+      },
+      {
+        "text": "85% of callers who hit voicemail never call back",
+        "status": "qualified"
+      },
+      {
+        "text": "home-service phone miss rates run 65-70%, higher than the small-business average",
+        "status": "qualified"
+      },
+      {
+        "text": "BlackMat texts back missed callers within seconds",
+        "status": "verified"
+      }
+    ]
+  }
+]

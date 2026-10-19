@@ -1524,6 +1524,11 @@
       "date": "2026-10-18",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-19",
+      "category": "third_party_research",
+      "format": "carousel"
     }
   ],
   "site_hash": "de658013f08a4a81",

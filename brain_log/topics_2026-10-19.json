@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Third-party missed-call research (62% unanswered, 85% never call back, trades running 65-70%) bridged to BlackMat's automated missed-call text-back feature",
+    "score": 88,
+    "rejected": [
+      "HBR/MIT speed-to-lead 21x stat as research angle (already shipped as reel self-test and carousel)",
+      "SMS response-rate vs phone-call comparison (overlaps prior SMS-comfort and text-before-call angles already shipped)",
+      "SMS appointment-reminder no-show stat (overlaps prior no-show recovery and reminder demonstrations already shipped)"
+    ],
+    "category": "third_party_research"
+  }
+]
