@@ -21,5 +21,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "The lead-response claim was generalized to an industry pattern rather than cited as a specific statistic, since no verifiable source was attached.",
+    "claims": [
+      {
+        "text": "Most service businesses miss the first-hour window when a new lead calls in",
+        "status": "rewritten"
+      },
+      {
+        "text": "BlackMat's missed-call text-back automation fires automatically when a call is missed",
+        "status": "verified"
+      },
+      {
+        "text": "Review engine and win-back sequences run as automations inside the platform",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full access, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]

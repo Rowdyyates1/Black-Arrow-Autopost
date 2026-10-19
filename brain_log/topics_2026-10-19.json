@@ -8,5 +8,15 @@
       "SMS appointment-reminder no-show stat (overlaps prior no-show recovery and reminder demonstrations already shipped)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Missed-call text-back automation as the unclaimed anchor feature for a Platform/Trial reel, tied to the core speed-to-lead thesis and the trial offer",
+    "score": 91,
+    "rejected": [
+      "Quiz funnel feature as Platform/Trial anchor (unclaimed but weaker tie to core speed-to-lead thesis)",
+      "Tool sprawl as the unifying pain (already shipped in a prior Platform/Trial post)",
+      "AI content autopilot feature repeat angle (already anchored a prior post)"
+    ],
+    "category": "platform_promo"
   }
 ]
