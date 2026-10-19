@@ -18,5 +18,15 @@
       "AI content autopilot feature repeat angle (already anchored a prior post)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "The One-Owner Rule: a four-step pipeline-ownership framework (map stages, name one owner each, set a max dwell time, build auto-escalation) to stop leads stalling in diffusion-of-responsibility gaps",
+    "score": 90,
+    "rejected": [
+      "Touch-count-to-close cadence framework (too close to shipped cadence/ladder models)",
+      "Behavioral lead-readiness scoring framework (edges into qualification territory already touched)",
+      "Channel-yield-per-stage model (too close to the shipped channel-switch mental model)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

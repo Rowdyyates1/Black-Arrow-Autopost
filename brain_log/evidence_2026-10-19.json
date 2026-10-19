@@ -44,5 +44,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Original 17%/83% response-time statistic could not be traced to a verifiable study and was rewritten as a qualified general industry pattern without a fabricated percentage.",
+    "claims": [
+      {
+        "text": "Most service businesses take hours, not minutes, to make first contact with a new lead",
+        "status": "rewritten"
+      },
+      {
+        "text": "Assigning one named owner and a max dwell time per pipeline stage prevents leads from stalling in diffusion-of-responsibility gaps",
+        "status": "qualified"
+      }
+    ]
   }
 ]
