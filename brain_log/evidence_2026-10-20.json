@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Black Arrow platform includes quiz funnels that route answers directly into the CRM pipeline",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Most owners treat every inbound lead the same before qualifying them",
+        "status": "qualified"
+      }
+    ]
   }
 ]

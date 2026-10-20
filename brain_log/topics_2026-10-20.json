@@ -8,5 +8,15 @@
       "Carousel on speed-to-lead research without featuring a specific tool (doesn't satisfy today's Offers/Lead Magnets execution rule)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Quiz funnels as a lead-qualification fix for Platform/Trial, paired with the 14-day no-card free trial",
+    "score": 88,
+    "rejected": [
+      "Two-way texting as the Platform/Trial feature anchor",
+      "Review-collection as the Platform/Trial feature anchor",
+      "General CRM pipeline framing, already saturated by recent Authority carousels"
+    ],
+    "category": "platform_promo"
   }
 ]
