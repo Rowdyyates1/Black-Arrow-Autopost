@@ -18,5 +18,16 @@
       "General CRM pipeline framing, already saturated by recent Authority carousels"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Feature the Follow-Up Builder free tool as a single-offer promo image, next in this cycle's tool rotation after the Lead Response Audit",
+    "score": 88,
+    "rejected": [
+      "Black Arrow OS promo (repeats too soon in rotation)",
+      "Ad ROI Calculator promo (already used earlier this cycle)",
+      "Revenue Calculator promo (already used earlier this cycle)",
+      "Lead Response Audit promo (used immediately prior, would repeat back-to-back)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

@@ -36,5 +36,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Follow-Up Builder is a free tool on blackarrow.ltd/tools that generates a lead follow-up sequence, no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses are slow to follow up with new leads, and the first business to respond usually wins the job",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
