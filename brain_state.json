@@ -1539,9 +1539,14 @@
       "date": "2026-10-19",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
-  "site_hash": "de658013f08a4a81",
+  "site_hash": "a299e9c9ec4fc325",
   "eligibility_overrides": {},
   "memory": {}
 }
