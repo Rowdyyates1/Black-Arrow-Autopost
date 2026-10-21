@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform runs automated win-back sequences as a built-in CRM feature",
+        "status": "verified"
+      },
+      {
+        "text": "14-day full-access free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Most shops let dormant lead lists sit untouched",
+        "status": "qualified"
+      }
+    ]
+  }
+]
