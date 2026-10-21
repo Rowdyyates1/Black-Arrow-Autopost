@@ -17,5 +17,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "general_pattern",
+    "disclosure": "Speed-to-lead performance claims are presented as a widely documented industry pattern rather than a specific sourced statistic.",
+    "claims": [
+      {
+        "text": "The Follow-Up Builder generates a free text-and-email lead follow-up sequence with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Service businesses that respond to a new lead within minutes close far more deals than those who wait hours",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

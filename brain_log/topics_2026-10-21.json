@@ -9,5 +9,15 @@
       "General Instagram format benchmark news reel (doesn't fit today's assigned Platform/Trial Promo category)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Feature the Follow-Up Builder free tool to close this cycle's under-served Offers/Lead Magnets slot, in the single-offer promo image format that converts fastest for one clear ask",
+    "score": 90,
+    "rejected": [
+      "Re-feature Black Arrow OS (breaks the no-repeat-tool rotation rule)",
+      "News-based GBP or Meta platform update angle (News category already well covered this cycle)",
+      "Carousel objection-handling post (saves-focused category already well-served this cycle)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
