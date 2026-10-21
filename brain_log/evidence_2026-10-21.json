@@ -32,5 +32,20 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Lead objections generally fall into timing, trust, or fit categories that warrant different follow-up handling",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform supports building distinct pipeline stages with automated, stage-specific follow-up cadences",
+        "status": "verified"
+      }
+    ]
   }
 ]
