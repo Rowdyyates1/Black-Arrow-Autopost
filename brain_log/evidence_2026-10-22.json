@@ -48,5 +48,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, not one client's exact settings",
+    "claims": [
+      {
+        "text": "Automation should only handle instant acknowledgments, reminders, and review requests, leaving judgment calls to a person.",
+        "status": "illustrative"
+      },
+      {
+        "text": "Trigger words such as refund, cancel, or lawyer can route a conversation straight to a human.",
+        "status": "illustrative"
+      },
+      {
+        "text": "A fast, specific automated reply often reads as more attentive than a slower human one.",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Pricing negotiations and upset customers should always stay with a person, not a sequence.",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

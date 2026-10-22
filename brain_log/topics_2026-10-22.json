@@ -19,5 +19,15 @@
       "Generic review-generation sequence repeat (already shipped with negative-feedback gate)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Objection: 'what if automation says the wrong thing' \u2014 teach the automate-the-clock-not-the-conversation framework with human hand-off trigger words",
+    "score": 90,
+    "rejected": [
+      "Industry-fit skepticism: 'this won't work for my type of business'",
+      "Data privacy/security objection about automated customer texting",
+      "Past negative software experience: 'I tried automation before and it failed'"
+    ],
+    "category": "objection_nurture"
   }
 ]
