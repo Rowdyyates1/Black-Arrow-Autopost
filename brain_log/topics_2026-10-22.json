@@ -8,5 +8,16 @@
       "Reviews don't build trust, response time does (too close to prior speed-to-lead stat posts)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "After-hours lead walkthrough: an illustrative overnight sequence showing an automated system capturing, qualifying, and booking an 11:47pm lead before the shop opens, tied to the brand's speed-to-lead thesis.",
+    "score": 89,
+    "rejected": [
+      "Database reactivation three-bucket framework (already shipped this cycle)",
+      "Missed-call stat pack as standalone research post (already shipped)",
+      "GBP Q&A/Performance tab news angle (already shipped twice)",
+      "Generic review-generation sequence repeat (already shipped with negative-feedback gate)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

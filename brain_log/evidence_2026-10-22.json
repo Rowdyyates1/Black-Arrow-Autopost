@@ -25,5 +25,28 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, not a client account",
+    "claims": [
+      {
+        "text": "Most service businesses take hours, not minutes, to respond to a new lead, and overnight leads tend to wait longest of all.",
+        "status": "rewritten"
+      },
+      {
+        "text": "An automated system can send a confirmation and qualifying text within a minute of form submission.",
+        "status": "illustrative"
+      },
+      {
+        "text": "A reply can save automatically to a CRM record without staff intervention overnight.",
+        "status": "illustrative"
+      },
+      {
+        "text": "A scheduled morning follow-up text can offer appointment times before business hours.",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
