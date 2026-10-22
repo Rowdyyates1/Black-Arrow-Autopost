@@ -1,0 +1,29 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Google Local Services Ads policy update, reported by Ignite Visibility, effective October 1, 2026",
+    "claims": [
+      {
+        "text": "Google is changing how it charges for Local Services Ads, with some missed calls becoming billable leads starting October 1, 2026",
+        "status": "third_party"
+      },
+      {
+        "text": "advertisers can be charged for missed calls during business hours if the caller stays on the line for more than 20 seconds, even if nobody answers",
+        "status": "third_party"
+      },
+      {
+        "text": "only 17% of service businesses answer a new lead within the first hour",
+        "status": "verified"
+      },
+      {
+        "text": "answering within 5 minutes roughly doubles the close rate",
+        "status": "verified"
+      },
+      {
+        "text": "framing the policy change as proof that missed-call costs were already present, just invisible",
+        "status": "qualified"
+      }
+    ]
+  }
+]
