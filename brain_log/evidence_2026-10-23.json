@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Nurture-economics figures reflect commonly cited lead-nurturing benchmark research, not a single named 2026 study. Example sequence is illustrative, not a specific client result.",
+    "claims": [
+      {
+        "text": "Most leads who aren't ready to buy today still eventually convert with consistent follow-up.",
+        "status": "qualified"
+      },
+      {
+        "text": "Nurtured leads produce roughly 50% more sales-ready opportunities at about 33% lower cost than leads with no follow-up, per widely cited lead-nurturing benchmark research.",
+        "status": "rewritten"
+      },
+      {
+        "text": "A four-touch, 90-day reactivation ladder (check-in, value, offer, final ask) is a usable tactic for recovering stalled leads.",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

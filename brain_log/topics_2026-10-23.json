@@ -18,5 +18,16 @@
       "Revenue Calculator spotlight (also out of sequence; already covered earlier in current rotation)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Third-party nurture-economics research (most not-ready leads eventually convert; nurtured leads cost 33% less and yield 50% more sales-ready opportunities) turned into a four-touch 90-day reactivation ladder.",
+    "score": 89,
+    "rejected": [
+      "Jobber 2026 survey (20% respond within an hour) - too close to the brand's already heavily-mined core speed-to-lead stat, low novelty",
+      "Verse.ai text-before-call 92% combined answer rate - overlaps with the already-shipped text-before-call sequencing research post",
+      "2026 median B2B lead response time of 42 hours - thematically redundant with multiple existing speed-to-lead frameworks already shipped",
+      "Channel cost-per-lead benchmarks (Google vs Meta vs LSA) - informative but not a single actionable tactic, weaker fit for a value-first post"
+    ],
+    "category": "third_party_research"
   }
 ]
