@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from Google's Business Profile help documentation as reported by Search Engine Roundtable, Sept 23, 2026",
+    "claims": [
+      {
+        "text": "Google's Business Profile help page now gives owners 4 days to accept or reject a user-suggested edit before it may publish automatically",
+        "status": "third_party"
+      },
+      {
+        "text": "If an owner does not respond, Google may publish the suggested edit when it is supported by other public information such as the business website",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's free tools page offers audits and calculators with no signup and no card",
+        "status": "verified"
+      }
+    ]
+  }
+]

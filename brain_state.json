@@ -1584,6 +1584,11 @@
       "date": "2026-10-22",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-23",
+      "category": "education_informative",
+      "format": "reel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
