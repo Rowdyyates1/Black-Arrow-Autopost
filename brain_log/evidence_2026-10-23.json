@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow OS is a free pocket CRM tool available on the Black Arrow free tools page with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "It lets an owner log leads and track next follow-up dates in one place",
+        "status": "verified"
+      },
+      {
+        "text": "Black Arrow OS has no seat limit",
+        "status": "verified"
+      }
+    ]
   }
 ]
