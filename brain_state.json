@@ -1604,6 +1604,11 @@
       "date": "2026-10-24",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
