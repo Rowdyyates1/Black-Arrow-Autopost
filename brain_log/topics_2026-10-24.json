@@ -8,5 +8,15 @@
       "Fear of losing control to automation / judgment-call mistakes (already shipped)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Platform/Trial reel anchored by two-way texting, reinforced by Hiya's verified stat that 86% of people ignore unknown-number callbacks, repositioning text-back as the fix",
+    "score": 91,
+    "rejected": [
+      "Booking/scheduling feature as the Platform/Trial anchor (lower novelty, no fresh news hook)",
+      "Review-collection feature anchor (overlaps recent GBP/review posts this cycle)",
+      "General tool-sprawl framing (already covered via the unified-inbox anchor post)"
+    ],
+    "category": "platform_promo"
   }
 ]

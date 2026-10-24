@@ -23,5 +23,24 @@
     "class": null,
     "disclosure": "",
     "claims": []
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "86% of consumers do not answer calls from unidentified numbers (Hiya, State of the Call report)",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform unifies calls, texts, and DMs in one inbox with two-way texting",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card required, cancel anytime",
+        "status": "verified"
+      }
+    ]
   }
 ]
