@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform offers a 14-day free trial with full access, no card required, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "An owner can run the platform alongside an existing process before switching anything over",
+        "status": "qualified"
+      },
+      {
+        "text": "Staying with a slow manual process costs leads while an owner waits to feel ready",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

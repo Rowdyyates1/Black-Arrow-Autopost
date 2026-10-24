@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Switching/migration-risk objection: defuse the fear of 'ripping out what already works' by reframing the 14-day no-card trial as a risk-free parallel test, not a replacement.",
+    "score": 89,
+    "rejected": [
+      "Cost objection for done-for-you services (already shipped, and pricing cannot be discussed pre-meeting)",
+      "Fear that automation feels impersonal (already shipped as its own objection post)",
+      "Fear of losing control to automation / judgment-call mistakes (already shipped)"
+    ],
+    "category": "objection_nurture"
+  }
+]
