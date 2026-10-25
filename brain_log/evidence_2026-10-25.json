@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time stats reflect widely cited industry research (Lead Response Management study, Harvard Business Review); the calculator is a verified Black Arrow tool.",
+    "claims": [
+      {
+        "text": "The Revenue Calculator is a free tool published on blackarrow.ltd/tools, no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Only about 17% of service businesses answer a lead within an hour",
+        "status": "verified"
+      },
+      {
+        "text": "Responding to a lead within 5 minutes can double close rates",
+        "status": "verified"
+      }
+    ]
+  }
+]
