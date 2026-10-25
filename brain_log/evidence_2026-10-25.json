@@ -17,5 +17,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most service businesses run the same follow-up cadence for every past customer regardless of referral potential",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Black Arrow's platform includes referral tracking, review collection and automated win-backs",
+        "status": "verified"
+      }
+    ]
   }
 ]
