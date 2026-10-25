@@ -18,5 +18,15 @@
       "Lead-source ROI ranking framework"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Google's Oct 6, 2026 Business Profile policy update bans pricing, time-bound offers, and direct CTAs from listings (offers still allowed in Posts) \u2014 interpreted as a shift where speed-to-lead now matters more since the listing can't close the sale",
+    "score": 92,
+    "rejected": [
+      "Instagram 'skip rate' becoming a 2026 ranking signal (too meta, not a this-week revenue tactic for a roofer or dentist)",
+      "GBP WhatsApp button added to local panel Oct 7, 2026 (too thin, minimal actionability)",
+      "Meta's DM-sends-weighted-3-5x-higher algorithm shift (growth-hacking angle, weak tie to owner's bottom line)"
+    ],
+    "category": "news_industry"
   }
 ]

@@ -32,5 +32,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Google Business Profile 'Prohibited and restricted content' policy update, reported by Search Engine Roundtable, Oct 6, 2026",
+    "claims": [
+      {
+        "text": "In the listing: promotional or commercial content that contains time-bound promotions, pricing, or direct calls-to-action is prohibited.",
+        "status": "third_party"
+      },
+      {
+        "text": "In posts: email addresses, phone numbers, social media links, or links to other websites unrelated to the business are prohibited. Offers and updates that may be seen as promotional content are otherwise permitted in posts.",
+        "status": "third_party"
+      },
+      {
+        "text": "Search Engine Roundtable reported the change on October 6, 2026 after screenshots of the before-and-after policy were shared publicly.",
+        "status": "third_party"
+      },
+      {
+        "text": "Once a listing can no longer show price or a direct CTA, the lead's next move (a call or message) and how fast the business answers it becomes the deciding factor in conversion.",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
