@@ -36,5 +36,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Google's September 2026 Small Business Bulletin, confirmed live Oct 5, 2026 (Google Small Business account; reported by Search Engine Journal, Search Engine Roundtable)",
+    "claims": [
+      {
+        "text": "Google Business Profile post view counts are rolling out globally, shown on each post card in the dashboard",
+        "status": "verified"
+      },
+      {
+        "text": "Counts cover posts published in the past 18 months and combine views from Search and Maps into one number",
+        "status": "verified"
+      },
+      {
+        "text": "The view count is not yet available through the Business Profile API",
+        "status": "verified"
+      },
+      {
+        "text": "A view count shows attention but not whether the viewer called, booked, or became a customer",
+        "status": "qualified"
+      }
+    ]
   }
 ]

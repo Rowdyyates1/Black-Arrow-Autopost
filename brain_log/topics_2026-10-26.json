@@ -19,5 +19,15 @@
       "Additional GBP feature post (category already heavily used this cycle) - 40"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Google Business Profile post view counts return (live Oct 5, 2026) \u2014 interpreted as a visibility-only metric, with the actionable gap being that owners still need to track calls and bookings behind each view",
+    "score": 88,
+    "rejected": [
+      "Gemini small-business hub unifying GBP/Ads/Workspace (Oct 20, 2026) \u2014 beta rollout, weaker this-week actionability",
+      "Google Business Home beta portal \u2014 invite-only rollout, not broadly accessible yet",
+      "GBP advertising/solicitation policy rewrite (Oct 6, 2026) \u2014 already covered in a prior post"
+    ],
+    "category": "news_industry"
   }
 ]
