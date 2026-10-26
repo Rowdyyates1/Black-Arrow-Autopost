@@ -8,5 +8,16 @@
       "Service-due/maintenance reminder automation demonstration - score 50, overlaps with prior post-job retention demonstration"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "FCC's Sept 30, 2026 opt-out rule rewrite (order 26-67) interpreted into a two-step texting-template action plan owners can run this week",
+    "score": 90,
+    "rejected": [
+      "Teardown-style reel critiquing a real competitor funnel (naming risk, weak brand fit) - 55",
+      "Another phone-intake qualifying script tutorial (overlaps prior shipped phone-script angle) - 60",
+      "General Reels hook-rate/algorithm education post for owners' own content (lower relevance to core offer) - 50",
+      "Additional GBP feature post (category already heavily used this cycle) - 40"
+    ],
+    "category": "education_informative"
   }
 ]

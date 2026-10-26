@@ -13,5 +13,28 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "FCC adopted order 26-67 on September 30, 2026 replacing the prior revoke-all rule",
+        "status": "verified"
+      },
+      {
+        "text": "Under the new order, a STOP on an informational text can apply only to that category while a STOP on marketing still revokes all marketing",
+        "status": "qualified"
+      },
+      {
+        "text": "The rule change is not yet in effect and starts 30 days after Federal Register publication",
+        "status": "qualified"
+      },
+      {
+        "text": "Sorting automated texts into informational vs marketing buckets and standardizing one opt-out word is a reasonable prep step",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

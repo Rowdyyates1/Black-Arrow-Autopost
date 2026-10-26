@@ -40,5 +40,47 @@
     ],
     "chosen_format": "slideshow",
     "post_rationale": "Fills the under-served Demonstrations slot with the first full database-reactivation message sequence shown end-to-end, distinct from every prior stage and framework already shipped, in the slideshow format current research shows pairs reel-level reach with carousel-style depth."
+  },
+  {
+    "timestamp": "2026-10-26T20:17:57.677207Z",
+    "category": "education_informative",
+    "category_label": "Education / Informative",
+    "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings \u2014 worth paying for.",
+    "format_bias": "reel",
+    "evidence_note": "Tactics must be logically airtight and actually executable as described.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Education / Informative' was the most under-served eligible category (target 15%, recent 10%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.167,
+      "education_informative": 0.1,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "News reels win cold-audience reach and this is a fresh, verifiable FCC rule change (order 26-67) turned into a concrete two-bucket texting checklist, unclaimed by any prior post."
   }
 ]
