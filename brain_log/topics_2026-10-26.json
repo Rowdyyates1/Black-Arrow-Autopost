@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Database reactivation: a full three-message example sequence (Day 0 check-in, Day 4 value nudge, Day 10 last call) for cold leads sitting in a CRM, shown as a labeled demonstration",
+    "score": 86,
+    "rejected": [
+      "High-intent lead triage/routing demonstration (hot vs cold lead instant routing) - score 82",
+      "Full referral-ask automation sequence demonstration - score 70, too close to prior referral-timing tactic post",
+      "Service-due/maintenance reminder automation demonstration - score 50, overlaps with prior post-job retention demonstration"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

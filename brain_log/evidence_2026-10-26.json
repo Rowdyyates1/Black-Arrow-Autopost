@@ -1,0 +1,17 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, illustrative, not a client account",
+    "claims": [
+      {
+        "text": "A lead who hasn't booked in 60 to 180 days is still in the CRM and can be reactivated",
+        "status": "general_pattern"
+      },
+      {
+        "text": "The three-message reactivation sequence (Day 0, Day 4, Day 10) shown here",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
