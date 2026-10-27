@@ -18,5 +18,15 @@
       "Lead-dormancy aging model (overlaps shipped decay-curve framework)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "A timestamped example walkthrough of the automated missed-call text-back system turning a missed call into a booked job within minutes",
+    "score": 88,
+    "rejected": [
+      "3-touch appointment reminder cadence demonstration (overlaps with already-shipped dispatch/reminder demo)",
+      "Automated referral-tracking sequence walkthrough (lower urgency, weaker this-week actionability)",
+      "Speed-to-lead stat-pack repost (already shipped as Third-Party Research angle)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

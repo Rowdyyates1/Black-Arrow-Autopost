@@ -40,5 +40,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, not a client account",
+    "claims": [
+      {
+        "text": "Automated text-back fires after a missed call and books a job through a short back-and-forth text exchange",
+        "status": "illustrative"
+      },
+      {
+        "text": "Industry speed-to-lead research shows responding to a lead within 5 minutes roughly doubles the odds of closing the job versus a slower callback",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
