@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Response-time figures reflect widely cited speed-to-lead research (e.g., Lead Response Management study, Harvard Business Review); not a Black Arrow-run study.",
+    "claims": [
+      {
+        "text": "Industry research indicates most service businesses take over an hour to respond to a new lead, and only about 17% reply within the first 60 minutes.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Industry research also indicates responding within 5 minutes can roughly double the odds of closing a lead compared to slower response times.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow offers a free tool that times and audits your speed-to-lead performance.",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
