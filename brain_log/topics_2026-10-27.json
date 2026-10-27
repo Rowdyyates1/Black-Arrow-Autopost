@@ -8,5 +8,15 @@
       "Appointment reminder no-show reduction script (overlaps with prior dispatch/reminder demonstrations)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Source-based lead tiering framework (relationship / active-intent / interrupted-attention) with a distinct response rule per tier",
+    "score": 90,
+    "rejected": [
+      "CRM minimum required-fields framework (capture, source, next action, status)",
+      "Job-value vs follow-up-effort priority matrix (overlaps existing ladder/matrix posts)",
+      "Lead-dormancy aging model (overlaps shipped decay-curve framework)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

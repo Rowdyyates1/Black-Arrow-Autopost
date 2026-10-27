@@ -1649,6 +1649,11 @@
       "date": "2026-10-27",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-10-27",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

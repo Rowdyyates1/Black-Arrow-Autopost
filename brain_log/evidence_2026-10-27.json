@@ -17,5 +17,28 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Response-speed and close-rate figures reflect widely cited sales-response research, not Black Arrow's own client data.",
+    "claims": [
+      {
+        "text": "Responding within five minutes can double close rate",
+        "status": "qualified"
+      },
+      {
+        "text": "Fewer than one in five service businesses respond to a lead within five minutes",
+        "status": "qualified"
+      },
+      {
+        "text": "Referral and repeat-customer leads carry existing trust and respond better to a personal call than an automated text",
+        "status": "illustrative"
+      },
+      {
+        "text": "Cold social-ad traffic has lower immediate intent than active search leads and needs multi-touch nurture before price discussion",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
