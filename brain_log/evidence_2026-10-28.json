@@ -40,5 +40,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "mixed",
+    "disclosure": "Speed-to-lead claim is a qualified reference to general industry research rather than a specific verified percentage. Tool functionality claims are verified company capabilities.",
+    "claims": [
+      {
+        "text": "Most service businesses take longer than an hour to answer a new lead, according to common industry research.",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Lead Response Audit is a free tool at blackarrow.ltd/tools that scores an owner's current speed-to-lead process.",
+        "status": "verified"
+      },
+      {
+        "text": "The audit shows the single biggest leak in the lead response process.",
+        "status": "qualified"
+      }
+    ]
   }
 ]
