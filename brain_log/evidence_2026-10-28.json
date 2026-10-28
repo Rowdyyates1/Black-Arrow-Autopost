@@ -17,5 +17,28 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "No-show rate pattern for bookings 15+ days out versus same-day reflects published scheduling research across service and healthcare booking systems, not an internal Black Arrow client metric.",
+    "claims": [
+      {
+        "text": "Appointments booked 15+ days out no-show at rates up to 33%, while same-day bookings rarely miss",
+        "status": "third_party"
+      },
+      {
+        "text": "Two-way confirmation reminders reduce no-shows further than one-way texts by catching cancellations early",
+        "status": "third_party"
+      },
+      {
+        "text": "Instant waitlist text-backs recover a meaningful share of cancelled slots",
+        "status": "third_party"
+      },
+      {
+        "text": "The Black Arrow platform includes two-way texting and booking automation that can run this sequence",
+        "status": "verified"
+      }
+    ]
   }
 ]

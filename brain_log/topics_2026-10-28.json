@@ -8,5 +8,15 @@
       "Website as a lead filter, not a lead magnet (off-core for an ads/funnels/follow-up brand)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Three-part no-show recovery system: 7-day/24-hour reminder cadence, two-way confirmation, instant waitlist backfill",
+    "score": 88,
+    "rejected": [
+      "GBP Q&A section removal and FAQ migration to website",
+      "Missed-call text-back TCPA compliance deep dive (already shipped)",
+      "Google LSA missed-call billing change follow-up (already shipped)"
+    ],
+    "category": "education_informative"
   }
 ]
