@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "qualified",
+    "disclosure": "Response-time benchmarks reflect widely cited speed-to-lead research in sales and service industries. Figures are approximate general patterns, not Black Arrow's own measured data.",
+    "claims": [
+      {
+        "text": "Most service businesses take longer than an hour to respond to a new lead",
+        "status": "qualified"
+      },
+      {
+        "text": "Responding to a lead within 5 minutes can double close rates",
+        "status": "qualified"
+      },
+      {
+        "text": "An owner who personally answers every lead becomes a single point of failure when unavailable",
+        "status": "qualified"
+      }
+    ]
+  }
+]
