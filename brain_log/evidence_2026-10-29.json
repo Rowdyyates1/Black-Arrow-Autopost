@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time figures reflect widely cited industry research on lead response times, not Black Arrow's own client data.",
+    "claims": [
+      {
+        "text": "Fewer than 20% of service businesses respond to a new lead within the first hour.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within five minutes significantly improves the odds of closing a lead compared to waiting thirty minutes, based on widely cited industry research.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Speed to lead, lead-to-booked rate, and show-up rate compound, so tracking only one hides problems in the others.",
+        "status": "general_pattern"
+      }
+    ]
+  }
+]
