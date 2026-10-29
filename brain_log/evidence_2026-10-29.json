@@ -17,5 +17,28 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "BrightLocal Local Consumer Review Survey 2026",
+    "claims": [
+      {
+        "text": "19% of consumers expect a same-day reply to a review, up from 6% a year earlier",
+        "status": "third_party"
+      },
+      {
+        "text": "32% want a reply by the following day (up from 18%), and 81% expect one within a week",
+        "status": "third_party"
+      },
+      {
+        "text": "50% of consumers are turned off by generic or templated replies",
+        "status": "third_party"
+      },
+      {
+        "text": "Tracking leads and reviews in one inbox helps owners hit a 24-hour reply window",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]

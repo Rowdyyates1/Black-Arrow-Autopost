@@ -7,5 +7,15 @@
       "Estimate-follow-up triage-by-deal-size framework, scored lower on novelty given overlap with the already-shipped objection-type segmentation post"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "BrightLocal 2026 review-response-speed research (same-day/next-day expectation jump) paired with the generic-reply distrust stat, turned into a 24-hour reply rule",
+    "score": 90,
+    "rejected": [
+      "Instagram carousel-vs-reel engagement research (not audience-relevant for service-business owners)",
+      "BrightLocal rating-threshold and 20-review volume floor (already shipped this cycle)",
+      "Blazeo 2026 speed-to-lead non-response stat (overlaps multiple prior speed-to-lead stat posts)"
+    ],
+    "category": "third_party_research"
   }
 ]
