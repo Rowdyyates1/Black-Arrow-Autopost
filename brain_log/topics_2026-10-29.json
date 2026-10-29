@@ -17,5 +17,15 @@
       "Blazeo 2026 speed-to-lead non-response stat (overlaps multiple prior speed-to-lead stat posts)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Frame the referral deal as a favor-to-a-peer play: spot a business owner with slow lead response, send them the no-card 14-day trial, both get a free month when they subscribe \u2014 distinct from every prior feature-anchored trial/referral post.",
+    "score": 88,
+    "rejected": [
+      "Re-anchor a specific platform feature (inbox, booking, reviews, win-back, quiz funnels, missed-call text-back, two-way texting, AI content, revenue reporting, referral-tracking) \u2014 all already used as sole anchors this cycle",
+      "Generic 'tool sprawl replaced by one platform' pitch \u2014 already shipped",
+      "Use-the-trial-this-week stress-test angle \u2014 lower novelty, overlaps with existing speed-to-lead tutorial content"
+    ],
+    "category": "platform_promo"
   }
 ]

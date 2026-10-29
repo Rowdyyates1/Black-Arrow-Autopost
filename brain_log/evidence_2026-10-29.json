@@ -40,5 +40,24 @@
         "status": "informed_interpretation"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_fact",
+    "disclosure": "Speed-to-lead close-rate claim is a qualified general industry pattern, not a Black Arrow internal metric.",
+    "claims": [
+      {
+        "text": "14-day free trial, full platform access, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Refer a business; when they subscribe you both get a free month, tracked automatically",
+        "status": "verified"
+      },
+      {
+        "text": "Answering a lead in under 5 minutes can roughly double close rate",
+        "status": "qualified"
+      }
+    ]
   }
 ]

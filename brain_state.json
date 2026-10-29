@@ -1684,6 +1684,11 @@
       "date": "2026-10-29",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "platform_promo",
+      "format": "reel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
