@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time statistics reflect widely cited lead-response-time research (e.g., Lead Response Management-type studies), not Black Arrow's own internal data.",
+    "claims": [
+      {
+        "text": "About 17% of service businesses respond to a new lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Responding within 5 minutes produces a near-double close rate versus a same-day callback",
+        "status": "rewritten"
+      },
+      {
+        "text": "The four-window response framework as a mental model for mapping follow-up speed",
+        "status": "illustrative"
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The 4-Window Response Framework: a time-bound mental model (0-5min, 5-60min, 1-24hr, 1-30 days) for mapping lead follow-up speed, grounded in the brand's core speed-to-lead stats",
+    "score": 89,
+    "rejected": [
+      "GoHighLevel's October 2026 AI Studio/Conversation AI updates (better suited to a News category post, not Authority/Frameworks)",
+      "A three-tier lead urgency framework (too close to the prior source-based lead-tiering and objection-segmentation frameworks already shipped)",
+      "A weekly audit checklist (overlaps with the already-shipped three-number weekly scorecard)"
+    ],
+    "category": "authority_frameworks"
+  }
+]
