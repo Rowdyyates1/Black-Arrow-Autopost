@@ -8,5 +8,15 @@
       "A weekly audit checklist (overlaps with the already-shipped three-number weekly scorecard)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Feature the Follow-Up Builder (free AI tool at blackarrow.ltd/tools) as a single-offer promo image, the next tool in this cycle's rotation after the Lead Response Audit, anchored to the brand's core speed-to-lead stats.",
+    "score": 86,
+    "rejected": [
+      "Re-feature the Revenue Calculator or Ad ROI Calculator (already used twice this cycle, breaks rotation)",
+      "News reel on a recent platform update (wrong category slot today; Offers/Lead Magnets is under-served)",
+      "Carousel walkthrough of all five free tools (single-offer promo images convert fastest for one clear ask per current research)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

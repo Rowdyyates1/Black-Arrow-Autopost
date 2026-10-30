@@ -17,5 +17,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "mixed",
+    "disclosure": "The speed-to-lead statistic is a widely cited industry benchmark from sales response-time research (e.g., Lead Response Management study, InsideSales.com/Harvard Business Review), not a Black Arrow proprietary measurement.",
+    "claims": [
+      {
+        "text": "The Follow-Up Builder is a free tool at blackarrow.ltd/tools that builds a lead follow-up sequence, no signup, no card.",
+        "status": "verified"
+      },
+      {
+        "text": "Only ~17% of service businesses answer a lead within an hour, and answering within 5 minutes roughly doubles the close rate.",
+        "status": "cited"
+      }
+    ]
   }
 ]
