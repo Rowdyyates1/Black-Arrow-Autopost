@@ -13,5 +13,20 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Search Engine Roundtable, Oct 7, 2026",
+    "claims": [
+      {
+        "text": "Google is now showing a WhatsApp button in the local panel on Google Search, next to call, directions, and website, confirmed replicated by Search Engine Roundtable on October 7, 2026",
+        "status": "third_party"
+      },
+      {
+        "text": "Most service businesses are slow to respond to new leads, often taking hours rather than minutes",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

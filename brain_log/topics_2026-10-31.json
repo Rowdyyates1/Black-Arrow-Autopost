@@ -8,5 +8,16 @@
       "Repeat Revenue Calculator out of rotation order"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Google's October 7, 2026 WhatsApp button rollout in the local search panel, interpreted as a new unmonitored lead channel tied to the speed-to-lead thesis",
+    "score": 84,
+    "rejected": [
+      "Google's Oct 2 report of LSA hiding phone numbers by default (score 58, evidence too speculative: source itself says 'not sure if this is new')",
+      "September 2026 Google spam update finishing rollout Oct 8 (score 45, no concrete owner action beyond 'nothing to do')",
+      "Instagram's 5-hashtag cap and 3-minute non-follower cutoff for Reels (score 50, meta platform mechanics with weak direct relevance to owner revenue)",
+      "Google's Oct 6 GBP advertising/solicitation policy rewrite (already used in a prior shipped post)"
+    ],
+    "category": "news_industry"
   }
 ]
