@@ -1,0 +1,17 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow OS is a free pocket CRM available at blackarrow.ltd/tools with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Leads often go cold because of disorganized follow-up across texts, voicemails, and notes",
+        "status": "general_pattern"
+      }
+    ]
+  }
+]
