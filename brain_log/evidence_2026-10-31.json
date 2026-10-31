@@ -28,5 +28,22 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Black Arrow OS lets users log leads with no signup or card required",
+        "status": "demonstrated",
+        "basis": "Direct product feature, verifiable by using the free tool"
+      },
+      {
+        "claim": "Users can view their whole pipeline from their phone",
+        "status": "demonstrated",
+        "basis": "Core app functionality, verifiable by using the free tool"
+      }
+    ]
   }
 ]
