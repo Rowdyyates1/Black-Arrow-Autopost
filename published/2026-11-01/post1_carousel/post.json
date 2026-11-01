@@ -1,0 +1,17 @@
+{
+  "caption": "Most churn looks like a mystery.\n\nIt's a missed reminder. The job finished, the calendar moved on, and nobody flagged when that customer would need you again.\n\nHere's the system that catches it:\n\nEvery completed job gets a due-again date based on the service interval. 30 days out, an email. 14 days out, a text with a booking link. 3 days out, a call task if nobody's booked yet.\n\nExample workflow shown above, not a live client account.\n\nDM SCALE\n\n#FieldService #CustomerRetention #ServiceBusiness #SmallBusinessCRM #BlackArrow",
+  "format": "carousel",
+  "rationale": "Carousels still lead 2026 saves/depth for B2B demonstration content, and this service-due reminder sequence is a genuinely unclaimed retention system distinct from every prior review, reactivation, and no-show demonstration shipped.",
+  "category": "demonstrations_walkthroughs",
+  "experiment": null,
+  "images": [
+    "published/2026-11-01/post1_carousel/image_0.jpg",
+    "published/2026-11-01/post1_carousel/image_1.jpg",
+    "published/2026-11-01/post1_carousel/image_2.jpg",
+    "published/2026-11-01/post1_carousel/image_3.jpg",
+    "published/2026-11-01/post1_carousel/image_4.jpg",
+    "published/2026-11-01/post1_carousel/image_5.jpg",
+    "published/2026-11-01/post1_carousel/image_6.jpg"
+  ],
+  "story": "published/2026-11-01/post1_carousel/story.jpg"
+}

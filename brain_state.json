@@ -1729,6 +1729,11 @@
       "date": "2026-11-01",
       "category": "contrarian_pov",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-01",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

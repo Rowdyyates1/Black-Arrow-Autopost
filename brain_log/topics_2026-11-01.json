@@ -9,5 +9,14 @@
       "Hiring more staff won't fix close rate, speed will (70)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Service-due reminder / proactive retention sequence demonstration (job-completion-date trigger, 30/14/3-day cadence)",
+    "score": 88,
+    "rejected": [
+      "Quiz funnel qualification walkthrough demonstration (overlaps platform's quiz-funnel feature already anchored in a prior Trial post)",
+      "New-lead business-hours response walkthrough (too close to prior after-hours and missed-call-text-back demonstrations already shipped)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
