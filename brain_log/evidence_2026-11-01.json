@@ -15,5 +15,24 @@
         "evidence_class": "service_terms"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time statistics reflect general industry lead-response research, not a Black Arrow proprietary study.",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses answer a lead within an hour.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Businesses that respond within 5 minutes see close rates double.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Reviews alone don't win the job without fast response.",
+        "status": "qualified"
+      }
+    ]
   }
 ]

@@ -40,5 +40,47 @@
     ],
     "chosen_format": "reel",
     "post_rationale": "Reels win cold-audience reach for offer content. Revenue-attribution has never anchored a Trial post, and closing the ad-to-invoice tool-sprawl gap gives owners a concrete reason to see which campaigns actually pay."
+  },
+  {
+    "timestamp": "2026-11-01T19:21:39.718048Z",
+    "category": "contrarian_pov",
+    "category_label": "Contrarian / Brand Point of View",
+    "guidance": "State a sharp, defensible point of view or contrarian take on how service businesses actually grow. Confident, specific, never gimmicky engagement-bait.",
+    "format_bias": "reel",
+    "evidence_note": "Framed clearly as Black Arrow's view; no fabricated proof.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Contrarian / Brand Point of View' was the most under-served eligible category (target 5%, recent 3%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.133,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.1,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.033,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.133,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Response-time math is a concrete, high-stakes hook for service business owners. This angle sets the familiar focus on reviews against the overlooked lever of speed, backed by lead-response research instead of an invented metric."
   }
 ]
