@@ -1,0 +1,19 @@
+[
+  {
+    "format": "reel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Tracks every lead from first click to closed job, tied to revenue, in one dashboard.",
+        "status": "demonstrated",
+        "evidence_class": "product_feature_demonstration"
+      },
+      {
+        "claim": "14 days free. No card needed. Cancel anytime.",
+        "status": "verified",
+        "evidence_class": "service_terms"
+      }
+    ]
+  }
+]
