@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Based on Black Arrow's ongoing ad testing across service-business clients, not a published study.",
+    "claims": [
+      {
+        "text": "Before-and-after reveal content is currently performing well for home, auto, and dental service businesses",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow builds Meta ads, funnels, video creative, and automated follow-up",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses already have usable before-and-after footage sitting unused on their phones",
+        "status": "qualified"
+      }
+    ]
   }
 ]

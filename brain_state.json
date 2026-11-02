@@ -1739,6 +1739,11 @@
       "date": "2026-11-02",
       "category": "objection_nurture",
       "format": "carousel"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "education_informative",
+      "format": "reel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
