@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "General industry pattern on CRM adoption failure, not a single named study; presented without a fabricated precise statistic.",
+    "claims": [
+      {
+        "text": "Most failed CRM rollouts trace back to poor user adoption rather than bad software or bad data",
+        "status": "rewritten"
+      },
+      {
+        "text": "Starting with one automated workflow before a full rollout is a sound way to test real adoption",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "The platform offers 14 days of full access with no card required",
+        "status": "verified"
+      }
+    ]
+  }
+]

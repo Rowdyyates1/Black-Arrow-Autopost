@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Shelfware fear objection: owners who bought a CRM before and never used it worry this will be the same, resolved honestly with adoption-failure framing and a 3-check test before committing to the trial",
+    "score": 87,
+    "rejected": [
+      "Channel-fit objection (customers won't text back) overlaps prior SMS-comfort content",
+      "Build-vs-hire objection (why not hire a VA) has thinner third-party evidence",
+      "Brand-voice control fear overlaps the already-shipped impersonal-automation objection"
+    ],
+    "category": "objection_nurture"
+  }
+]
