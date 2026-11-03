@@ -18,5 +18,15 @@
       "SimpleTexting 2026 opt-in/preference stats as a standalone post (interesting but less of a clear this-week action than the text-before-call sequence)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Objection: fast follow-up will make the business look desperate or robotic to the lead \u2014 reframed using industry speed-to-lead research and a specific-vs-generic message contrast",
+    "score": 90,
+    "rejected": [
+      "Fear that automation removes the personal touch (impersonal objection already shipped)",
+      "Fear of contract lock-in with a new platform (lock-in objection already shipped)",
+      "Fear that automation will make a wrong judgment call with a customer (accuracy objection already shipped)"
+    ],
+    "category": "objection_nurture"
   }
 ]

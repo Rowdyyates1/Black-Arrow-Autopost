@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_citation",
+    "disclosure": "Response-time statistics reflect published industry research on lead follow-up speed, not Black Arrow's proprietary data. Example message is illustrative only, not a client conversation.",
+    "claims": [
+      {
+        "text": "Only about 17% of service businesses answer a lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Answering within five minutes roughly doubles close rate versus a slower reply",
+        "status": "rewritten"
+      },
+      {
+        "text": "Example first-reply message template contrasting generic urgency with a specific question",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
