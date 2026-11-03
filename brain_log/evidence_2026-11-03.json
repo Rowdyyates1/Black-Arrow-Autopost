@@ -13,5 +13,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Stats are cited from Verse.ai's published analysis of over 10 million SMS conversations. Black Arrow did not conduct this research.",
+    "claims": [
+      {
+        "text": "Phone-call-only answer rate averages 25%",
+        "status": "third_party"
+      },
+      {
+        "text": "SMS response rate averages 50% across 10 million conversations (Verse.ai)",
+        "status": "third_party"
+      },
+      {
+        "text": "Combining SMS with a phone call lifts answer rate to 92%",
+        "status": "third_party"
+      },
+      {
+        "text": "Automated missed-call text-back is a real platform capability with a 14-day no-card trial",
+        "status": "verified"
+      }
+    ]
   }
 ]

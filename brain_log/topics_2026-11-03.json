@@ -8,5 +8,15 @@
       "Quiz funnel carousel (a platform feature, not a /tools lead magnet, mismatched category)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Third-party SMS-vs-call response-rate research (Verse.ai, 10M conversations: 25% call-only, 50% text-only, 92% combined) turned into a text-before-call tactic",
+    "score": 87,
+    "rejected": [
+      "Generic 2026 speed-to-lead benchmark restating the 5-minute rule (too close to the brand's already-used core stat, low novelty)",
+      "Chili Piper self-scheduling study (30% to 66.7% conversion lift) tied to instant booking (solid but less directly actionable without a booking link already in place)",
+      "SimpleTexting 2026 opt-in/preference stats as a standalone post (interesting but less of a clear this-week action than the text-before-call sequence)"
+    ],
+    "category": "third_party_research"
   }
 ]
