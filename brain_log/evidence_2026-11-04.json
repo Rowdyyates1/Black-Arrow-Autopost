@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Response-time and close-rate figures are widely cited industry findings (e.g., Lead Response Management study, Harvard Business Review), not Black Arrow's own measured data. The Lead Response Audit tool details are Black Arrow's own verified offering.",
+    "claims": [
+      {
+        "text": "Only 17% of service businesses answer a new lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Cutting response time to under 5 minutes brings close rates close to double",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Lead Response Audit is a free tool on blackarrow.ltd/tools, no signup or card required",
+        "status": "verified"
+      }
+    ]
   }
 ]
