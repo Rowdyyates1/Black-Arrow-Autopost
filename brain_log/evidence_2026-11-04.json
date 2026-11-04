@@ -36,5 +36,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most shops only follow up with a lead once before letting it go cold",
+        "status": "illustrative"
+      },
+      {
+        "text": "An honest, direct message acknowledging delay stands out because most businesses never circle back at all",
+        "status": "illustrative"
+      },
+      {
+        "text": "A CRM with a last-contacted filter can surface untouched leads in minutes; Black Arrow OS offers this free",
+        "status": "verified"
+      }
+    ]
   }
 ]

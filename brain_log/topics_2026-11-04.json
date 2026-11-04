@@ -18,5 +18,16 @@
       "News reel on an algorithm or GBP update (category today is Offers/Lead Magnets, not News)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Friday Lead Sweep: a weekly CRM filter plus an honest delayed-response script to re-engage abandoned-but-not-dead leads",
+    "score": 88,
+    "rejected": [
+      "Google's 4-day suggested-edit window turned into a checklist (already covered recently)",
+      "Multi-touch follow-up cadence citing call-attempt counts (risk of fabricated stat)",
+      "First-call appointment-locking phone script (overlaps prior phone-qualifying-script post)",
+      "Google's AI-powered calling in Search interpreted for owners (better fits News category, not Education slot)"
+    ],
+    "category": "education_informative"
   }
 ]
