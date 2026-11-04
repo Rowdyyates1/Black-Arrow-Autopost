@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform includes booking functionality where leads can self-schedule",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed",
+        "status": "verified"
+      },
+      {
+        "text": "Automated confirmation and reminder messaging tied to bookings",
+        "status": "verified"
+      }
+    ]
+  }
+]
