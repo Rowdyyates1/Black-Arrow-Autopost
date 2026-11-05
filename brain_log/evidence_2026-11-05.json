@@ -36,5 +36,37 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Job completion triggers the review text automatically, with no manual step.",
+        "type": "demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "The message sends within minutes of job completion.",
+        "type": "demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "Happy responses route to the Google review link; low responses route privately to the business.",
+        "type": "demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "One 48-hour follow-up reminder fires, then the sequence stops permanently.",
+        "type": "demonstration",
+        "status": "original"
+      },
+      {
+        "claim": "Most review requests go out after the moment has already passed.",
+        "type": "general_pattern",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
