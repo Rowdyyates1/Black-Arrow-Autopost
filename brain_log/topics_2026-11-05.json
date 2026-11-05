@@ -9,5 +9,16 @@
       "Ask-who-referred-you intake tracking script"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "The 4-System Diagnostic framework (acquisition, instant follow-up, CRM operations, retention) as a self-audit carousel",
+    "score": 90,
+    "rejected": [
+      "Objection-type urgency/timing framework (already shipped)",
+      "Weekly three-number scorecard reframe (already shipped)",
+      "Source-based lead-tiering framework (already shipped)",
+      "GoHighLevel Level Up 2026 feature recap (news angle, wrong category for today)"
+    ],
+    "category": "authority_frameworks"
   }
 ]

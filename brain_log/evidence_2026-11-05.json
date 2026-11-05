@@ -17,5 +17,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Lead-response statistics reflect widely cited industry research (e.g., lead response time studies from Harvard Business Review and Velocify), not Black Arrow's own client data.",
+    "claims": [
+      {
+        "text": "Black Arrow's work spans four systems: acquisition, instant follow-up, CRM operations, and retention",
+        "status": "verified"
+      },
+      {
+        "text": "Only about 17% of service businesses answer a lead within an hour",
+        "status": "qualified"
+      },
+      {
+        "text": "Answering a lead in under 5 minutes roughly doubles close rate",
+        "status": "qualified"
+      }
+    ]
   }
 ]
