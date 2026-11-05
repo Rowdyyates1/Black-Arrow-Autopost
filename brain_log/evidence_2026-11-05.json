@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, adapt wording to your business",
+    "claims": [
+      {
+        "text": "Most service businesses check new leads once a day, usually after close",
+        "status": "rewritten"
+      },
+      {
+        "text": "Two-text web-form follow-up script example",
+        "status": "illustrative"
+      },
+      {
+        "text": "Free Follow-Up Builder tool exists on Black Arrow's tools page",
+        "status": "verified"
+      }
+    ]
+  }
+]
