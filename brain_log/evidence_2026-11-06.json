@@ -44,5 +44,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_citation",
+    "disclosure": "Response-time figures are drawn from widely cited industry lead-response research and used as general benchmarks, not Black Arrow's own measured results.",
+    "claims": [
+      {
+        "text": "Answering a lead within 5 minutes can roughly double close rates compared to slower response times",
+        "status": "rewritten"
+      },
+      {
+        "text": "Industry benchmarks suggest only about 17% of service businesses answer a new lead within the first hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "A follow-up sequence needs a defined last message or stop condition to avoid over-texting or under-following-up",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Specific, service-referencing messages outperform generic acknowledgments",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

@@ -18,5 +18,15 @@
       "Instagram 'Your Algorithm' topic controls and 5-hashtag cap (platform-mechanics angle, not directly actionable for lead generation)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "The 3-S follow-up message audit framework (Speed, Specific, Stop) as a concrete self-test owners can run on their own texts this week",
+    "score": 90,
+    "rejected": [
+      "Another lead-stage or pipeline-ownership framework (oversaturated this cycle)",
+      "A decay-curve or capacity model (already shipped multiple times)",
+      "A generic 'speed to lead' stat repost without a new framework attached"
+    ],
+    "category": "authority_frameworks"
   }
 ]

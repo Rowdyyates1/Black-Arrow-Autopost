@@ -1804,6 +1804,11 @@
       "date": "2026-11-06",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-06",
+      "category": "authority_frameworks",
+      "format": "carousel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
