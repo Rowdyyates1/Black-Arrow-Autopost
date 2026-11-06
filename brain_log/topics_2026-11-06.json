@@ -8,5 +8,15 @@
       "CRM pipeline stage/ladder framework (already shipped multiple times)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Google's new AI-powered 'Have AI check pricing' calling feature in Search, interpreted as a fresh missed-call risk tied to the brand's speed-to-lead thesis, with automated text-back as the fix",
+    "score": 85,
+    "rejected": [
+      "GBP's rewritten advertising/solicitation listing rules (already shipped as the Oct 6 GBP listing-policy rewrite angle)",
+      "GBP's AI-generated review reply rollout (adjacent but weaker tie to core speed-to-lead thesis)",
+      "Instagram 'Your Algorithm' topic controls and 5-hashtag cap (platform-mechanics angle, not directly actionable for lead generation)"
+    ],
+    "category": "news_industry"
   }
 ]

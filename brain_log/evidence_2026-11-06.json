@@ -17,5 +17,32 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Sourced from Google's official Search blog and reporting from Search Engine Journal and Cheers.tech, Nov 2026.",
+    "claims": [
+      {
+        "text": "Google Search can now use AI to call local businesses to get pricing and availability info on a customer's behalf",
+        "status": "verified"
+      },
+      {
+        "text": "Legitimate automated Google calls identify Google and the purpose of the call and do not ask for payment",
+        "status": "verified"
+      },
+      {
+        "text": "An unanswered call from this feature likely means Google surfaces a different business's information instead",
+        "status": "qualified"
+      },
+      {
+        "text": "Black Arrow's platform includes automated missed-call text-back",
+        "status": "verified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial with no card required",
+        "status": "verified"
+      }
+    ]
   }
 ]
