@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Timestamped walkthrough of an automated new-lead follow-up system, from form submission to booked appointment",
+    "score": 91,
+    "rejected": [
+      "Referral-deal auto-tracking demonstration (weaker teaching value)",
+      "Review-request workflow variant (already shipped)",
+      "CRM pipeline stage/ladder framework (already shipped multiple times)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]

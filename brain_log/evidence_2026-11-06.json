@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, illustrative, not a specific client account",
+    "claims": [
+      {
+        "text": "Automated text sent within seconds of a form submission, CRM auto-tagging, task creation, automated check-in follow-up, and automated booking confirmation",
+        "status": "illustrative"
+      },
+      {
+        "text": "Research shows only about 17% of service businesses answer a lead within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Replying within 5 minutes can roughly double close rate",
+        "status": "rewritten"
+      }
+    ]
+  }
+]
