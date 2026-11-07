@@ -8,5 +8,16 @@
       "AI-generated suggested review replies rolling out inside GBP (score 65, overlaps too closely with prior review-response angles)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Contrarian POV: a full calendar is not proof of growth \u2014 the real test is lead-source margin, not booking volume, fixed by qualifying before you book (tied to quiz funnels)",
+    "score": 89,
+    "rejected": [
+      "Scaling ad spend without fixing speed-to-lead just multiplies the existing leak (too close to prior ads-vs-systems takes)",
+      "Owner-as-bottleneck contrarian take (already shipped this cycle)",
+      "Fast-reply-looks-desperate objection reframe (already shipped as a carousel)",
+      "Reviews vs. speed-as-overlooked-lever (already shipped)"
+    ],
+    "category": "contrarian_pov"
   }
 ]

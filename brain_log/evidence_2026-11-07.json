@@ -17,5 +17,28 @@
         "status": "informed_interpretation"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Cheap, urgent leads tend to fill the calendar first because they require the least qualification",
+        "status": "rewritten"
+      },
+      {
+        "text": "Higher-value jobs often need qualifying questions before booking and can get lost to a faster-reacting competitor",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform includes quiz funnels that qualify a lead before it reaches the calendar",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial",
+        "status": "verified"
+      }
+    ]
   }
 ]
