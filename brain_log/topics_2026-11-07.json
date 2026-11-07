@@ -19,5 +19,15 @@
       "Reviews vs. speed-as-overlooked-lever (already shipped)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "The Lead Debt Framework: treat every unanswered lead as compounding debt, with a ledger-and-payoff system for triaging follow-up speed.",
+    "score": 89,
+    "rejected": [
+      "Second Sale framework (post-sale retention mindset model) - too close to prior post-sale tiering framework",
+      "True cost-per-lead multiplier framework - overlaps prior cost model already shipped",
+      "Owner time-audit bottleneck framework - overlaps prior owner-as-bottleneck contrarian POV already shipped"
+    ],
+    "category": "authority_frameworks"
   }
 ]

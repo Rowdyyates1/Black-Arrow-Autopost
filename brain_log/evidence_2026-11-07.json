@@ -40,5 +40,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "The 17% and 2x figures reflect commonly published lead-response-time research, not Black Arrow proprietary data, and are now attributed as such in the copy. The missed-call text-back claim describes an actual Black Arrow platform capability.",
+    "claims": [
+      {
+        "text": "About 17% of service businesses answer a new lead within an hour, according to published lead-response research.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Answering a lead within five minutes roughly doubles the close rate compared to a slower response, per published lead-response studies.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow's platform can automatically text back a missed call to keep the lead engaged before a human callback.",
+        "status": "verified"
+      },
+      {
+        "text": "The age of a lead, not the volume of leads, determines how fast it goes cold.",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]
