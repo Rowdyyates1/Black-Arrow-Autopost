@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Google shut down the Q&A feature on Google Business Profile listings in late 2025.",
+        "status": "verified"
+      },
+      {
+        "text": "Ask Maps now generates an AI answer on the spot instead of relying on public Q&A, pulling from profile details, reviews, photos, and website.",
+        "status": "qualified"
+      },
+      {
+        "text": "A thin services section, stale photos, and vague review replies give the AI less accurate material to answer customer questions from.",
+        "status": "informed_interpretation"
+      }
+    ]
+  }
+]
