@@ -32,5 +32,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General pattern observed across speed-to-lead industry discussion and day-to-day operations; no numeric third-party statistic is cited because the original benchmark figures could not be verified to a credible source.",
+    "claims": [
+      {
+        "text": "Most businesses call fast response essential but miss the window in practice",
+        "status": "rewritten"
+      },
+      {
+        "text": "A written response standard holds up more consistently than relying on memory alone",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow's platform includes automated missed-call text-back",
+        "status": "verified"
+      }
+    ]
   }
 ]

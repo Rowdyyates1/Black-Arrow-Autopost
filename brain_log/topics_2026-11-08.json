@@ -18,5 +18,15 @@
       "Weekly margin-per-lead-source audit \u2014 overlaps with prior source-tiering and scorecard frameworks already shipped"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Fast response is widely called essential but inconsistently delivered. The fix is a written response standard paired with automated missed-call text-back, framed around operational cause rather than a numeric benchmark.",
+    "score": 86,
+    "rejected": [
+      "Citing an unverifiable 2026 benchmark report with precise percentages (sourcing could not be confirmed, risk of fabricated statistic)",
+      "Re-using HBR 7x/60x and Velocify 391% speed-to-lead stats (already anchored multiple prior posts)",
+      "Instagram carousel-vs-reel engagement benchmarks as the post topic itself (meta, not useful to a service-business owner)"
+    ],
+    "category": "third_party_research"
   }
 ]
