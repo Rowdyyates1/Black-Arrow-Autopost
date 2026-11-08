@@ -17,5 +17,20 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "The five-minute response figure reflects commonly cited speed-to-lead research (e.g., Lead Response Management studies) showing roughly 2x higher contact/close rates for fast follow-up. Presented as an industry pattern, not a Black Arrow-specific result.",
+    "claims": [
+      {
+        "text": "Replying within five minutes instead of letting a lead sit roughly doubles the odds of closing it",
+        "status": "qualified"
+      },
+      {
+        "text": "Matching reply channel to how a lead first reached out (call-back vs text, same-thread reply, personal call for referrals) builds trust faster and reduces perceived brush-offs",
+        "status": "qualified"
+      }
+    ]
   }
 ]

@@ -8,5 +8,15 @@
       "News angle on another Google Business Profile update (would duplicate several recent GBP-focused posts)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Channel-match first-contact framework: matching response method (text/call/same-thread/personal call) to the channel a lead used (missed call, web form, DM/GBP message, referral)",
+    "score": 89,
+    "rejected": [
+      "Urgency-fit lead matrix (two-axis grid) \u2014 too close in shape to prior matrix and tiering frameworks already shipped",
+      "Build-vs-buy tech stack decision framework \u2014 lower actionability, harder to make concrete in one week",
+      "Weekly margin-per-lead-source audit \u2014 overlaps with prior source-tiering and scorecard frameworks already shipped"
+    ],
+    "category": "authority_frameworks"
   }
 ]
