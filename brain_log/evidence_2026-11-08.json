@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Follow-Up Builder is a free tool that generates a follow-up message sequence from a few business inputs",
+        "status": "verified"
+      },
+      {
+        "text": "No signup or card required to use the free tools",
+        "status": "verified"
+      },
+      {
+        "text": "Most follow-up effort stops after a single message",
+        "status": "general_pattern"
+      }
+    ]
+  }
+]
