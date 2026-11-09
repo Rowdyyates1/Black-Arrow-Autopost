@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General pattern based on common lead-response behavior in service businesses; no specific percentage or study cited.",
+    "claims": [
+      {
+        "text": "Most service businesses lose jobs to whoever responds to a new lead first, not to whoever offers the better quote",
+        "status": "rewritten"
+      },
+      {
+        "text": "Sorting daily lead-related tasks by urgency and revenue impact produces four distinct, actionable categories",
+        "status": "illustrative"
+      },
+      {
+        "text": "Automating fast, low-revenue-per-task items like reminders and missed-call replies frees owner attention for new leads",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

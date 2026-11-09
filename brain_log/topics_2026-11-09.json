@@ -9,5 +9,15 @@
       "News-led reel on IG engagement stats with generic trial CTA (weaker tie to platform features)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "The Lead Triage Matrix: sort every daily task by urgency vs. revenue impact into four actionable boxes (do now, schedule, automate, batch/kill).",
+    "score": 88,
+    "rejected": [
+      "Revenue Leak Map (four leak points in the pipeline) - too close to the existing four-system diagnostic already shipped",
+      "Lead Value Pyramid ranking leads by stage - overlaps with prior source-based and post-sale tiering frameworks",
+      "Three Jobs a Lead Does mental model - less concrete and harder to act on this week"
+    ],
+    "category": "authority_frameworks"
   }
 ]
