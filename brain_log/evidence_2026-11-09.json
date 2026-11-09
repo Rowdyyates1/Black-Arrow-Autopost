@@ -1,0 +1,17 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform includes automated review collection as a feature",
+        "status": "verified"
+      },
+      {
+        "text": "The 14-day free trial requires no card",
+        "status": "verified"
+      }
+    ]
+  }
+]
