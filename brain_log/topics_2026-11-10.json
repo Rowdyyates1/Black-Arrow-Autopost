@@ -8,5 +8,15 @@
       "Revenue-attribution as standalone anchor (already shipped)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Anchor the Platform/Trial offer on automated missed-call text-back using a Saturday-morning missed-call scene paired with a speed-to-lead pattern, distinct from every prior Trial-anchor feature (two-way texting, unified inbox, booking link, revenue-attribution, referral-as-favor) already shipped.",
+    "score": 86,
+    "rejected": [
+      "Re-anchor review collection as the Trial feature (already closed as a feature gap)",
+      "Generic 14-day trial CTA with no pain hook (low novelty, weak hook rate)",
+      "Tie the trial promo to this week's trending holiday audio/format (off-brand gimmick risk, business accounts can't use it anyway)"
+    ],
+    "category": "platform_promo"
   }
 ]
