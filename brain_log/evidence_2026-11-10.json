@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "Described as an observed industry pattern across service businesses, not a cited study or specific statistic.",
+    "claims": [
+      {
+        "text": "Most service businesses run six or more tools just to close a single job",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Black Arrow platform runs CRM, unified inbox, two-way texting, booking, review requests, and revenue reporting from one login",
+        "status": "verified"
+      },
+      {
+        "text": "Full platform access for 14 days, no card required, cancel anytime",
+        "status": "verified"
+      }
+    ]
+  }
+]

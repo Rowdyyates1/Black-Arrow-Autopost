@@ -1849,6 +1849,11 @@
       "date": "2026-11-09",
       "category": "authority_frameworks",
       "format": "carousel"
+    },
+    {
+      "date": "2026-11-10",
+      "category": "platform_promo",
+      "format": "reel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
