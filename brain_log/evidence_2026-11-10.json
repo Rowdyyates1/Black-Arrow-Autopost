@@ -17,5 +17,27 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Most shops lose leads to disorganization (texts, sticky notes, missed voicemails), not bad marketing.",
+        "evidence_class": "honest general pattern",
+        "status": "kept"
+      },
+      {
+        "claim": "Black Arrow OS is a free pocket CRM with no signup or card required.",
+        "evidence_class": "internal product fact",
+        "status": "kept"
+      },
+      {
+        "claim": "Most service businesses take hours to respond to a new lead, and responding within five minutes can roughly double close odds.",
+        "evidence_class": "qualified third-party citation",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
