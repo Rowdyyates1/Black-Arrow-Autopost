@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: Search Engine Roundtable, November 2026 core update coverage",
+    "claims": [
+      {
+        "text": "Google confirmed a new core update on the Search Status Dashboard on November 10, 2026.",
+        "status": "verified"
+      },
+      {
+        "text": "This is Google's third confirmed core update of 2026.",
+        "status": "verified"
+      },
+      {
+        "text": "Organic rank volatility from a core update is outside an owner's control in the short term, making response speed to existing leads the higher-leverage lever during this window.",
+        "status": "interpretation"
+      }
+    ]
+  }
+]
