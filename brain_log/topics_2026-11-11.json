@@ -8,5 +8,15 @@
       "Instagram 'Your Algorithm' reach signals \u2014 more relevant to content strategy than to the core service-business audience"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "Offers/Lead Magnets slot filled by the Ad ROI Calculator, next in tool rotation after Black Arrow OS, with a fresh cost-per-lead-vs-cost-per-booked-job reframe tying directly to the brand's speed-to-lead thesis",
+    "score": 91,
+    "rejected": [
+      "Revenue Calculator feature (not next in established rotation, used too recently)",
+      "Lead Response Audit refresh (already heavily featured this cycle)",
+      "Pure Instagram-trends news reel (no concrete owner tactic, wrong category for today)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

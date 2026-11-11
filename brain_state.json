@@ -1869,6 +1869,11 @@
       "date": "2026-11-11",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-11",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

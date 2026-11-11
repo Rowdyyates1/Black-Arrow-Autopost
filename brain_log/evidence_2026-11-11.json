@@ -17,5 +17,24 @@
         "status": "interpretation"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Lead response speed statistic is a general industry pattern, not a Black Arrow measured result.",
+    "claims": [
+      {
+        "text": "The Ad ROI Calculator is a free tool at blackarrow.ltd/tools that turns ad spend, leads, and close rate into a cost-per-booked-job figure",
+        "status": "verified"
+      },
+      {
+        "text": "Industry data ties answering leads within five minutes to higher close rates",
+        "status": "rewritten"
+      },
+      {
+        "text": "No signup or card required to use the tool",
+        "status": "verified"
+      }
+    ]
   }
 ]
