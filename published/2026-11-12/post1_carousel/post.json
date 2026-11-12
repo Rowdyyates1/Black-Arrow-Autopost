@@ -1,0 +1,18 @@
+{
+  "caption": "Your callback took four minutes. They still didn't pick up.\n\nCarrier spam filters flag unfamiliar business numbers before the phone ever rings. A new number, no caller ID name on file, or several outbound calls in a short window all read like a robocall to the algorithm.\n\nMost calls from unrecognized numbers go straight to voicemail. A \"Spam Likely\" label can cut answer rates by half or more overnight.\n\nFix it this week:\n1. Ask a friend on a different carrier to call-test your number. Have them read back exactly what their screen shows.\n2. Call your phone or VoIP provider and ask them to file your caller ID name (CNAM) registration. Most handle it as a standard account request within a few business days.\n3. Text the lead before you call back. A short message with your business name warms the number so the call that follows gets answered.\n\nWant that warm-up text firing automatically before every callback?\nDM TRIAL\n\n#SpeedToLead #ServiceBusiness #LeadFollowUp #SmallBusinessGrowth #CRMForContractors",
+  "format": "carousel",
+  "rationale": "Carousels still lead saves/depth for B2B education, and the 'Spam Likely' caller-ID problem is a fresh, unclaimed angle that exposes why a fast callback can still fail, resolved with a concrete three-step fix tied to the platform's automated texting.",
+  "category": "education_informative",
+  "experiment": null,
+  "images": [
+    "published/2026-11-12/post1_carousel/image_0.jpg",
+    "published/2026-11-12/post1_carousel/image_1.jpg",
+    "published/2026-11-12/post1_carousel/image_2.jpg",
+    "published/2026-11-12/post1_carousel/image_3.jpg",
+    "published/2026-11-12/post1_carousel/image_4.jpg",
+    "published/2026-11-12/post1_carousel/image_5.jpg",
+    "published/2026-11-12/post1_carousel/image_6.jpg",
+    "published/2026-11-12/post1_carousel/image_7.jpg"
+  ],
+  "story": "published/2026-11-12/post1_carousel/story.jpg"
+}

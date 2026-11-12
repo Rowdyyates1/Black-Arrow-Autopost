@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "General industry pattern on call answer behavior, not tied to a specific report",
+    "claims": [
+      {
+        "text": "Most calls from unrecognized numbers go unanswered, and a 'Spam Likely' tag can cut answer rates by half or more",
+        "status": "rewritten"
+      },
+      {
+        "text": "Carriers flag numbers based on patterns like no caller ID name on file or bursts of outbound calls",
+        "status": "general_pattern"
+      },
+      {
+        "text": "CNAM registration is typically a standard request handled by a phone or VoIP provider within a few business days",
+        "status": "informed_interpretation"
+      },
+      {
+        "text": "Texting a lead before calling back can warm recognition and improve pickup, and this step can run automatically on the Black Arrow platform",
+        "status": "verified_company_capability"
+      }
+    ]
+  }
+]
