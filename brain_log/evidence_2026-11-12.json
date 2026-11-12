@@ -21,5 +21,20 @@
         "status": "verified_company_capability"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Revenue Calculator is a free tool at blackarrow.ltd/tools, no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Across most service businesses reviewed, the highest-lead-volume channel is rarely the highest-revenue channel",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

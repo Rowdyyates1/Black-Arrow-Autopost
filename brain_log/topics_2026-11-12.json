@@ -8,5 +8,15 @@
       "General roundup of trending Instagram hook formats (not brand-specific or revenue-actionable enough)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Revenue Calculator promo: revenue-per-channel over cost-per-lead, next in established tool rotation",
+    "score": 85,
+    "rejected": [
+      "Lead Response Audit (used two cycles ago in rotation, too recent)",
+      "Black Arrow OS (recently cycled with lost-lead framing)",
+      "Ad ROI Calculator (most recently used tool in rotation)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
