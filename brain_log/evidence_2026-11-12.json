@@ -36,5 +36,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The platform includes quiz funnels as a built-in feature",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Answering a lead faster with more context improves close rate",
+        "status": "verified"
+      }
+    ]
   }
 ]
