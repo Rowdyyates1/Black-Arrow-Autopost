@@ -40,5 +40,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "third_party_research",
+    "disclosure": "General pattern drawn from publicly documented lead response time and conversion research; not tied to a single unverified report.",
+    "claims": [
+      {
+        "text": "Faster lead response times are consistently associated with higher conversion rates across service-business benchmarking studies.",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Lead Response Audit is a free tool on blackarrow.ltd/tools that reviews an owner's current lead follow-up process and shows where leads are being lost.",
+        "status": "verified"
+      }
+    ]
   }
 ]

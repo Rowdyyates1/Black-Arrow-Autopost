@@ -18,5 +18,15 @@
       "'What if it says the wrong thing' accuracy objection (already shipped)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Feature the Lead Response Audit (next in the established free-tool rotation after the Revenue Calculator) using the well-documented speed-to-lead pattern to show owners exactly where leads go cold.",
+    "score": 91,
+    "rejected": [
+      "Black Arrow OS fresh framing (recently used, out of rotation order)",
+      "Ad ROI Calculator reframe (cycled recently, not due in rotation)",
+      "Revenue Calculator repeat (violates no-same-tool-twice-in-a-row rule)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
