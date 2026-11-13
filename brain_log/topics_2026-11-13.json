@@ -8,5 +8,15 @@
       "Referral tracking system walkthrough (weaker felt pain point than day-of-service trust gap)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Bandwidth/time objection: 'I don't have time to run another system,' resolved through the no-card 14-day trial as a self-test",
+    "score": 88,
+    "rejected": [
+      "'Feels impersonal' automation objection (already shipped multiple times)",
+      "'Too complicated to learn' complexity objection (already shipped)",
+      "'What if it says the wrong thing' accuracy objection (already shipped)"
+    ],
+    "category": "objection_nurture"
   }
 ]

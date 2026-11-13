@@ -17,5 +17,28 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Point 02 scenario is an illustrative example workflow, not a client account. Point 03 generalizes a commonly cited sales-response pattern without an invented precise figure.",
+    "claims": [
+      {
+        "text": "Missed-call text-back triggers without any manual action",
+        "status": "verified"
+      },
+      {
+        "text": "Industry benchmark studies show most new leads go unanswered within an hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "The platform offers a 14-day free trial with no card required, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "A system requiring daily attention doesn't save an owner time",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
