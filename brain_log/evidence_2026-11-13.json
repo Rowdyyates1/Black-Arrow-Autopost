@@ -1,0 +1,21 @@
+[
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow, illustrative, not a client account",
+    "claims": [
+      {
+        "text": "The four-message day-of-service sequence (confirmation, on-the-way, wrap-up, review ask) as a system Black Arrow can build",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most owners handle the confirmation by phone and skip the later steps",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform offers a 14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      }
+    ]
+  }
+]

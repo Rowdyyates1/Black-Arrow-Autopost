@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Demonstration of the day-of-service text sequence (booking confirmation to post-job review ask) as an illustrative CRM workflow",
+    "score": 90,
+    "rejected": [
+      "Quote-to-close follow-up sequence for an unbooked estimate (already shipped as a prior quote-stall demonstration)",
+      "Full CRM pipeline stage-automation overview (too close to the prior new-lead-to-booked pipeline demo)",
+      "Referral tracking system walkthrough (weaker felt pain point than day-of-service trust gap)"
+    ],
+    "category": "demonstrations_walkthroughs"
+  }
+]
