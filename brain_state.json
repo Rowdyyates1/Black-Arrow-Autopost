@@ -1909,6 +1909,11 @@
       "date": "2026-11-14",
       "category": "third_party_research",
       "format": "carousel"
+    },
+    {
+      "date": "2026-11-14",
+      "category": "objection_nurture",
+      "format": "carousel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

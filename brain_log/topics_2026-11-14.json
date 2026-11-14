@@ -9,5 +9,15 @@
       "Generic speed-to-lead benchmark refresh - heavily repeated core stat, low novelty now"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Objection: owners fear automated follow-up will sound like a stranger running their business, resolved with message-approval and manual-override control",
+    "score": 87,
+    "rejected": [
+      "Data-privacy/ownership fear about handing customer lists to a system",
+      "Owner-identity fear of losing personal touch by automating",
+      "Customers will feel spammed by automated texts (overlaps prior spam/compliance post)"
+    ],
+    "category": "objection_nurture"
   }
 ]

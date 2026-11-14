@@ -21,5 +21,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "verified_company_capability",
+    "disclosure": "Response-speed stat replaced with a qualified general industry pattern; no independently verified figure cited.",
+    "claims": [
+      {
+        "text": "Follow-up sequences are drafted in the owner's own language and reviewed before launch",
+        "status": "qualified"
+      },
+      {
+        "text": "Owners can override or pause an automated sequence for an individual lead at any time",
+        "status": "qualified"
+      },
+      {
+        "text": "Most service businesses are slow to respond to new leads, and a fast but impersonal reply still loses them",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
