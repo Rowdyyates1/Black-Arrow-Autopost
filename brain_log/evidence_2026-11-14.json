@@ -40,5 +40,22 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "The Follow-Up Builder builds a full multi-step text sequence in under a minute.",
+        "class": "demonstration",
+        "status": "as-is"
+      },
+      {
+        "claim": "Most leads don't convert on the first text; they convert after several follow-ups across different days and angles.",
+        "class": "general industry pattern",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
