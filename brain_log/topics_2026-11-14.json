@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "BrightLocal 2026 review-recency findings (74% want reviews from last 90 days, 32% last two weeks) turned into an ongoing job-triggered review-request cadence, tied to the platform's automated review collection",
+    "score": 87,
+    "rejected": [
+      "AI-recommendation trust stat (45% use ChatGPT for local recs) - novel but weaker 'this week' actionability",
+      "Review-response speed / templated-reply distrust - already shipped this cycle",
+      "Rating-threshold/volume-floor stat alone - already shipped prior cycle",
+      "Generic speed-to-lead benchmark refresh - heavily repeated core stat, low novelty now"
+    ],
+    "category": "third_party_research"
+  }
+]

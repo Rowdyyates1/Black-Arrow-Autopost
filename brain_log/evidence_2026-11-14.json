@@ -1,0 +1,25 @@
+[
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "BrightLocal, Local Consumer Review Survey 2026 (published Feb 11, 2026)",
+    "claims": [
+      {
+        "text": "74% of consumers only trust reviews from the last three months",
+        "status": "qualified"
+      },
+      {
+        "text": "32% want reviews from the last two weeks, up from 20% a year ago",
+        "status": "qualified"
+      },
+      {
+        "text": "47% of consumers won't use a business with fewer than 20 reviews",
+        "status": "qualified"
+      },
+      {
+        "text": "The platform can send automated review requests after each completed job",
+        "status": "verified"
+      }
+    ]
+  }
+]
