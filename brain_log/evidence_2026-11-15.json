@@ -1,0 +1,25 @@
+[
+  {
+    "format": "reel",
+    "class": "qualified_third_party",
+    "disclosure": "Response-time percentages reflect commonly cited industry benchmark research on speed-to-lead performance, not a Black Arrow-specific measurement.",
+    "claims": [
+      {
+        "text": "Most service businesses miss the one-hour lead response window",
+        "status": "rewritten"
+      },
+      {
+        "text": "Shops that reply within 5 minutes convert close to twice as often as those that don't",
+        "status": "rewritten"
+      },
+      {
+        "text": "Owners commonly respond to lead slippage by hiring staff instead of fixing response speed",
+        "status": "qualified"
+      },
+      {
+        "text": "Automated text-back can answer missed calls instantly, including nights and weekends",
+        "status": "verified"
+      }
+    ]
+  }
+]
