@@ -21,5 +21,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "general_pattern",
+    "disclosure": "Response-time claim reflects a widely observed industry pattern, not a specific cited study.",
+    "claims": [
+      {
+        "text": "most service businesses never answer a new lead within the first hour",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow OS is a free pocket CRM, no signup, no card",
+        "status": "verified"
+      },
+      {
+        "text": "a daily two-minute check of the lead list as a habit",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

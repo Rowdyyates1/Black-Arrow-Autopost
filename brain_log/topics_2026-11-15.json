@@ -7,5 +7,15 @@
       "Doing great work doesn't bring customers back by itself, reminding them does (satisfaction-vs-retention myth)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Black Arrow OS reframed around a daily two-minute 'who's waiting on you' habit, tied to a general response-time industry pattern",
+    "score": 88,
+    "rejected": [
+      "Carousel demonstration of database reactivation sequence (demonstration slot already filled recently)",
+      "News reel on a platform/algorithm update (category today is Lead Magnets, not News)",
+      "Ad ROI Calculator re-feature (tool was already cycled with a fresh reframe last rotation)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
