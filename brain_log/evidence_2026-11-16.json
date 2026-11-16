@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Visitors who can't find a ballpark price tend to leave without contacting the business rather than asking directly",
+        "status": "qualified"
+      },
+      {
+        "text": "Hiding pricing behind 'Contact us' tends to attract price-shopping callers rather than filter them out",
+        "status": "qualified"
+      },
+      {
+        "text": "Posting a starting price range on the service page, GBP, and landing page is a concrete step an owner can execute in one afternoon",
+        "status": "verified"
+      }
+    ]
+  }
+]
