@@ -8,5 +8,16 @@
       "Weekly lead-audit CRM habit (duplicate of prior CRM-filter and lead-audit angles)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Google's invite-only AI messaging pilot on Business Profiles, interpreted as proof that even Google is automating instant response, tied to profile-accuracy prep and the platform's fast-reply infrastructure",
+    "score": 87,
+    "rejected": [
+      "Instagram 'Your Algorithm' expanding to main feed (low relevance to lead generation, more about personal feed curation)",
+      "Google's November core update (already used in a prior post)",
+      "Instagram ending Reels series-linking (minor format change, low actionability for revenue)",
+      "Google Business Home profile redesign (less concrete and less tied to the speed-to-lead thesis than the messaging pilot)"
+    ],
+    "category": "news_industry"
   }
 ]

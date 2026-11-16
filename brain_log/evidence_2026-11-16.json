@@ -17,5 +17,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Google Business Profile AI messaging pilot, reported by Search Engine Roundtable and corroborated by multiple local-search outlets",
+    "claims": [
+      {
+        "text": "Google is piloting AI-powered messaging on Business Profiles that lets customers message a business from Search and Maps, with an AI agent answering first",
+        "status": "verified"
+      },
+      {
+        "text": "The pilot is invite-only with no announced date for a wider rollout",
+        "status": "verified"
+      },
+      {
+        "text": "The AI agent answers using the business's own profile data, such as hours, services and Q&A",
+        "status": "verified"
+      },
+      {
+        "text": "A thin or outdated profile risks the AI giving a wrong answer before a human ever sees the lead",
+        "status": "qualified"
+      },
+      {
+        "text": "Whatever the AI cannot resolve still needs a fast human or automated reply behind it",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
