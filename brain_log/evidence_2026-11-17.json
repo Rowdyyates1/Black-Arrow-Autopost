@@ -17,5 +17,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow - illustrative, not a specific client's results",
+    "claims": [
+      {
+        "text": "Three-message reactivation sequence (Day 1, Day 4, Day 9) targeting leads with 90+ days of no contact",
+        "status": "illustrative"
+      },
+      {
+        "text": "Service businesses often have more past inquiries sitting cold than new leads coming in this month",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

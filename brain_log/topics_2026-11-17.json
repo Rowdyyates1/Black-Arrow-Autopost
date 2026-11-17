@@ -9,5 +9,15 @@
       "Pricing-transparency qualification tactic (already shipped)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Database reactivation text sequence demonstration (timestamped 3-message win-back walkthrough for dormant leads)",
+    "score": 86,
+    "rejected": [
+      "Another missed-call text-back timestamped walkthrough (already shipped twice this cycle)",
+      "Quiz funnel lead-qualification demonstration (overlaps with existing Platform/Trial feature post)",
+      "No-show recovery tutorial reel (already shipped as a to-camera script)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]
