@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Most owners track cost per lead and never listen to the calls those leads generate",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most phone systems and CRMs include call recording as a built-in feature",
+        "status": "general_pattern"
+      },
+      {
+        "text": "Checking the first 15 seconds of a call reveals whether staff captured a name, number, and business name, and whether a time got booked",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
