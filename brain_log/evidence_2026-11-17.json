@@ -32,5 +32,24 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Response-time benchmarks and follow-up behavior are presented as general industry observations, not firm-specific verified statistics.",
+    "claims": [
+      {
+        "text": "Most service businesses miss the one-hour response window when a new lead comes in.",
+        "status": "rewritten"
+      },
+      {
+        "text": "Most owners attempt only one or two follow-up touches on a cold lead before giving up, and the close often happens on attempt four or five.",
+        "status": "general_pattern"
+      },
+      {
+        "text": "The 4-question Friday audit reflects Black Arrow's operating method for diagnosing where a pipeline loses revenue.",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

@@ -19,5 +19,15 @@
       "No-show recovery tutorial reel (already shipped as a to-camera script)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "The Friday Pipeline Audit: a 4-question weekly diagnostic ritual (speed, capture, follow-up depth, reactivation) that gives owners a qualitative self-check distinct from prior numeric scorecards and stage/ladder/matrix frameworks.",
+    "score": 88,
+    "rejected": [
+      "Revenue Leak Map tied to the four-system model (too much overlap with the existing four-system diagnostic framework already shipped)",
+      "Lead Temperature hot/warm/cold trigger model (overlaps with prior source-based tiering and channel-matched first-contact angles)",
+      "True Cost Per Lead financial breakdown (risk of implying specific cost figures, conflicts with no-pricing rule)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
