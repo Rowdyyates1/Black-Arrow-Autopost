@@ -82,5 +82,47 @@
     ],
     "chosen_format": "carousel",
     "post_rationale": "Carousels still lead 2026 B2B saves/depth, and this estimate follow-up sequence is a genuinely unclaimed demonstration distinct from every prior no-show, reactivation, review, day-of-service, and full-pipeline system already shipped."
+  },
+  {
+    "timestamp": "2026-11-18T22:28:45.919261Z",
+    "category": "education_informative",
+    "category_label": "Education / Informative",
+    "guidance": "Teach ONE specific, actionable tactic they can do this week to make more money. Real steps, scripts, or settings \u2014 worth paying for.",
+    "format_bias": "reel",
+    "evidence_note": "Tactics must be logically airtight and actually executable as described.",
+    "mode": "mix-balancing",
+    "reason": "Balancing the mix: 'Education / Informative' was the most under-served eligible category (target 15%, recent 10%).",
+    "confidence": 0.7,
+    "objective": "balanced",
+    "targets": {
+      "authority_frameworks": 0.15,
+      "education_informative": 0.15,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.08,
+      "third_party_research": 0.07,
+      "contrarian_pov": 0.05,
+      "offers_lead_magnets": 0.22,
+      "platform_promo": 0.12,
+      "objection_nurture": 0.06
+    },
+    "recent_distribution": {
+      "authority_frameworks": 0.133,
+      "education_informative": 0.1,
+      "demonstrations_walkthroughs": 0.1,
+      "news_industry": 0.067,
+      "third_party_research": 0.067,
+      "contrarian_pov": 0.067,
+      "offers_lead_magnets": 0.233,
+      "platform_promo": 0.167,
+      "objection_nurture": 0.067
+    },
+    "performance_scores": {},
+    "allocation_adjustment": null,
+    "unavailable_categories": [
+      "Verified Proof / Case Studies",
+      "Personal / Founder"
+    ],
+    "chosen_format": "reel",
+    "post_rationale": "Quick-tutorial to-camera reels win completion right now, and the voicemail greeting itself (not the automation layer) is a genuinely unclaimed, zero-cost, do-it-tonight fix distinct from every missed-call-text-back and speed-to-lead post already shipped."
   }
 ]

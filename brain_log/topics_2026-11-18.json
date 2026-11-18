@@ -18,5 +18,15 @@
       "Day-of-service text sequence from confirmation to review ask (already shipped)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Rewrite your voicemail greeting tonight: a 3-line script fix (name, real callback window, text option) that recovers calls lost to voicemail abandonment",
+    "score": 89,
+    "rejected": [
+      "State mini-TCPA texting law roundup for missed-call text-back compliance (too legally complex/risky to state as fact across states)",
+      "Google Maps 'Message' button beside Call rollout (Nov 2026) as a news angle (better suited to News category, not today's Education slot)",
+      "GBP Ask Maps AI answer system checklist (already shipped as a prior GBP post)"
+    ],
+    "category": "education_informative"
   }
 ]

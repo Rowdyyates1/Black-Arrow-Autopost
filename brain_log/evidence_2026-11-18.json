@@ -32,5 +32,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Informed by published caller-behavior research on voicemail abandonment and callback rates.",
+    "claims": [
+      {
+        "text": "Most callers who reach voicemail hang up without leaving a message",
+        "status": "qualified"
+      },
+      {
+        "text": "Callers who do leave a message book a competitor before the business calls back",
+        "status": "general_pattern"
+      },
+      {
+        "text": "A specific, honest callback window and a text-back line are concrete greeting fixes an owner can implement today",
+        "status": "rewritten"
+      }
+    ]
   }
 ]
