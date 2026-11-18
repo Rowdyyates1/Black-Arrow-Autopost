@@ -28,5 +28,15 @@
       "GBP Ask Maps AI answer system checklist (already shipped as a prior GBP post)"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Contrarian POV reel: outspending a competitor can't fix a slow follow-up system; speed beats budget.",
+    "score": 88,
+    "rejected": [
+      "Vanity metrics vs revenue metrics: stop chasing likes, track response time instead (weaker novelty, overlaps prior scorecard posts)",
+      "Review volume vs review speed contrarian spin (too close to prior BrightLocal response-speed post)",
+      "Referral programs as a symptom, not a strategy (lower actionability, vague payoff)"
+    ],
+    "category": "contrarian_pov"
   }
 ]

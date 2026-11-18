@@ -51,5 +51,24 @@
         "status": "rewritten"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "qualified",
+    "disclosure": "Reflects widely cited lead-response-time research (e.g., Harvard Business Review, Lead Response Management studies), not a Black Arrow-run study.",
+    "claims": [
+      {
+        "text": "Most service businesses take longer than an hour to call back a new lead.",
+        "status": "qualified"
+      },
+      {
+        "text": "Responding within five minutes can roughly double the close rate.",
+        "status": "qualified"
+      },
+      {
+        "text": "A slower competitor with a bigger ad budget can lose the job to a faster, smaller one.",
+        "status": "qualified"
+      }
+    ]
   }
 ]
