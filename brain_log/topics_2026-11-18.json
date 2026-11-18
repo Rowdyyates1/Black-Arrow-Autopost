@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Two-way texting tied to the CRM record, framed around the conversation-handoff risk when an employee leaves",
+    "score": 86,
+    "rejected": [
+      "Win-backs automation for dormant leads (score 78, overlaps too closely with prior database-reactivation demonstration)",
+      "Referral tracking as a standalone feature anchor (score 76, less urgent pain than conversation loss)",
+      "General tool-sprawl reprise (score 65, already used for unified inbox post this cycle)"
+    ],
+    "category": "platform_promo"
+  }
+]

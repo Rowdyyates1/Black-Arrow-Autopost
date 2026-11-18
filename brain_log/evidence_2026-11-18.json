@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "Illustrative scenario",
+    "claims": [
+      {
+        "text": "The platform includes two-way texting tied to the CRM contact record",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "A departing employee's personal-phone texts leave no record for the business",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
