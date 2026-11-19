@@ -13,5 +13,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Revenue Calculator is a free tool at blackarrow.ltd/tools that takes lead volume, job value, and close rate to show revenue impact",
+        "status": "verified"
+      },
+      {
+        "text": "No signup or card required to use the free tools",
+        "status": "verified"
+      }
+    ]
   }
 ]
