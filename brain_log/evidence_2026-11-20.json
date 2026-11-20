@@ -51,5 +51,20 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Source: InsideSales.com lead response research",
+    "claims": [
+      {
+        "text": "Reps who make 6+ follow-up attempts reach roughly 80% of prospects, while the average rep stops after 1.3 attempts",
+        "status": "third_party"
+      },
+      {
+        "text": "Spacing follow-up attempts 1 to 2 days apart produces the highest average contact rates",
+        "status": "third_party"
+      }
+    ]
   }
 ]

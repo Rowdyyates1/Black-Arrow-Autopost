@@ -29,5 +29,15 @@
       "Marketing-to-sales handoff gap diagnostic (too close to the ownership framework chosen, less distinct as its own standalone model)"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "The exact call-attempt cadence (how many tries, spaced how far apart) it actually takes to reach a lead, built into a 3-day schedule",
+    "score": 88,
+    "rejected": [
+      "Instagram's 2026 'Your Algorithm' topic-clarity update and what it means for posting cadence (score 65, weaker tie to making money this week)",
+      "GoHighLevel's new Field Services private beta for HVAC/plumbing (score 50, private beta not accessible to most readers, platform attribution risk)",
+      "BrightLocal review recency windows revisited (score 40, angle already shipped this cycle)"
+    ],
+    "category": "education_informative"
   }
 ]
