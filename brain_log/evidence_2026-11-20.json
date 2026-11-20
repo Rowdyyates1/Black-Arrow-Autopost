@@ -32,5 +32,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Leads without a clearly named owner tend to go unanswered because each team member assumes someone else is handling it",
+        "status": "qualified"
+      },
+      {
+        "text": "Defining the exact moment ownership transfers between stages reduces the chance a lead sits unattended between people",
+        "status": "illustrative"
+      },
+      {
+        "text": "Auditing a lead list for unassigned leads reveals where follow-up is currently breaking down",
+        "status": "illustrative"
+      }
+    ]
   }
 ]

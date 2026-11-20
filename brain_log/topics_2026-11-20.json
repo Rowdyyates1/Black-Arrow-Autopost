@@ -18,5 +18,16 @@
       "Re-citing the 100x/21x HBR speed-to-lead stat (flagged as outdated/misattributed)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "The One-Owner Rule: a CRM-ownership accountability framework (name an owner, make gaps visible, define handoff moments, pre-decide return rules) as this cycle's Authority/Frameworks post",
+    "score": 91,
+    "rejected": [
+      "Lead temperature / decay-curve mapping (overlaps heavily with prior decay-curve and ladder frameworks already shipped)",
+      "Follow-up debt interest model (direct repeat of the already-shipped lead-debt framework)",
+      "3-call cadence rule (overlaps with prior cadence and 3-S message-audit frameworks)",
+      "Marketing-to-sales handoff gap diagnostic (too close to the ownership framework chosen, less distinct as its own standalone model)"
+    ],
+    "category": "authority_frameworks"
   }
 ]
