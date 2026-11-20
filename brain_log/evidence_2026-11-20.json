@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "Reflects common patterns observed in service-business response practices. No proprietary or third-party research is cited.",
+    "claims": [
+      {
+        "text": "Teams without a documented response standard tend to respond inconsistently",
+        "status": "rewritten"
+      },
+      {
+        "text": "A written, repeatable standard creates more consistent response behavior across a team",
+        "status": "general_pattern"
+      },
+      {
+        "text": "The platform texts back a new lead automatically, including after hours",
+        "status": "verified"
+      }
+    ]
   }
 ]

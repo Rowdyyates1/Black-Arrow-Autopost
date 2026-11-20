@@ -8,5 +8,15 @@
       "Pipeline leak audit broken out by funnel stage"
     ],
     "category": "authority_frameworks"
+  },
+  {
+    "chosen": "Written response-time standards create consistency that good intentions alone can't, and even a strong policy still needs automation to hold after hours",
+    "score": 82,
+    "rejected": [
+      "Citing an unverifiable 2026 benchmark report with invented percentages (fabricated source, fails claim validation)",
+      "Generic 47-hour average response time stat (overused across the niche, low novelty)",
+      "Re-citing the 100x/21x HBR speed-to-lead stat (flagged as outdated/misattributed)"
+    ],
+    "category": "third_party_research"
   }
 ]
