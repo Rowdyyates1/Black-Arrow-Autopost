@@ -13,5 +13,20 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow publishes a free Follow-Up Builder tool that creates a written follow-up sequence, no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Most owners follow up once on a lead that doesn't buy immediately and then stop",
+        "status": "general_pattern"
+      }
+    ]
   }
 ]

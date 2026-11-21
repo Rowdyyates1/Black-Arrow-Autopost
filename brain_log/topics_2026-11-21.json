@@ -8,5 +8,16 @@
       "GoHighLevel-style AI feature news angle (not attributable to Black Arrow's own confirmed feature set, risk of implying unverified capabilities)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Follow-Up Builder free tool, reframed around the 'maybe pile' of leads who said not-yet rather than no, with a concrete 5-touch cadence owners can run this week",
+    "score": 86,
+    "rejected": [
+      "Black Arrow OS fresh angle (already carried three prior angles this cycle, lower novelty)",
+      "Revenue Calculator repeat (used twice recently in rotation, lower novelty)",
+      "Ad ROI Calculator repeat (used twice recently, lower novelty)",
+      "Lead Response Audit repeat (most recently cycled tool, highest repetition risk)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
