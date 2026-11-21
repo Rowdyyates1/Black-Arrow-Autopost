@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Referral deal (refer-a-business, mutual free month) paired with the 14-day trial, framed as a this-week action",
+    "score": 90,
+    "rejected": [
+      "Tool-sprawl consolidation framing for the platform (already shipped)",
+      "Revenue-attribution/reporting angle for the platform (already shipped)",
+      "GoHighLevel-style AI feature news angle (not attributable to Black Arrow's own confirmed feature set, risk of implying unverified capabilities)"
+    ],
+    "category": "platform_promo"
+  }
+]

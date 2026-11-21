@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-11",
-      "category": "education_informative",
-      "format": "reel"
-    },
-    {
-      "date": "2026-07-11",
       "category": "demonstrations_walkthroughs",
       "format": "carousel"
     },
@@ -1998,6 +1993,11 @@
     {
       "date": "2026-11-20",
       "category": "education_informative",
+      "format": "reel"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "platform_promo",
       "format": "reel"
     }
   ],
