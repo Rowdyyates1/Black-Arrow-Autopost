@@ -28,5 +28,24 @@
         "status": "general_pattern"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Black Arrow platform unifies DMs, texts, calls, and web form leads into one inbox tied to a single CRM record",
+        "status": "verified"
+      },
+      {
+        "text": "14-day free trial, full access, no card needed, cancel anytime",
+        "status": "verified"
+      },
+      {
+        "text": "Owners who check separate apps on separate schedules risk letting a lead sit unanswered in the quietest channel",
+        "status": "qualified"
+      }
+    ]
   }
 ]

@@ -19,5 +19,15 @@
       "Lead Response Audit repeat (most recently cycled tool, highest repetition risk)"
     ],
     "category": "offers_lead_magnets"
+  },
+  {
+    "chosen": "Unified inbox (all channels, one CRM record) as the Trial-anchoring feature, framed around the real cost of checking scattered apps",
+    "score": 85,
+    "rejected": [
+      "Automated win-back campaigns as the Trial anchor (fresh but slightly less novel than the inbox gap)",
+      "Revenue reporting reframe (already anchored a prior Trial post)",
+      "Referral deal reframe (already anchored two prior posts this cycle)"
+    ],
+    "category": "platform_promo"
   }
 ]
