@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-12",
-      "category": "third_party_research",
-      "format": "carousel"
-    },
-    {
-      "date": "2026-07-12",
       "category": "demonstrations_walkthroughs",
       "format": "slideshow"
     },
@@ -1998,6 +1993,11 @@
     {
       "date": "2026-11-21",
       "category": "platform_promo",
+      "format": "reel"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "news_industry",
       "format": "reel"
     }
   ],

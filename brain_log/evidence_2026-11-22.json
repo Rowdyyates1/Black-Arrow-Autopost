@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Google Posts appear near reviews on the local panel",
+        "status": "rewritten",
+        "evidence_class": "demonstration",
+        "note": "Original draft claimed a specific, dated algorithm change ('this fall... jumped higher'), which is unverifiable and effectively a fabricated news hook. Rewritten as an observable placement pattern any reader can check on their own profile."
+      },
+      {
+        "claim": "Most service-business profiles haven't posted in months",
+        "status": "kept",
+        "evidence_class": "general pattern",
+        "note": "Common, widely observed pattern in local service GBP audits; presented as a general tendency, not a sourced statistic."
+      }
+    ]
+  }
+]
