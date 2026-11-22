@@ -36,5 +36,24 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "general_pattern",
+    "disclosure": "The five-minute response claim reflects widely cited speed-to-lead research on response time and conversion; figures vary by industry and are not Black Arrow client data.",
+    "claims": [
+      {
+        "text": "Three Clocks framework (lead-to-response, response-to-booking, booking-to-show) as a diagnostic model",
+        "status": "illustrative"
+      },
+      {
+        "text": "Responding within five minutes can roughly double close rate versus waiting twenty-plus minutes",
+        "status": "rewritten"
+      },
+      {
+        "text": "A flat close rate can mask which pipeline stage is actually failing",
+        "status": "illustrative"
+      }
+    ]
   }
 ]
