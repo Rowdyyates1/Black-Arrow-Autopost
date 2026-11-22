@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-12",
-      "category": "demonstrations_walkthroughs",
-      "format": "slideshow"
-    },
-    {
-      "date": "2026-07-12",
       "category": "authority_frameworks",
       "format": "carousel"
     },
@@ -1999,6 +1994,11 @@
       "date": "2026-11-22",
       "category": "news_industry",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-22",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

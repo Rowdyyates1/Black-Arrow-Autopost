@@ -17,5 +17,24 @@
         "note": "Common, widely observed pattern in local service GBP audits; presented as a general tendency, not a sourced statistic."
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Black Arrow OS is a free pocket CRM tool with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "It tracks leads through stages like New, Contacted, Quoted, Won in one pipeline",
+        "status": "verified"
+      },
+      {
+        "text": "Most service businesses run leads scattered across texts, calls, social messages, and notes",
+        "status": "qualified"
+      }
+    ]
   }
 ]
