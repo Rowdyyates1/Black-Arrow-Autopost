@@ -1,0 +1,21 @@
+[
+  {
+    "format": "image",
+    "class": "verified_company_fact",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Ad ROI Calculator is a free tool at blackarrow.ltd/tools that turns ad spend, lead count, and close rate into a cost-per-booked-job figure.",
+        "status": "verified"
+      },
+      {
+        "text": "Only about 17% of service businesses answer a lead within the first hour.",
+        "status": "verified"
+      },
+      {
+        "text": "Answering a lead in under 5 minutes instead of an hour-plus roughly doubles close rate.",
+        "status": "verified"
+      }
+    ]
+  }
+]
