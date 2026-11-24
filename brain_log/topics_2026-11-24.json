@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "Revenue reporting as the fix for 'cost per lead vs cost per booked job' blindness, anchoring the Platform/Trial CTA",
+    "score": 90,
+    "rejected": [
+      "Referral deal as Trial anchor (already shipped in prior cycle)",
+      "Win-backs/reactivation as Platform feature anchor (overlaps heavily with prior reactivation demonstrations)",
+      "Tool fatigue / full-stack consolidation reframe (already shipped)",
+      "Missed-call text-back as Trial anchor (already shipped multiple times)"
+    ],
+    "category": "platform_promo"
+  }
+]
