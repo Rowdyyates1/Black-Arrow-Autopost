@@ -1,11 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-07-13",
-      "category": "objection_nurture",
-      "format": "carousel"
-    },
-    {
       "date": "2026-07-14",
       "category": "authority_frameworks",
       "format": "carousel"
@@ -1998,6 +1993,11 @@
     {
       "date": "2026-11-24",
       "category": "demonstrations_walkthroughs",
+      "format": "carousel"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "objection_nurture",
       "format": "carousel"
     }
   ],

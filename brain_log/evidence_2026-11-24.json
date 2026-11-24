@@ -32,5 +32,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "third_party_research",
+    "disclosure": "Industry speed-to-lead research, stated in qualified language",
+    "claims": [
+      {
+        "text": "Only about 17% of service businesses answer a new lead within an hour",
+        "status": "qualified"
+      },
+      {
+        "text": "Answering within five minutes about doubles the odds of closing a lead versus waiting",
+        "status": "qualified"
+      },
+      {
+        "text": "Most shops set up automation once and let it go unmonitored over time",
+        "status": "qualified"
+      }
+    ]
   }
 ]

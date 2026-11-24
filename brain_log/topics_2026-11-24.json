@@ -19,5 +19,15 @@
       "Another missed-call text-back variant (over-shipped this cycle per the rejected-angles list)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "Objection handling: 'automation isn't a differentiator since everyone has it now' reframed around consistent execution rather than tool ownership, anchored to the brand's core speed-to-lead facts",
+    "score": 90,
+    "rejected": [
+      "Legal/compliance texting consent objection (fresh but risks sounding like legal advice)",
+      "Data ownership/export-on-cancel objection (feature not confirmed in current site context)",
+      "Previously-tried-and-failed automation objection (overlaps too closely with shipped migration/accuracy objections)"
+    ],
+    "category": "objection_nurture"
   }
 ]
