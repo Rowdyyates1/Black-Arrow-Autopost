@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-13",
-      "category": "offers_lead_magnets",
-      "format": "carousel"
-    },
-    {
-      "date": "2026-07-13",
       "category": "objection_nurture",
       "format": "carousel"
     },
@@ -1999,6 +1994,11 @@
       "date": "2026-11-24",
       "category": "platform_promo",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-24",
+      "category": "demonstrations_walkthroughs",
+      "format": "carousel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

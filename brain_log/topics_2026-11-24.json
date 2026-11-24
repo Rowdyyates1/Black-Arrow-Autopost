@@ -9,5 +9,15 @@
       "Missed-call text-back as Trial anchor (already shipped multiple times)"
     ],
     "category": "platform_promo"
+  },
+  {
+    "chosen": "Quiz funnel qualification walkthrough: a 3-question example that tags and routes leads before the first call",
+    "score": 87,
+    "rejected": [
+      "Appointment reminder sequence demonstration (too close to the day-of-service text sequence already shipped)",
+      "CRM lead-source tagging demonstration (less concrete and visual than the quiz routing example)",
+      "Another missed-call text-back variant (over-shipped this cycle per the rejected-angles list)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

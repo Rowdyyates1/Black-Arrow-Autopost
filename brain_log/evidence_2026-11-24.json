@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow. Illustrative, not a live client funnel.",
+    "claims": [
+      {
+        "text": "The platform includes quiz funnels as a feature",
+        "status": "verified"
+      },
+      {
+        "text": "The specific 3-question sequence and routing logic shown",
+        "status": "illustrative"
+      },
+      {
+        "text": "14-day free trial, no card needed",
+        "status": "verified"
+      }
+    ]
   }
 ]
