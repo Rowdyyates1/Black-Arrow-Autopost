@@ -51,5 +51,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "Five-minute response stat is a widely cited lead response management finding, not a Black Arrow-measured result. Attributed generally rather than claimed as proprietary data.",
+    "claims": [
+      {
+        "text": "The Lead Response Audit is a free tool on blackarrow.ltd/tools that audits speed-to-lead response gaps, with no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "Industry research shows responding to a lead within five minutes can roughly double close rate versus waiting longer",
+        "status": "rewritten"
+      }
+    ]
   }
 ]

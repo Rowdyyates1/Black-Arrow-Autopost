@@ -29,5 +29,16 @@
       "Previously-tried-and-failed automation objection (overlaps too closely with shipped migration/accuracy objections)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Lead Response Audit featured with a fresh by-lead-source breakdown angle (Google vs. Meta vs. website form), tied to the core speed-to-lead thesis",
+    "score": 87,
+    "rejected": [
+      "Black Arrow OS 'morning lead check' repeat angle (already used recently, less novel)",
+      "Ad ROI Calculator reframe (used immediately prior in rotation, would break never-repeat-last rule)",
+      "Google LSA bigger-ad-format news angle (strong but belongs in News category, not today's Offers/Lead Magnets slot)",
+      "Follow-Up Builder 'maybe pile' repeat (already cycled multiple times this period, lower novelty)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]
