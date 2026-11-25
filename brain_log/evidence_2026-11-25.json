@@ -13,5 +13,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "carousel",
+    "class": "qualified_third_party_citation",
+    "disclosure": "Lead response time figure cites a widely referenced third-party study (Harvard Business Review / lead response management research), not an internal Black Arrow metric. Front-desk gap pattern is a general operational observation, not a measured statistic.",
+    "claims": [
+      {
+        "text": "average lead response time across companies is around 42 hours, per a widely cited Harvard Business Review study",
+        "status": "rewritten"
+      },
+      {
+        "text": "automated missed-call text-back catches unanswered calls and texts the caller back",
+        "status": "verified"
+      },
+      {
+        "text": "front desks miss calls during lunch, after close, and mid-job windows",
+        "status": "qualified"
+      }
+    ]
   }
 ]

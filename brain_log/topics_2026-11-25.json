@@ -8,5 +8,15 @@
       "Phone-lead channel conversion benchmarks, e.g. 46% phone vs 7.8% overall (off-thesis from speed-to-lead)"
     ],
     "category": "third_party_research"
+  },
+  {
+    "chosen": "Objection: 'I already have someone answering the phone' reframed with a concrete secret-shopper test and tied to missed-call text-back",
+    "score": 86,
+    "rejected": [
+      "Impersonal-automation objection (already shipped)",
+      "Burned-before-by-an-agency skepticism (less concrete, weaker actionability)",
+      "Business-too-small-for-a-CRM size objection (lower relevance and evidence availability)"
+    ],
+    "category": "objection_nurture"
   }
 ]
