@@ -18,5 +18,16 @@
       "Business-too-small-for-a-CRM size objection (lower relevance and evidence availability)"
     ],
     "category": "objection_nurture"
+  },
+  {
+    "chosen": "Ad ROI Calculator reframed around weekly cost-per-lead creep detection, a fresh habit angle for an already-rotated tool",
+    "score": 87,
+    "rejected": [
+      "Lead Response Audit by-source breakdown (already shipped this exact angle recently)",
+      "Black Arrow OS scattered-channels framing (already shipped recently)",
+      "Revenue Calculator close-rate dollar-gap angle (already shipped recently)",
+      "BrightLocal recency-window news angle (off-category today, Offers/Lead Magnets requires a featured tool)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

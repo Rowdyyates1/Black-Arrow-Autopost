@@ -32,5 +32,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Ad ROI Calculator is a free tool published at blackarrow.ltd/tools, no signup or card required",
+        "status": "verified"
+      },
+      {
+        "text": "checking cost per lead weekly catches creep before it compounds into lost margin",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
