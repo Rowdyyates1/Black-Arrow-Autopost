@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "The well-documented speed-to-lead gap between automated and manual responders, reframed as an honest general pattern tied to a self-audit tactic and trial CTA",
+    "score": 85,
+    "rejected": [
+      "BrightLocal 74%/32% self-reported response windows (already shipped)",
+      "81.2% of slow responders say they lose leads to faster competitors (less actionable than the response-gap framing)",
+      "Phone-lead channel conversion benchmarks, e.g. 46% phone vs 7.8% overall (off-thesis from speed-to-lead)"
+    ],
+    "category": "third_party_research"
+  }
+]
