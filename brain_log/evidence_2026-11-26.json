@@ -17,5 +17,24 @@
         "status": "illustrative"
       }
     ]
+  },
+  {
+    "format": "slideshow",
+    "class": "first_party_demonstration",
+    "disclosure": "Example workflow \u2014 illustrative, not a client account",
+    "claims": [
+      {
+        "text": "The platform includes referral tracking as part of its CRM and automation feature set.",
+        "status": "verified"
+      },
+      {
+        "text": "A job-complete trigger can fire a timed referral text, with a tracked link crediting the original customer when their friend books.",
+        "status": "illustrative"
+      },
+      {
+        "text": "Most service businesses still ask for referrals informally or by memory rather than on a written schedule.",
+        "status": "qualified"
+      }
+    ]
   }
 ]

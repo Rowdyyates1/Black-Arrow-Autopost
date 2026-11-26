@@ -8,5 +8,16 @@
       "The real cost of a missed call isn't the call itself (overlaps prior missed-call posts)"
     ],
     "category": "contrarian_pov"
+  },
+  {
+    "chosen": "Referral-ask automation demonstration: a job-complete-triggered customer referral text sequence using the platform's referral tracking feature, shown as an illustrative workflow",
+    "score": 88,
+    "rejected": [
+      "News reel on GoHighLevel's November AI Employee/Field Services updates (better suited to a News category, not a system demonstration)",
+      "Quote-stall follow-up demonstration (too close to the already-shipped estimate follow-up sequence)",
+      "Review-reply (not request) automation demonstration (weaker evidence availability as a named platform capability)",
+      "BrightLocal recency-stat carousel (already shipped as a research-angle post)"
+    ],
+    "category": "demonstrations_walkthroughs"
   }
 ]

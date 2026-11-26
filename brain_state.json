@@ -1,11 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-07-15",
-      "category": "demonstrations_walkthroughs",
-      "format": "carousel"
-    },
-    {
       "date": "2026-07-16",
       "category": "news_industry",
       "format": "reel"
@@ -1999,6 +1994,11 @@
       "date": "2026-11-26",
       "category": "contrarian_pov",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "demonstrations_walkthroughs",
+      "format": "slideshow"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",
