@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-16",
-      "category": "news_industry",
-      "format": "reel"
-    },
-    {
-      "date": "2026-07-16",
       "category": "third_party_research",
       "format": "carousel"
     },
@@ -1999,6 +1994,11 @@
       "date": "2026-11-26",
       "category": "demonstrations_walkthroughs",
       "format": "slideshow"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "education_informative",
+      "format": "reel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

@@ -36,5 +36,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Google Business Profiles now let businesses manage a direct appointment-booking link instead of only a generic contact form",
+        "status": "rewritten"
+      },
+      {
+        "text": "The Black Arrow platform includes a booking page available with a 14-day free trial, no card required",
+        "status": "verified"
+      }
+    ]
   }
 ]

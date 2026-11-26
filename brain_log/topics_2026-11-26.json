@@ -19,5 +19,15 @@
       "BrightLocal recency-stat carousel (already shipped as a research-angle post)"
     ],
     "category": "demonstrations_walkthroughs"
+  },
+  {
+    "chosen": "GBP's direct appointment-booking link control, turned into a this-week fix that removes friction between a found profile and a booked job, tied to the platform's booking page.",
+    "score": 87,
+    "rejected": [
+      "GBP category-list audit (less direct money tie, lower urgency)",
+      "Secret-shopper speed-to-lead timing test (overlaps prior speed-to-lead demonstrations)",
+      "Voicemail greeting rewrite (already shipped this cycle)"
+    ],
+    "category": "education_informative"
   }
 ]
