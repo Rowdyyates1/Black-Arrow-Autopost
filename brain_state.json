@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-15",
-      "category": "third_party_research",
-      "format": "carousel"
-    },
-    {
-      "date": "2026-07-15",
       "category": "demonstrations_walkthroughs",
       "format": "carousel"
     },
@@ -1999,6 +1994,11 @@
       "date": "2026-11-25",
       "category": "offers_lead_magnets",
       "format": "image"
+    },
+    {
+      "date": "2026-11-26",
+      "category": "contrarian_pov",
+      "format": "reel"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

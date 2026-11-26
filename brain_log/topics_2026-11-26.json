@@ -1,0 +1,12 @@
+[
+  {
+    "chosen": "Contrarian POV: raising ad spend is the default reflex when bookings slow, but the real lever is fixing follow-up first, reframed as a concrete 20-lead diagnostic test distinct from the ad-spend-envy, hire-vs-automate, and cost-creep angles already shipped",
+    "score": 85,
+    "rejected": [
+      "CRM software isn't the real bottleneck, operator discipline is (overlaps prior bandwidth/control objection posts)",
+      "Reviews are the wrong first fix for a slow pipeline (too close to prior review-system posts)",
+      "The real cost of a missed call isn't the call itself (overlaps prior missed-call posts)"
+    ],
+    "category": "contrarian_pov"
+  }
+]

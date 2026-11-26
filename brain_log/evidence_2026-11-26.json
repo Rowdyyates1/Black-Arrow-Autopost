@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "general_pattern",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "Many service businesses respond to slowing bookings by increasing ad spend instead of fixing follow-up",
+        "status": "qualified"
+      },
+      {
+        "text": "Ad spend without a solid follow-up system leaks leads that more traffic can't fix",
+        "status": "qualified"
+      },
+      {
+        "text": "Checking response time and follow-up touch count on the last 20 leads reveals whether the bottleneck is traffic or follow-up",
+        "status": "illustrative"
+      }
+    ]
+  }
+]
