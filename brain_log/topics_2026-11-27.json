@@ -19,5 +19,15 @@
       "Google's November 2026 core update was already shipped as a news reel this cycle"
     ],
     "category": "education_informative"
+  },
+  {
+    "chosen": "Revenue Calculator reframed around a 'more leads vs. higher close rate' side-by-side lever comparison",
+    "score": 84,
+    "rejected": [
+      "Black Arrow OS 'weekend lead check' habit angle (tool used three times already this cycle, diminishing novelty)",
+      "Ad ROI Calculator new angle (featured in the immediately prior Offers post, too close to repeat)",
+      "Lead Response Audit new breakdown angle (also recently cycled, lower novelty score)"
+    ],
+    "category": "offers_lead_magnets"
   }
 ]

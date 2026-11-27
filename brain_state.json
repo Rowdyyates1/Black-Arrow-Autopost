@@ -2,11 +2,6 @@
   "history": [
     {
       "date": "2026-07-17",
-      "category": "authority_frameworks",
-      "format": "carousel"
-    },
-    {
-      "date": "2026-07-17",
       "category": "education_informative",
       "format": "reel"
     },
@@ -1999,6 +1994,11 @@
       "date": "2026-11-27",
       "category": "education_informative",
       "format": "reel"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "offers_lead_magnets",
+      "format": "image"
     }
   ],
   "site_hash": "a299e9c9ec4fc325",

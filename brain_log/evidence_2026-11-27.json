@@ -32,5 +32,24 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "image",
+    "class": "verified_company_capability",
+    "disclosure": "",
+    "claims": [
+      {
+        "text": "The Revenue Calculator is a free tool at blackarrow.ltd/tools, no signup required",
+        "status": "verified"
+      },
+      {
+        "text": "Running leads-up vs. close-rate-up scenarios shows which lever moves revenue more for many service businesses",
+        "status": "rewritten"
+      },
+      {
+        "text": "Ad spend buys leads while follow-up systems drive close rate",
+        "status": "informed_interpretation"
+      }
+    ]
   }
 ]
