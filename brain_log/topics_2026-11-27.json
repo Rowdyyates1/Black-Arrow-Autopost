@@ -9,5 +9,15 @@
       "Social Planner's expansion to 48 review-source platforms including HomeAdvisor/Healthgrades (strong but too close to the already-shipped review-collection feature post)"
     ],
     "category": "news_industry"
+  },
+  {
+    "chosen": "The research-backed three-text reminder cadence (immediate confirmation, 24-hour reminder, 2-hour reminder) that outperforms a single reminder, taught as exact scripts and tied to the platform's booking and texting automation",
+    "score": 92,
+    "rejected": [
+      "Instagram's current consumer holiday-joke trend formats (Dear Santa, year recap) have no B2B fit and would read as tacky",
+      "GoHighLevel's Field Services beta was already used as this cycle's news angle",
+      "Google's November 2026 core update was already shipped as a news reel this cycle"
+    ],
+    "category": "education_informative"
   }
 ]

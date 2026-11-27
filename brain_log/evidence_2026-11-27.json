@@ -17,5 +17,20 @@
         "status": "qualified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "General pattern observed across appointment-reminder studies in healthcare and service industries; no single named source cited, so stated qualitatively rather than with a specific figure.",
+    "claims": [
+      {
+        "text": "A single appointment reminder is a weak defense against no-shows, while a short sequence of timed reminders performs meaningfully better",
+        "status": "rewritten"
+      },
+      {
+        "text": "Black Arrow's booking and two-way texting system can automate a confirmation plus two staged reminder texts",
+        "status": "verified"
+      }
+    ]
   }
 ]
