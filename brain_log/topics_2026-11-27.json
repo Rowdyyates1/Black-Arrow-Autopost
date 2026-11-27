@@ -1,0 +1,13 @@
+[
+  {
+    "chosen": "GoHighLevel's Nov 3 Field Services beta (quotes+scheduling+dispatch+invoicing+payment unified for HVAC/plumbing/electrical/cleaning/landscaping) as proof the all-in-one consolidation thesis is now an industry-wide fix, reframed into a this-week app-count audit tied to the platform's free trial.",
+    "score": 87,
+    "rejected": [
+      "HubSpot's Q3 'agentic customer platform' earnings news (too investor-facing, weak week-one actionability for a service owner)",
+      "Google Ads' expanded Book Appointment conversion goal (real but Black Arrow's core paid channel is Meta, not Google Ads)",
+      "GBP appeals flow reduced to a single form (too administrative, weak tie to revenue)",
+      "Social Planner's expansion to 48 review-source platforms including HomeAdvisor/Healthgrades (strong but too close to the already-shipped review-collection feature post)"
+    ],
+    "category": "news_industry"
+  }
+]

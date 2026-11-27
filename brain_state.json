@@ -1,11 +1,6 @@
 {
   "history": [
     {
-      "date": "2026-07-16",
-      "category": "third_party_research",
-      "format": "carousel"
-    },
-    {
       "date": "2026-07-17",
       "category": "education_informative",
       "format": "reel"
@@ -1998,6 +1993,11 @@
     {
       "date": "2026-11-26",
       "category": "education_informative",
+      "format": "reel"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "news_industry",
       "format": "reel"
     }
   ],

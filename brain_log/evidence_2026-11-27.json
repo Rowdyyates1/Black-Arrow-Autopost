@@ -1,0 +1,21 @@
+[
+  {
+    "format": "reel",
+    "class": "third_party_research",
+    "disclosure": "Industry news: GoHighLevel Field Services private beta, launched Nov 3, 2026",
+    "claims": [
+      {
+        "text": "GoHighLevel launched a private beta called Field Services on November 3, 2026, combining quotes, scheduling, dispatch, invoicing and payment for HVAC, plumbing, electrical, cleaning and landscaping businesses.",
+        "status": "third_party"
+      },
+      {
+        "text": "Black Arrow's platform already unifies CRM, booking, two-way texting and revenue reporting in one system, with a 14-day free trial and no card required.",
+        "status": "verified"
+      },
+      {
+        "text": "The average job in a home-service business passes through four or five separate tools, and each handoff is a point where a lead can go quiet.",
+        "status": "qualified"
+      }
+    ]
+  }
+]
