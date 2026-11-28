@@ -1,0 +1,21 @@
+[
+  {
+    "format": "carousel",
+    "class": "informed_interpretation",
+    "disclosure": "Three-bucket framework is an original Black Arrow model for sorting follow-up priority, not a published study.",
+    "claims": [
+      {
+        "text": "Leads naturally split into a ready-to-buy group, a persuadable group whose outcome depends on follow-up, and a group that will never convert",
+        "status": "illustrative"
+      },
+      {
+        "text": "The persuadable middle group is where follow-up speed and persistence most affect close outcomes",
+        "status": "illustrative"
+      },
+      {
+        "text": "The platform offers a 14-day free trial, no card required, cancel anytime",
+        "status": "verified"
+      }
+    ]
+  }
+]
