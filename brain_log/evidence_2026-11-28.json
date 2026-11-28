@@ -17,5 +17,32 @@
         "status": "verified"
       }
     ]
+  },
+  {
+    "format": "reel",
+    "class": null,
+    "disclosure": "",
+    "claims": [
+      {
+        "claim": "Most software trials require a card and bill automatically if not cancelled in time.",
+        "class": "general industry pattern",
+        "status": "supported"
+      },
+      {
+        "claim": "Black Arrow offers a 14-day full platform trial with no card required.",
+        "class": "product feature",
+        "status": "supported"
+      },
+      {
+        "claim": "The missed-call text-back, lead alert, and appointment reminder features can be self-tested during the trial.",
+        "class": "product feature demonstration",
+        "status": "supported"
+      },
+      {
+        "claim": "Referring a business during the trial grants both parties a free month, tracked automatically.",
+        "class": "product feature",
+        "status": "supported"
+      }
+    ]
   }
 ]
